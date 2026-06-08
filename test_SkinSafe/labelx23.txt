@@ -1,0 +1,49 @@
+1	Water
+2	Dipropylene Glycol
+3	Glycerin
+4	Niacinamide
+5	Methyl Gluceth-20
+6	Pentaerythrityl Tetraethylhexanoate
+7	Trehalose
+8	Caffeine
+9	Sodium Hyaluronate
+10	Hydroxyacetophenone
+11	Tromethamine
+12	Carbomer
+13	Butylene Glycol
+14	Adenosine
+15	Caprylic/Capric Triglyceride
+16	Caprylyl Glycol
+17	Hydrogenated Lecithin
+18	Disodium EDTA
+19	1,2-Hexanediol
+20	Ceramide NP
+21	Hamamelis Virginiana (Witch Hazel) Extract
+22	Camellia Sinensis Leaf Extract
+23	Chlorogenic Acids
+24	Collagen
+25	Caffeic Acid
+26	Acetyl Tetrapeptide-5
+27	Ethylhexylglycerin
+28	Arginine
+29	Glycine
+30	Serine
+31	Leucine
+32	Lysine
+33	Histidine
+34	Proline
+35	Phenylalanine
+36	Threonine
+37	Tyrosine
+38	Alanine
+39	Isoleucine
+40	Aspartic Acid
+41	Cysteine
+42	Valine
+43	Methionine
+44	Glutamic Acid
+45	Hexapeptide-9
+46	Palmitoyl Pentapeptide-5
+47	Palmitoyl Tripeptide-1
+48	Copper Tripeptide-1
+49	Acetyl Hexapeptide-8

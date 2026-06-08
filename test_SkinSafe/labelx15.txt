@@ -1,0 +1,23 @@
+1	Deionized Water
+2	1,2-Hexanediol
+3	Triethanolamine
+4	PEG-8
+5	Butylene Glycol
+6	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+7	Salicylic Acid
+8	Sodium Hyaluronate
+9	Rice Ferment Filtrate
+10	Witch Hazel Extract
+11	Sodium Benzoate
+12	Isostearamidopropyl Ethyldimonium Ethosulfate
+13	Perfume
+14	Allantoin
+15	Phenoxyethanol
+16	Oryza Sativa Bran Extract
+17	Anthemis Nobilis Flower Extract
+18	Honey Extract
+19	Alpha-Arbutin
+20	Propylene Glycol
+21	Carthamus Tinctorius Seed Oil
+22	Oligopeptide-10
+23	Olea Europaea (Olive) Fruit Oil

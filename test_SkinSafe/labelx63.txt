@@ -1,0 +1,20 @@
+1	Water
+2	Propylene Glycol
+3	Butylene Glycol
+4	Hydroxyphenoxy Propionic Acid
+5	Tranexamic Acid
+6	Saxifraga Sarmentosa Extract
+7	Phenoxyethanol
+8	Sodium Ascorbyl Phosphate
+9	Glycerin
+10	Vitis Vinifera Grape Fruit Extract
+11	Chlorphenesin
+12	Morus Bombycis Root Extract
+13	Disodium EDTA
+14	Sodium Hyaluronate
+15	Scutellaria Baicalensis Root Extract
+16	Tartaric Acid
+17	Sodium Metabisulfite
+18	Sodium Sulfite
+19	Psidium Guajava Fruit Extract
+20	Carica Papaya Fruit Extract

@@ -1,0 +1,29 @@
+1	Water
+2	Butylene Glycol
+3	Glycerin
+4	Dimethicone
+5	PEG-240/HDI Copolymer Bis-Decyltetradeceth-20 Ether
+6	Silica
+7	Phenoxyethanol
+8	Avena Sativa (Oat) Kernel Extract
+9	Bisabolol
+10	Xanthan Gum
+11	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+12	Phytosteryl/Octyldodecyl Lauroyl Glutamate
+13	Chlorphenesin
+14	Potassium Hydroxide
+15	Disodium EDTA
+16	Betaine
+17	Punica Granatum (Pomegranate) Seed Oil
+18	Vitis Vinifera (Grape) Seed Oil
+19	Centella Asiatica Extract
+20	Hibiscus Sabdariffa Flower Extract
+21	Sodium Hyaluronate
+22	Aloe Barbadensis Leaf Juice
+23	Fragrance
+24	Maltodextrin
+25	Ethylhexylglycerin
+26	Morus Alba Bark Extract
+27	Cucumis Sativus (Cucumber) Seed Extract
+28	Sodium Benzoate
+29	Potassium Sorbate

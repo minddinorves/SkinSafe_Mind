@@ -1,0 +1,54 @@
+1	Water
+2	Dipropylene Glycol
+3	Glycerin
+4	Methyl Trimethicone
+5	Alcohol Denat
+6	Dimethicone
+7	Cyclopentasiloxane
+8	1,2-Hexanediol
+9	Malachite Extract
+10	Caprylic/Capric Triglyceride
+11	Pentaerythrityl Tetraethylhexanoate
+12	PEG/PPG/Polybutylene Glycol-8/5/3 Glycerin
+13	Alchemilla Vulgaris Leaf Extract
+14	Equisetum Arvense Leaf Extract
+15	Stellaria Media (Chickweed) Extract
+16	Urtica Dioica (Nettle) Leaf Extract
+17	Plantago Lanceolata Leaf Extract
+18	Avena Sativa (Oat) Kernel Extract
+19	Calendula Officinalis Flower Extract
+20	Nepeta Cataria Extract
+21	Rubus Idaeus (Raspberry) Leaf Extract
+22	Baptisia Tinctoria Root Extract
+23	Dimethiconol
+24	Polymethylsilsesquioxane
+25	Sodium Acrylate/Acryloyldimethyltaurate/Dimethylacrylamide Crosspolymer
+26	Isohexadecane
+27	Polysorbate 60
+28	Ceramide 3
+29	Cholesterol
+30	Butyrospermum Parkii (Shea) Butter
+31	Phenyl Trimethicone
+32	Pentaerythrityl Tetraisostearate
+33	Panthenol
+34	Squalane
+35	Triethylhexanoin
+36	Macadamia Ternifolia Seed Oil
+37	PEG-150
+38	PEG-40 Hydrogenated Castor Oil
+39	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+40	C14-22 Alcohols
+41	Arachidyl Glucoside
+42	Hydrogenated Lecithin
+43	PEG-100 Stearate
+44	Stearic Acid
+45	Glyceryl Stearate
+46	Carbomer
+47	Tromethamine
+48	Trisodium EDTA
+49	Fragrance
+50	Citronellol
+51	Limonene
+52	Citral
+53	Geraniol
+54	Linalool

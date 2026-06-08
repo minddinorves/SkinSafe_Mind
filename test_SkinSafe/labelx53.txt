@@ -1,0 +1,31 @@
+1	Ethylhexyl Methoxycinnamate
+2	Ethylhexyl Salicylate
+3	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine
+4	Cyclopentasiloxane
+5	Propanediol
+6	Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (Nano)
+7	Butyloctyl Salicylate
+8	1,2-Hexanediol
+9	PEG-9 Stearate
+10	Dimethicone
+11	Methyl Methacrylate Crosspolymer
+12	Sodium Sulfate
+13	Allantoin
+14	Butylene Glycol
+15	Glycerin
+16	Methicone
+17	Curcuma Longa Leaf Extract
+18	Xanthan Gum
+19	Sodium Lauroyl Lactylate
+20	Centella Asiatica Leaf Extract
+21	BHT
+22	Carbomer
+23	Sodium Hydroxide
+24	Ceramide NP
+25	Ceramide AP
+26	Cholesterol
+27	Phytosphingosine
+28	Tocopherol
+29	Centella Asiatica Extract
+30	Ceramide AS
+31	Centella Asiatica Leaf Vesicles

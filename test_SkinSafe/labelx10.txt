@@ -1,0 +1,41 @@
+1	Aqua
+2	Butylene Glycol
+3	Glycerin
+4	C12-15 Alkyl Benzoates
+5	Cetyl Alcohol
+6	Isohexadecane
+7	Propylene Glycol
+8	Bis-PEG/PPG-20/5 PEG/PPG-20/5 Dimethicone
+9	Simmondsia Chinensis Seed Oil
+10	Glyceryl Stearate
+11	PEG-100 Stearate
+12	Phenoxyethanol
+13	Imperata Cylindrica Root Extract
+14	Magnesium Aluminum Silicate
+15	Ammonium Acryloyldimethyltaurate/VP Copolymer
+16	Butyrospermum Parkii Butter
+17	Daucus Carota Sativa Root
+18	Polyacrylate Crosspolymer-4
+19	Caprylic/Capric Triglyceride
+20	Chlorphenesin
+21	Arachidyl Alcohol
+22	BHT
+23	Disodium EDTA
+24	Ubiquinone
+25	Polysorbate 20
+26	Fragrance
+27	Enantia Chlorantha Bark Extract
+28	Glycyrrhiza Glabra Root Extract
+29	Lecithin
+30	PEG-8
+31	Sodium Hyaluronate
+32	Xanthan Gum
+33	Hydroxypropyl Cyclodextrin
+34	Arbutin
+35	Haematococcus Pluvialis Extract
+36	Glutathione
+37	Citric Acid
+38	Linseed Oil Fatty Acid
+39	Oleanolic Acid
+40	Ascorbyl Palmitate
+41	Rosmarinus Officinalis Leaf Extract

@@ -1,0 +1,47 @@
+1	Water/Aqua/Eau
+2	Butylene Glycol
+3	Glycerin
+4	Ethylhexyl Stearate
+5	Dimethicone
+6	Dicaprylyl Carbonate
+7	Behenyl Alcohol
+8	Stearic Acid
+9	Palmitic Acid
+10	Cetyl Ethylhexanoate
+11	Hydrogenated Poly(C6-14 Olefin)
+12	1,2-Hexanediol
+13	Arachidyl Alcohol
+14	C14-22 Alcohols
+15	Cetyl-PG Hydroxyethyl Palmitamide
+16	Polyacrylate-13
+17	Mannitol
+18	Arachidyl Glucoside
+19	C12-20 Alkyl Glucoside
+20	Hydrogenated Polyisobutene
+21	Glyceryl Caprylate
+22	Ethylhexylglycerin
+23	Polyglyceryl-10 Laurate
+24	Hydrogenated Lecithin
+25	Ethylhexyl Palmitate
+26	Dimethicone Methacrylate Copolymer
+27	Panax Ginseng Root Water
+28	Carbomer
+29	Sorbitan Isostearate
+30	Acrylates/Ammonium Methacrylate Copolymer
+31	Propanediol
+32	Cholesterol
+33	Silica
+34	Prunus Mume Fruit Extract
+35	Arachidic Acid
+36	Glycine Max (Soybean) Oil
+37	Squalane
+38	Madecassoside
+39	Polyglyceryl-10 Pentastearate
+40	Tocopherol
+41	Ceramide NP
+42	Oleic Acid
+43	Phytosphingosine
+44	Pentylene Glycol
+45	Dipotassium Glycyrrhizate
+46	Canola Oil/Huile de Colza
+47	Rosmarinus Officinalis (Rosemary) Leaf Extract

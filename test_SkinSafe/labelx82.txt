@@ -1,0 +1,15 @@
+1	Water
+2	Butylene Glycol
+3	Pentylene Glycol
+4	Dipropylene Glycol
+5	PPG-10 Methyl Glucose Ether
+6	Diglycerin
+7	Phenoxyethanol
+8	Disodium Succinate
+9	Sodium Hyaluronate
+10	Disodium EDTA
+11	Hydroxyethylcellulose
+12	Succinic Acid
+13	Sodium Acetylated Hyaluronate
+14	Hydrolyzed Sodium Hyaluronate
+15	Lactococcus/Hyaluronic Acid Ferment Filtrate

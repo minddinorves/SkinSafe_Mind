@@ -1,0 +1,28 @@
+1	Water/Eau
+2	Glycerin
+3	Isohexadecane
+4	Niacinamide
+5	Distarch Phosphate
+6	Isopropyl Isostearate
+7	Dimethicone
+8	Panthenol
+9	Palmitoyl Pentapeptide-4
+10	Sodium Hyaluronate
+11	Caprylic/Capric Triglyceride
+12	Ethylhexylglycerin
+13	Hydroxyacetophenone
+14	Dimethiconol
+15	Cetearyl Glucoside
+16	Cetearyl Alcohol
+17	Stearic Acid
+18	Palmitic Acid
+19	Stearyl Alcohol
+20	Cetyl Alcohol
+21	Behenyl Alcohol
+22	Disodium EDTA
+23	Sodium Acrylates Copolymer
+24	PEG-100 Stearate
+25	Titanium Dioxide
+26	Mica
+27	Phenoxyethanol
+28	Fragrance/Parfum

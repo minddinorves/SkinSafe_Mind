@@ -1,0 +1,35 @@
+1	Water
+2	Butylene Glycol
+3	Ethylhexyl Methoxycinnamate
+4	Glycerin
+5	Homosalate
+6	Pentylene Glycol
+7	Niacinamide
+8	Alcohol
+9	Dimethicone
+10	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine
+11	Coco-Caprylate/Caprate
+12	Aloe Barbadensis Leaf Juice
+13	Ethylhexyl Triazone
+14	Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer
+15	Panthenol
+16	Sodium Hyaluronate
+17	Amorphophallus Konjac Root Extract
+18	Biosaccharide Gum-1
+19	Sodium Polyacrylate
+20	Isohexadecane
+21	Nelumbo Nucifera Flower Extract
+22	Phenoxyethanol
+23	Ethylhexyl Stearate
+24	Adansonia Digitata Leaf Extract
+25	Rosa Canina Fruit Extract
+26	Centella Asiatica Extract
+27	Betaine
+28	Octocrylene
+29	Hamamelis Virginiana Water
+30	Trideceth-6
+31	Ethylhexylglycerin
+32	Sorbitan Oleate
+33	Fragrance
+34	Disodium EDTA
+35	1,2-Hexanediol

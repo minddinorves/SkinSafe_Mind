@@ -1,0 +1,46 @@
+1	Aqua (Water)
+2	Caprylic/Capric Triglyceride
+3	Cetyl Alcohol
+4	Propanediol
+5	Stearyl Alcohol
+6	Glycerin
+7	Sodium Hyaluronate
+8	Arginine
+9	Aspartic Acid
+10	Glycine
+11	Alanine
+12	Serine
+13	Valine
+14	Isoleucine
+15	Proline
+16	Threonine
+17	Histidine
+18	Phenylalanine
+19	Glucose
+20	Maltose
+21	Fructose
+22	Trehalose
+23	Sodium PCA
+24	PCA
+25	Sodium Lactate
+26	Urea
+27	Allantoin
+28	Linoleic Acid
+29	Oleic Acid
+30	Phytosteryl Canola Glycerides
+31	Palmitic Acid
+32	Stearic Acid
+33	Lecithin
+34	Triolein
+35	Tocopherol
+36	Carbomer
+37	Isoceteth-20
+38	Polysorbate 60
+39	Sodium Chloride
+40	Citric Acid
+41	Trisodium Ethylenediamine Disuccinate
+42	Pentylene Glycol
+43	Triethanolamine
+44	Sodium Hydroxide
+45	Phenoxyethanol
+46	Chlorphenesin

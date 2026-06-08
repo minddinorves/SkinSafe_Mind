@@ -1,0 +1,36 @@
+1	Water
+2	Butylene Glycol
+3	Glycerin
+4	1,2-Hexanediol
+5	Hydrogenated Didecene
+6	Allantoin
+7	Trehalose
+8	Hamamelis Virginiana (Witch Hazel) Extract
+9	Panthenol
+10	Hydrolyzed Hyaluronic Acid
+11	Sodium Hyaluronate
+12	Glyceryl Acrylate/Acrylic Acid Copolymer
+13	PVM/MA Copolymer
+14	Hydroxypropyl Acrylates/Acrylic Acid Copolymer
+15	2,3-Butanediol
+16	Cetearyl Alcohol
+17	C14-22 Alcohols
+18	C12-20 Alkyl Glucoside
+19	Pentylene Glycol
+20	Sorbitan Isostearate
+21	Caprylic/Capric Triglyceride
+22	Melia Azadirachta Leaf Extract
+23	Melia Azadirachta Flower Extract
+24	Citrus Aurantifolia (Lime) Extract
+25	Ocimum Sanctum Leaf Extract
+26	Curcuma Longa (Turmeric) Root Extract
+27	Corallina Officinalis Extract
+28	Hyacinthus Orientalis (Hyacinth) Extract
+29	Chamomilla Recutita (Matricaria) Flower Extract
+30	Centaurea Cyanus Flower Extract
+31	Sodium Acetylated Hyaluronate
+32	Carbomer
+33	Tromethamine
+34	Xanthan Gum
+35	Malachite Extract
+36	Ethylhexylglycerin

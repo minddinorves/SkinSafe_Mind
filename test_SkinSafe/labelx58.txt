@@ -1,0 +1,28 @@
+﻿1	Water
+2	Niacinamide
+3	Propanediol
+4	Isononyl Isononanoate
+5	Pentylene Glycol
+6	PEG/PPG-17/6 Copolymer
+7	Polyglyceryl-6 Laurate
+8	Polyglyceryl-10 Oleate
+9	Hydrogenated Polyisobutene
+10	Glycolic Acid
+11	Xanthan Gum
+12	Sodium Hydroxide
+13	Sodium Acrylates/Beheneth-25 Methacrylate Crosspolymer
+14	Sorbitol Palmitate
+15	Dipotassium Glycyrrhizate
+16	Lactic Acid
+17	Sodium Magnesium Silicate
+18	Citric Acid
+19	3-O-Ethyl Ascorbic Acid
+20	Ethylhexylglycerin
+21	3-Laurylglyceryl Ascorbate
+22	Lauryl Glucoside
+23	Phenoxyethanol
+24	Glycogen
+25	Donokiol
+26	Magnolol
+27	Disodium EDTA
+28	Sodium Hyaluronate

@@ -1,0 +1,48 @@
+1	Aqua
+2	Butylene Glycol
+3	Niacinamide
+4	Hamamelis Virginiana Leaf Water
+5	Fomes Officinalis Extract
+6	Sodium Acrylates Crosspolymer-2
+7	Phenoxyethanol
+8	Sodium Acrylate/Acryloyldimethyl Taurate Crosspolymer
+9	Dimethicone
+10	Chlorphenesin
+11	Aesculus Hippocastanum Seed Extract
+12	Faex Extract
+13	Laminaria Japonica Extract
+14	Maltodextrin
+15	Glycerin
+16	Ammonium Glycyrrhizate
+17	Disodium EDTA
+18	Aloe Barbadensis Leaf Juice
+19	Enantia Chlorantha Bark Extract
+20	Pentylene Glycol
+21	Xanthan Gum
+22	Trideceth-6
+23	Panthenol
+24	Propylene Glycol
+25	Zinc Gluconate
+26	PEG/PPG-18/18 Dimethicone
+27	Polyquaternium-51
+28	Lecithin
+29	Kaempferia Parviflora Rhizome Extract
+30	Caffeine
+31	Biosaccharide Gum-1
+32	1,2-Hexanediol
+33	Zostera Marina Extract
+34	Citric Acid
+35	Caprylyl Glycol
+36	Arbutin
+37	Potassium Sorbate
+38	Sodium Benzoate
+39	Biotin
+40	Linseed Acid
+41	Tocopheryl Acetate
+42	Glycine Soja (Soybean) Oil
+43	Sodium Oleate
+44	Oleanolic Acid
+45	Glutathione
+46	Hydrogenated Lecithin
+47	Ascorbyl Palmitate
+48	Sh-Oligopeptide-1

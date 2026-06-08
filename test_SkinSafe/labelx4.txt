@@ -1,0 +1,51 @@
+1	Aqua
+2	Cyclopentasiloxane
+3	Homosalate
+4	Dimethicone
+5	Titanium Dioxide
+6	Phenylbenzimidazole Sulfonic Acid
+7	Zinc Oxide
+8	PEG-10 Dimethicone/Vinyl Dimethicone Crosspolymer
+9	C13-15 Alkane
+10	Propanediol
+11	Arginine
+12	Butyloctyl Salicylate
+13	Dodecane
+14	Niacinamide
+15	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine
+16	Diethylamino Hydroxybenzoyl Hexyl Benzoate
+17	Ethylhexyl Triazone
+18	Sodium Chloride
+19	Lauryl PEG-10 Tris(Trimethylsiloxy)Silylethyl Dimethicone
+20	Maltitol
+21	Glyceryl Glucoside
+22	Propylene Glycol
+23	Dimethicone/Vinyl Dimethicone Crosspolymer
+24	PEG-10 Dimethicone
+25	Ectoin
+26	Citrullus Lanatus Fruit Extract
+27	Benzyl Alcohol
+28	Sorbitan Caprylate
+29	Hydrogen Dimethicone
+30	Dimethicone Crosspolymer
+31	Citrus Aurantium Dulcis Fruit Extract
+32	HDI/Trimethylol Hexyllactone Crosspolymer
+33	Aluminum Hydroxide
+34	Butylene Glycol
+35	Glycerin
+36	Crataegus Monogyna Leaf Extract
+37	Fragrance
+38	Disodium EDTA
+39	CI 77492
+40	CI 77491
+41	Triethoxycaprylylsilane
+42	Pentylene Glycol
+43	Glutathione
+44	Sodium Hyaluronate
+45	CI 17200
+46	Carbomer
+47	Citrulline
+48	Methicone
+49	Sodium Benzoate
+50	Potassium Sorbate
+51	DNA

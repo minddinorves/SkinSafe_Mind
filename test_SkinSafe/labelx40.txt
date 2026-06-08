@@ -1,0 +1,42 @@
+1	Deionized Water
+2	Propylene Glycol
+3	Caprylic/Capric Triglyceride
+4	Sodium Acryloyldimethyl Taurate
+5	Citrus Aurantifolia Fruit Extract
+6	Citrus Aurantium Dulcis Fruit Extract
+7	Citrus Limon Fruit Extract
+8	Citrus Sinensis Fruit Extract
+9	3-O-Ethyl Ascorbic Acid
+10	Ascorbyl Glucoside
+11	Ascorbic Acid
+12	Ascorbyl Tetraisopalmitate
+13	Niacinamide
+14	Glyceryl Ascorbate
+15	Pyrus Malus Fruit Extract
+16	Vitis Vinifera Fruit Extract
+17	Glutathione
+18	Sodium Hyaluronate
+19	Chondrus Crispus Extract
+20	Hydroxypropyl Trimonium Hyaluronate
+21	Hydrolyzed Hyaluronic Acid
+22	Sodium Acetylated Hyaluronate
+23	Hyaluronic Acid
+24	Hydrolyzed Sodium Hyaluronate
+25	Sodium Hyaluronate Crosspolymer
+26	Potassium Hyaluronate
+27	Allantoin
+28	Bisabolol
+29	Tocopheryl Acetate
+30	Propanediol
+31	Hydrogenated Polydecene
+32	Polymethylsilsesquioxane
+33	Trideceth-10
+34	Disodium EDTA
+35	Fragrance
+36	Butylene Glycol
+37	Glycerin
+38	1,2-Hexanediol
+39	Xanthan Gum
+40	Caprylyl Glycol
+41	Glucose
+42	Phenoxyethanol

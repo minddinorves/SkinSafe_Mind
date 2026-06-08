@@ -1,0 +1,29 @@
+1	Aqua
+2	Glycerin
+3	Mineral Oil
+4	Polyglyceryl-3 Methylglucose Distearate
+5	Cetyl Palmitate
+6	Niacinamide
+7	Dimethicone
+8	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+9	Stearic Acid
+10	Borago Officialis Seed Oil
+11	Caprylyl Glycol
+12	Carbomer
+13	Cetyl Alcohol
+14	Disodium EDTA
+15	Lactic Acid
+16	Panthenol
+17	Pentylene Glycol
+18	Phenoxyethanol
+19	Potassium Carbonate
+20	Potassium Hydroxide
+21	Citric Acid
+22	Bisabolol
+23	Serine
+24	Sodium Lactate
+25	Sorbitol
+26	Tocopheryl Acetate
+27	Urea
+28	Allantoin
+29	Sodium Chloride

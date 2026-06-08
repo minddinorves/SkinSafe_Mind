@@ -1,0 +1,36 @@
+1	Aqua
+2	Glycereth-26
+3	Glycerin
+4	Phenoxyethanol
+5	Carbomer
+6	Cetyl Ethylhexanoate
+7	Isostearate
+8	Triethanolamine
+9	Betaine
+10	Chlorphenesin
+11	Dimethicone
+12	Silica Dimethyl Silylate
+13	Fragrance
+14	Propylene Glycol
+15	Cyclopentasiloxane
+16	Sea Water
+17	CI 77491
+18	Propanediol
+19	Punica Granatum Extract
+20	Croton Lechleri Resin Extract
+21	Hydrolyzed Corn Starch Octenylsuccinate
+22	Sodium Hyaluronate
+23	Sodium Hyaluronate Crosspolymer
+24	Hydrolyzed Sodium Hyaluronate
+25	Astaxanthin
+26	C12-13 Alkyl Glyceryl Hydrolyzed Hyaluronate
+27	Sodium Carboxymethyl Hyaluronate
+28	Hydrolyzed Rhodophyceae Extract
+29	Hydroxypropyl Trimonium Hyaluronate
+30	Hydrated Silica
+31	Sorbic Acid
+32	Benzoic Acid
+33	Butylene Glycol
+34	Hydroxypropyl Methylcellulose
+35	Citric Acid
+36	Sodium Citrate

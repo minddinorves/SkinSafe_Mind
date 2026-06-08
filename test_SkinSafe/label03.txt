@@ -1,0 +1,48 @@
+1	Water
+2	Glycerin
+3	Myristic Acid
+4	Stearic Acid
+5	Potassium Hydroxide
+6	Palmitic Acid
+7	Lauric Acid
+8	Dipropylene Glycol
+9	Glyceryl Stearate
+10	Cocamide MEA
+11	Coco-Glucoside
+12	PEG-100 Stearate
+13	Cocamidopropyl Betaine
+14	Phenoxyethanol
+15	Fragrance
+16	Polyquaternium-7
+17	Sodium Chloride
+18	Arachidic Acid
+19	Titanium Dioxide
+20	Snail Secretion Filtrate
+21	Butylene Glycol
+22	Disodium EDTA
+23	Tocopheryl Acetate
+24	PEG-14M
+25	Oleic Acid
+26	Butylene Glycol Dicaprylate/Dicaprate
+27	Sodium Benzoate
+28	Rubus Idaeus (Raspberry) Fruit Extract
+29	Vaccinium Angustifolium (Blueberry) Fruit Extract
+30	Vaccinium Macrocarpon (Cranberry) Fruit Extract
+31	Vaccinium Vitis-Idaea Fruit Extract
+32	Silica
+33	1,2-Hexanediol
+34	Alteromonas Ferment Extract
+35	Caprylyl Glycol
+36	Bellis Perennis (Daisy) Flower Extract
+37	Chamomilla Recutita (Matricaria) Flower Extract
+38	Citrus Aurantium Amara (Bitter Orange) Flower Extract
+39	Gardenia Florida Flower Extract
+40	Jasminum Officinale (Jasmine) Flower Extract
+41	Lilium Candidum Flower Extract
+42	Lilium Tigrinum Flower Extract
+43	Nelumbium Speciosum Flower Extract
+44	Prunus Mume Flower Extract
+45	Rose Extract
+46	Hydroxypropyl Cyclodextrin
+47	Ethylhexylglycerin
+48	Glutathione

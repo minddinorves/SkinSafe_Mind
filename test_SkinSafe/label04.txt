@@ -1,0 +1,37 @@
+1	Water
+2	Methylpropanediol
+3	Glycerin
+4	Glycereth-26
+5	Niacinamide
+6	1,2-Hexanediol
+7	Xanthan Gum
+8	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+9	Arginine
+10	Polyglyceryl-10 Laurate
+11	Caprylyl Glycol
+12	Ethylhexylglycerin
+13	Polyglyceryl-4 Laurate
+14	Dipropylene Glycol
+15	Butylene Glycol
+16	Sodium Hyaluronate
+17	Hamamelis Virginiana (Witch Hazel) Extract
+18	Acetyl Tetrapeptide-2
+19	Palmitoyl Tripeptide-5
+20	Hexapeptide-9
+21	Palmitoyl Tripeptide-1
+22	Palmitoyl Hexapeptide-12
+23	Copper Tripeptide-1
+24	Tripeptide-1
+25	Nonapeptide-1
+26	Palmitoyl Tetrapeptide-7
+27	Palmitoyl Pentapeptide-4
+28	Acetyl Hexapeptide-8
+29	Acetyl Hexapeptide-1
+30	Sodium Hyaluronate Crosspolymer
+31	Hyaluronic Acid
+32	Sodium Acetylated Hyaluronate
+33	Hydrolyzed Hyaluronic Acid
+34	Hydrolyzed Sodium Hyaluronate
+35	Hydrolyzed Glycosaminoglycans
+36	Dimethylsilanol Hyaluronate
+37	Hydroxypropyl Trimonium Hyaluronate

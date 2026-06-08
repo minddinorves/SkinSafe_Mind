@@ -1,0 +1,41 @@
+1	Deionized Water
+2	Niacinamide
+3	Propanediol
+4	Butylene Glycol
+5	Caprylic/Capric Triglyceride
+6	Tranexamic Acid
+7	Magnesium Ascorbyl Phosphate
+8	Centella Asiatica Extract
+9	Sodium Polyacrylate
+10	C13-14 Isoparaffin
+11	Ethylhexyl Palmitate
+12	Carbomer
+13	Dipropylene Glycol
+14	Phospholipids
+15	Glycerine
+16	Hydrolyzed Collagen
+17	Phenoxyethanol
+18	Sodium Hyaluronate Crosspolymer
+19	Xanthan Gum
+20	Tocopheryl Acetate
+21	Cholesterol
+22	Laureth-7
+23	Pentylene Glycol
+24	Atelocollagen
+25	Pistacia Lentiscus Gum
+26	Lecithin
+27	Helichrysum Italicum Extract
+28	Hydrolyzed Algin
+29	Chlorphenesin
+30	Sodium Chondroitin Sulfate
+31	Sodium Lauroyl Lactylate
+32	Glyceryl Caprylate
+33	TEA
+34	Disodium EDTA
+35	Ceramide NP
+36	Ceramide AP
+37	Phytosphingosine
+38	Ethylhexylglycerin
+39	Nicotiana Benthamiana Hexapeptide-40 Sh-Polypeptide-76
+40	Ceramide EOP
+41	Bakuchiol

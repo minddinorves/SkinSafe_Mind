@@ -1,0 +1,35 @@
+1	Aqua
+2	Niacinamide
+3	Butylene Glycol
+4	Citrus Sinensis Fruit Water
+5	Glycerin
+6	Phenoxyethanol
+7	Dipotassium Glycyrrhizinate
+8	Sodium Hyaluronate
+9	Hamamelis Virginiana Leaf Water
+10	Malus Domestica Fruit Extract
+11	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+12	Arginine
+13	PEG-40 Hydrogenated Castor Oil
+14	Imperata Cylindrica Root Extract
+15	Butyrospermum Parkii Butter
+16	Disodium EDTA
+17	Triethylene Glycol
+18	Polysorbate 20
+19	Fragrance
+20	Lecithin
+21	Propylene Glycol
+22	Erythritol
+23	Caprylyl 2-Glyceryl Ascorbate
+24	Cystoseira Tamariscifolia Extract
+25	1,2-Hexanediol
+26	Arbutin
+27	Ascorbic Acid
+28	Aloe Barbadensis Leaf Juice
+29	Potassium Sorbate
+30	Citric Acid
+31	Linseed Oil Fatty Acid
+32	Tocopheryl Acetate
+33	Haematococcus Pluvialis Extract
+34	Ascorbyl Palmitate
+35	Rosmarinus Officinalis Leaf Extract

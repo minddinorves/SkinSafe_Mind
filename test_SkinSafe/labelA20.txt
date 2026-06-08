@@ -1,0 +1,22 @@
+1	Aqua/Water
+2	Glycerin
+3	Cetearyl Alcohol
+4	Caprylic/Capric Triglyceride
+5	Cetyl Alcohol
+6	Ceteth-20
+7	Petrolatum
+8	Potassium Phosphate
+9	Ceramide NP
+10	Ceramide AP
+11	Carbomer
+12	Behentrimonium Methosulfate
+13	Sodium Lauroyl Lactylate
+14	Sodium Hyaluronate
+15	Cholesterol
+16	Phenoxyethanol
+17	Disodium EDTA
+18	Dipotassium Phosphate
+19	Tocopherol
+20	Phytosphingosine
+21	Xanthan Gum
+22	Ethylhexylglycerin

@@ -1,0 +1,35 @@
+﻿1	Aqua
+2	Octocrylene
+3	Dibutyl Adipate
+4	Dipropylene Glycol
+5	Butyl Methoxydibenzoylmethane
+6	Ethylhexyl Salicylate
+7	Dimethicone
+8	Cyclopentasiloxane
+9	Diethylhexyl 2,6-Naphthalate
+10	Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (Nano)
+11	Titanium Dioxide
+12	Cetearyl Alcohol
+13	Phenoxyethanol
+14	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine
+15	PEG-100 Stearate
+16	Silica
+17	C12-30 Alkyl Acrylate Crosspolymer
+18	Decyl Glucoside
+19	Disodium EDTA
+20	Sodium Acryloyldimethyl Taurate Copolymer
+21	Tocopherol
+22	VP/Eicosene Copolymer
+23	Pentylene Glycol
+24	Sodium Hydroxide
+25	Propanediol
+26	Allantoin
+27	Propylene Glycol
+28	Buddleja Officinalis Flower Extract
+29	Houttuynia Cordata Extract
+30	Citrus Reticulata Fruit Extract
+31	Geranium Robertianum Extract
+32	Tanacetum Annuum Cyaneus Flower Extract
+33	Eisenia Arborea Extract
+34	Porphyra Yezoensis Extract
+35	Phaseolus Radiatus Sprout Extract

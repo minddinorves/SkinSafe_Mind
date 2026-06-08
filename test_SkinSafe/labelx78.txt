@@ -1,0 +1,34 @@
+1	Aqua
+2	Phenoxyethanol
+3	Niacinamide
+4	Panthenol
+5	Isododecane
+6	Morinda Citrifolia Fruit Extract
+7	Butylene Glycol
+8	Dimethicone
+9	Disodium EDTA
+10	PVP
+11	Cyclopentasiloxane
+12	Tocopherol
+13	Tranexamic Acid
+14	Dipotassium Glycyrrhizate
+15	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+16	Fragrance
+17	Hydrogenated Polyisobutene
+18	Allantoin
+19	Aloe Barbadensis Leaf Extract
+20	1,2-Hexanediol
+21	Sorbitol
+22	Sodium Hydroxide
+23	Sodium Hyaluronate
+24	Dimethicone/Vinyl Dimethicone Crosspolymer
+25	Retinol
+26	Chondrus Crispus Extract
+27	Hydrolyzed Sodium Hyaluronate
+28	Hydroxypropyltrimonium Hyaluronate
+29	Hydrolyzed Hyaluronic Acid
+30	Sodium Acetylated Hyaluronate
+31	Hyaluronic Acid
+32	Hydrolyzed Sodium Hyaluronate
+33	Sodium Hyaluronate Crosspolymer
+34	Potassium Hyaluronate

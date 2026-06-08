@@ -1,0 +1,48 @@
+1	Water
+2	Glycerin
+3	Hydrogenated Polydecene
+4	Caprylic/Capric Triglyceride
+5	Dipropylene Glycol
+6	Cyclohexasiloxane
+7	Butyrospermum Parkii (Shea) Butter
+8	Polyglyceryl-3 Methylglucose Distearate
+9	Cetyl Alcohol
+10	Glycereth-26
+11	Glyceryl Stearate
+12	Betaine
+13	Behenyl Alcohol
+14	Vinyl Dimethicone
+15	Pentylene Glycol
+16	Laminaria Japonica Extract
+17	Eclipta Prostrata Leaf Extract
+18	Avena Sativa (Oat) Kernel Extract
+19	Cynara Scolymus (Artichoke) Leaf Extract
+20	Prunus Armeniaca (Apricot) Kernel Oil
+21	Argania Spinosa Kernel Oil
+22	Carthamus Tinctorius (Safflower) Seed Oil
+23	Sodium Hyaluronate
+24	Hydrogenated Lecithin
+25	Camellia Sinensis Leaf Water
+26	Polyglyceryl-10 Laurate
+27	Pentaerythrityl Distearate
+28	Ammonium Acryloyldimethyltaurate/VP Copolymer
+29	Glyceryl Caprylate
+30	Sodium Stearoyl Glutamate
+31	Methylpropanediol
+32	Fructooligosaccharides
+33	Disodium EDTA
+34	Beta-Glucan
+35	Hydrolyzed Hyaluronic Acid
+36	Polyquaternium-51
+37	Butylene Glycol
+38	Hydroxypropyl Trimonium Hyaluronate
+39	Dimethylsilanol Hyaluronate
+40	Hydrolyzed Sodium Hyaluronate
+41	Potassium Hyaluronate
+42	Hyaluronic Acid
+43	Sodium Hyaluronate Crosspolymer
+44	Sodium Acetylated Hyaluronate
+45	Sodium Hyaluronate Dimethylsilanol
+46	1,2-Hexanediol
+47	Hydroxyacetophenone
+48	Ethylhexylglycerin

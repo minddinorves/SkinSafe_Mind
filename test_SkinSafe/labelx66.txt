@@ -1,0 +1,35 @@
+1	Water
+2	Methylpropanediol
+3	Triethanolamine
+4	Glycerin
+5	Polysorbate 60
+6	Dimethicone
+7	Niacinamide
+8	Salicylic Acid
+9	Sorbitan Sesquioleate
+10	Tromethamine
+11	Cetyl Ethylhexanoate
+12	Bis-PEG-18 Methyl Ether Dimethyl Silane
+13	Glyceryl Stearate
+14	PEG-100 Stearate
+15	Cyclopentasiloxane
+16	Cyclohexasiloxane
+17	Phenoxyethanol
+18	Acrylates/Beheneth-25 Methacrylate Copolymer
+19	Carbomer
+20	Fragrance
+21	Torreya Nucifera Extract
+22	Hamamelis Virginiana Water
+23	Melaleuca Alternifolia Extract
+24	Chamomilla Recutita Extract
+25	Lactobacillus/Soybean Ferment Extract
+26	Salix Alba Bark Extract
+27	Cinnamomum Zeylanicum Bark Extract
+28	Origanum Vulgare Leaf Extract
+29	Chamaecyparis Obtusa Leaf Extract
+30	Scutellaria Baicalensis Root Extract
+31	Portulaca Oleracea Extract
+32	Butylene Glycol
+33	1,2-Hexanediol
+34	Propanediol
+35	Caffeoyl sh-Octapeptide-4

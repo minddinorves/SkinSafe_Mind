@@ -1,0 +1,56 @@
+1	Water/Aqua/Eau
+2	Butylene Glycol
+3	Glycerin
+4	Squalane
+5	Pentaerythrityl Tetraethylhexanoate
+6	Arachidyl Alcohol
+7	Dimethicone
+8	Behenyl Alcohol
+9	Butyrospermum Parkii (Shea) Butter
+10	Cyclopentasiloxane
+11	Arachidyl Glucoside
+12	Cetyl Ethylhexanoate
+13	Cyclohexasiloxane
+14	Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer
+15	Phenoxyethanol
+16	Panax Ginseng Root Extract
+17	Triethylhexanoin
+18	Butylene Glycol Dicaprylate/Dicaprate
+19	Polyacrylate-13
+20	PEG-10 Dimethicone
+21	Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone
+22	Cetyl PPG/PPG-10/1 Dimethicone
+23	Polyisobutene
+24	Disteardimonium Hectorite
+25	Methoxy PEG-114/Polyepsilon Caprolactone
+26	Fragrance/Parfum
+27	Disodium EDTA
+28	Sorbitan Isostearate
+29	Ethylhexylglycerin
+30	Honey/Mel/Miel
+31	Polysorbate 60
+32	Perilla Ocymoides Seed Extract
+33	Dextrin
+34	Hydrolyzed Ginseng Saponins (Enzyme-Treated Red Ginseng Saponins)
+35	Polysorbate 20
+36	Lilium Candidum Bulb Extract
+37	Rehmannia Glutinosa Root Extract
+38	Polygonatum Officinale Rhizome/Root Extract
+39	Nelumbo Nucifera Flower Extract
+40	Glucose
+41	Carthamus Tinctorius (Safflower) Flower Extract
+42	Glycyrrhiza Uralensis (Licorice) Root Extract
+43	1,2-Hexanediol
+44	Gardenia Florida Fruit Extract
+45	Alpha-Isomethyl Ionone
+46	Limonene
+47	Hydrogenated Lecithin
+48	Linalool
+49	Panax Ginseng Flower Extract
+50	Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde
+51	Hexyl Cinnamal
+52	Sodium Polyaspartate
+53	Phytosphingosine
+54	Sodium Methyl Stearoyl Taurate
+55	Tocopherol
+56	Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate

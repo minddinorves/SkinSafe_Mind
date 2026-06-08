@@ -1,0 +1,45 @@
+1	Water
+2	Kaolin
+3	Glycerin
+4	Cetyl Alcohol
+5	Dimethicone
+6	Isopropyl Myristate
+7	Magnesium Silicate
+8	CI 77499
+9	Glyceryl Stearate
+10	PEG-100 Stearate
+11	Xanthan Gum
+12	Caprylyl Glycol
+13	Phenethyl Alcohol
+14	Hamamelis Virginiana Leaf Extract
+15	Propylene Glycol
+16	Salicylic Acid
+17	PEG-8
+18	Butylene Glycol
+19	Citric Acid
+20	Glycolic Acid
+21	Lactic Acid
+22	Disodium EDTA
+23	O-Cymen-5-OL
+24	Pentylene Glycol
+25	Sodium Benzoate
+26	Isostearamidopropyl Ethyldimonium Ethosulfate
+27	Lecithin
+28	Triethoxycaprylylsilane
+29	Ethylhexylglycerin
+30	Madecassic Acid
+31	Camellia Sinensis Leaf Extract
+32	Phenoxyethanol
+33	Polysorbate 60
+34	Sodium Hydroxide
+35	Tartaric Acid
+36	Asiaticosid
+37	Asiatic Acid
+38	Hydrolyzed Candida Saitoana Extract
+39	Vaccinium Myrtillus Fruit Extract
+40	Saccharum Officinarum Extract
+41	Olea Europaea (Olive) Fruit Oil
+42	Citrus Medica Limonum (Lemon) Fruit Extract
+43	Pyrus Malus (Apple) Fruit Extract
+44	Vitis Vinifera (Grape) Fruit Extract
+45	Carthamus Tinctorius Seed Oil

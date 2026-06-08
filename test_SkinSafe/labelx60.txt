@@ -1,0 +1,45 @@
+﻿1	Water
+2	Propanediol
+3	Niacinamide
+4	Caprylic/Capric Triglyceride
+5	Glycerin
+6	Isononyl Isononanoate
+7	Phenoxyethanol
+8	Anhydroxylitol
+9	Glyceryl Acrylate/Acrylic Acid Copolymer
+10	Panthenol
+11	C13-14 Isoparaffin
+12	Glyceryl Acrylate Crosspolymer
+13	Pentylene Glycol
+14	Hydrolyzed Collagen
+15	Butyrospermum Parkii Butter
+16	Triethanolamine
+17	Laureth-7
+18	Saccharide Isomerate
+19	Fragrance
+20	Citrus Limon Fruit Extract
+21	Cetearyl Alcohol
+22	Xanthan Gum
+23	Hydrogenated Lecithin
+24	Petrolatum
+25	Linolenic Acid
+26	Citric Acid
+27	Sodium Citrate
+28	Ascorbyl Propyl Hyaluronate
+29	Sodium Hyaluronate
+30	Potassium Hyaluronate
+31	Sodium Hyaluronate Crosspolymer
+32	Sodium Acetylated Hyaluronate
+33	Pentylene Glycol
+34	Sodium Benzoate
+35	Hydrolyzed Hyaluronic Acid
+36	Dimethylsilanol Hyaluronate
+37	Hyaluronic Acid
+38	Cetyl-PG Hydroxyethyl Palmitamide
+39	Cholesterol
+40	Ceramide NP
+41	Ceramide EOP
+42	Ceramide AP
+43	Ceramide AS
+44	Ceramide NS
+45	Ceramide NG

@@ -1,0 +1,27 @@
+1	Aqua (Water)
+2	Octocrylene
+3	Homosalate
+4	Butyl Methoxydibenzoylmethane
+5	Ethylhexyl Salicylate
+6	Ethylhexyl Methoxycinnamate
+7	Isostearate
+8	Triethanolamine
+9	C12-15 Alkyl Benzoate
+10	Potassium Succinyl Oat Beta-Glucan
+11	Xanthan Gum
+12	Chlorphenesin
+13	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+14	Silica Dimethyl Silylate
+15	Titanium Dioxide
+16	Sodium Hyaluronate
+17	3-O-Ethyl Ascorbic Acid
+18	Sodium Stearoyl Glutamate
+19	Tocopheryl Acetate
+20	Carbomer
+21	Sodium Hydroxide
+22	Parfum (Fragrance)
+23	Caffeine
+24	Maltodextrin
+25	Centella Asiatica Leaf Extract
+26	Hydroxyethylcellulose
+27	Tocopherol

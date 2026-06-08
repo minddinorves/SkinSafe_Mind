@@ -1,0 +1,31 @@
+1	Aqua
+2	Niacinamide
+3	Betaine
+4	Butylene Glycol
+5	Phenoxyethanol
+6	Propanediol
+7	Polyacrylate Crosspolymer-6
+8	Allantoin
+9	Dipotassium Glycyrrhizate
+10	Disodium EDTA
+11	1,2-Hexanediol
+12	Centella Asiatica Extract
+13	Sodium Hyaluronate
+14	Xanthan Gum
+15	Caprylyl Glycol
+16	Hydroxypropyltrimonium Hyaluronate
+17	Hydrolyzed Hyaluronic Acid
+18	Sodium Acetylated Hyaluronate
+19	Hyaluronic Acid
+20	Hydrolyzed Sodium Hyaluronate
+21	Sodium Hyaluronate Crosspolymer
+22	Potassium Hyaluronate
+23	Ascorbyl Propyl Hyaluronate
+24	Ascorbyl Propyl Hydrolyzed Hyaluronate
+25	Dimethylsilanol Hyaluronate
+26	Pentylene Glycol
+27	Sodium Benzoate
+28	Sodium Retinoyl Hyaluronate
+29	Zinc Hydrolyzed Hyaluronate
+30	Glucose
+31	Chondrus Crispus Extract

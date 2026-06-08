@@ -1,0 +1,35 @@
+1	Water
+2	Glycereth-26
+3	Glycerin
+4	Dipropylene Glycol
+5	1,2-Hexanediol
+6	Carbomer
+7	Butylene Glycol
+8	Trehalose
+9	Pentaerythrityl Tetraisostearate
+10	Hydrogenated Polyisobutene
+11	Tromethamine
+12	Pentaerythrityl Glycol
+13	Ethylhexylglycerin
+14	Caprylyl Glycol
+15	Ammonium Acryloyldimethyltaurate/VP Copolymer
+16	Allantoin
+17	Panthenol
+18	Pentylene Glycol
+19	Disodium EDTA
+20	Melaleuca Alternifolia Leaf Oil
+21	Melia Azadirachta Leaf Extract
+22	Sodium Hyaluronate
+23	Hydroxyacetophenone
+24	Melia Azadirachta Flower Extract
+25	Coccinia Indica Fruit Extract
+26	Solanum Melongena Fruit Extract
+27	Amber Powder
+28	Centella Asiatica Extract
+29	Curcuma Longa Root Extract
+30	Ocimum Sanctum Leaf Extract
+31	Moringa Oleifera Seed Oil
+32	Madecassoside
+33	Corallina Officinalis Extract
+34	Centella Asiatica Leaf Extract
+35	Asiaticoside

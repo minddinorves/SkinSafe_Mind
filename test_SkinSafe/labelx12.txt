@@ -1,0 +1,59 @@
+1	Aqua
+2	Propanediol
+3	Niacinamide
+4	Glycerin
+5	Caprylic/Capric Triglyceride
+6	Butylene Glycol
+7	Panthenol
+8	Phenoxyethanol
+9	Sodium Polyacryloyl Dimethyl Taurate
+10	Saccharide Isomerate
+11	Arginine
+12	Carbomer
+13	Isohexadecane
+14	Bisabolol
+15	Glycosyl Glucoside
+16	Dendrobium Officinale Stem Extract
+17	Sparassis Crispa Extract
+18	Anhydroxylitol
+19	Polysorbate 20
+20	Ethylhexylglycerin
+21	Pentylene Glycol
+22	Hamamelis Virginiana Leaf Water
+23	Maltodextrin
+24	PEG-7 Glyceryl Cocoate
+25	Lecithin
+26	Disodium EDTA
+27	Glycerol
+28	Polyquaternium-51
+29	Aloe Barbadensis Leaf Juice
+30	Glucose
+31	Laminaria Digitata Extract
+32	Dipotassium Glycyrrhizinate
+33	Sodium Hyaluronate
+34	Hydrogenated Lecithin
+35	Lactic Acid
+36	Sodium Citrate
+37	Serine
+38	Glutamic Acid
+39	Cetyl-PG Hydroxyethyl Palmitamide
+40	Ceramide NG
+41	Ceramide NP
+42	Ceramide AS
+43	Ceramide AP
+44	Cholesterol
+45	Aspartic Acid
+46	Leucine
+47	Sodium DNA
+48	Centella Asiatica Extract
+49	Sodium Benzoate
+50	Alanine
+51	Lysine
+52	Threonine
+53	Proline
+54	Valine
+55	Benzoic Acid
+56	Isoleucine
+57	Histidine
+58	Tyrosine
+59	Phenylalanine

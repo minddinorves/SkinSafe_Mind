@@ -1,0 +1,30 @@
+1	Aqua
+2	Ethylhexyl Methoxycinnamate
+3	Ethylhexyl Salicylate
+4	Glyceryl Stearate
+5	Ceteareth-25
+6	Ceteareth-11
+7	Cetyl Palmitate
+8	Polyglyceryl-3 Methylglucose Distearate
+9	Ceteareth-12
+10	Polymethylsilsesquioxane
+11	Niacinamide
+12	Propylene Glycol
+13	Diisopropyl Dimer Dilinoleate
+14	Cyclopentasiloxane
+15	Magnesium Stearate
+16	Titanium Dioxide
+17	Silica
+18	Tocopheryl Acetate
+19	Polyglyceryl-4 Isostearate
+20	Cetyl PEG/PPG-10/1 Dimethicone
+21	Hexyl Laurate
+22	Glycerin
+23	Disodium EDTA
+24	Perfume
+25	Alumina
+26	Phenoxyethanol
+27	Chlorphenesin
+28	CI 77492
+29	CI 77491
+30	CI 77499

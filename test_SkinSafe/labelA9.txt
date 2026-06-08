@@ -1,0 +1,19 @@
+1	Water
+2	Simmondsia Chinensis (Jojoba) Seed Oil
+3	Polyglyceryl-3 Methylglucose Distearate
+4	Cetyl Ethylhexanoate
+5	Glycerin
+6	Butylene Glycol Dicaprylate/Dicaprate
+7	1,2-Hexanediol
+8	Isohexadecane
+9	Glyceryl Stearate
+10	Butyrospermum Parkii (Shea) Butter
+11	Coptis Japonica Root Extract
+12	Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer
+13	Polysorbate 80
+14	Lauryl Alcohol
+15	Myristyl Alcohol
+16	Cetyl Alcohol
+17	Stearyl Alcohol
+18	Sorbitan Oleate
+19	Glyceryl Caprylate

@@ -1,0 +1,12 @@
+paddlepaddle==2.6.2
+paddleocr==2.9.1
+opencv-contrib-python>=4.8.0
+numpy>=1.24.0
+fastapi>=0.110.0
+uvicorn>=0.29.0
+line-bot-sdk>=3.0.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.9
+rapidfuzz>=3.0.0
+pandas>=2.0.0
+psycopg2-binary>=2.9.0

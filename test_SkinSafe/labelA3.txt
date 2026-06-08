@@ -1,0 +1,22 @@
+1	Water
+2	Glycerin
+3	Dimethicone
+4	Cetearyl Olivate
+5	Avena Sativa (Oat) Kernel Flour
+6	Sorbitan Olivate
+7	Polyacrylamide
+8	Synthetic Beeswax
+9	Phenoxyethanol
+10	C13-14 Isoparaffin
+11	Butylene Glycol
+12	Dimethicone Crosspolymer
+13	Panthenol
+14	Chlorphenesin
+15	Dimethiconol
+16	Carbomer
+17	Laureth-7
+18	Chrysanthemum Parthenium (Feverfew) Flower/Leaf/Stem Juice
+19	Ethylhexylglycerin
+20	Sodium Hydroxide
+21	Avena Sativa (Oat) Kernel Extract
+22	Centella Asiatica Extract

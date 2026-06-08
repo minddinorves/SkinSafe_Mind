@@ -1,0 +1,18 @@
+1	Water
+2	Squalane
+3	Glycerin
+4	Pentylene Glycol
+5	Polyglyceryl-2 Stearate
+6	Glyceryl Stearate
+7	Stearyl Alcohol
+8	Ceramide NG
+9	Ceramide EOP
+10	Ceramide NP
+11	Ceramide AS
+12	Ceramide AP
+13	Carnosine
+14	Hydrogenated Lecithin
+15	Cholesterol
+16	Caprylyl Glycol
+17	Polyacrylate Crosspolymer-11
+18	1,2-Hexanediol

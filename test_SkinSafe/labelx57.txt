@@ -1,0 +1,23 @@
+﻿1	Water
+2	Isononyl Isononanoate
+3	Glycerin
+4	Niacinamide
+5	Hydrogenated Polydecene
+6	Propanediol
+7	Sodium Acrylates Copolymer
+8	Xylitylglucoside
+9	Butylene Glycol
+10	Cetearyl Alcohol
+11	Anhydroxylitol
+12	Phenoxyethanol
+13	Glyceryl Stearate
+14	Butyrospermum Parkii Butter
+15	Lecithin
+16	PEG-100 Stearate
+17	Tocopheryl Acetate
+18	Sodium Hyaluronate
+19	Aloe Barbadensis Leaf Juice
+20	Hydrolyzed Sodium Benzoate
+21	Maltodextrin
+22	Alteromonas Ferment Extract
+23	Potassium Sorbate

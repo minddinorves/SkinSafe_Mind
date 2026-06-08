@@ -1,0 +1,2859 @@
+﻿  scanning IMG_01.jpg (label)...
+[DESKEW] correcting -1.5�
+
+[OCR-TILED] 13 deduplicated lines:
+  y=   72  conf=0.85  'Butylene Glyool. Propanodlol Dloctyldod'
+  y=   72  conf=0.85  'note.Alumlno,Ammouium Acryoyianow'
+  y=  206  conf=0.90  '1.Stoaroth-2.PEG-100 Stearate,Phonoxyethanol,'
+  y=  212  conf=0.90  'Copolymor, Caprylhydroxamlo Aold,'
+  y=  342  conf=0.90  'Mothylpropanadlol, Slmethloono,'
+  y=  356  conf=0.84  'mno, Carbomor, Ascorbyl Totrulcopamitate,'
+  y=  474  conf=0.85  'tocopheryl.acelate,Xanlhan Gum'
+  y=  492  conf=0.85  'Garmontooa Extract'
+  y=  544  conf=0.85  '3.Ethylhoxy Mothoxycinnamete'
+  y=  607  conf=0.61  'pinaisiab 4 bde lan Benzo'
+  y=  613  conf=0.81  'cinnamete,'
+  y=  690  conf=0.63  'Lno Onicial'
+  y=  706  conf=0.83  'Oamshor Butyiparabon'
+  scanning IMG_02.jpg (label)...
+[DESKEW] correcting -2.5�
+
+[OCR-TILED] 25 deduplicated lines:
+  y=   40  conf=0.92  'LASORBATEZO GLYCER'
+  y=   44  conf=0.90  'IN,SODIUM ACRYLATESCO'
+  y=  126  conf=0.89  'SECRETION FILTRATELECITHINBIOSACCHARIDE GUM-1.HYDROLYZED'
+  y=  228  conf=0.86  'SPONGECROTON LECHLER-RESIN EXTRACTETHYLHEXYLGLYCERIN'
+  y=  306  conf=0.89  'IUMEDTA'
+  y=  311  conf=0.73  'HYDD'
+  y=  334  conf=0.95  'HYDROXYPROPYL GUAR,HYDROXYETHYLCELLULOSE,DISODIUM EDTA,'
+  y=  411  conf=1.00  'PROPYLENE'
+  y=  420  conf=0.99  'GLYCERYL'
+  y=  427  conf=0.95  'COPOLYMER'
+  y=  434  conf=0.98  'ACRYLATE/ACRYLIC'
+  y=  435  conf=0.89  'ACD'
+  y=  442  conf=0.52  'HES'
+  y=  451  conf=0.94  'TLAIEACRYLC'
+  y=  516  conf=0.90  'GLYCOL PVM/MA COPOLYMER GLYCOLIC ACIDFRAGRANCELACTIC'
+  y=  594  conf=0.57  'CnRE'
+  y=  598  conf=0.88  'ACID,'
+  y=  599  conf=0.88  'CITRIC'
+  y=  604  conf=0.96  'SILICATE,'
+  y=  608  conf=0.82  'AaD,'
+  y=  612  conf=0.99  'SODIUM'
+  y=  615  conf=0.99  'MAGNESIUM'
+  y=  682  conf=0.99  'GLYCYRRHIZATE'
+  y=  692  conf=0.99  'DIPOTASSIUM'
+  y=  700  conf=0.96  'PHENOXYETHANOLXANTHAN GUM,'
+  scanning IMG_03.jpg (label)...
+[DESKEW] correcting +1.5�
+
+[OCR-TILED] 18 deduplicated lines:
+  y=   22  conf=0.91  'PTEBETAINEPHENOXYEIHANOL'
+  y=   62  conf=0.93  'FRAGRANCE POLYQUATERNIUM-Z-SODIUM CHLORIDE ARACHIDICACID,E'
+  y=  112  conf=0.94  'TITANIUM DIOXIDE SNAIL SECRETION FILTRATE BUTYLENE GLYEOL'
+  y=  161  conf=0.95  'DISODIUM EDTA TOCOPHERYLACETATE PEG-14M OLEICACID.BUTYLENE'
+  y=  216  conf=0.94  'GLYCOL DICAPRYLATE/DIEAPRATE SODIUM BENZOATE RUBUSIDAEUSE'
+  y=  268  conf=0.93  '(RASPBERRYFRUIT EXTRACT VACCINIUMANGUSTIFOLIUM (BLUEBERRY)'
+  y=  314  conf=0.87  'RUTEXTRAGEVACOINIUMMACROCARPONIGRANBERRME'
+  y=  320  conf=0.91  'FRUIT EXTRACTVACCINIUM MACROCARPON (ERANBERRY FRUITEXTRACTE'
+  y=  374  conf=0.94  'VACCINIUM VITIS-IDAEA FRUIT EXTRACT SILICA LZ-HEXANEDIOL'
+  y=  428  conf=0.93  'ALTEROMONAS FERMENT EXTRACT,CAPRYLYL GLYCOL BELLS PERENNS'
+  y=  438  conf=0.78  'ALTEROMONASHERMIENEALCAGXCAESTETEOLTCOLBELLSPERENNS'
+  y=  482  conf=0.94  '(DAISYFLOWER EXTRACT.CHAMOMILLA RECUTITA (MATRICARIA)FLOWER'
+  y=  533  conf=0.94  'EXTRACT CITRUSAURANTIUMAMARA (BITTER ORANGEFLOWEREXTRACT'
+  y=  588  conf=0.95  'GARDENIA FLORIDAFLOWER EXTRACT.JASMINUMOEFICINALE UASMINE'
+  y=  642  conf=0.92  'FLOWEREXTRACTELILIUMCANDIDUMFLOWER EXTRACTLIUUM TIGRINUN'
+  y=  698  conf=0.96  'EXTRACT NELUMBIUM SPECIOSUM FLOWEREXTRACTPRUNUSMUME'
+  y=  712  conf=0.50  'RNCEOMIOIOT'
+  y=  752  conf=0.94  'FLOWER EXTRACTROSE EXTRACT.HYDROXYPROPYLCYCLODEXIRIN'
+  scanning IMG_04.jpg (label)...
+[DESKEW] correcting -2.0�
+
+[OCR-TILED] 17 deduplicated lines:
+  y=   38  conf=0.85  'TCRYLATESTCIO-3OALKYLACRYLATECROSSPOLYMEK AKOINING,'
+  y=  112  conf=0.92  'YKAJ CAPRYLYL GLYCOLETHYLHEXYLGLYCERIN.POLYGLYCERYL4LAURATE DIPROPYLENE'
+  y=  201  conf=0.93  'GLTCOL BUTYLENE GLYCOL SODIUM HYALURONATE HAMAMELIS VIRGINIANA (WITCH HAZEL)'
+  y=  288  conf=0.87  'EXIRACTACEYL TEIRAPEPTIDE-2.PALMITOYL TRIPEPTIDE5.HEXAPEPTIDE-9,PALMITOYL TRIPEPTDEI'
+  y=  304  conf=0.79  'PADMIIOYLIRIPERIDE'
+  y=  310  conf=0.85  'ACLPACEMLIEIRAPEPIIDEZAPALMIOYLIRPEPIDESHEXAPEHIIDE'
+  y=  377  conf=0.91  'PALMITOYL HEXAPEPTIDE-12.COPPER TRIPEPTIDE-1, TRIPEPTIDE-1.NONAPEPTIDE-1.PALMITOYL'
+  y=  452  conf=0.84  'IETRAPEPTID'
+  y=  454  conf=0.63  'APEPTDE'
+  y=  467  conf=0.90  'TEIRAPEPTIDE-7,PALMITOYL PENTAPEPTIDE-A.ACETYL HEXAPEPTIDE 8.ACEIYL HEXAPEPTIDE-1'
+  y=  550  conf=0.95  'SODIUM HYALURONATE CROSSPOLYMER HYALURONIC ACID,SODIUM ACETYLATED HYALURONATE'
+  y=  582  conf=0.66  'MMLALORONAIEGROSSHODMGSDAE'
+  y=  642  conf=0.94  'HYDROLYZED HYALURONIC ACID.HYDROLYZED SODIUM HYALURONATE.HYDROLYZED GLYCOSE'
+  y=  720  conf=0.90  'AMINOGIYCANS DIMETHYLSILANOI'
+  y=  726  conf=0.72  'TONAI'
+  y=  744  conf=0.81  'SIRNMONIOMRALORONAIE'
+  y=  748  conf=0.91  'NS DIMETHYLSILANOLHYALURONAIEHYDROXTPRO'
+  scanning IMG_05.jpg (label)...
+
+[OCR-TILED] 5 deduplicated lines:
+  y=  215  conf=0.87  'AOUA GLYCERIN.POLYSORBATE 20.NACINAMIDE PROPANEDIOLTRIETHANOLAINE'
+  y=  386  conf=0.88  'CARBOMER.FRAGRANGE ETHYLHEXYLGLYCERIN.DIPOTASSIUM GLYCYRRHIZINATE XANTHAN GUM'
+  y=  538  conf=0.60  'DISODIVED'
+  y=  607  conf=0.74  'YLACHYLAIE'
+  y=  748  conf=0.95  'ACRYLIC ACID COPOLYMERPAOPYLENE GLYCOL PHENOXYETHANOL CAPRYLYL GLYCOL'
+
+[OCR-TILED] 0 deduplicated lines:
+  scanning A2.jpg (cropped)...
+[DESKEW] correcting +0.5�
+
+[OCR-TILED] 16 deduplicated lines:
+  y=   81  conf=0.94  'moistu'
+  y=   96  conf=0.66  'ooownov Baag Evvdatw'
+  y=  200  conf=0.95  'PEO'
+  y=  220  conf=0.99  'INGRE'
+  y=  230  conf=0.59  'Myristie'
+  y=  237  conf=0.97  'on clean facial skin day or night as '
+  y=  362  conf=0.87  'her'
+  y=  383  conf=0.99  'Cyclohexasiloxane,'
+  y=  386  conf=0.94  'a/Water.Gly'
+  y=  504  conf=0.89  'contin,'
+  y=  526  conf=0.94  'Stearyl Alcohol,PEG-'
+  y=  536  conf=0.91  'ucrose Stearate.'
+  y=  650  conf=0.99  '18T804'
+  y=  663  conf=0.97  'g auf der Innseite/continua)'
+  y=  688  conf=0.95  'ue Fortsetzun'
+  y=  744  conf=0.84  'setzungaurde'
+
+[PARSE] extracted text (227 chars):
+  'moistu ooownov Baag Evvdatw PEO INGRE Myristie on clean facial skin day or night as her Cyclohexasiloxane, a/Water, Gly contin, Stearyl Alcohol,PEGucrose Stearate. 18 T804 g auf der Innseite/continua) ue Fortsetzun setzungaurde'
+  SEG  ['moistu', 'ooownov', 'Baag', 'Evvdatw', 'PEO', 'INGRE', 'Myristie', 'on', 'clean', 'facial', 'skin', 'day', 'or', 'night', 'as', 'her', 'Cyclohexasiloxane']
+      SKIP   'moistu'
+      SKIP   'ooownov'
+      SKIP   'Baag'
+      SKIP   'Evvdatw'
+      SKIP   'PEO'
+      SKIP   'INGRE'
+      SKIP   'Myristie'
+      SKIP   'on'
+      SKIP   'clean'
+      SKIP   'facial'
+      SKIP   'skin'
+      SKIP   'day'
+      SKIP   'or'
+      SKIP   'night'
+      SKIP   'as'
+      SKIP   'her'
+      MATCH  win=1  'Cyclohexasiloxane'  ->  'cyclohexasiloxane'
+  SEG  ['a/Water']
+      MATCH  win=1  'a/Water'  ->  'water'
+  SEG  ['Gly', 'contin']
+      SKIP   'Gly'
+      SKIP   'contin'
+  SEG  ['Stearyl', 'Alcohol']
+      MATCH  win=2  'Stearyl Alcohol'  ->  'stearyl alcohol'
+  SEG  ['PEGucrose', 'Stearate.', '18', 'T804', 'g', 'auf', 'der', 'Innseite/continua)', 'ue', 'Fortsetzun', 'setzungaurde']
+      SKIP   'PEGucrose'
+      MATCH  win=2  'Stearate. 18'  ->  'peg-18 stearate'
+      SKIP   'T804'
+      SKIP   'g'
+      SKIP   'auf'
+      SKIP   'der'
+      SKIP   'Innseite/continua)'
+      SKIP   'ue'
+      SKIP   'Fortsetzun'
+      SKIP   'setzungaurde'
+  scanning A3.jpg (cropped)...
+
+[OCR-TILED] 15 deduplicated lines:
+  y=   70  conf=0.96  'INGREDIENTS:Water,Glycerin,Dimethicone'
+  y=  140  conf=0.94  'Cetearyl Olivate,Avena Sativa (Oat) Kernel'
+  y=  207  conf=0.96  'Flour,Sorbitan Olivate, Polyacrylamide,'
+  y=  274  conf=0.97  'Synthetic Beeswax,Phenoxyethanol, C13-14'
+  y=  295  conf=0.50  'SylitrietieDccswa,FTcrioAyctriariohCTs'
+  y=  342  conf=0.98  'Isoparaffin,Butylene Glycol,Dimethicone'
+  y=  410  conf=0.97  'Crosspolymer,Panthenol, Chlorphenesin,'
+  y=  474  conf=0.94  'Dimethiconol, Carbomer, Laureth-7,'
+  y=  544  conf=0.97  'Chrysanthemum Parthenium (Feverfew)'
+  y=  598  conf=0.84  'Elower/le'
+  y=  610  conf=0.98  'Flower/Leaf/Stem Juice,Ethylhexylglycerin,'
+  y=  676  conf=0.95  'Sodium Hydroxide,Avena Sativa (Oat) Kernel'
+  y=  733  conf=0.94  'tella.Asiatica Fxtract'
+  y=  736  conf=0.93  'Extract.'
+  y=  742  conf=0.96  'Extract, Centella Asiatica Extract'
+
+[PARSE] extracted text (504 chars):
+  'Water,Glycerin,Dimethicone Cetearyl Olivate,Avena Sativa , Oat Kernel Flour,Sorbitan Olivate, Polyacrylamide, Synthetic Beeswax,Phenoxyethanol, C13-14 SylitrietieDccswa,FTcrioAyctriariohCTs Isoparaffin,Butylene Glycol,Dimethicone Crosspolymer,Panthenol, Chlorphenesin, Dimethiconol, Carbomer, Laureth-7, Chrysanthemum Parthenium , Feverfew Elower/le Flower/Leaf/Stem Juice,Ethylhexyl glycerin, Sodium'...
+  SEG  ['Water']
+      MATCH  win=1  'Water'  ->  'water'
+  SEG  ['Glycerin']
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+  SEG  ['Dimethicone', 'Cetearyl', 'Olivate']
+      MATCH  win=1  'Dimethicone'  ->  'dimethicone'
+      MATCH  win=2  'Cetearyl Olivate'  ->  'cetearyl olivate'
+  SEG  ['Avena', 'Sativa']
+      MATCH  win=2  'Avena Sativa'  ->  'avena sativa bran'
+  SEG  ['Oat', 'Kernel', 'Flour']
+      SKIP   'Oat'
+      SKIP   'Kernel'
+      SKIP   'Flour'
+  SEG  ['Sorbitan', 'Olivate']
+      MATCH  win=2  'Sorbitan Olivate'  ->  'sorbitan olivate'
+  SEG  ['Polyacrylamide']
+      MATCH  win=1  'Polyacrylamide'  ->  'polyacrylamide'
+  SEG  ['Synthetic', 'Beeswax']
+      MATCH  win=2  'Synthetic Beeswax'  ->  'synthetic beeswax'
+  SEG  ['Phenoxyethanol']
+      MATCH  win=1  'Phenoxyethanol'  ->  'phenoxyethanol'
+  SEG  ['C13-14', 'SylitrietieDccswa']
+      SKIP   'C13-14'
+      SKIP   'SylitrietieDccswa'
+  SEG  ['FTcrioAyctriariohCTs', 'Isoparaffin']
+      SKIP   'FTcrioAyctriariohCTs'
+      SKIP   'Isoparaffin'
+  SEG  ['Butylene', 'Glycol']
+      MATCH  win=2  'Butylene Glycol'  ->  'butylene glycol'
+  SEG  ['Dimethicone', 'Crosspolymer']
+      MATCH  win=2  'Dimethicone Crosspolymer'  ->  'dimethicone crosspolymer'
+  SEG  ['Panthenol']
+      MATCH  win=1  'Panthenol'  ->  'panthenol'
+  SEG  ['Chlorphenesin']
+      MATCH  win=1  'Chlorphenesin'  ->  'chlorphenesin'
+  SEG  ['Dimethiconol']
+      MATCH  win=1  'Dimethiconol'  ->  'dimethiconol'
+  SEG  ['Carbomer']
+      MATCH  win=1  'Carbomer'  ->  'carbomer'
+  SEG  ['Laureth-7']
+      MATCH  win=1  'Laureth-7'  ->  'laureth-6'
+  SEG  ['Chrysanthemum', 'Parthenium']
+      MATCH  win=2  'Chrysanthemum Parthenium'  ->  'chrysanthemum parthenium extract'
+  SEG  ['Feverfew', 'Elower/le', 'Flower/Leaf/Stem', 'Juice']
+      SKIP   'Feverfew'
+      SKIP   'Elower/le'
+      SKIP   'Flower/Leaf/Stem'
+      SKIP   'Juice'
+  SEG  ['Ethylhexyl', 'glycerin']
+      MATCH  win=2  'Ethylhexyl glycerin'  ->  'ethylhexylglycerin'
+  SEG  ['Sodium', 'Hydroxide']
+      MATCH  win=2  'Sodium Hydroxide'  ->  'sodium hydroxide'
+  SEG  ['Avena', 'Sativa']
+      MATCH  win=2  'Avena Sativa'  ->  'avena sativa bran'
+  SEG  ['Oat', 'Kernel', 'tella']
+      SKIP   'Oat'
+      SKIP   'Kernel'
+      SKIP   'tella'
+  SEG  ['Asiatica', 'Fxtract', 'Extract.', 'Extract']
+      SKIP   'Asiatica'
+      SKIP   'Fxtract'
+      SKIP   'Extract.'
+      SKIP   'Extract'
+  SEG  ['Centella', 'Asiatica', 'Extract']
+      MATCH  win=3  'Centella Asiatica Extract'  ->  'centella asiatica root extract'
+  scanning A5.jpg (cropped)...
+
+[OCR-TILED] 23 deduplicated lines:
+  y=   37  conf=0.96  'INGREDIENTS/INGREDIENTS:AQUA/WATER/EAU,DIMETHICONE'
+  y=   90  conf=0.96  'PROPANEDIOL.BUTYLENE GLYCOL.NIACINAMIDE.NYLON-12'
+  y=  140  conf=0.98  'ACRYLATESCROSSPOLYMER.SODIUM HYALURONATE.ENANTIA'
+  y=  152  conf=0.70  'RORTLATESXCROSSROLTMLRGSODIOMINTALORONRAIECNANIIA'
+  y=  180  conf=0.60  'ADUGYTOAA'
+  y=  181  conf=0.71  'LOATAWERNEI'
+  y=  182  conf=0.73  'GHLODANTUN'
+  y=  182  conf=0.52  'VOALA'
+  y=  193  conf=0.93  'CHLORANTHA BARK EXTRACT.AVENA SATIVA (OAT) KERNEL'
+  y=  244  conf=0.94  'EXTRACT.CAMELLIA SINENSIS LEAF EXTRACT.CHRYSANTHEMUM'
+  y=  294  conf=0.97  'PARTHENIUM (FEVERFEW)EXTRACT.GLYCYRRHIZA GLABRA'
+  y=  299  conf=0.90  'PARTHENIOMTEEVEREEWEXTRACEGLYOYRRHIZAIGLABRA'
+  y=  347  conf=0.94  '(LICORICE)ROOT EXTRACT.GLYCERIN.OLEANOLIC ACID.SORBI'
+  y=  398  conf=0.96  'TAN ISOSTEARATE.CAPRYLYL GLYCOL.GLYCERYL STEARATE'
+  y=  448  conf=0.97  'CITRATE HYDROGENATEDPOLYDECENE.HYDROXYETHYL'
+  y=  452  conf=0.96  'CITRATE,HYDROGENATEDPOLYDECENE,HYDROXYETHYL'
+  y=  500  conf=0.97  'ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER'
+  y=  550  conf=0.96  '1.2-HEXANEDIOL.LECITHIN.POLYSILICONE-11.POLYSORBATE'
+  y=  604  conf=0.97  '60.SODIUM ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE'
+  y=  654  conf=0.95  'COPOLYMER.SODIUM ACRYLATES COPOLYMER LAURETH-8'
+  y=  708  conf=0.94  'CITRIC ACID,PHENOXYETHANOL,POTASSIUMSORBATE,'
+  y=  719  conf=0.90  'CIIRICACID,PHENOXYETHANOL,POIASSIUM SORBAIE,'
+  y=  759  conf=0.97  'SODIUM BENZOATE'
+
+[PARSE] extracted text (927 chars):
+  'AQUA/WATER/EAU,DIMETHICONE PROPANEDIOL, BUTYLENE GLYCOL, NIACINAMIDE, NYLON-12 ACRYLATESCROSSPOLYMER, SODIUM HYALURONATE, ENANTIA RORTLATESXCROSSROLTMLRGSODIOMINTALORONRAIECNANIIA ADUGYTOAA LOATAWERNEI GHLODANTUN VOALA CHLORANTHA BARK EXTRACT, AVENA SATIVA , OAT KERNEL EXTRACT, CAMELLIA SINENSIS LEAF EXTRACT, CHRYSANTHEMUM PARTHENIUM , FEVERFEWEXTRACT, GLYCYRRHIZA GLABRA PARTHENIOMTEEVEREEWEXTRACE'...
+  SEG  ['AQUA/WATER/EAU']
+      MATCH  win=1  'AQUA/WATER/EAU'  ->  'aqua'
+  SEG  ['DIMETHICONE', 'PROPANEDIOL']
+      MATCH  win=1  'DIMETHICONE'  ->  'dimethicone'
+      MATCH  win=1  'PROPANEDIOL'  ->  'propanediol'
+  SEG  ['BUTYLENE', 'GLYCOL']
+      MATCH  win=2  'BUTYLENE GLYCOL'  ->  'butylene glycol'
+  SEG  ['NIACINAMIDE']
+      MATCH  win=1  'NIACINAMIDE'  ->  'niacinamide'
+  SEG  ['NYLON-12', 'ACRYLATESCROSSPOLYMER']
+      MATCH  win=1  'NYLON-12'  ->  'nylon-12'
+      MATCH  win=1  'ACRYLATESCROSSPOLYMER'  ->  'acrylates crosspolymer'
+  SEG  ['SODIUM', 'HYALURONATE']
+      MATCH  win=2  'SODIUM HYALURONATE'  ->  'sodium hyaluronate'
+  SEG  ['ENANTIA', 'RORTLATESXCROSSROLTMLRGSODIOMINTALORONRAIECNANIIA', 'ADUGYTOAA', 'LOATAWERNEI', 'GHLODANTUN', 'VOALA', 'CHLORANTHA', 'BARK', 'EXTRACT']
+      SKIP   'ENANTIA'
+      SKIP   'RORTLATESXCROSSROLTMLRGSODIOMINTALORONRAIECNANIIA'
+      SKIP   'ADUGYTOAA'
+      SKIP   'LOATAWERNEI'
+      SKIP   'GHLODANTUN'
+      SKIP   'VOALA'
+      SKIP   'CHLORANTHA'
+      SKIP   'BARK'
+      SKIP   'EXTRACT'
+  SEG  ['AVENA', 'SATIVA']
+      MATCH  win=2  'AVENA SATIVA'  ->  'avena sativa bran'
+  SEG  ['OAT', 'KERNEL', 'EXTRACT']
+      SKIP   'OAT'
+      SKIP   'KERNEL'
+      SKIP   'EXTRACT'
+  SEG  ['CAMELLIA', 'SINENSIS', 'LEAF', 'EXTRACT']
+      MATCH  win=4  'CAMELLIA SINENSIS LEAF EXTRACT'  ->  'camellia sinensis leaf extract'
+  SEG  ['CHRYSANTHEMUM', 'PARTHENIUM']
+      MATCH  win=2  'CHRYSANTHEMUM PARTHENIUM'  ->  'chrysanthemum parthenium extract'
+  SEG  ['FEVERFEWEXTRACT']
+      SKIP   'FEVERFEWEXTRACT'
+  SEG  ['GLYCYRRHIZA', 'GLABRA', 'PARTHENIOMTEEVEREEWEXTRACEGLYOYRRHIZAIGLABRA']
+      MATCH  win=2  'GLYCYRRHIZA GLABRA'  ->  'glycyrrhiza glabra root oil'
+      SKIP   'PARTHENIOMTEEVEREEWEXTRACEGLYOYRRHIZAIGLABRA'
+  SEG  ['LICORICEROOT', 'EXTRACT']
+      SKIP   'LICORICEROOT'
+      SKIP   'EXTRACT'
+  SEG  ['GLYCERIN']
+      MATCH  win=1  'GLYCERIN'  ->  'glycerin'
+  SEG  ['OLEANOLIC', 'ACID']
+      MATCH  win=2  'OLEANOLIC ACID'  ->  'oleanolic acid'
+  SEG  ['SORBI', 'TAN', 'ISOSTEARATE']
+      MATCH  win=3  'SORBI TAN ISOSTEARATE'  ->  'sorbitan isostearate'
+  SEG  ['CAPRYLYL', 'GLYCOL']
+      MATCH  win=2  'CAPRYLYL GLYCOL'  ->  'caprylyl glycol'
+  SEG  ['GLYCERYL', 'STEARATE', 'CITRATE', 'HYDROGENATEDPOLYDECENE']
+      MATCH  win=3  'GLYCERYL STEARATE CITRATE'  ->  'glyceryl stearate citrate'
+      MATCH  win=1  'HYDROGENATEDPOLYDECENE'  ->  'hydrogenated polydecene'
+  SEG  ['HYDROXYETHYL', 'CITRATE']
+      SKIP   'HYDROXYETHYL'
+      SKIP   'CITRATE'
+  SEG  ['HYDROGENATEDPOLYDECENE']
+      MATCH  win=1  'HYDROGENATEDPOLYDECENE'  ->  'hydrogenated polydecene'
+  SEG  ['HYDROXYETHYL', 'ACRYLATE/SODIUM', 'ACRYLOYLDIMETHYL', 'TAURATE', 'COPOLYMER', '1.2-HEXANEDIOL']
+      MATCH  win=5  'HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER'  ->  'sodium acrylate/sodium acryloyldimethyl taurate copolymer'
+      MATCH  win=1  '1.2-HEXANEDIOL'  ->  '1�2-hexanediol'
+  SEG  ['LECITHIN']
+      MATCH  win=1  'LECITHIN'  ->  'lecithin'
+  SEG  ['POLYSILICONE-11']
+      MATCH  win=1  'POLYSILICONE-11'  ->  'polysilicone-11'
+  SEG  ['POLYSORBATE', '60']
+      MATCH  win=2  'POLYSORBATE 60'  ->  'polysorbate 60'
+  SEG  ['SODIUM', 'ACRYLATE/SODIUM', 'ACRYLOYLDIMETHYL', 'TAURATE', 'COPOLYMER']
+      MATCH  win=5  'SODIUM ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER'  ->  'sodium acrylate/sodium acryloyldimethyl taurate copolymer'
+  SEG  ['SODIUM', 'ACRYLATES', 'COPOLYMER', 'LAURETH-8', 'CITRIC', 'ACID']
+      MATCH  win=3  'SODIUM ACRYLATES COPOLYMER'  ->  'sodium acrylates crosspolymer'
+      MATCH  win=3  'LAURETH-8 CITRIC ACID'  ->  'laureth-8 carboxylic acid'
+  SEG  ['PHENOXYETHANOL']
+      MATCH  win=1  'PHENOXYETHANOL'  ->  'phenoxyethanol'
+  SEG  ['POTASSIUMSORBATE']
+      MATCH  win=1  'POTASSIUMSORBATE'  ->  'potassium sorbate'
+  SEG  ['CIIRICACID']
+      SKIP   'CIIRICACID'
+  SEG  ['PHENOXYETHANOL']
+      MATCH  win=1  'PHENOXYETHANOL'  ->  'phenoxyethanol'
+  SEG  ['POIASSIUM', 'SORBAIE']
+      MATCH  win=2  'POIASSIUM SORBAIE'  ->  'potassium sorbate'
+  SEG  ['SODIUM', 'BENZOATE']
+      MATCH  win=2  'SODIUM BENZOATE'  ->  'sodium benzoate'
+  scanning A6.jpg (cropped)...
+
+[OCR-TILED] 16 deduplicated lines:
+  y=   94  conf=0.94  'INGREDIENTS:WATER\\AQUA\\EAU-DIMETHICONE-BUTYLENE GLYCOL:'
+  y=  166  conf=0.93  'GLYCERIN TRISILOXANE-TBEHALOSESUCROSE AMMO'
+  y=  174  conf=0.95  'GLYCERIN-TRISILOXANE-TREHALOSESUCROSE-AMMO'
+  y=  248  conf=0.95  'NIUM ACRYLOYLDIMETHYLTAURATENP COPOLYMER-HY-'
+  y=  313  conf=0.84  'DROXYETHYIL UREA CAMELLIA SINENSIS IGREEN TEA)'
+  y=  324  conf=0.95  'DROXYETHYL UREACAMELLIA SINENSIS (GREEN TEA)'
+  y=  403  conf=0.95  "LEAF EXTRACTSILYBUM MARIANUM LADY'S THISTLE"
+  y=  478  conf=0.93  'EXTRACTBETULA ALBA (BIRCH) BARK EXTRACTSAC'
+  y=  500  conf=0.52  'rscog'
+  y=  556  conf=0.94  'CHAROMYCES LYSATE EXTRACT ALOE BARBADENSIS'
+  y=  564  conf=0.98  'MIX'
+  y=  632  conf=0.70  'Packaging'
+  y=  633  conf=0.94  'LEAF WATER ALOE BARBADENSIS LEAF EXTRACTTHER-'
+  y=  696  conf=0.98  'FSCC095135'
+  y=  712  conf=0.95  'MUS THERMOPHILLUS FERMENT-CAFFEINE SORBITOL'
+  y=  728  conf=0.64  'HOS.ANE'
+
+[PARSE] extracted text (528 chars):
+  "WATER, AQUA, EAU-DIMETHICONE-BUTYLENE GLYCOL: GLYCERIN TRISILOXANE-TBEHALOSESUCROSE AMMO GLYCERIN-TRISILOXANE-TREHALOSESUCROSE-AMMO NIUM ACRYLOYLDIMETHYLTAURATENP COPOLYMER-HY- DROXYETHYIL UREA CAMELLIA SINENSIS IGREEN TEA) DROXYETHYL UREACAMELLIA SINENSIS , GREEN TEA LEAF EXTRACTSILYBUM MARIANUM LADY'S THISTLE EXTRACTBETULA ALBA , BIRCH BARK EXTRACTSAC rscog CHAROMYCES LYSATE EXTRACT ALOE BARBADE"...
+  SEG  ['WATER']
+      MATCH  win=1  'WATER'  ->  'water'
+  SEG  ['AQUA']
+      MATCH  win=1  'AQUA'  ->  'aqua'
+  SEG  ['EAU-DIMETHICONE-BUTYLENE', 'GLYCOL:', 'GLYCERIN', 'TRISILOXANE-TBEHALOSESUCROSE', 'AMMO', 'GLYCERIN-TRISILOXANE-TREHALOSESUCROSE-AMMO', 'NIUM', 'ACRYLOYLDIMETHYLTAURATENP', 'COPOLYMER-HY-', 'DROXYETHYIL', 'UREA', 'CAMELLIA', 'SINENSIS', 'IGREEN', 'TEA)', 'DROXYETHYL', 'UREACAMELLIA', 'SINENSIS']
+      SKIP   'EAU-DIMETHICONE-BUTYLENE'
+      MATCH  win=1  'GLYCOL:'  ->  'glycol'
+      MATCH  win=1  'GLYCERIN'  ->  'glycerin'
+      SKIP   'TRISILOXANE-TBEHALOSESUCROSE'
+      SKIP   'AMMO'
+      SKIP   'GLYCERIN-TRISILOXANE-TREHALOSESUCROSE-AMMO'
+      MATCH  win=3  'NIUM ACRYLOYLDIMETHYLTAURATENP COPOLYMER-HY-'  ->  'sodium acryloyldimethyltaurate crosspolymer'
+      MATCH  win=2  'DROXYETHYIL UREA'  ->  'hydroxyethyl urea'
+      SKIP   'CAMELLIA'
+      SKIP   'SINENSIS'
+      SKIP   'IGREEN'
+      MATCH  win=2  'TEA) DROXYETHYL'  ->  'hydroxyethyl urea'
+      SKIP   'UREACAMELLIA'
+      SKIP   'SINENSIS'
+  SEG  ['GREEN', 'TEA', 'LEAF', 'EXTRACTSILYBUM', 'MARIANUM', "LADY'S", 'THISTLE', 'EXTRACTBETULA', 'ALBA']
+      SKIP   'GREEN'
+      SKIP   'TEA'
+      MATCH  win=2  'LEAF EXTRACTSILYBUM'  ->  'leaf extracts'
+      SKIP   'MARIANUM'
+      SKIP   "LADY'S"
+      SKIP   'THISTLE'
+      SKIP   'EXTRACTBETULA'
+      SKIP   'ALBA'
+  SEG  ['BIRCH', 'BARK', 'EXTRACTSAC', 'rscog', 'CHAROMYCES', 'LYSATE', 'EXTRACT', 'ALOE', 'BARBADENSIS', 'MIX', 'Packaging', 'LEAF', 'WATER', 'ALOE', 'BARBADENSIS', 'LEAF', 'EXTRACTTHER-', 'FSCC095135', 'MUS', 'THERMOPHILLUS', 'FERMENT-CAFFEINE', 'SORBITOL', 'HOS']
+      SKIP   'BIRCH'
+      SKIP   'BARK'
+      SKIP   'EXTRACTSAC'
+      SKIP   'rscog'
+      SKIP   'CHAROMYCES'
+      MATCH  win=5  'LYSATE EXTRACT ALOE BARBADENSIS MIX'  ->  'aloe barbadensis leaf extract'
+      MATCH  win=5  'Packaging LEAF WATER ALOE BARBADENSIS'  ->  'aloe barbadensis leaf powder'
+      MATCH  win=2  'LEAF EXTRACTTHER-'  ->  'leaf extracts'
+      SKIP   'FSCC095135'
+      SKIP   'MUS'
+      SKIP   'THERMOPHILLUS'
+      SKIP   'FERMENT-CAFFEINE'
+      MATCH  win=1  'SORBITOL'  ->  'sorbitol'
+      SKIP   'HOS'
+  SEG  ['ANE']
+      SKIP   'ANE'
+  scanning A7.jpg (cropped)...
+
+[OCR-TILED] 28 deduplicated lines:
+  y=   56  conf=0.81  'IngredIeOSAWATER/AGUA/EAUBUTYLENECLYCOL'
+  y=   88  conf=0.95  'PROPANEDIOLGLYCERIN,DISOSTEARYLMALATEHYDROGENATED'
+  y=  120  conf=0.83  'POLYICGAAOLERNXCAPRYLICICAPRICTRIGLYQERIDE'
+  y=  154  conf=0.96  'POLYGLYCERYLOMETHYLGLUGOSEDISTEARATEMETHYL'
+  y=  185  conf=0.93  'TRIMETHICONEPHYTOSTERYLBEHENYLOCTYLDODECYLLAUROYL'
+  y=  218  conf=0.92  'GLUTAMATETZHEXANEDIOLTREHALOSE SOUALANE'
+  y=  250  conf=0.86  'PANTIHENOLCLYCERYLSIEARATECTRATECIA22ALGOHOLS'
+  y=  283  conf=0.92  'AMMONIUMACRYLOYLOIMEIHYLTAURATEVP COPOLYMER,'
+  y=  288  conf=0.52  'SNOMACREOYLONDRDCTA'
+  y=  314  conf=0.94  'ARACHIDYLALCOHOLHYDROXYPROPYL STARCH PHOSPHATE'
+  y=  347  conf=0.91  'POLYMETHYLSILSESOUIOXANE-BEHENYLALCOHOL C12-2O ALKYL'
+  y=  382  conf=0.93  'GLUCOSIDE,HYDROXYETHYLACRYLATESODIUM'
+  y=  413  conf=0.95  'ACRYLOYLDIMETHYLTAURATE COROLYMER/ARACHIDYL'
+  y=  444  conf=0.86  'GLUCOSIDE LAOTOBAGILIUS FERMENTLYSATE GLYCERYL'
+  y=  444  conf=0.88  'GLUEOSIDE LAOTOBAGILIUSFERMENTLYSATE CLYCERYL'
+  y=  477  conf=0.90  'OAPRYLATEFRAGRANCEPARFUM.BTAYLHEXYLGLYCERIN,'
+  y=  508  conf=0.88  'DISODIUMEDTA CAMELHASINENSIS SEED EXTRACT,QMELLIA'
+  y=  542  conf=0.94  'SINENSISLEAF EXTRACT,SORBITANISOSTEARATE CAMELLIA'
+  y=  574  conf=0.88  'SNENSISSEEDOL LACTICACIDSLINALOO LIMONENE GLUCOSE'
+  y=  574  conf=0.90  'SNENSISSEEDOL LAGTICACIDSLINALOOLLIMONENE GLUCOSE'
+  y=  604  conf=0.74  'XEOGOAEXRAG'
+  y=  605  conf=0.86  'CERAMIDENPDEXTRNATHEOBRG'
+  y=  606  conf=0.89  'CERAMIDRNP,DEXTRIN.THEOBROMA CACAOXCOCOA EXTRAC,'
+  y=  639  conf=0.92  'SODIUMHYALURONATEHYDROGENATEDLEGITIHIN'
+  y=  672  conf=0.90  'PHYTOSPHINGOSINEHYDROLYZED HYALURONICAGID'
+  y=  704  conf=0.94  'TOCORHEROLSODIUMHYALJRONATECROSSPOLYMERE'
+  y=  738  conf=0.93  'HYALURONICACID SODIUMACETYUATEDHYALURONATE'
+  y=  738  conf=0.95  'HYALURONICACIDSODIUMACETYUATEDHYALURONATE'
+
+[PARSE] extracted text (1200 chars):
+  'IngredIeOSA WATER/AGUA/EAU BUTYLENECLYCOL PROPANEDIOL GLYCERIN,DISOSTEARYLMALATE HYDROGENATED POLYICGAAOLERNXCAPRYLICICAPRICTRIGLYQERIDE POLYGLYCERYLOMETHYLGLUGOSEDISTEARATEMETHYL TRIMETHICONEPHYTOSTERYLBEHENYLOCTYLDODECYLLAUROYL GLUTAMATETZHEXANEDIOLTREHALOSE SOUALANE PANTIHENOLCLYCERYLSIEARATECTRATECIA22 ALGOHOLS AMMONIUMACRYLOYLOIMEIHYLTAURATEVP COPOLYMER, SNOMACREOYLONDRDCTA ARACHIDYLALCOHOLHY'...
+  SEG  ['IngredIeOSA', 'WATER/AGUA/EAU', 'BUTYLENECLYCOL', 'PROPANEDIOL', 'GLYCERIN']
+      SKIP   'IngredIeOSA'
+      MATCH  win=2  'WATER/AGUA/EAU BUTYLENECLYCOL'  ->  'water'
+      MATCH  win=1  'PROPANEDIOL'  ->  'propanediol'
+      MATCH  win=1  'GLYCERIN'  ->  'glycerin'
+  SEG  ['DISOSTEARYLMALATE', 'HYDROGENATED', 'POLYICGAAOLERNXCAPRYLICICAPRICTRIGLYQERIDE', 'POLYGLYCERYLOMETHYLGLUGOSEDISTEARATEMETHYL', 'TRIMETHICONEPHYTOSTERYLBEHENYLOCTYLDODECYLLAUROYL', 'GLUTAMATETZHEXANEDIOLTREHALOSE', 'SOUALANE', 'PANTIHENOLCLYCERYLSIEARATECTRATECIA22', 'ALGOHOLS', 'AMMONIUMACRYLOYLOIMEIHYLTAURATEVP', 'COPOLYMER']
+      MATCH  win=1  'DISOSTEARYLMALATE'  ->  'diisostearyl malate'
+      SKIP   'HYDROGENATED'
+      SKIP   'POLYICGAAOLERNXCAPRYLICICAPRICTRIGLYQERIDE'
+      SKIP   'POLYGLYCERYLOMETHYLGLUGOSEDISTEARATEMETHYL'
+      SKIP   'TRIMETHICONEPHYTOSTERYLBEHENYLOCTYLDODECYLLAUROYL'
+      SKIP   'GLUTAMATETZHEXANEDIOLTREHALOSE'
+      SKIP   'SOUALANE'
+      SKIP   'PANTIHENOLCLYCERYLSIEARATECTRATECIA22'
+      SKIP   'ALGOHOLS'
+      SKIP   'AMMONIUMACRYLOYLOIMEIHYLTAURATEVP'
+      SKIP   'COPOLYMER'
+  SEG  ['SNOMACREOYLONDRDCTA', 'ARACHIDYLALCOHOLHYDROXYPROPYL', 'STARCH', 'PHOSPHATE', 'POLYMETHYLSILSESOUIOXANE-BEHENYLALCOHOL', 'C12-2', 'O', 'ALKYL', 'GLUCOSIDE']
+      SKIP   'SNOMACREOYLONDRDCTA'
+      SKIP   'ARACHIDYLALCOHOLHYDROXYPROPYL'
+      MATCH  win=2  'STARCH PHOSPHATE'  ->  'steareth-3 phosphate'
+      SKIP   'POLYMETHYLSILSESOUIOXANE-BEHENYLALCOHOL'
+      MATCH  win=4  'C12-2 O ALKYL GLUCOSIDE'  ->  'c12-20 alkyl glucoside'
+  SEG  ['HYDROXYETHYLACRYLATESODIUM', 'ACRYLOYLDIMETHYLTAURATE', 'COROLYMER/ARACHIDYL', 'GLUCOSIDE', 'LAOTOBAGILIUS', 'FERMENTLYSATE', 'GLYCERYL', 'GLUEOSIDE', 'LAOTOBAGILIUSFERMENTLYSATE', 'CLYCERYL', 'OAPRYLATE', 'FRAGRANCEPARFUM']
+      MATCH  win=4  'HYDROXYETHYLACRYLATESODIUM ACRYLOYLDIMETHYLTAURATE COROLYMER/ARACHIDYL GLUCOSIDE'  ->  'arachidyl glucoside'
+      SKIP   'LAOTOBAGILIUS'
+      SKIP   'FERMENTLYSATE'
+      SKIP   'GLYCERYL'
+      SKIP   'GLUEOSIDE'
+      SKIP   'LAOTOBAGILIUSFERMENTLYSATE'
+      MATCH  win=2  'CLYCERYL OAPRYLATE'  ->  'glyceryl polyacrylate'
+      SKIP   'FRAGRANCEPARFUM'
+  SEG  ['BTAYLHEXYL', 'GLYCERIN']
+      SKIP   'BTAYLHEXYL'
+      MATCH  win=1  'GLYCERIN'  ->  'glycerin'
+  SEG  ['DISODIUMEDTA', 'CAMELHASINENSIS', 'SEED', 'EXTRACT']
+      MATCH  win=1  'DISODIUMEDTA'  ->  'disodium edta'
+      SKIP   'CAMELHASINENSIS'
+      SKIP   'SEED'
+      SKIP   'EXTRACT'
+  SEG  ['QMELLIA', 'SINENSISLEAF', 'EXTRACT']
+      SKIP   'QMELLIA'
+      SKIP   'SINENSISLEAF'
+      SKIP   'EXTRACT'
+  SEG  ['SORBITANISOSTEARATE', 'CAMELLIA', 'SNENSISSEEDOL', 'LACTICACIDSLINALOO', 'LIMONENE', 'GLUCOSE', 'SNENSISSEEDOL', 'LAGTICACIDSLINALOOLLIMONENE', 'GLUCOSE', 'XEOGOAEXRAG', 'CERAMIDENPDEXTRNATHEOBRG', 'CERAMIDRNP']
+      MATCH  win=1  'SORBITANISOSTEARATE'  ->  'sorbitan triisostearate'
+      SKIP   'CAMELLIA'
+      SKIP   'SNENSISSEEDOL'
+      SKIP   'LACTICACIDSLINALOO'
+      MATCH  win=1  'LIMONENE'  ->  'limonene'
+      MATCH  win=1  'GLUCOSE'  ->  'glucose'
+      SKIP   'SNENSISSEEDOL'
+      SKIP   'LAGTICACIDSLINALOOLLIMONENE'
+      MATCH  win=1  'GLUCOSE'  ->  'glucose'
+      SKIP   'XEOGOAEXRAG'
+      SKIP   'CERAMIDENPDEXTRNATHEOBRG'
+      SKIP   'CERAMIDRNP'
+  SEG  ['DEXTRIN']
+      MATCH  win=1  'DEXTRIN'  ->  'dextrin'
+  SEG  ['THEOBROMA', 'CACAOXCOCOA', 'EXTRAC']
+      SKIP   'THEOBROMA'
+      SKIP   'CACAOXCOCOA'
+      SKIP   'EXTRAC'
+  SEG  ['SODIUMHYALURONATE', 'HYDROGENATEDLEGITIHIN', 'PHYTOSPHINGOSINE', 'HYDROLYZED', 'HYALURONICAGID', 'TOCORHEROLSODIUMHYALJRONATECROSSPOLYMERE', 'HYALURONICACID', 'SODIUMACETYUATEDHYALURONATE', 'HYALURONICACIDSODIUMACETYUATEDHYALURONATE']
+      SKIP   'SODIUMHYALURONATE'
+      SKIP   'HYDROGENATEDLEGITIHIN'
+      MATCH  win=1  'PHYTOSPHINGOSINE'  ->  'phytosphingosine'
+      SKIP   'HYDROLYZED'
+      SKIP   'HYALURONICAGID'
+      SKIP   'TOCORHEROLSODIUMHYALJRONATECROSSPOLYMERE'
+      SKIP   'HYALURONICACID'
+      SKIP   'SODIUMACETYUATEDHYALURONATE'
+      SKIP   'HYALURONICACIDSODIUMACETYUATEDHYALURONATE'
+  scanning A8.jpg (cropped)...
+
+[OCR-TILED] 18 deduplicated lines:
+  y=  196  conf=0.90  'butylene glycolcpeg-10o'
+  y=  197  conf=0.95  'INGREDIENTS wateraqua'
+  y=  224  conf=0.94  'ricinoleate-olea'
+  y=  226  conf=0.89  'cety'
+  y=  226  conf=0.97  'stearate-dimethicone'
+  y=  252  conf=0.96  'versicolor extract'
+  y=  254  conf=0.95  'europaea (olive-fruit'
+  y=  278  conf=0.99  'behenylalcohol'
+  y=  281  conf=1.00  'esters'
+  y=  283  conf=0.96  'lycerinjojobawax peg'
+  y=  308  conf=0.94  'hydrogenated lecithin -myristylalcohol.'
+  y=  309  conf=0.96  'panax ginseng'
+  y=  721  conf=1.00  'phenoxyethano'
+  y=  748  conf=0.70  'Itkmica'
+  y=  750  conf=0.96  'orphenesinsorbic acid-potassrum sorbate'
+  y=  776  conf=0.92  'iron oxides (ci77491)iron'
+  y=  777  conf=0.91  'tanium dioxide(ci77891)'
+  y=  804  conf=0.89  'oxides (ci77492)bismuth 0xychloride(c77163)]<iln99421>'
+
+[PARSE] extracted text (382 chars):
+  'butylene glycolcpeg-10o water aqua ricinoleate-olea cety stearate-dimethicone versicolor extract europaea (olive-fruit behenylalcohol esters lycerinjojobawax peg hydrogenated lecithin -myristylalcohol. panax ginseng phenoxyethano Itkmica orphenesinsorbic acid-potassrum sorbate iron oxides , ci77491iron tanium dioxide, ci77891 oxides , ci77492bismuth 0xychloride, c77163]<iln99421>'
+  SEG  ['butylene', 'glycolcpeg-10o', 'water', 'aqua', 'ricinoleate-olea', 'cety', 'stearate-dimethicone', 'versicolor', 'extract', 'europaea', '(olive-fruit', 'behenylalcohol', 'esters', 'lycerinjojobawax', 'peg', 'hydrogenated', 'lecithin', '-myristylalcohol.', 'panax', 'ginseng', 'phenoxyethano', 'Itkmica', 'orphenesinsorbic', 'acid-potassrum', 'sorbate', 'iron', 'oxides']
+      SKIP   'butylene'
+      SKIP   'glycolcpeg-10o'
+      MATCH  win=1  'water'  ->  'water'
+      MATCH  win=1  'aqua'  ->  'aqua'
+      MATCH  win=2  'ricinoleate-olea cety'  ->  'cetyl ricinoleate'
+      SKIP   'stearate-dimethicone'
+      MATCH  win=2  'versicolor extract'  ->  'iris versicolor extract'
+      SKIP   'europaea'
+      SKIP   '(olive-fruit'
+      SKIP   'behenylalcohol'
+      SKIP   'esters'
+      SKIP   'lycerinjojobawax'
+      MATCH  win=3  'peg hydrogenated lecithin'  ->  'hydrogenated lysolecithin'
+      SKIP   '-myristylalcohol.'
+      SKIP   'panax'
+      SKIP   'ginseng'
+      MATCH  win=1  'phenoxyethano'  ->  'phenoxyethanol'
+      SKIP   'Itkmica'
+      SKIP   'orphenesinsorbic'
+      MATCH  win=2  'acid-potassrum sorbate'  ->  'potassium sorbate'
+      SKIP   'iron'
+      SKIP   'oxides'
+  SEG  ['ci77491iron', 'tanium', 'dioxide']
+      SKIP   'ci77491iron'
+      MATCH  win=2  'tanium dioxide'  ->  'titanium dioxide'
+  SEG  ['ci77891', 'oxides']
+      SKIP   'ci77891'
+      SKIP   'oxides'
+  SEG  ['ci77492bismuth', '0xychloride']
+      SKIP   'ci77492bismuth'
+      SKIP   '0xychloride'
+  SEG  ['c77163]<iln99421>']
+      SKIP   'c77163]<iln99421>'
+  scanning A9.jpg (cropped)...
+
+[OCR-TILED] 11 deduplicated lines:
+  y=   82  conf=0.85  'epublcofKorea.INGREDiENTsWaterButleneGy.colSimmondsia'
+  y=  176  conf=0.66  'Shnenssloeoaeeeo'
+  y=  176  conf=0.61  'ShsogncenssaMemwgucoseDisearaecenamh'
+  y=  252  conf=0.92  'MhexanoateGlycerin ButyleneGlycolDicaprvlate/Dicaprate T2-Hexanediol'
+  y=  338  conf=0.86  'Isohexadecare.GlycenlStearateButrosoenmumPankn(Shea)ButferCoptis'
+  y=  420  conf=0.80  'TaurateCopo'
+  y=  420  conf=0.83  'aponicaRootExiradesodumAcMate/SodumAcn'
+  y=  504  conf=0.82  'merPohsorbateoo.La'
+  y=  596  conf=0.80  'Sorbitanoleate cvcenrcapny'
+  y=  600  conf=0.63  'ww.ow.nkangyu.com'
+  y=  679  conf=0.87  'pyunkane@grunamu.com.'
+
+[PARSE] extracted text (377 chars):
+  'epublcofKorea, WaterButleneGy, colSimmondsia Shnenssloeoaeeeo ShsogncenssaMemwgucoseDisearaecenamh Mhexanoate Glycerin Butylene GlycolDicaprvlate/Dicaprate T2-Hexanediol Isohexadecare, GlycenlStearateButrosoenmumPankn, SheaButferCoptis TaurateCopo aponicaRootExiradesodumAcMate/SodumAcn merPohsorbateoo, La Sorbitanoleate cvcenrcapny ww, ow, nkangyu, com pyunkane@grunamu, com.'
+  SEG  ['epublcofKorea']
+      SKIP   'epublcofKorea'
+  SEG  ['WaterButleneGy']
+      SKIP   'WaterButleneGy'
+  SEG  ['colSimmondsia', 'Shnenssloeoaeeeo', 'ShsogncenssaMemwgucoseDisearaecenamh', 'Mhexanoate', 'Glycerin', 'Butylene', 'GlycolDicaprvlate/Dicaprate', 'T2-Hexanediol', 'Isohexadecare']
+      SKIP   'colSimmondsia'
+      SKIP   'Shnenssloeoaeeeo'
+      SKIP   'ShsogncenssaMemwgucoseDisearaecenamh'
+      SKIP   'Mhexanoate'
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+      SKIP   'Butylene'
+      SKIP   'GlycolDicaprvlate/Dicaprate'
+      MATCH  win=1  'T2-Hexanediol'  ->  '1�2-hexanediol'
+      SKIP   'Isohexadecare'
+  SEG  ['GlycenlStearateButrosoenmumPankn']
+      SKIP   'GlycenlStearateButrosoenmumPankn'
+  SEG  ['SheaButferCoptis', 'TaurateCopo', 'aponicaRootExiradesodumAcMate/SodumAcn', 'merPohsorbateoo']
+      SKIP   'SheaButferCoptis'
+      SKIP   'TaurateCopo'
+      SKIP   'aponicaRootExiradesodumAcMate/SodumAcn'
+      SKIP   'merPohsorbateoo'
+  SEG  ['La', 'Sorbitanoleate', 'cvcenrcapny', 'ww']
+      MATCH  win=2  'La Sorbitanoleate'  ->  'sorbitan trioleate'
+      SKIP   'cvcenrcapny'
+      SKIP   'ww'
+  SEG  ['ow']
+      SKIP   'ow'
+  SEG  ['nkangyu']
+      SKIP   'nkangyu'
+  SEG  ['com', 'pyunkane@grunamu']
+      SKIP   'com'
+      SKIP   'pyunkane@grunamu'
+  SEG  ['com.']
+      SKIP   'com.'
+  scanning A10.jpg (cropped)...
+[DESKEW] correcting -0.5�
+
+[OCR-TILED] 48 deduplicated lines:
+  y=   20  conf=0.99  'INGREDIENTS/INGREDIENTS'
+  y=   63  conf=0.95  'Water/Aqua/Eau, Glycerin,Dipropylene'
+  y=  104  conf=0.93  'Glycol, Caprylic/Capric Triglyceride,Hy-'
+  y=  145  conf=0.96  'drogenated Poly(C6-14 Olefin),Hydro-'
+  y=  152  conf=0.63  'arogeralearonoo'
+  y=  152  conf=0.70  'T4Oiennryaro'
+  y=  182  conf=0.93  'genated Potydecene.Cetearyl Alcohol'
+  y=  186  conf=0.92  'genated Polydecene, Cetearyl Alcohol,'
+  y=  226  conf=0.97  '1,2-Hexanediol,Cyclomethicone,Dime'
+  y=  267  conf=0.94  'thicone,Vegetable Oil/Huile vegetale,'
+  y=  308  conf=0.98  'Bifida Ferment Lysate,Cyclopentasilox'
+  y=  350  conf=0.95  'ane,Dimethiconol,Glyceryl Stearate'
+  y=  392  conf=0.91  'SE Cetearyl Glucoside,Cetearyl Oliva-'
+  y=  434  conf=0.92  'te,Sorbitan Olivate,C12-16 Alcohols,'
+  y=  437  conf=0.76  'te,soroitanOlvate C2-16Alconois'
+  y=  476  conf=0.94  'Ceramide NP, Amaranthus Caudatus'
+  y=  518  conf=0.92  'Seed Extract, Ulmus Davidiana Root'
+  y=  560  conf=0.95  'Extract, Microcrystalline Cellulose,'
+  y=  570  conf=0.57  'esenn'
+  y=  602  conf=0.96  'Hydroxyethyl Acrylate/Sodium Acryloyl-'
+  y=  646  conf=0.95  'dimethyl Taurate Copolymer, Squalane,'
+  y=  688  conf=0.95  'Glyceryl Stearate,PEG-100 Stearate,'
+  y=  731  conf=0.97  'Hydrogenated Lecithin,Palmitic Acid'
+  y=  775  conf=0.95  'Coco-Caprylate/Caprate, Beta Vulgaris'
+  y=  818  conf=0.93  'Beet Root Extract Portulaca Oleracea'
+  y=  862  conf=0.96  'Extract, Pueraria Thunbergiana Root'
+  y=  906  conf=0.94  'Extract, Cnidium Officinale Root Extract,'
+  y=  951  conf=0.93  'Glycyrrhiza Glabra (Licorice) Root Extra-'
+  y=  994  conf=0.91  'ct,Paeonia Lactiflora Root Extract,Po-'
+  y=  998  conf=0.83  'ct Paeonia LactloraRootExtactPo'
+  y= 1039  conf=0.89  'lysorbate 60, Caramel, Cellulose Gum,'
+  y= 1083  conf=0.95  'Sodium Hyaluronate,Citrus Aurantium'
+  y= 1128  conf=0.92  'Bergamia Bergamot) Fruit Oil. Hydrolyz'
+  y= 1135  conf=0.65  'BereannlabergamogLrun'
+  y= 1172  conf=0.92  'ed Corn Starch,Soluble Collagen,Pela-'
+  y= 1218  conf=0.95  'rgonium Graveolens Flower Oil,Propyle'
+  y= 1262  conf=0.91  'ne Glycol,Butylene Glycol Aloe Barba-'
+  y= 1302  conf=0.77  'umEDTA.Pan'
+  y= 1307  conf=0.93  'densis Leaf JuiceDisodium EDTA,Pan'
+  y= 1353  conf=0.93  'thenol Acacia Senegal Gum,Algae Ex-'
+  y= 1399  conf=0.93  'tract Artemisia Vulgaris Extract,Folic'
+  y= 1440  conf=0.88  'Acid salvia Officinalis (Sage Oil.Acetic'
+  y= 1446  conf=0.91  'Acid Salvia Officinalis (Sage) Oil, Acetic'
+  y= 1491  conf=0.91  'Acid,Pogostemon Cablin Oil. Chole-'
+  y= 1538  conf=0.94  'sterol,Raffinose,Lactic Acid,Xanthan'
+  y= 1580  conf=0.92  'thamine PalmitoylPenta'
+  y= 1584  conf=0.94  'Gum,Tromethamine,PalmitoylPenta'
+  y= 1634  conf=0.99  'peptide-4'
+
+[PARSE] extracted text (1573 chars):
+  'Water/Aqua/Eau, Glycerin,Dipropylene Glycol, Caprylic/Capric Triglyceride,Hydrogenated Poly, C6-14 Olefin,Hydroarogeralearonoo T4 Oiennryaro genated Potydecene, Cetearyl Alcohol genated Polydecene, Cetearyl Alcohol, 1.2-Hexanediol,Cyclomethicone,Dime thicone,Vegetable Oil/Huile vegetale, Bifida Ferment Lysate,Cyclopentasilox ane,Dimethiconol,Glyceryl Stearate SE Cetearyl Glucoside,Cetearyl Olivate'...
+  SEG  ['Water/Aqua/Eau']
+      MATCH  win=1  'Water/Aqua/Eau'  ->  'water'
+  SEG  ['Glycerin']
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+  SEG  ['Dipropylene', 'Glycol']
+      MATCH  win=2  'Dipropylene Glycol'  ->  'dipropylene glycol'
+  SEG  ['Caprylic/Capric', 'Triglyceride']
+      MATCH  win=2  'Caprylic/Capric Triglyceride'  ->  'caprylic/capric triglyceride'
+  SEG  ['Hydrogenated', 'Poly']
+      MATCH  win=2  'Hydrogenated Poly'  ->  'hydrogenated polybutene'
+  SEG  ['C6-14', 'Olefin']
+      MATCH  win=2  'C6-14 Olefin'  ->  'c26-54 olefin'
+  SEG  ['Hydroarogeralearonoo', 'T4', 'Oiennryaro', 'genated', 'Potydecene']
+      SKIP   'Hydroarogeralearonoo'
+      SKIP   'T4'
+      SKIP   'Oiennryaro'
+      MATCH  win=2  'genated Potydecene'  ->  'hydrogenated polydecene'
+  SEG  ['Cetearyl', 'Alcohol', 'genated', 'Polydecene']
+      MATCH  win=3  'Cetearyl Alcohol genated'  ->  'cetearyl alcohol'
+      MATCH  win=1  'Polydecene'  ->  'polydecene'
+  SEG  ['Cetearyl', 'Alcohol']
+      MATCH  win=2  'Cetearyl Alcohol'  ->  'cetearyl alcohol'
+  SEG  ['1.2-Hexanediol']
+      MATCH  win=1  '1.2-Hexanediol'  ->  '1�2-hexanediol'
+  SEG  ['Cyclomethicone']
+      MATCH  win=1  'Cyclomethicone'  ->  'cyclomethicone'
+  SEG  ['Dime', 'thicone']
+      MATCH  win=2  'Dime thicone'  ->  'dimethicone'
+  SEG  ['Vegetable', 'Oil/Huile', 'vegetale']
+      MATCH  win=3  'Vegetable Oil/Huile vegetale'  ->  'vegetable oil'
+  SEG  ['Bifida', 'Ferment', 'Lysate']
+      MATCH  win=3  'Bifida Ferment Lysate'  ->  'bifida ferment lysate'
+  SEG  ['Cyclopentasilox', 'ane']
+      MATCH  win=1  'Cyclopentasilox'  ->  'cyclopentasiloxane'
+      SKIP   'ane'
+  SEG  ['Dimethiconol']
+      MATCH  win=1  'Dimethiconol'  ->  'dimethiconol'
+  SEG  ['Glyceryl', 'Stearate', 'SE', 'Cetearyl', 'Glucoside']
+      MATCH  win=4  'Glyceryl Stearate SE Cetearyl'  ->  'glyceryl stearate se'
+      SKIP   'Glucoside'
+  SEG  ['Cetearyl', 'Olivate']
+      MATCH  win=2  'Cetearyl Olivate'  ->  'cetearyl olivate'
+  SEG  ['Sorbitan', 'Olivate']
+      MATCH  win=2  'Sorbitan Olivate'  ->  'sorbitan olivate'
+  SEG  ['C12-16', 'Alcohols']
+      MATCH  win=2  'C12-16 Alcohols'  ->  'c20-40 alcohols'
+  SEG  ['te']
+      SKIP   'te'
+  SEG  ['soroitanOlvate', 'C2-16', 'Alconois', 'Ceramide', 'NP']
+      SKIP   'soroitanOlvate'
+      SKIP   'C2-16'
+      SKIP   'Alconois'
+      MATCH  win=2  'Ceramide NP'  ->  'ceramide np'
+  SEG  ['Amaranthus', 'Caudatus', 'Seed', 'Extract']
+      MATCH  win=4  'Amaranthus Caudatus Seed Extract'  ->  'amaranthus cruentus seed extract'
+  SEG  ['Ulmus', 'Davidiana', 'Root', 'Extract']
+      MATCH  win=4  'Ulmus Davidiana Root Extract'  ->  'ulmus davidiana root extract'
+  SEG  ['Microcrystalline', 'Cellulose']
+      MATCH  win=2  'Microcrystalline Cellulose'  ->  'microcrystalline cellulose'
+  SEG  ['esenn', 'Hydroxyethyl', 'Acrylate/Sodium', 'Acryloyldimethyl', 'Taurate', 'Copolymer']
+      MATCH  win=6  'esenn Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer'  ->  'sodium acrylate/sodium acryloyldimethyl taurate copolymer'
+  SEG  ['Squalane']
+      MATCH  win=1  'Squalane'  ->  'squalane'
+  SEG  ['Glyceryl', 'Stearate']
+      MATCH  win=2  'Glyceryl Stearate'  ->  'glyceryl stearate'
+  SEG  ['PEG-100', 'Stearate']
+      MATCH  win=2  'PEG-100 Stearate'  ->  'peg-100 stearate'
+  SEG  ['Hydrogenated', 'Lecithin']
+      MATCH  win=2  'Hydrogenated Lecithin'  ->  'hydrogenated lysolecithin'
+  SEG  ['Palmitic', 'Acid', 'Coco-Caprylate/Caprate']
+      MATCH  win=2  'Palmitic Acid'  ->  'palmitic acid'
+      MATCH  win=1  'Coco-Caprylate/Caprate'  ->  'coco-caprylate/caprate'
+  SEG  ['Beta', 'Vulgaris', 'Beet', 'Root', 'Extract', 'Portulaca', 'Oleracea', 'Extract']
+      MATCH  win=5  'Beta Vulgaris Beet Root Extract'  ->  'beta vulgaris sprout extract'
+      MATCH  win=3  'Portulaca Oleracea Extract'  ->  'portulaca oleracea juice'
+  SEG  ['Pueraria', 'Thunbergiana', 'Root', 'Extract']
+      MATCH  win=4  'Pueraria Thunbergiana Root Extract'  ->  'pueraria thunbergiana root extract'
+  SEG  ['Cnidium', 'Officinale', 'Root', 'Extract']
+      MATCH  win=4  'Cnidium Officinale Root Extract'  ->  'cnidium officinale root extract'
+  SEG  ['Glycyrrhiza', 'Glabra']
+      MATCH  win=2  'Glycyrrhiza Glabra'  ->  'glycyrrhiza glabra root oil'
+  SEG  ['Licorice', 'Root', 'Extract']
+      SKIP   'Licorice'
+      MATCH  win=2  'Root Extract'  ->  'root extracts'
+  SEG  ['Paeonia', 'Lactiflora', 'Root', 'Extract']
+      MATCH  win=4  'Paeonia Lactiflora Root Extract'  ->  'paeonia lactiflora phytoplacenta extract'
+  SEG  ['Poct', 'Paeonia', 'LactloraRootExtactPo', 'lysorbate', '60']
+      SKIP   'Poct'
+      SKIP   'Paeonia'
+      SKIP   'LactloraRootExtactPo'
+      MATCH  win=2  'lysorbate 60'  ->  'polysorbate 60'
+  SEG  ['Caramel']
+      MATCH  win=1  'Caramel'  ->  'caramel'
+  SEG  ['Cellulose', 'Gum']
+      MATCH  win=2  'Cellulose Gum'  ->  'cellulose gum'
+  SEG  ['Sodium', 'Hyaluronate']
+      MATCH  win=2  'Sodium Hyaluronate'  ->  'sodium hyaluronate'
+  SEG  ['Citrus', 'Aurantium', 'Bergamia', 'Bergamot)', 'Fruit', 'Oil.', 'Hydrolyz', 'BereannlabergamogLrun', 'ed', 'Corn', 'Starch']
+      MATCH  win=6  'Citrus Aurantium Bergamia Bergamot) Fruit Oil.'  ->  'citrus aurantium bergamia fruit oil'
+      SKIP   'Hydrolyz'
+      SKIP   'BereannlabergamogLrun'
+      SKIP   'ed'
+      SKIP   'Corn'
+      SKIP   'Starch'
+  SEG  ['Soluble', 'Collagen']
+      SKIP   'Soluble'
+      MATCH  win=1  'Collagen'  ->  'collagen'
+  SEG  ['Pelargonium', 'Graveolens', 'Flower', 'Oil']
+      MATCH  win=4  'Pelargonium Graveolens Flower Oil'  ->  'pelargonium graveolens flower oil'
+  SEG  ['Propyle', 'ne', 'Glycol']
+      MATCH  win=3  'Propyle ne Glycol'  ->  'propylene glycol'
+  SEG  ['Butylene', 'Glycol', 'Aloe', 'BarbaumEDTA']
+      MATCH  win=3  'Butylene Glycol Aloe'  ->  'butylene glycol'
+      SKIP   'BarbaumEDTA'
+  SEG  ['Pan', 'densis', 'Leaf', 'Juice', 'Disodium', 'EDTA']
+      SKIP   'Pan'
+      SKIP   'densis'
+      SKIP   'Leaf'
+      MATCH  win=3  'Juice Disodium EDTA'  ->  'disodium edta'
+  SEG  ['Pan', 'thenol', 'Acacia', 'Senegal', 'Gum']
+      MATCH  win=2  'Pan thenol'  ->  'panthenol'
+      MATCH  win=3  'Acacia Senegal Gum'  ->  'acacia senegal gum extract'
+  SEG  ['Algae', 'Extract', 'Artemisia', 'Vulgaris', 'Extract']
+      MATCH  win=1  'Algae'  ->  'algae'
+      MATCH  win=4  'Extract Artemisia Vulgaris Extract'  ->  'artemisia vulgaris herb extract'
+  SEG  ['Folic', 'Acid', 'salvia', 'Officinalis', '(Sage', 'Oil']
+      MATCH  win=2  'Folic Acid'  ->  'folic acid'
+      SKIP   'salvia'
+      SKIP   'Officinalis'
+      SKIP   '(Sage'
+      SKIP   'Oil'
+  SEG  ['Acetic', 'Acid', 'Salvia', 'Officinalis']
+      MATCH  win=2  'Acetic Acid'  ->  'acetic acid'
+      SKIP   'Salvia'
+      SKIP   'Officinalis'
+  SEG  ['Sage', 'Oil']
+      SKIP   'Sage'
+      SKIP   'Oil'
+  SEG  ['Acetic', 'Acid']
+      MATCH  win=2  'Acetic Acid'  ->  'acetic acid'
+  SEG  ['Pogostemon', 'Cablin', 'Oil.', 'Cholesterol']
+      MATCH  win=3  'Pogostemon Cablin Oil.'  ->  'pogostemon cablin leaf oil'
+      MATCH  win=1  'Cholesterol'  ->  'cholesterol'
+  SEG  ['Raffinose']
+      MATCH  win=1  'Raffinose'  ->  'raffinose'
+  SEG  ['Lactic', 'Acid']
+      MATCH  win=2  'Lactic Acid'  ->  'lactic acid'
+  SEG  ['Xanthan', 'thamine', 'PalmitoylPenta', 'Gum']
+      SKIP   'Xanthan'
+      SKIP   'thamine'
+      SKIP   'PalmitoylPenta'
+      SKIP   'Gum'
+  SEG  ['Tromethamine']
+      MATCH  win=1  'Tromethamine'  ->  'tromethamine'
+  SEG  ['PalmitoylPenta', 'peptide-4']
+      MATCH  win=2  'PalmitoylPenta peptide-4'  ->  'palmitoyl pentapeptide-4'
+  scanning A12.jpg (cropped)...
+
+[OCR-TILED] 31 deduplicated lines:
+  y=   60  conf=0.93  'Ingredients:Water, Dipropylene Glycol,Glycerin, Methl Trimethicone,Alcohol Denat,'
+  y=  107  conf=0.96  'Dimethicone, Cyclopentasiloxane,1,2-Hexanediol, Malakite Extract, Caprylic/Capric'
+  y=  152  conf=0.98  'Triglyceride,Pentaerythrityl Tetraethylhexanoate,PEG/PPG/Polybutylene Glycol-8/5/3'
+  y=  196  conf=0.95  'Glycerin,Alchemilla Vulgaris Leaf Extract*,Equisetum Arvense Leaf Extract*Stellaria'
+  y=  243  conf=0.94  'Media (Chickweed) Extract*,Urtica Dioica (Nettle) Leaf Extract*,Plantago Lanceolata'
+  y=  287  conf=0.95  'Leaf Extract*Avena Sativa (Oat) Kernel Extract** Calendula Officinalis Flower Extract**'
+  y=  294  conf=0.93  'LeafExtract^,AvenaSativa(Oat)KernelExtract^*'
+  y=  294  conf=0.84  'CalendulaOncinallsFlowerExtra'
+  y=  325  conf=0.64  'e+*kRubi'
+  y=  328  conf=0.92  't** RantisiaTin'
+  y=  328  conf=0.92  'Nepeta Cataria Fxtra'
+  y=  329  conf=0.87  'cteri'
+  y=  334  conf=0.95  'Nepeta Cataria Extract**,Rubus Idaeus (Raspberry) Leaf Extract**,Baptisia Tinctoria'
+  y=  380  conf=0.97  'Root Extract**,Dimethiconol,Polymethylsilsesquioxane, Sodium Acrylate/'
+  y=  424  conf=0.98  'Acryloyldimethyltaurate/Dimethylacrylamide Crosspolymer, Isohexadecane,'
+  y=  432  conf=0.94  'cryloyidimetnyitaurate/DimetnylacrylamideCrosspolymer,lsonexadecane,'
+  y=  464  conf=0.87  'm Parkii(Sbea)Butte'
+  y=  465  conf=0.92  'Dhen'
+  y=  466  conf=0.94  'Polvsorbate.60.Ceramide 3.Cholesterol.Butyros'
+  y=  471  conf=0.93  'Polysorbate 60, Ceramide 3,Cholesterol, Butyrospermum Parkii (Shea) Butter, Phenl'
+  y=  516  conf=0.96  'Trimethicone,Pentaerythrityl Tetraisostearate, Panthenol, Squalane,Triethylhexanoin,'
+  y=  561  conf=0.95  'Macadamia Ternifolia Seed Oil,PEG-150,PEG-40 Hydrogenated Castor Oil,'
+  y=  571  conf=0.89  'edOl,PEG-T50,PEG-40HydrogenatedCastorOll,'
+  y=  601  conf=0.94  'Acrylates/C10-30 Alkyl Acrylate Crosspolymer,C14-22 Alcohols.Arachidyl Glucoside'
+  y=  652  conf=0.95  'Hydrogenated Lecithin,PEG-100 Stearate,Stearic Acid Glyceryl Stearate, Carbomer,'
+  y=  699  conf=0.94  'Tromethamine,Trisodium EDTA,Fragrance+,Citronellol, Limonene,Citral, Geraniol,'
+  y=  709  conf=0.53  'MInOSLL'
+  y=  710  conf=0.82  'Citral,Geranol,'
+  y=  711  conf=0.74  '1riagrance'
+  y=  734  conf=0.98  'www.thebeautyinsideout.com'
+  y=  741  conf=0.99  'Linalool.'
+
+[PARSE] extracted text (1565 chars):
+  'Water, Dipropylene Glycol,Glycerin, Methl Trimethicone,Alcohol Denat, Dimethicone, Cyclopentasiloxane,1.2-Hexanediol, Malakite Extract, Caprylic/Capric Triglyceride,Pentaerythrityl Tetraethylhexanoate,PEG/PPG/Poly butylene Glycol-8/5/3 Glycerin,Alchemilla Vulgaris Leaf Extract,Equisetum Arvense Leaf ExtractStellaria Media , Chickweed Extract,Urtica Dioica , Nettle Leaf Extract,Plantago Lanceolata '...
+  SEG  ['Water']
+      MATCH  win=1  'Water'  ->  'water'
+  SEG  ['Dipropylene', 'Glycol']
+      MATCH  win=2  'Dipropylene Glycol'  ->  'dipropylene glycol'
+  SEG  ['Glycerin']
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+  SEG  ['Methl', 'Trimethicone']
+      MATCH  win=2  'Methl Trimethicone'  ->  'methyl trimethicone'
+  SEG  ['Alcohol', 'Denat']
+      MATCH  win=2  'Alcohol Denat'  ->  'alcohol denat.'
+  SEG  ['Dimethicone']
+      MATCH  win=1  'Dimethicone'  ->  'dimethicone'
+  SEG  ['Cyclopentasiloxane']
+      MATCH  win=1  'Cyclopentasiloxane'  ->  'cyclopentasiloxane'
+  SEG  ['1.2-Hexanediol']
+      MATCH  win=1  '1.2-Hexanediol'  ->  '1�2-hexanediol'
+  SEG  ['Malakite', 'Extract']
+      MATCH  win=2  'Malakite Extract'  ->  'malt extract'
+  SEG  ['Caprylic/Capric', 'Triglyceride']
+      MATCH  win=2  'Caprylic/Capric Triglyceride'  ->  'caprylic/capric triglyceride'
+  SEG  ['Pentaerythrityl', 'Tetraethylhexanoate']
+      MATCH  win=2  'Pentaerythrityl Tetraethylhexanoate'  ->  'pentaerythrityl tetraethylhexanoate'
+  SEG  ['PEG/PPG/Poly', 'butylene', 'Glycol-8/5/3', 'Glycerin']
+      MATCH  win=4  'PEG/PPG/Poly butylene Glycol-8/5/3 Glycerin'  ->  'peg/ppg/polybutylene glycol-8/5/3 glycerin'
+  SEG  ['Alchemilla', 'Vulgaris', 'Leaf', 'Extract']
+      MATCH  win=4  'Alchemilla Vulgaris Leaf Extract'  ->  'alchemilla vulgaris leaf extract'
+  SEG  ['Equisetum', 'Arvense', 'Leaf', 'ExtractStellaria', 'Media']
+      MATCH  win=3  'Equisetum Arvense Leaf'  ->  'equisetum arvense leaf powder'
+      SKIP   'ExtractStellaria'
+      SKIP   'Media'
+  SEG  ['Chickweed', 'Extract']
+      SKIP   'Chickweed'
+      SKIP   'Extract'
+  SEG  ['Urtica', 'Dioica']
+      MATCH  win=2  'Urtica Dioica'  ->  'urtica dioica'
+  SEG  ['Nettle', 'Leaf', 'Extract']
+      SKIP   'Nettle'
+      MATCH  win=2  'Leaf Extract'  ->  'leaf extracts'
+  SEG  ['Plantago', 'Lanceolata', 'Leaf', 'ExtractAvena', 'Sativa']
+      MATCH  win=2  'Plantago Lanceolata'  ->  'plantago lanceolata juice'
+      MATCH  win=2  'Leaf ExtractAvena'  ->  'leaf extracts'
+      SKIP   'Sativa'
+  SEG  ['Oat', 'Kernel', 'Extract', 'Calendula', 'Officinalis', 'Flower', 'Extract', 'LeafExtract^']
+      MATCH  win=6  'Oat Kernel Extract Calendula Officinalis Flower'  ->  'calendula officinalis flower extract'
+      SKIP   'Extract'
+      SKIP   'LeafExtract^'
+  SEG  ['AvenaSativa']
+      SKIP   'AvenaSativa'
+  SEG  ['OatKernelExtract^', 'CalendulaOncinallsFlowerExtra', 'e+kRubi', 't', 'RantisiaTin', 'Nepeta', 'Cataria', 'Fxtra', 'cteri', 'Nepeta', 'Cataria', 'Extract']
+      SKIP   'OatKernelExtract^'
+      SKIP   'CalendulaOncinallsFlowerExtra'
+      SKIP   'e+kRubi'
+      SKIP   't'
+      SKIP   'RantisiaTin'
+      MATCH  win=3  'Nepeta Cataria Fxtra'  ->  'nepeta cataria'
+      MATCH  win=3  'cteri Nepeta Cataria'  ->  'nepeta cataria'
+      SKIP   'Extract'
+  SEG  ['Rubus', 'Idaeus']
+      MATCH  win=2  'Rubus Idaeus'  ->  'rubus idaeus seed'
+  SEG  ['Raspberry', 'Leaf', 'Extract']
+      SKIP   'Raspberry'
+      MATCH  win=2  'Leaf Extract'  ->  'leaf extracts'
+  SEG  ['Baptisia', 'Tinctoria', 'Root', 'Extract']
+      MATCH  win=4  'Baptisia Tinctoria Root Extract'  ->  'baptisia tinctoria root extract'
+  SEG  ['Dimethiconol']
+      MATCH  win=1  'Dimethiconol'  ->  'dimethiconol'
+  SEG  ['Polymethylsilsesquioxane']
+      MATCH  win=1  'Polymethylsilsesquioxane'  ->  'polymethylsilsesquioxane'
+  SEG  ['Sodium', 'Acrylate/', 'Acryloyldimethyltaurate/Dimethylacrylamide', 'Crosspolymer']
+      MATCH  win=4  'Sodium Acrylate/ Acryloyldimethyltaurate/Dimethylacrylamide Crosspolymer'  ->  'sodium caprylate'
+  SEG  ['Isohexadecane']
+      SKIP   'Isohexadecane'
+  SEG  ['cryloyidimetnyitaurate/DimetnylacrylamideCrosspolymer']
+      SKIP   'cryloyidimetnyitaurate/DimetnylacrylamideCrosspolymer'
+  SEG  ['lsonexadecane']
+      SKIP   'lsonexadecane'
+  SEG  ['m', 'Parkii']
+      SKIP   'm'
+      SKIP   'Parkii'
+  SEG  ['SbeaButte', 'Dhen', 'Polvsorbate.60']
+      SKIP   'SbeaButte'
+      SKIP   'Dhen'
+      SKIP   'Polvsorbate.60'
+  SEG  ['Ceramide', '3']
+      MATCH  win=2  'Ceramide 3'  ->  'ceramide 4'
+  SEG  ['Cholesterol']
+      MATCH  win=1  'Cholesterol'  ->  'cholesterol'
+  SEG  ['Butyros', 'Polysorbate', '60']
+      SKIP   'Butyros'
+      MATCH  win=2  'Polysorbate 60'  ->  'polysorbate 60'
+  SEG  ['Ceramide', '3']
+      MATCH  win=2  'Ceramide 3'  ->  'ceramide 4'
+  SEG  ['Cholesterol']
+      MATCH  win=1  'Cholesterol'  ->  'cholesterol'
+  SEG  ['Butyrospermum', 'Parkii']
+      MATCH  win=2  'Butyrospermum Parkii'  ->  'butyrospermum parkii oil'
+  SEG  ['Shea', 'Butter']
+      SKIP   'Shea'
+      MATCH  win=1  'Butter'  ->  'butter'
+  SEG  ['Phenl', 'Trimethicone']
+      MATCH  win=2  'Phenl Trimethicone'  ->  'phenyl trimethicone'
+  SEG  ['Pentaerythrityl', 'Tetraisostearate']
+      MATCH  win=2  'Pentaerythrityl Tetraisostearate'  ->  'pentaerythrityl tetraisostearate'
+  SEG  ['Panthenol']
+      MATCH  win=1  'Panthenol'  ->  'panthenol'
+  SEG  ['Squalane']
+      MATCH  win=1  'Squalane'  ->  'squalane'
+  SEG  ['Triethylhexanoin']
+      MATCH  win=1  'Triethylhexanoin'  ->  'triethylhexanoin'
+  SEG  ['Macadamia', 'Ternifolia', 'Seed', 'Oil']
+      MATCH  win=4  'Macadamia Ternifolia Seed Oil'  ->  'macadamia ternifolia seed oil'
+  SEG  ['PEG-150']
+      MATCH  win=1  'PEG-150'  ->  'peg-10'
+  SEG  ['PEG-40', 'Hydrogenated', 'Castor', 'Oil']
+      MATCH  win=2  'PEG-40 Hydrogenated'  ->  'peg-40 hydrogenated lanolin'
+      MATCH  win=2  'Castor Oil'  ->  'castoreum oil'
+  SEG  ['edOl']
+      SKIP   'edOl'
+  SEG  ['PEG-T50']
+      SKIP   'PEG-T50'
+  SEG  ['PEG-40', 'HydrogenatedCastorOll']
+      MATCH  win=2  'PEG-40 HydrogenatedCastorOll'  ->  'peg-40 hydrogenated lanolin'
+  SEG  ['Acrylates/C10-30', 'Alkyl', 'Acrylate', 'Crosspolymer']
+      MATCH  win=4  'Acrylates/C10-30 Alkyl Acrylate Crosspolymer'  ->  'acrylates/c10-30 alkyl acrylate crosspolymer'
+  SEG  ['C14-22', 'Alcohols']
+      MATCH  win=2  'C14-22 Alcohols'  ->  'c14-22 alcohols'
+  SEG  ['Arachidyl', 'Glucoside', 'Hydrogenated', 'Lecithin']
+      MATCH  win=2  'Arachidyl Glucoside'  ->  'arachidyl glucoside'
+      MATCH  win=2  'Hydrogenated Lecithin'  ->  'hydrogenated lysolecithin'
+  SEG  ['PEG-100', 'Stearate']
+      MATCH  win=2  'PEG-100 Stearate'  ->  'peg-100 stearate'
+  SEG  ['Stearic', 'Acid', 'Glyceryl', 'Stearate']
+      MATCH  win=3  'Stearic Acid Glyceryl'  ->  'methyl stearic acid'
+      SKIP   'Stearate'
+  SEG  ['Carbomer']
+      MATCH  win=1  'Carbomer'  ->  'carbomer'
+  SEG  ['Tromethamine']
+      MATCH  win=1  'Tromethamine'  ->  'tromethamine'
+  SEG  ['Trisodium', 'EDTA']
+      MATCH  win=2  'Trisodium EDTA'  ->  'trisodium edta'
+  SEG  ['Fragrance+']
+      MATCH  win=1  'Fragrance+'  ->  'fragrance'
+  SEG  ['Citronellol']
+      MATCH  win=1  'Citronellol'  ->  'citronellol'
+  SEG  ['Limonene']
+      MATCH  win=1  'Limonene'  ->  'limonene'
+  SEG  ['Citral']
+      MATCH  win=1  'Citral'  ->  'citral'
+  SEG  ['Geraniol']
+      MATCH  win=1  'Geraniol'  ->  'geraniol'
+  SEG  ['MInOSLL', 'Citral']
+      SKIP   'MInOSLL'
+      MATCH  win=1  'Citral'  ->  'citral'
+  SEG  ['Geranol']
+      MATCH  win=1  'Geranol'  ->  'geraniol'
+  SEG  ['1riagrance', 'www']
+      SKIP   '1riagrance'
+      SKIP   'www'
+  SEG  ['thebeautyinsideout']
+      SKIP   'thebeautyinsideout'
+  SEG  ['com', 'Linalool.']
+      SKIP   'com'
+      MATCH  win=1  'Linalool.'  ->  'linalool'
+  scanning A14.jpg (cropped)...
+
+[OCR-TILED] 10 deduplicated lines:
+  y=  140  conf=0.80  'ngedientswatersqualanegyceinpentyene glyco'
+  y=  240  conf=0.85  'polyglyceryl-2 stearate.glyceryl stearate.stearyl'
+  y=  308  conf=0.62  'doohol'
+  y=  310  conf=0.85  'amideNG'
+  y=  331  conf=0.88  'oconol,hyaluronic acid.ceramide EOP.ceramide NG'
+  y=  416  conf=0.89  'ceramide NP.ceramide AS.ceramide AP.carnosine'
+  y=  444  conf=0.82  'PceramdeAs,'
+  y=  512  conf=0.76  'hogenatedecithin.phyosteros.caprylyglycol'
+  y=  584  conf=0.63  'polvocry'
+  y=  610  conf=0.93  'poyacrylate crosspolymer-11,1,2-hexanedio'
+
+[PARSE] extracted text (318 chars):
+  'ngedients water squalanegyceinpentyene glyco polyglyceryl-2 stearate, glyceryl stearate, stearyl doohol amideNG oconol,hyaluronic acid, ceramide EOP, ceramide NG ceramide NP, ceramide AS, ceramide AP, carnosine PceramdeAs, hogenatedecithin, phyosteros, capryly glycol polvocry poyacrylate crosspolymer-11.1,2-hexanedio'
+  SEG  ['ngedients', 'water', 'squalanegyceinpentyene', 'glyco', 'polyglyceryl-2', 'stearate']
+      SKIP   'ngedients'
+      MATCH  win=1  'water'  ->  'water'
+      SKIP   'squalanegyceinpentyene'
+      MATCH  win=3  'glyco polyglyceryl-2 stearate'  ->  'polyglyceryl-2 stearate'
+  SEG  ['glyceryl', 'stearate']
+      MATCH  win=2  'glyceryl stearate'  ->  'glyceryl stearate'
+  SEG  ['stearyl', 'doohol', 'amideNG', 'oconol']
+      MATCH  win=2  'stearyl doohol'  ->  'stearyl alcohol'
+      SKIP   'amideNG'
+      SKIP   'oconol'
+  SEG  ['hyaluronic', 'acid']
+      MATCH  win=2  'hyaluronic acid'  ->  'hyaluronic acid'
+  SEG  ['ceramide', 'EOP']
+      MATCH  win=2  'ceramide EOP'  ->  'ceramide eop'
+  SEG  ['ceramide', 'NG', 'ceramide', 'NP']
+      MATCH  win=2  'ceramide NG'  ->  'ceramide ng'
+      MATCH  win=2  'ceramide NP'  ->  'ceramide np'
+  SEG  ['ceramide', 'AS']
+      MATCH  win=2  'ceramide AS'  ->  'ceramide ag'
+  SEG  ['ceramide', 'AP']
+      MATCH  win=2  'ceramide AP'  ->  'ceramide ap'
+  SEG  ['carnosine', 'PceramdeAs']
+      MATCH  win=1  'carnosine'  ->  'carnosine'
+      SKIP   'PceramdeAs'
+  SEG  ['hogenatedecithin']
+      SKIP   'hogenatedecithin'
+  SEG  ['phyosteros']
+      MATCH  win=1  'phyosteros'  ->  'phytosterols'
+  SEG  ['capryly', 'glycol', 'polvocry', 'poyacrylate', 'crosspolymer-11.1']
+      MATCH  win=2  'capryly glycol'  ->  'caprylyl glycol'
+      MATCH  win=3  'polvocry poyacrylate crosspolymer-11.1'  ->  'polyacrylate crosspolymer-11'
+  SEG  ['2-hexanedio']
+      MATCH  win=1  '2-hexanedio'  ->  '1�2-hexanediol'
+  scanning A15.jpg (cropped)...
+
+[OCR-TILED] 11 deduplicated lines:
+  y=   44  conf=0.98  'INGREDIENTS Centella Asiatica Extract(72%), Glycerin, Propanediol, Dipro-'
+  y=  112  conf=0.98  'pylene Glycol, Cyclomethicone, Water, 1,2-Hexanediol, Trehalose, Caprylyl.'
+  y=  172  conf=0.96  'Methicone,C12-14Pareth-12 Carbomer.Tromethamine.AmmoniumAc'
+  y=  174  conf=0.99  'Methicone, C12-14 Pareth-12, Carbomer, Tromethamine, Ammonium Ac'
+  y=  239  conf=0.99  'ryloyldimethyltaurate/VP Copolymer, C30-45 Alkyl Cetearyl Dimethicone'
+  y=  366  conf=0.99  'Zingiber Officinale (Ginger) Root Extract, Butylene Glycol, Ethylhexylglyce.'
+  y=  496  conf=0.98  'tract, Theobroma Cacao (Cocoa) Extract, Dextrin, Leuconostoc/Radish Root.'
+  y=  560  conf=0.96  'Ferment Filtrate, Biosaceharide Cum-1, Disodium EDTA, Sodium Hyaluro-'
+  y=  624  conf=1.00  'nate, Beta-Glucan, Ceramide EOP, Ceramide NS, Ceramide NP, Ceramide.'
+  y=  688  conf=0.99  'AP, Phytosphingesine, Hydrogenated Lecithin, Cetearyl Alcohol, Stearic'
+  y=  750  conf=0.99  'Acid, Cholesterol'
+
+[PARSE] extracted text (708 chars):
+  'Centella Asiatica Extract, 72%, Glycerin, Propanediol, Dipropylene Glycol, Cyclomethicone, Water, 1.2-Hexanediol, Trehalose, Caprylyl. Methicone,C12-14 Pareth-12 Carbomer, Tromethamine, AmmoniumAc Methicone, C12-14 Pareth-12, Carbomer, Tromethamine, Ammonium Ac ryloyldimethyltaurate/VP Copolymer, C30-45 Alkyl Cetearyl Dimethicone Zingiber Officinale , Ginger Root Extract, Butylene Glycol, Ethylhex'...
+  SEG  ['Centella', 'Asiatica', 'Extract']
+      MATCH  win=3  'Centella Asiatica Extract'  ->  'centella asiatica root extract'
+  SEG  ['72%']
+      SKIP   '72%'
+  SEG  ['Glycerin']
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+  SEG  ['Propanediol']
+      MATCH  win=1  'Propanediol'  ->  'propanediol'
+  SEG  ['Dipropylene', 'Glycol']
+      MATCH  win=2  'Dipropylene Glycol'  ->  'dipropylene glycol'
+  SEG  ['Cyclomethicone']
+      MATCH  win=1  'Cyclomethicone'  ->  'cyclomethicone'
+  SEG  ['Water']
+      MATCH  win=1  'Water'  ->  'water'
+  SEG  ['1.2-Hexanediol']
+      MATCH  win=1  '1.2-Hexanediol'  ->  '1�2-hexanediol'
+  SEG  ['Trehalose']
+      MATCH  win=1  'Trehalose'  ->  'trehalose'
+  SEG  ['Caprylyl.', 'Methicone']
+      MATCH  win=2  'Caprylyl. Methicone'  ->  'caprylyl methicone'
+  SEG  ['C12-14', 'Pareth-12', 'Carbomer']
+      MATCH  win=2  'C12-14 Pareth-12'  ->  'c12-14 pareth-12'
+      MATCH  win=1  'Carbomer'  ->  'carbomer'
+  SEG  ['Tromethamine']
+      MATCH  win=1  'Tromethamine'  ->  'tromethamine'
+  SEG  ['AmmoniumAc', 'Methicone']
+      SKIP   'AmmoniumAc'
+      MATCH  win=1  'Methicone'  ->  'dimethicone'
+  SEG  ['C12-14', 'Pareth-12']
+      MATCH  win=2  'C12-14 Pareth-12'  ->  'c12-14 pareth-12'
+  SEG  ['Carbomer']
+      MATCH  win=1  'Carbomer'  ->  'carbomer'
+  SEG  ['Tromethamine']
+      MATCH  win=1  'Tromethamine'  ->  'tromethamine'
+  SEG  ['Ammonium', 'Ac', 'ryloyldimethyltaurate/VP', 'Copolymer']
+      MATCH  win=4  'Ammonium Ac ryloyldimethyltaurate/VP Copolymer'  ->  'ammonium polyacryloyldimethyl taurate'
+  SEG  ['C30-45', 'Alkyl', 'Cetearyl', 'Dimethicone', 'Zingiber', 'Officinale']
+      MATCH  win=4  'C30-45 Alkyl Cetearyl Dimethicone'  ->  'c30-45 alkyl dimethicone'
+      MATCH  win=2  'Zingiber Officinale'  ->  'zingiber officinale root oil'
+  SEG  ['Ginger', 'Root', 'Extract']
+      SKIP   'Ginger'
+      MATCH  win=2  'Root Extract'  ->  'root extracts'
+  SEG  ['Butylene', 'Glycol']
+      MATCH  win=2  'Butylene Glycol'  ->  'butylene glycol'
+  SEG  ['Ethylhexylglyce.', 'tract']
+      MATCH  win=1  'Ethylhexylglyce.'  ->  'ethylhexylglycerin'
+      SKIP   'tract'
+  SEG  ['Theobroma', 'Cacao']
+      SKIP   'Theobroma'
+      SKIP   'Cacao'
+  SEG  ['Cocoa', 'Extract']
+      SKIP   'Cocoa'
+      SKIP   'Extract'
+  SEG  ['Dextrin']
+      MATCH  win=1  'Dextrin'  ->  'dextrin'
+  SEG  ['Leuconostoc/Radish', 'Root.', 'Ferment', 'Filtrate']
+      MATCH  win=4  'Leuconostoc/Radish Root. Ferment Filtrate'  ->  'leuconostoc/radish root ferment filtrate'
+  SEG  ['Biosaceharide', 'Cum-1']
+      MATCH  win=2  'Biosaceharide Cum-1'  ->  'biosaccharide gum-1'
+  SEG  ['Disodium', 'EDTA']
+      MATCH  win=2  'Disodium EDTA'  ->  'disodium edta'
+  SEG  ['Sodium', 'Hyaluronate']
+      MATCH  win=2  'Sodium Hyaluronate'  ->  'sodium hyaluronate'
+  SEG  ['Beta-Glucan']
+      MATCH  win=1  'Beta-Glucan'  ->  'beta-glucan'
+  SEG  ['Ceramide', 'EOP']
+      MATCH  win=2  'Ceramide EOP'  ->  'ceramide eop'
+  SEG  ['Ceramide', 'NS']
+      MATCH  win=2  'Ceramide NS'  ->  'ceramide ng'
+  SEG  ['Ceramide', 'NP']
+      MATCH  win=2  'Ceramide NP'  ->  'ceramide np'
+  SEG  ['Ceramide.', 'AP']
+      MATCH  win=2  'Ceramide. AP'  ->  'ceramide ap'
+  SEG  ['Phytosphingesine']
+      MATCH  win=1  'Phytosphingesine'  ->  'phytosphingosine'
+  SEG  ['Hydrogenated', 'Lecithin']
+      MATCH  win=2  'Hydrogenated Lecithin'  ->  'hydrogenated lysolecithin'
+  SEG  ['Cetearyl', 'Alcohol']
+      MATCH  win=2  'Cetearyl Alcohol'  ->  'cetearyl alcohol'
+  SEG  ['Stearic', 'Acid']
+      MATCH  win=2  'Stearic Acid'  ->  'stearic acid'
+  SEG  ['Cholesterol']
+      MATCH  win=1  'Cholesterol'  ->  'cholesterol'
+  scanning A16.jpg (cropped)...
+
+[OCR-TILED] 17 deduplicated lines:
+  y=  110  conf=0.99  'INGREDIENTS:'
+  y=  168  conf=0.95  'AQUA,GLYCERIN, MINERAL OIL,POLYGLYCERYL-3'
+  y=  168  conf=0.96  'AQUA,GLYCERIN,MINERAL OIL,POLYGLYCERYL-3'
+  y=  224  conf=0.97  'METHYLGLUCOSE DISTEARATE,CETYL PALMITATE,'
+  y=  277  conf=0.96  'NIACINAMIDE,DIMETHICONE,ACRYLATES/C1O-30 ALKYL'
+  y=  322  conf=0.83  'RODAGO'
+  y=  332  conf=0.96  'ACRYLATE CROSSPOLYMER, STEARIC ACID,BORAGO'
+  y=  384  conf=0.95  'OFFICIALIS SEEDOIL,CAPRYLYL GLYCOL, CARBOMER,'
+  y=  438  conf=0.94  'CETYL ALCOHOL,DISODIUM EDTA, LACTIC ACID,'
+  y=  442  conf=0.93  'CETYL ALCOHOL, DISODIUMEDTA, LACTIC ACID,'
+  y=  491  conf=0.98  'PANTHENOL,PENTYLENE GLYCOL,PHENOXYETHANOL,'
+  y=  544  conf=0.96  'POTASSIUM CARBONATE, POTASSIUM HYDROXIDE,'
+  y=  596  conf=0.94  'CITRIC ACID,BISABOLOL,SERINE,SODIUM LACTATE,'
+  y=  598  conf=0.93  'CITRIC ACID, BISABOLOL,SERINE,SODIUM LACTATE,'
+  y=  653  conf=0.97  'SORBITOL,TOCOPHERYL ACETATE, UREA,ALLANTOIN,'
+  y=  706  conf=0.96  'SODIUM CHLORIDE.'
+  y=  716  conf=0.96  'SODIOMCHLORIDE.'
+
+[PARSE] extracted text (606 chars):
+  'AQUA,GLYCERIN, MINERAL OIL,POLYGLYCERYL-3 AQUA,GLYCERIN,MINERAL OIL,POLYGLYCERYL-3 METHYLGLUCOSE DISTEARATE,CETYL PALMITATE, NIACINAMIDE,DIMETHICONE,ACRYLATES/C1 O-30 ALKYL RODAGO ACRYLATE CROSSPOLYMER, STEARIC ACID,BORAGO OFFICIALIS SEEDOIL,CAPRYLYL GLYCOL, CARBOMER, CETYL ALCOHOL,DISODIUM EDTA, LACTIC ACID, CETYL ALCOHOL, DISODIUMEDTA, LACTIC ACID, PANTHENOL,PENTYLENE GLYCOL,PHENOXYETHANOL, POTA'...
+  SEG  ['AQUA']
+      MATCH  win=1  'AQUA'  ->  'aqua'
+  SEG  ['GLYCERIN']
+      MATCH  win=1  'GLYCERIN'  ->  'glycerin'
+  SEG  ['MINERAL', 'OIL']
+      MATCH  win=2  'MINERAL OIL'  ->  'mineral oils'
+  SEG  ['POLYGLYCERYL-3', 'AQUA']
+      SKIP   'POLYGLYCERYL-3'
+      MATCH  win=1  'AQUA'  ->  'aqua'
+  SEG  ['GLYCERIN']
+      MATCH  win=1  'GLYCERIN'  ->  'glycerin'
+  SEG  ['MINERAL', 'OIL']
+      MATCH  win=2  'MINERAL OIL'  ->  'mineral oils'
+  SEG  ['POLYGLYCERYL-3', 'METHYLGLUCOSE', 'DISTEARATE']
+      MATCH  win=3  'POLYGLYCERYL-3 METHYLGLUCOSE DISTEARATE'  ->  'polyglyceryl-3 methylglucose distearate'
+  SEG  ['CETYL', 'PALMITATE']
+      MATCH  win=2  'CETYL PALMITATE'  ->  'cetyl palmitate'
+  SEG  ['NIACINAMIDE']
+      MATCH  win=1  'NIACINAMIDE'  ->  'niacinamide'
+  SEG  ['DIMETHICONE']
+      MATCH  win=1  'DIMETHICONE'  ->  'dimethicone'
+  SEG  ['ACRYLATES/C1', 'O-30', 'ALKYL', 'RODAGO', 'ACRYLATE', 'CROSSPOLYMER']
+      MATCH  win=6  'ACRYLATES/C1 O-30 ALKYL RODAGO ACRYLATE CROSSPOLYMER'  ->  'sodium acrylates/c10-30 alkyl acrylate crosspolymer'
+  SEG  ['STEARIC', 'ACID']
+      MATCH  win=2  'STEARIC ACID'  ->  'stearic acid'
+  SEG  ['BORAGO', 'OFFICIALIS', 'SEEDOIL']
+      SKIP   'BORAGO'
+      SKIP   'OFFICIALIS'
+      SKIP   'SEEDOIL'
+  SEG  ['CAPRYLYL', 'GLYCOL']
+      MATCH  win=2  'CAPRYLYL GLYCOL'  ->  'caprylyl glycol'
+  SEG  ['CARBOMER']
+      MATCH  win=1  'CARBOMER'  ->  'carbomer'
+  SEG  ['CETYL', 'ALCOHOL']
+      MATCH  win=2  'CETYL ALCOHOL'  ->  'cetyl alcohol'
+  SEG  ['DISODIUM', 'EDTA']
+      MATCH  win=2  'DISODIUM EDTA'  ->  'disodium edta'
+  SEG  ['LACTIC', 'ACID']
+      MATCH  win=2  'LACTIC ACID'  ->  'lactic acid'
+  SEG  ['CETYL', 'ALCOHOL']
+      MATCH  win=2  'CETYL ALCOHOL'  ->  'cetyl alcohol'
+  SEG  ['DISODIUMEDTA']
+      MATCH  win=1  'DISODIUMEDTA'  ->  'disodium edta'
+  SEG  ['LACTIC', 'ACID']
+      MATCH  win=2  'LACTIC ACID'  ->  'lactic acid'
+  SEG  ['PANTHENOL']
+      MATCH  win=1  'PANTHENOL'  ->  'panthenol'
+  SEG  ['PENTYLENE', 'GLYCOL']
+      MATCH  win=2  'PENTYLENE GLYCOL'  ->  'pentylene glycol'
+  SEG  ['PHENOXYETHANOL']
+      MATCH  win=1  'PHENOXYETHANOL'  ->  'phenoxyethanol'
+  SEG  ['POTASSIUM', 'CARBONATE']
+      MATCH  win=2  'POTASSIUM CARBONATE'  ->  'potassium carbonate'
+  SEG  ['POTASSIUM', 'HYDROXIDE']
+      MATCH  win=2  'POTASSIUM HYDROXIDE'  ->  'potassium hydroxide'
+  SEG  ['CITRIC', 'ACID']
+      MATCH  win=2  'CITRIC ACID'  ->  'citric acid'
+  SEG  ['BISABOLOL']
+      MATCH  win=1  'BISABOLOL'  ->  'bisabolol'
+  SEG  ['SERINE']
+      MATCH  win=1  'SERINE'  ->  'serine'
+  SEG  ['SODIUM', 'LACTATE']
+      MATCH  win=2  'SODIUM LACTATE'  ->  'sodium lactate'
+  SEG  ['CITRIC', 'ACID']
+      MATCH  win=2  'CITRIC ACID'  ->  'citric acid'
+  SEG  ['BISABOLOL']
+      MATCH  win=1  'BISABOLOL'  ->  'bisabolol'
+  SEG  ['SERINE']
+      MATCH  win=1  'SERINE'  ->  'serine'
+  SEG  ['SODIUM', 'LACTATE']
+      MATCH  win=2  'SODIUM LACTATE'  ->  'sodium lactate'
+  SEG  ['SORBITOL']
+      MATCH  win=1  'SORBITOL'  ->  'sorbitol'
+  SEG  ['TOCOPHERYL', 'ACETATE']
+      MATCH  win=2  'TOCOPHERYL ACETATE'  ->  'tocopheryl acetate'
+  SEG  ['UREA']
+      MATCH  win=1  'UREA'  ->  'urea'
+  SEG  ['ALLANTOIN']
+      MATCH  win=1  'ALLANTOIN'  ->  'allantoin'
+  SEG  ['SODIUM', 'CHLORIDE.', 'SODIOMCHLORIDE.']
+      MATCH  win=2  'SODIUM CHLORIDE.'  ->  'sodium chloride'
+      SKIP   'SODIOMCHLORIDE.'
+  scanning A18.jpg (cropped)...
+[DESKEW] correcting -3.0�
+
+[OCR-TILED] 11 deduplicated lines:
+  y=  146  conf=0.76  'PASNETHCONE'
+  y=  200  conf=0.67  'ONE LYCESTEARATEC'
+  y=  243  conf=0.51  'E'
+  y=  294  conf=0.58  'NOYIE'
+  y=  390  conf=0.80  'PHERYLACETATE,'
+  y=  428  conf=0.76  'DIMETHIXKL'
+  y=  433  conf=0.95  'PANTOLACTONE,'
+  y=  470  conf=0.73  'TES/CIO-30'
+  y=  504  conf=0.66  'ALKYL ACRYLATE CHOSPONG'
+  y=  596  conf=0.65  '6LYCOC,BHT,DISODIUR EDL'
+  y=  668  conf=0.51  'LENO'
+
+[PARSE] extracted text (142 chars):
+  'PASNETHCONE ONE LYCESTEARATEC E NOYIE PHERYLACETATE, DIMETHIXKL PANTOLACTONE, TES/CIO-30 ALKYL ACRYLATE CHOSPONG 6 LYCOC,BHT,DISODIUR EDL LENO'
+  SEG  ['PASNETHCONE', 'ONE', 'LYCESTEARATEC', 'E', 'NOYIE', 'PHERYLACETATE']
+      SKIP   'PASNETHCONE'
+      SKIP   'ONE'
+      SKIP   'LYCESTEARATEC'
+      SKIP   'E'
+      SKIP   'NOYIE'
+      SKIP   'PHERYLACETATE'
+  SEG  ['DIMETHIXKL', 'PANTOLACTONE']
+      SKIP   'DIMETHIXKL'
+      MATCH  win=1  'PANTOLACTONE'  ->  'pantolactone'
+  SEG  ['TES/CIO-30', 'ALKYL', 'ACRYLATE', 'CHOSPONG', '6', 'LYCOC']
+      SKIP   'TES/CIO-30'
+      MATCH  win=2  'ALKYL ACRYLATE'  ->  'lauryl acrylate'
+      SKIP   'CHOSPONG'
+      SKIP   '6'
+      SKIP   'LYCOC'
+  SEG  ['BHT']
+      MATCH  win=1  'BHT'  ->  'bht'
+  SEG  ['DISODIUR', 'EDL', 'LENO']
+      MATCH  win=2  'DISODIUR EDL'  ->  'disodium edta'
+      SKIP   'LENO'
+  scanning A19.jpg (cropped)...
+[DESKEW] correcting -0.5�
+
+[OCR-TILED] 3 deduplicated lines:
+  y=  119  conf=0.89  'BOTY'
+  y=  734  conf=0.96  'TOCOPHEROLPENTAIRYTHRI'
+  y=  739  conf=0.93  'IYDROXYHEDROCINNAMATE'
+
+[PARSE] extracted text (49 chars):
+  'BOTY TOCOPHEROLPENTAIRYTHRI IYDROXYHEDROCINNAMATE'
+  SEG  ['BOTY', 'TOCOPHEROLPENTAIRYTHRI', 'IYDROXYHEDROCINNAMATE']
+      SKIP   'BOTY'
+      SKIP   'TOCOPHEROLPENTAIRYTHRI'
+      SKIP   'IYDROXYHEDROCINNAMATE'
+
+[OCR-TILED] 12 deduplicated lines:
+  y=  103  conf=0.98  'INGREDIEN'
+  y=  116  conf=0.80  'NE BEENYLALDHOLBUTY'
+  y=  187  conf=0.94  'UMACRYLOYLDIME'
+  y=  262  conf=0.91  'THICONE'
+  y=  314  conf=0.92  'SAURYLP'
+  y=  327  conf=0.87  'OLYESILON CAPRO'
+  y=  398  conf=0.78  'TRNMYD'
+  y=  470  conf=0.98  'GLUTINOSA'
+  y=  542  conf=0.82  'RACT.GLYOYS'
+  y=  610  conf=0.90  'DOLPANAX'
+  y=  685  conf=0.91  'ETHYLSTEAPOYL TAURATE'
+  y=  740  conf=0.93  'TOCOPHEROL PENTAIRYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCNNAMATE'
+
+[PARSE] extracted text (202 chars):
+  'INGREDIEN NE BEENYLALDHOLBUTY UMACRYLOYLDIME THICONE SAURYLP OLYESILON CAPRO TRNMYD GLUTINOSA RACT, GLYOYS DOLPANAX ETHYLSTEAPOYL TAURATE TOCOPHEROL PENTAIRYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCNNAMATE'
+  SEG  ['INGREDIEN', 'NE', 'BEENYLALDHOLBUTY', 'UMACRYLOYLDIME', 'THICONE', 'SAURYLP', 'OLYESILON', 'CAPRO', 'TRNMYD', 'GLUTINOSA', 'RACT']
+      SKIP   'INGREDIEN'
+      SKIP   'NE'
+      SKIP   'BEENYLALDHOLBUTY'
+      SKIP   'UMACRYLOYLDIME'
+      MATCH  win=2  'THICONE SAURYLP'  ->  'lauryl methicone'
+      SKIP   'OLYESILON'
+      SKIP   'CAPRO'
+      SKIP   'TRNMYD'
+      SKIP   'GLUTINOSA'
+      SKIP   'RACT'
+  SEG  ['GLYOYS', 'DOLPANAX', 'ETHYLSTEAPOYL', 'TAURATE', 'TOCOPHEROL', 'PENTAIRYTHRITYL', 'TETRA-DI-T-BUTYL', 'HYDROXYHYDROCNNAMATE']
+      SKIP   'GLYOYS'
+      SKIP   'DOLPANAX'
+      SKIP   'ETHYLSTEAPOYL'
+      MATCH  win=5  'TAURATE TOCOPHEROL PENTAIRYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCNNAMATE'  ->  'pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate'
+  scanning A20.jpg (cropped)...
+
+[OCR-TILED] 12 deduplicated lines:
+  y=   58  conf=0.90  '2021500-INGREDIENTS/HAQUA/WATER.GLYCERINCETEARYL'
+  y=  143  conf=0.95  'ALCOHOL.CAPRYLIC/CAPRIC TRIGLYCERIDE.CETYL ALCOHOL,'
+  y=  174  conf=0.87  'LCOHOECAPRTLICICAPRICTRIGLYCERIDE,CEITLALCOHOL'
+  y=  230  conf=0.92  'CETEARETH-20.PETROLATUM.POTASSIUM PHOSPHATE.CERAMIDE'
+  y=  305  conf=0.93  'NP.CERAMIDEAPCERAMIDE EOP CARROMER DIMETHICONE'
+  y=  326  conf=0.91  'NP.CERAMIDE AP.CERAMIDE EOP.CARBOMER.DIMETHICONE,'
+  y=  410  conf=0.93  'BEHENTRIMONIUM METHOSULFATE,SODIUM LAUROYL LACTYLATE,'
+  y=  448  conf=0.52  'SMNUSEOOSOCAIESODIONCAUROTLLACRTOAE'
+  y=  494  conf=0.95  'SODIUM HYALURONATE.CHOLESTEROLPHENOXYETHANOLDISODIUM'
+  y=  574  conf=0.97  'EDTA.DIPOTASSIUMPHOSPHATE.TOCOPHEROL.PHYTOSPHINGOSINE,'
+  y=  606  conf=0.94  'EDIADIPOTASSIUMPHOSPHATE.TOCOPHEROLPHYTOSPHINGOSINE,'
+  y=  670  conf=0.86  'XANTHAN GUMETHYLHEXYLGLYCERIN.CodeFLLD213768/21'
+
+[PARSE] extracted text (608 chars):
+  '2021500-H AQUA/WATER, GLYCERINCETEARYL ALCOHOL, CAPRYLIC/CAPRIC TRIGLYCERIDE, CETYL ALCOHOL, LCOHOECAPRTLICICAPRICTRIGLYCERIDE,CEITLALCOHOL CETEARETH-20, PETROLATUM, POTASSIUM PHOSPHATE, CERAMIDE NP, CERAMIDEAP CERAMIDE EOP CARROMER DIMETHICONE NP, CERAMIDE AP, CERAMIDE EOP, CARBOMER, DIMETHICONE, BEHENTRIMONIUM METHOSULFATE,SODIUM LAUROYL LACTYLATE, SMNUSEOOSOCAIESODIONCAUROTLLACRTOAE SODIUM HYAL'...
+  SEG  ['2021500-H', 'AQUA/WATER']
+      MATCH  win=2  '2021500-H AQUA/WATER'  ->  'water'
+  SEG  ['GLYCERINCETEARYL', 'ALCOHOL']
+      MATCH  win=2  'GLYCERINCETEARYL ALCOHOL'  ->  'cetearyl alcohol'
+  SEG  ['CAPRYLIC/CAPRIC', 'TRIGLYCERIDE']
+      MATCH  win=2  'CAPRYLIC/CAPRIC TRIGLYCERIDE'  ->  'caprylic/capric triglyceride'
+  SEG  ['CETYL', 'ALCOHOL']
+      MATCH  win=2  'CETYL ALCOHOL'  ->  'cetyl alcohol'
+  SEG  ['LCOHOECAPRTLICICAPRICTRIGLYCERIDE']
+      SKIP   'LCOHOECAPRTLICICAPRICTRIGLYCERIDE'
+  SEG  ['CEITLALCOHOL', 'CETEARETH-20']
+      SKIP   'CEITLALCOHOL'
+      MATCH  win=1  'CETEARETH-20'  ->  'ceteareth-20'
+  SEG  ['PETROLATUM']
+      MATCH  win=1  'PETROLATUM'  ->  'petrolatum'
+  SEG  ['POTASSIUM', 'PHOSPHATE']
+      MATCH  win=2  'POTASSIUM PHOSPHATE'  ->  'potassium phosphate'
+  SEG  ['CERAMIDE', 'NP']
+      MATCH  win=2  'CERAMIDE NP'  ->  'ceramide np'
+  SEG  ['CERAMIDEAP', 'CERAMIDE', 'EOP', 'CARROMER', 'DIMETHICONE', 'NP']
+      SKIP   'CERAMIDEAP'
+      MATCH  win=2  'CERAMIDE EOP'  ->  'ceramide eop'
+      SKIP   'CARROMER'
+      MATCH  win=1  'DIMETHICONE'  ->  'dimethicone'
+      SKIP   'NP'
+  SEG  ['CERAMIDE', 'AP']
+      MATCH  win=2  'CERAMIDE AP'  ->  'ceramide ap'
+  SEG  ['CERAMIDE', 'EOP']
+      MATCH  win=2  'CERAMIDE EOP'  ->  'ceramide eop'
+  SEG  ['CARBOMER']
+      MATCH  win=1  'CARBOMER'  ->  'carbomer'
+  SEG  ['DIMETHICONE']
+      MATCH  win=1  'DIMETHICONE'  ->  'dimethicone'
+  SEG  ['BEHENTRIMONIUM', 'METHOSULFATE']
+      MATCH  win=2  'BEHENTRIMONIUM METHOSULFATE'  ->  'behentrimonium methosulfate'
+  SEG  ['SODIUM', 'LAUROYL', 'LACTYLATE']
+      MATCH  win=3  'SODIUM LAUROYL LACTYLATE'  ->  'sodium lauroyl lactylate'
+  SEG  ['SMNUSEOOSOCAIESODIONCAUROTLLACRTOAE', 'SODIUM', 'HYALURONATE']
+      SKIP   'SMNUSEOOSOCAIESODIONCAUROTLLACRTOAE'
+      MATCH  win=2  'SODIUM HYALURONATE'  ->  'sodium hyaluronate'
+  SEG  ['CHOLESTEROL', 'PHENOXYETHANOL', 'DISODIUM', 'EDTA']
+      MATCH  win=1  'CHOLESTEROL'  ->  'cholesterol'
+      MATCH  win=1  'PHENOXYETHANOL'  ->  'phenoxyethanol'
+      MATCH  win=2  'DISODIUM EDTA'  ->  'disodium edta'
+  SEG  ['DIPOTASSIUMPHOSPHATE']
+      MATCH  win=1  'DIPOTASSIUMPHOSPHATE'  ->  'dipotassium phosphate'
+  SEG  ['TOCOPHEROL']
+      MATCH  win=1  'TOCOPHEROL'  ->  'tocopherol'
+  SEG  ['PHYTOSPHINGOSINE']
+      MATCH  win=1  'PHYTOSPHINGOSINE'  ->  'phytosphingosine'
+  SEG  ['EDIA', 'DIPOTASSIUMPHOSPHATE']
+      MATCH  win=2  'EDIA DIPOTASSIUMPHOSPHATE'  ->  'dipotassium phosphate'
+  SEG  ['TOCOPHEROLPHYTOSPHINGOSINE']
+      SKIP   'TOCOPHEROLPHYTOSPHINGOSINE'
+  SEG  ['XANTHAN', 'GUM', 'ETHYLHEXYL', 'GLYCERIN']
+      MATCH  win=2  'XANTHAN GUM'  ->  'xanthan gum'
+      MATCH  win=2  'ETHYLHEXYL GLYCERIN'  ->  'ethylhexylglycerin'
+  SEG  ['CodeFLLD213768/21']
+      SKIP   'CodeFLLD213768/21'
+  scanning A21.jpg (cropped)...
+
+[OCR-TILED] 16 deduplicated lines:
+  y=   52  conf=0.97  'Ingredients | Water, Glycerin, Isononyi Isononanoate, Isododecane, 1,2-Hexanediol,'
+  y=  118  conf=0.99  'Pentylene Glycol, Polydecene, Betula Platyphylla Japonica Juice, Jojoba Esters'
+  y=  174  conf=0.97  'Panthendl Gyceryl Glucoside.Acacia Senegal Gum. Hydrolyzed Hibiscus Esculentus'
+  y=  179  conf=0.97  'Pantheno!, Glyceryl Glucoside, Acacia Senegal Gum, Hydrolyzed Hibiscus Esculentus'
+  y=  244  conf=0.99  'Extract, Sodium Hyaluronate, Hyaluronic Acid, Lupinus Albus Seed Extract, Moringa'
+  y=  308  conf=0.95  'Oleifera Seed Extract, Melia Azadirachta Leaf Extract, Meia Azadirachta Flower Extract'
+  y=  370  conf=0.97  'Coccinia Indica Fruit Extract, Aloe Barbadensis Flower Extract, Solanum Melongena'
+  y=  434  conf=0.99  '(Eggplant) Fruit Extract, Ocimum Sanctum Leaf Extract, Corallina Officinalis Extract,'
+  y=  442  conf=0.93  '(Eggpiant) Fruit Extract, OcimumSanctum Leaf Extract, CoralinaOmcinaisExtract,'
+  y=  498  conf=0.97  'Curcuma Longa (Turmeric) Root Extract, Ascorbic Acid, Pentaerythrityl Tetraethyl'
+  y=  562  conf=0.97  'hexanoate, Ammonium Acryioyldimethyitaurate/VP Copolymer Polyglyceryl-3 Miethyl'
+  y=  626  conf=0.99  'glucose Distearate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Tromethamine,'
+  y=  689  conf=0.99  'Glyceryl Acrylate/Acrylic Acid Copolymer, Ethylhexylglycerin, Agar, Dipotassium'
+  y=  740  conf=0.73  'VCoDisodiumEDTA'
+  y=  744  conf=0.53  'GMoroiateCk'
+  y=  752  conf=0.96  'Glycyrrhizate, Glyceryl Caprylate, Butylene Glycol, Disodium EDTA'
+
+[PARSE] extracted text (1144 chars):
+  ', Water, Glycerin, Isononyi Isononanoate, Isododecane, 1.2-Hexanediol, Pentylene Glycol, Polydecene, Betula Platyphylla Japonica Juice, Jojoba Esters Panthendl Gyceryl Glucoside, Acacia Senegal Gum. Hydrolyzed Hibiscus Esculentus Pantheno!, Glyceryl Glucoside, Acacia Senegal Gum, Hydrolyzed Hibiscus Esculentus Extract, Sodium Hyaluronate, Hyaluronic Acid, Lupinus Albus Seed Extract, Moringa Oleife'...
+  SEG  ['Water']
+      MATCH  win=1  'Water'  ->  'water'
+  SEG  ['Glycerin']
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+  SEG  ['Isononyi', 'Isononanoate']
+      MATCH  win=2  'Isononyi Isononanoate'  ->  'isononyl isononanoate'
+  SEG  ['Isododecane']
+      MATCH  win=1  'Isododecane'  ->  'isododecane'
+  SEG  ['1.2-Hexanediol']
+      MATCH  win=1  '1.2-Hexanediol'  ->  '1�2-hexanediol'
+  SEG  ['Pentylene', 'Glycol']
+      MATCH  win=2  'Pentylene Glycol'  ->  'pentylene glycol'
+  SEG  ['Polydecene']
+      MATCH  win=1  'Polydecene'  ->  'polydecene'
+  SEG  ['Betula', 'Platyphylla', 'Japonica', 'Juice']
+      MATCH  win=4  'Betula Platyphylla Japonica Juice'  ->  'betula platyphylla japonica juice'
+  SEG  ['Jojoba', 'Esters', 'Panthendl', 'Gyceryl', 'Glucoside']
+      MATCH  win=2  'Jojoba Esters'  ->  'jojoba esters'
+      MATCH  win=1  'Panthendl'  ->  'panthenol'
+      MATCH  win=2  'Gyceryl Glucoside'  ->  'tocopheryl glucoside'
+  SEG  ['Acacia', 'Senegal', 'Gum.', 'Hydrolyzed', 'Hibiscus', 'Esculentus', 'Pantheno!']
+      MATCH  win=3  'Acacia Senegal Gum.'  ->  'acacia senegal gum extract'
+      SKIP   'Hydrolyzed'
+      SKIP   'Hibiscus'
+      SKIP   'Esculentus'
+      MATCH  win=1  'Pantheno!'  ->  'panthenol'
+  SEG  ['Glyceryl', 'Glucoside']
+      MATCH  win=2  'Glyceryl Glucoside'  ->  'lauryl glucoside'
+  SEG  ['Acacia', 'Senegal', 'Gum']
+      MATCH  win=3  'Acacia Senegal Gum'  ->  'acacia senegal gum extract'
+  SEG  ['Hydrolyzed', 'Hibiscus', 'Esculentus', 'Extract']
+      MATCH  win=4  'Hydrolyzed Hibiscus Esculentus Extract'  ->  'hibiscus esculentus seed extract'
+  SEG  ['Sodium', 'Hyaluronate']
+      MATCH  win=2  'Sodium Hyaluronate'  ->  'sodium hyaluronate'
+  SEG  ['Hyaluronic', 'Acid']
+      MATCH  win=2  'Hyaluronic Acid'  ->  'hyaluronic acid'
+  SEG  ['Lupinus', 'Albus', 'Seed', 'Extract']
+      MATCH  win=3  'Lupinus Albus Seed'  ->  'lupinus albus seed oil'
+      SKIP   'Extract'
+  SEG  ['Moringa', 'Oleifera', 'Seed', 'Extract']
+      MATCH  win=4  'Moringa Oleifera Seed Extract'  ->  'moringa oleifera seedcake extract'
+  SEG  ['Melia', 'Azadirachta', 'Leaf', 'Extract']
+      MATCH  win=4  'Melia Azadirachta Leaf Extract'  ->  'melia azadirachta leaf extract'
+  SEG  ['Meia', 'Azadirachta', 'Flower', 'Extract', 'Coccinia', 'Indica', 'Fruit', 'Extract']
+      MATCH  win=5  'Meia Azadirachta Flower Extract Coccinia'  ->  'melia azadirachta flower extract'
+      MATCH  win=3  'Indica Fruit Extract'  ->  'fragaria indica extract'
+  SEG  ['Aloe', 'Barbadensis', 'Flower', 'Extract']
+      MATCH  win=4  'Aloe Barbadensis Flower Extract'  ->  'aloe barbadensis leaf extract'
+  SEG  ['Solanum', 'Melongena']
+      SKIP   'Solanum'
+      SKIP   'Melongena'
+  SEG  ['Eggplant', 'Fruit', 'Extract']
+      SKIP   'Eggplant'
+      MATCH  win=2  'Fruit Extract'  ->  'fruit extracts'
+  SEG  ['Ocimum', 'Sanctum', 'Leaf', 'Extract']
+      SKIP   'Ocimum'
+      SKIP   'Sanctum'
+      MATCH  win=2  'Leaf Extract'  ->  'leaf extracts'
+  SEG  ['Corallina', 'Officinalis', 'Extract']
+      MATCH  win=3  'Corallina Officinalis Extract'  ->  'corallina officinalis thallus extract'
+  SEG  ['Eggpiant', 'Fruit', 'Extract']
+      SKIP   'Eggpiant'
+      MATCH  win=2  'Fruit Extract'  ->  'fruit extracts'
+  SEG  ['OcimumSanctum', 'Leaf', 'Extract']
+      SKIP   'OcimumSanctum'
+      MATCH  win=2  'Leaf Extract'  ->  'leaf extracts'
+  SEG  ['CoralinaOmcinaisExtract']
+      SKIP   'CoralinaOmcinaisExtract'
+  SEG  ['Curcuma', 'Longa']
+      SKIP   'Curcuma'
+      SKIP   'Longa'
+  SEG  ['Turmeric', 'Root', 'Extract']
+      SKIP   'Turmeric'
+      MATCH  win=2  'Root Extract'  ->  'root extracts'
+  SEG  ['Ascorbic', 'Acid']
+      MATCH  win=2  'Ascorbic Acid'  ->  'ascorbic acid'
+  SEG  ['Pentaerythrityl', 'Tetraethyl', 'hexanoate']
+      MATCH  win=2  'Pentaerythrityl Tetraethyl'  ->  'pentaerythrityl tetraoleate'
+      SKIP   'hexanoate'
+  SEG  ['Ammonium', 'Acryioyldimethyitaurate/VP', 'Copolymer', 'Polyglyceryl-3', 'Miethyl', 'glucose', 'Distearate']
+      MATCH  win=4  'Ammonium Acryioyldimethyitaurate/VP Copolymer Polyglyceryl-3'  ->  'ammonium acryloyldimethyltaurate/vp copolymer'
+      MATCH  win=3  'Miethyl glucose Distearate'  ->  'peg-20 methyl glucose distearate'
+  SEG  ['Acrylates/C10-30', 'Alkyl', 'Acrylate', 'Crosspolymer']
+      MATCH  win=4  'Acrylates/C10-30 Alkyl Acrylate Crosspolymer'  ->  'acrylates/c10-30 alkyl acrylate crosspolymer'
+  SEG  ['Tromethamine']
+      MATCH  win=1  'Tromethamine'  ->  'tromethamine'
+  SEG  ['Glyceryl', 'Acrylate/Acrylic', 'Acid', 'Copolymer']
+      MATCH  win=4  'Glyceryl Acrylate/Acrylic Acid Copolymer'  ->  'glyceryl acrylate/acrylic acid copolymer'
+  SEG  ['Ethylhexyl', 'glycerin']
+      MATCH  win=2  'Ethylhexyl glycerin'  ->  'ethylhexylglycerin'
+  SEG  ['Agar']
+      MATCH  win=1  'Agar'  ->  'agar'
+  SEG  ['Dipotassium', 'VCo', 'DisodiumEDTA', 'GMoroiateCk', 'Glycyrrhizate']
+      SKIP   'Dipotassium'
+      MATCH  win=2  'VCo DisodiumEDTA'  ->  'disodium edta'
+      SKIP   'GMoroiateCk'
+      SKIP   'Glycyrrhizate'
+  SEG  ['Glyceryl', 'Caprylate']
+      MATCH  win=2  'Glyceryl Caprylate'  ->  'glyceryl caprylate'
+  SEG  ['Butylene', 'Glycol']
+      MATCH  win=2  'Butylene Glycol'  ->  'butylene glycol'
+  SEG  ['Disodium', 'EDTA']
+      MATCH  win=2  'Disodium EDTA'  ->  'disodium edta'
+  scanning A23.jpg (cropped)...
+
+[OCR-TILED] 12 deduplicated lines:
+  y=   20  conf=0.77  'ramideAtoLouon'
+  y=   76  conf=0.94  'WATER/AQUA/EAUBUTYLENEGLYCOLGLYCERINETHYLHEXYL STEARATEDIMETHICONEDICAPRYLYL'
+  y=  155  conf=0.94  'CARBONATE,BEHENYL ALCOHOL, STEARIC ACID,PALMITIC ACID,CETYL ETHYLHEXANOATE,HYDROGENATEDPOLY'
+  y=  170  conf=0.95  'CARBONATE,BEHENYLALCOHOLSTEARICACID,PALMITICACID,CETYLEIHYLHEXANOATE,HYDROGENATEDPOLY'
+  y=  298  conf=0.96  'POLYACRYLATE-13,MANNITOL,ARACHIDYL GLUCOSIDEC12-20ALKYL GLUCOSIDEHYDROGENATEDPOLYISOBUTENE'
+  y=  370  conf=0.96  'GLYCERYL CAPRYLATE,ETHYLHEXYLGLYCERIN,POLYGLYCERYL-10 LAURATE,HYDROGENATEDLECITHIN,ETHYLHEXYL'
+  y=  441  conf=0.96  'PALMITATE.DIMETHICONOL.PANAXGINSENG ROOT WATER.CARBOMER.SORBITAN ISOSTEARATE.ACRYLATES/AMMONIUM'
+  y=  456  conf=0.96  'PALMITATE,DIMETHICONOLPANAXGINSENG ROOT WATER, CARBOMER, SORBITANISOSTEARATE,ACRYLATES/AMMONIUM'
+  y=  585  conf=0.95  'MUME FRUIT EXTRACT.ARACHIDIC ACID.GLYCINE MAX (SOYBEAN OIL.SQUALANE.MADECASSOSIDE.POLYGLYCERYL-10'
+  y=  662  conf=0.95  'PENTASTEARATE TOCOPHEROL.CERAMIDENP,OLEIC ACID,PHYTOSPHINGOSINEPENTYLENEGLYCOLDIPOTASSIUM'
+  y=  732  conf=0.95  'GLYCYRRHIZATE.CANOLA OIL/HUILEDE COLZAROSMARINUS OFFICINALISROSEMARYLEAFEXTRACT'
+  y=  746  conf=0.92  'GLYCYRRHIZATE,CANOLA OIL/HUILE DE COLZA,ROSMARINUS OFFICINALIS(ROSEMARY) LEAF EXTRACT'
+
+[PARSE] extracted text (1023 chars):
+  'ramideAtoLouon WATER/AQUA/EAU BUTYLENE GLYCOL GLYCERINETHYLHEXYL STEARATE DIMETHICONEDI CAPRYLYL CARBONATE,BEHENYL ALCOHOL, STEARIC ACID,PALMITIC ACID,CETYL ETHYLHEXANOATE,HYDROGENATEDPOLY CARBONATE,BEHENYLALCOHOLSTEARICACID,PALMITICACID,CETYLEIHYLHEXANOATE,HYDROGENATEDPOLY POLYACRYLATE-13,MANNITOL,ARACHIDYL GLUCOSIDEC12-20 ALKYL GLUCOSIDE HYDROGENATEDPOLYISOBUTENE GLYCERYL CAPRYLATE,ETHYLHEXYL GL'...
+  SEG  ['ramideAtoLouon', 'WATER/AQUA/EAU', 'BUTYLENE', 'GLYCOL', 'GLYCERINETHYLHEXYL', 'STEARATE', 'DIMETHICONEDI', 'CAPRYLYL', 'CARBONATE']
+      MATCH  win=7  'ramideAtoLouon WATER/AQUA/EAU BUTYLENE GLYCOL GLYCERINETHYLHEXYL STEARATE DIMETHICONEDI'  ->  'aqua'
+      MATCH  win=2  'CAPRYLYL CARBONATE'  ->  'caprylyl laurate'
+  SEG  ['BEHENYL', 'ALCOHOL']
+      MATCH  win=2  'BEHENYL ALCOHOL'  ->  'behenyl alcohol'
+  SEG  ['STEARIC', 'ACID']
+      MATCH  win=2  'STEARIC ACID'  ->  'stearic acid'
+  SEG  ['PALMITIC', 'ACID']
+      MATCH  win=2  'PALMITIC ACID'  ->  'palmitic acid'
+  SEG  ['CETYL', 'ETHYLHEXANOATE']
+      MATCH  win=2  'CETYL ETHYLHEXANOATE'  ->  'cetyl ethylhexanoate'
+  SEG  ['HYDROGENATEDPOLY', 'CARBONATE']
+      SKIP   'HYDROGENATEDPOLY'
+      SKIP   'CARBONATE'
+  SEG  ['BEHENYLALCOHOLSTEARICACID']
+      SKIP   'BEHENYLALCOHOLSTEARICACID'
+  SEG  ['PALMITICACID']
+      SKIP   'PALMITICACID'
+  SEG  ['CETYLEIHYLHEXANOATE']
+      MATCH  win=1  'CETYLEIHYLHEXANOATE'  ->  'cetyl ethylhexanoate'
+  SEG  ['HYDROGENATEDPOLY', 'POLYACRYLATE-13']
+      SKIP   'HYDROGENATEDPOLY'
+      MATCH  win=1  'POLYACRYLATE-13'  ->  'polyacrylate-33'
+  SEG  ['MANNITOL']
+      MATCH  win=1  'MANNITOL'  ->  'mannitol'
+  SEG  ['ARACHIDYL', 'GLUCOSIDEC12-20', 'ALKYL', 'GLUCOSIDE', 'HYDROGENATEDPOLYISOBUTENE', 'GLYCERYL', 'CAPRYLATE']
+      MATCH  win=2  'ARACHIDYL GLUCOSIDEC12-20'  ->  'arachidyl glucoside'
+      MATCH  win=2  'ALKYL GLUCOSIDE'  ->  'gallyl glucoside'
+      MATCH  win=2  'HYDROGENATEDPOLYISOBUTENE GLYCERYL'  ->  'glyceryl hydrogenated soyate'
+      SKIP   'CAPRYLATE'
+  SEG  ['ETHYLHEXYL', 'GLYCERIN']
+      MATCH  win=2  'ETHYLHEXYL GLYCERIN'  ->  'ethylhexylglycerin'
+  SEG  ['POLYGLYCERYL-10', 'LAURATE']
+      MATCH  win=2  'POLYGLYCERYL-10 LAURATE'  ->  'polyglyceryl-10 laurate'
+  SEG  ['HYDROGENATED', 'LECITHIN']
+      MATCH  win=2  'HYDROGENATED LECITHIN'  ->  'hydrogenated lysolecithin'
+  SEG  ['ETHYLHEXYL', 'PALMITATE']
+      MATCH  win=2  'ETHYLHEXYL PALMITATE'  ->  'ethylhexyl palmitate'
+  SEG  ['DIMETHICONOL']
+      MATCH  win=1  'DIMETHICONOL'  ->  'dimethiconol'
+  SEG  ['PANAXGINSENG', 'ROOT', 'WATER']
+      SKIP   'PANAXGINSENG'
+      SKIP   'ROOT'
+      MATCH  win=1  'WATER'  ->  'water'
+  SEG  ['CARBOMER']
+      MATCH  win=1  'CARBOMER'  ->  'carbomer'
+  SEG  ['SORBITAN', 'ISOSTEARATE']
+      MATCH  win=2  'SORBITAN ISOSTEARATE'  ->  'sorbitan isostearate'
+  SEG  ['ACRYLATES/AMMONIUM', 'PALMITATE']
+      SKIP   'ACRYLATES/AMMONIUM'
+      SKIP   'PALMITATE'
+  SEG  ['DIMETHICONOLPANAXGINSENG', 'ROOT', 'WATER']
+      SKIP   'DIMETHICONOLPANAXGINSENG'
+      SKIP   'ROOT'
+      MATCH  win=1  'WATER'  ->  'water'
+  SEG  ['CARBOMER']
+      MATCH  win=1  'CARBOMER'  ->  'carbomer'
+  SEG  ['SORBITANISOSTEARATE']
+      MATCH  win=1  'SORBITANISOSTEARATE'  ->  'sorbitan triisostearate'
+  SEG  ['ACRYLATES/AMMONIUM', 'MUME', 'FRUIT', 'EXTRACT']
+      SKIP   'ACRYLATES/AMMONIUM'
+      MATCH  win=3  'MUME FRUIT EXTRACT'  ->  'fruit extracts'
+  SEG  ['ARACHIDIC', 'ACID']
+      MATCH  win=2  'ARACHIDIC ACID'  ->  'arachidic acid'
+  SEG  ['GLYCINE', 'MAX', '(SOYBEAN', 'OIL']
+      MATCH  win=2  'GLYCINE MAX'  ->  'glycine max pulp'
+      SKIP   '(SOYBEAN'
+      SKIP   'OIL'
+  SEG  ['SQUALANE']
+      MATCH  win=1  'SQUALANE'  ->  'squalane'
+  SEG  ['MADECASSOSIDE']
+      MATCH  win=1  'MADECASSOSIDE'  ->  'madecassoside'
+  SEG  ['POLYGLYCERYL-10', 'PENTASTEARATE', 'TOCOPHEROL']
+      MATCH  win=2  'POLYGLYCERYL-10 PENTASTEARATE'  ->  'polyglyceryl-10 pentastearate'
+      MATCH  win=1  'TOCOPHEROL'  ->  'tocopherol'
+  SEG  ['CERAMIDENP']
+      MATCH  win=1  'CERAMIDENP'  ->  'ceramide np'
+  SEG  ['OLEIC', 'ACID']
+      MATCH  win=2  'OLEIC ACID'  ->  'oleic acid'
+  SEG  ['PHYTOSPHINGOSINEPENTYLENE', 'GLYCOL', 'DIPOTASSIUM', 'GLYCYRRHIZATE']
+      SKIP   'PHYTOSPHINGOSINEPENTYLENE'
+      MATCH  win=1  'GLYCOL'  ->  'glycol'
+      MATCH  win=2  'DIPOTASSIUM GLYCYRRHIZATE'  ->  'dipotassium glycyrrhizate'
+  SEG  ['CANOLA', 'OIL/HUILEDE', 'COLZAROSMARINUS', 'OFFICINALISROSEMARYLEAFEXTRACT', 'GLYCYRRHIZATE']
+      MATCH  win=5  'CANOLA OIL/HUILEDE COLZAROSMARINUS OFFICINALISROSEMARYLEAFEXTRACT GLYCYRRHIZATE'  ->  'canola oil'
+  SEG  ['CANOLA', 'OIL/HUILE', 'DE', 'COLZA']
+      MATCH  win=4  'CANOLA OIL/HUILE DE COLZA'  ->  'canola oil'
+  SEG  ['ROSMARINUS', 'OFFICINALIS']
+      MATCH  win=2  'ROSMARINUS OFFICINALIS'  ->  'rosmarinus officinalis stem oil'
+  SEG  ['ROSEMARY', 'LEAF', 'EXTRACT']
+      MATCH  win=3  'ROSEMARY LEAF EXTRACT'  ->  'rosa rugosa leaf extract'
+  scanning A24.jpg (cropped)...
+
+[OCR-TILED] 22 deduplicated lines:
+  y=   62  conf=0.93  'Ingredlents Water,Butylene Glycol, Glycerin,1.2-Hexanediol.Hydrogenated Didecene'
+  y=  120  conf=0.92  'Allantoin.Trehalose,Hamamells Virginiana (Witch Hazel) Extract.Panthenol,Hydrolyzed'
+  y=  166  conf=0.93  'Hyaluronlc Acid.Sodlum Hyaluronate.Sodium Hyaluronate Crosspolymer.Sodium Acetylated'
+  y=  179  conf=0.92  'Hyaluronlc Acid.Sodium Hyaluronate.Sodium Hyaluronate Crosspolymer, Sodlum Acetylated'
+  y=  235  conf=0.94  'Hyaluronate.Hydrolyzed Sodium Hyaluronate.Glyceryl Acrylate/Acryllc Acld Copolymer,'
+  y=  294  conf=0.94  'PVM/MA Copclymer.Hydroxyethyl Acrylate/Sodlum Acryloyldimethyl Taurate Copolymer,'
+  y=  302  conf=0.88  'yetnxlAcryate/sodlumAcryioyidimeny!TaurateCoporymer'
+  y=  346  conf=0.90  '2.3-Butanediol.Cetearyl Alconcl.C14-22 Alcohols.C12-20Alkyl Glucoside.Pentylene Glycol'
+  y=  404  conf=0.93  'Sorbitan Isostearate, Caprylio/Capric Triglyceride.Melia Azadirachta Leaf Extract.Mella'
+  y=  453  conf=0.91  'uit ExtractSolanum Melongena(Eagplant)Fruit'
+  y=  454  conf=0.96  'Azadirachta FlowerExtr'
+  y=  455  conf=0.68  'LIndian'
+  y=  460  conf=0.93  'Azadirachta Flower Extract.Coccinla indica Fruit Extract Solanum Melongena (Eggplant) Fruit'
+  y=  515  conf=0.91  'Extract, Ocimum Sanctum Leaf Extract Curcuma Longa (Turmeric) Root Extract, Corallina'
+  y=  575  conf=0.92  'Officinalis Extract.Salvia Sclarea (Clary) Extract.Lavandula Angustifolia (Lavender) Flower'
+  y=  588  conf=0.83  'OmicinalisExtract.Saivia Sciarea (Ciary)Extrac,LavandulaAngustifolia (LavenderHlower'
+  y=  626  conf=0.93  'Extract, Hyacinthus Orientalis (Hyacinth) Extract. Chamomilla Recutita (Matricaria) Flowor'
+  y=  684  conf=0.92  'Extract Centaurea Cyanus Flower Extract.Borago Officinalis Extract Disodium EDTA, Carbom'
+  y=  730  conf=0.91  'exvlglycerin'
+  y=  734  conf=0.91  '.Xanthan Gum.Glutathione,'
+  y=  734  conf=0.96  'MalachiteExtract.Ethylh'
+  y=  744  conf=0.92  'er.TromethamineXanthan Gum.Glutathione,Malachite Extract,Ethylhexylglycerin'
+
+[PARSE] extracted text (1508 chars):
+  'Ingredlents Water,Butylene Glycol, Glycerin,1.2-Hexanediol, Hydrogenated Didecene Allantoin, Trehalose,Hamamells Virginiana , Witch Hazel Extract, Panthenol,Hydrolyzed Hyaluronlc Acid, Sodlum Hyaluronate, Sodium Hyaluronate Crosspolymer, Sodium Acetylated Hyaluronlc Acid, Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Sodlum Acetylated Hyaluronate, Hydrolyzed Sodium Hyaluronate, Glyceryl Acr'...
+  SEG  ['Ingredlents', 'Water']
+      SKIP   'Ingredlents'
+      MATCH  win=1  'Water'  ->  'water'
+  SEG  ['Butylene', 'Glycol']
+      MATCH  win=2  'Butylene Glycol'  ->  'butylene glycol'
+  SEG  ['Glycerin']
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+  SEG  ['1.2-Hexanediol']
+      MATCH  win=1  '1.2-Hexanediol'  ->  '1�2-hexanediol'
+  SEG  ['Hydrogenated', 'Didecene', 'Allantoin']
+      MATCH  win=2  'Hydrogenated Didecene'  ->  'hydrogenated didecene'
+      MATCH  win=1  'Allantoin'  ->  'allantoin'
+  SEG  ['Trehalose']
+      MATCH  win=1  'Trehalose'  ->  'trehalose'
+  SEG  ['Hamamells', 'Virginiana']
+      MATCH  win=2  'Hamamells Virginiana'  ->  'hamamelis virginiana water'
+  SEG  ['Witch', 'Hazel', 'Extract']
+      SKIP   'Witch'
+      MATCH  win=2  'Hazel Extract'  ->  'malt extract'
+  SEG  ['Panthenol']
+      MATCH  win=1  'Panthenol'  ->  'panthenol'
+  SEG  ['Hydrolyzed', 'Hyaluronlc', 'Acid']
+      MATCH  win=3  'Hydrolyzed Hyaluronlc Acid'  ->  'hydrolyzed calcium hyaluronate'
+  SEG  ['Sodlum', 'Hyaluronate']
+      MATCH  win=2  'Sodlum Hyaluronate'  ->  'sodium hyaluronate'
+  SEG  ['Sodium', 'Hyaluronate', 'Crosspolymer']
+      MATCH  win=3  'Sodium Hyaluronate Crosspolymer'  ->  'sodium hyaluronate crosspolymer'
+  SEG  ['Sodium', 'Acetylated', 'Hyaluronlc', 'Acid']
+      MATCH  win=4  'Sodium Acetylated Hyaluronlc Acid'  ->  'sodium acetylated hyaluronate'
+  SEG  ['Sodium', 'Hyaluronate']
+      MATCH  win=2  'Sodium Hyaluronate'  ->  'sodium hyaluronate'
+  SEG  ['Sodium', 'Hyaluronate', 'Crosspolymer']
+      MATCH  win=3  'Sodium Hyaluronate Crosspolymer'  ->  'sodium hyaluronate crosspolymer'
+  SEG  ['Sodlum', 'Acetylated', 'Hyaluronate']
+      MATCH  win=3  'Sodlum Acetylated Hyaluronate'  ->  'sodium acetylated hyaluronate'
+  SEG  ['Hydrolyzed', 'Sodium', 'Hyaluronate']
+      MATCH  win=3  'Hydrolyzed Sodium Hyaluronate'  ->  'hydrolyzed sodium hyaluronate'
+  SEG  ['Glyceryl', 'Acrylate/Acryllc', 'Acld', 'Copolymer']
+      MATCH  win=4  'Glyceryl Acrylate/Acryllc Acld Copolymer'  ->  'glyceryl acrylate/acrylic acid copolymer'
+  SEG  ['PVM/MA', 'Copclymer']
+      SKIP   'PVM/MA'
+      SKIP   'Copclymer'
+  SEG  ['Hydroxyethyl', 'Acrylate/Sodlum', 'Acryloyldimethyl', 'Taurate', 'Copolymer']
+      MATCH  win=5  'Hydroxyethyl Acrylate/Sodlum Acryloyldimethyl Taurate Copolymer'  ->  'sodium acrylate/sodium acryloyldimethyl taurate copolymer'
+  SEG  ['yetnxlAcryate/sodlumAcryioyidimeny!TaurateCoporymer', '2.3-Butanediol']
+      SKIP   'yetnxlAcryate/sodlumAcryioyidimeny!TaurateCoporymer'
+      MATCH  win=1  '2.3-Butanediol'  ->  '23-butanediol'
+  SEG  ['Cetearyl', 'Alconcl']
+      MATCH  win=2  'Cetearyl Alconcl'  ->  'cetearyl alcohol'
+  SEG  ['C14-22', 'Alcohols']
+      MATCH  win=2  'C14-22 Alcohols'  ->  'c14-22 alcohols'
+  SEG  ['C12-20', 'Alkyl', 'Glucoside']
+      MATCH  win=3  'C12-20 Alkyl Glucoside'  ->  'c12-20 alkyl glucoside'
+  SEG  ['Pentylene', 'Glycol', 'Sorbitan', 'Isostearate']
+      MATCH  win=2  'Pentylene Glycol'  ->  'pentylene glycol'
+      MATCH  win=2  'Sorbitan Isostearate'  ->  'sorbitan isostearate'
+  SEG  ['Caprylio/Capric', 'Triglyceride']
+      MATCH  win=2  'Caprylio/Capric Triglyceride'  ->  'caprylic/capric triglyceride'
+  SEG  ['Melia', 'Azadirachta', 'Leaf', 'Extract']
+      MATCH  win=4  'Melia Azadirachta Leaf Extract'  ->  'melia azadirachta leaf extract'
+  SEG  ['Mella', 'uit', 'ExtractSolanum', 'Melongena']
+      SKIP   'Mella'
+      SKIP   'uit'
+      SKIP   'ExtractSolanum'
+      SKIP   'Melongena'
+  SEG  ['EagplantFruit', 'Azadirachta', 'FlowerExtr', 'LIndian', 'Azadirachta', 'Flower', 'Extract']
+      SKIP   'EagplantFruit'
+      SKIP   'Azadirachta'
+      MATCH  win=5  'FlowerExtr LIndian Azadirachta Flower Extract'  ->  'melia azadirachta flower extract'
+  SEG  ['Coccinla', 'indica', 'Fruit', 'Extract', 'Solanum', 'Melongena']
+      MATCH  win=5  'Coccinla indica Fruit Extract Solanum'  ->  'coccinia indica fruit extract'
+      SKIP   'Melongena'
+  SEG  ['Eggplant', 'Fruit', 'Extract']
+      SKIP   'Eggplant'
+      MATCH  win=2  'Fruit Extract'  ->  'fruit extracts'
+  SEG  ['Ocimum', 'Sanctum', 'Leaf', 'Extract', 'Curcuma', 'Longa']
+      SKIP   'Ocimum'
+      SKIP   'Sanctum'
+      MATCH  win=4  'Leaf Extract Curcuma Longa'  ->  'curcuma longa root extract'
+  SEG  ['Turmeric', 'Root', 'Extract']
+      SKIP   'Turmeric'
+      MATCH  win=2  'Root Extract'  ->  'root extracts'
+  SEG  ['Corallina', 'Officinalis', 'Extract']
+      MATCH  win=3  'Corallina Officinalis Extract'  ->  'corallina officinalis thallus extract'
+  SEG  ['Salvia', 'Sclarea']
+      SKIP   'Salvia'
+      SKIP   'Sclarea'
+  SEG  ['Clary', 'Extract']
+      MATCH  win=2  'Clary Extract'  ->  'sea clay extract'
+  SEG  ['Lavandula', 'Angustifolia']
+      MATCH  win=2  'Lavandula Angustifolia'  ->  'lavandula angustifolia water'
+  SEG  ['Lavender', 'Flower', 'OmicinalisExtract']
+      SKIP   'Lavender'
+      SKIP   'Flower'
+      SKIP   'OmicinalisExtract'
+  SEG  ['Saivia', 'Sciarea']
+      SKIP   'Saivia'
+      SKIP   'Sciarea'
+  SEG  ['CiaryExtrac']
+      SKIP   'CiaryExtrac'
+  SEG  ['LavandulaAngustifolia', '(LavenderHlower', 'Extract']
+      SKIP   'LavandulaAngustifolia'
+      SKIP   '(LavenderHlower'
+      SKIP   'Extract'
+  SEG  ['Hyacinthus', 'Orientalis']
+      MATCH  win=2  'Hyacinthus Orientalis'  ->  'hyacinthus orientalis extract'
+  SEG  ['Hyacinth', 'Extract.', 'Chamomilla', 'Recutita']
+      MATCH  win=4  'Hyacinth Extract. Chamomilla Recutita'  ->  'chamomilla recutita leaf extract'
+  SEG  ['Matricaria', 'Flowor', 'Extract', 'Centaurea', 'Cyanus', 'Flower', 'Extract']
+      MATCH  win=5  'Matricaria Flowor Extract Centaurea Cyanus'  ->  'centaurea cyanus flower extract'
+      MATCH  win=2  'Flower Extract'  ->  'flower extracts'
+  SEG  ['Borago', 'Officinalis', 'Extract', 'Disodium', 'EDTA']
+      MATCH  win=3  'Borago Officinalis Extract'  ->  'borago officinalis ethyl ester'
+      MATCH  win=2  'Disodium EDTA'  ->  'disodium edta'
+  SEG  ['Carbom', 'exvl', 'glycerin']
+      SKIP   'Carbom'
+      SKIP   'exvl'
+      MATCH  win=1  'glycerin'  ->  'glycerin'
+  SEG  ['Xanthan', 'Gum']
+      MATCH  win=2  'Xanthan Gum'  ->  'xanthan gum'
+  SEG  ['Glutathione']
+      MATCH  win=1  'Glutathione'  ->  'glutathione'
+  SEG  ['MalachiteExtract']
+      SKIP   'MalachiteExtract'
+  SEG  ['Ethylh', 'er']
+      MATCH  win=2  'Ethylh er'  ->  'ethyl ether'
+  SEG  ['Tromethamine', 'Xanthan', 'Gum']
+      MATCH  win=1  'Tromethamine'  ->  'tromethamine'
+      MATCH  win=2  'Xanthan Gum'  ->  'xanthan gum'
+  SEG  ['Glutathione']
+      MATCH  win=1  'Glutathione'  ->  'glutathione'
+  SEG  ['Malachite', 'Extract']
+      MATCH  win=1  'Malachite'  ->  'malachite'
+      SKIP   'Extract'
+  SEG  ['Ethylhexyl', 'glycerin']
+      MATCH  win=2  'Ethylhexyl glycerin'  ->  'ethylhexylglycerin'
+  scanning A25.jpg (cropped)...
+
+[OCR-TILED] 24 deduplicated lines:
+  y=   30  conf=0.77  'SSAAU:WATER,GLYCERIN,'
+  y=   78  conf=0.83  'DIPROPILENEGLYCOL2,3-BUTANEDIOL,'
+  y=  122  conf=0.93  'NIACENAMIDE,CAPRYLIC/CAPRIC'
+  y=  163  conf=0.87  'TRIGYCERIDE,1,2HEXANEDIOL,'
+  y=  206  conf=0.91  'PROPANEDIOL.PANTHENOL,NYLON-12'
+  y=  252  conf=0.96  'COCO-CAPRYLATE/CAPRATE.CAREOMER'
+  y=  295  conf=0.90  'TROMETHAMINE, SOORUM POLYACRYLATE'
+  y=  300  conf=0.90  'TROMEIHAMONESOOIMPOLYACRILATE'
+  y=  334  conf=0.94  'POLYMETHYLSILSESQUIOXANE,'
+  y=  378  conf=0.87  'SCLEROTIUMGUM,HDL/TREMETHYLOL'
+  y=  423  conf=0.96  'HEXYLLACTONE CROSSPOLYMER,'
+  y=  434  conf=0.56  'XCROAOAOTROR,'
+  y=  462  conf=0.89  'ACETAMIDEMEA.TRISCDILM EDTA'
+  y=  466  conf=0.88  'ACETAMIDE MEA,TRISCDILMEDTA,'
+  y=  508  conf=0.95  'SARCOSINE,PENTYLENEGLYCOL,'
+  y=  550  conf=0.92  'SQUALANE,PALMITAMEDEMEA,'
+  y=  593  conf=0.91  'TOCOPHERCL,HYDROGENATED LECITHIN,'
+  y=  638  conf=0.94  'ETHYUHEXYLGLYCERIN,HIDROLYZED'
+  y=  680  conf=0.92  'SODIUM HYALURONATE,CENTELLA'
+  y=  724  conf=0.94  'ASIATICA EXTRACT,DIPOTASSIUM'
+  y=  768  conf=0.94  'GLYCYRRHIZATE, SODIUMHYALURONATE'
+  y=  812  conf=0.94  'CROSSPOLYMER,CERAMIDE NPCOPPER'
+  y=  854  conf=0.94  'TRIPSPTIDE-1'
+  y=  860  conf=0.82  'TRIPSPTIDE-L'
+
+[PARSE] extracted text (660 chars):
+  'SSAAU:WATER,GLYCERIN, DIPROPILENE GLYCOL2.3-BUTANEDIOL, NIACENAMIDE,CAPRYLIC/CAPRIC TRIGYCERIDE,1.2 HEXANEDIOL, PROPANEDIOL, PANTHENOL,NYLON-12 COCO-CAPRYLATE/CAPRATE, CAREOMER TROMETHAMINE, SOORUM POLYACRYLATE TROMEIHAMONESOOIMPOLYACRILATE POLYMETHYLSILSESQUIOXANE, SCLEROTIUMGUM,HDL/TREMETHYLOL HEXYLLACTONE CROSSPOLYMER, XCROAOAOTROR, ACETAMIDEMEA, TRISCDILM EDTA ACETAMIDE MEA,TRISCDILMEDTA, SARC'...
+  SEG  ['SSAAU:WATER']
+      SKIP   'SSAAU:WATER'
+  SEG  ['GLYCERIN']
+      MATCH  win=1  'GLYCERIN'  ->  'glycerin'
+  SEG  ['DIPROPILENE', 'GLYCOL2.3-BUTANEDIOL']
+      SKIP   'DIPROPILENE'
+      SKIP   'GLYCOL2.3-BUTANEDIOL'
+  SEG  ['NIACENAMIDE']
+      MATCH  win=1  'NIACENAMIDE'  ->  'niacinamide'
+  SEG  ['CAPRYLIC/CAPRIC', 'TRIGYCERIDE']
+      MATCH  win=2  'CAPRYLIC/CAPRIC TRIGYCERIDE'  ->  'caprylic/capric triglyceride'
+  SEG  ['1.2', 'HEXANEDIOL']
+      SKIP   '1.2'
+      MATCH  win=1  'HEXANEDIOL'  ->  'hexanediol'
+  SEG  ['PROPANEDIOL']
+      MATCH  win=1  'PROPANEDIOL'  ->  'propanediol'
+  SEG  ['PANTHENOL']
+      MATCH  win=1  'PANTHENOL'  ->  'panthenol'
+  SEG  ['NYLON-12', 'COCO-CAPRYLATE/CAPRATE']
+      MATCH  win=1  'NYLON-12'  ->  'nylon-12'
+      MATCH  win=1  'COCO-CAPRYLATE/CAPRATE'  ->  'coco-caprylate/caprate'
+  SEG  ['CAREOMER', 'TROMETHAMINE']
+      SKIP   'CAREOMER'
+      MATCH  win=1  'TROMETHAMINE'  ->  'tromethamine'
+  SEG  ['SOORUM', 'POLYACRYLATE', 'TROMEIHAMONESOOIMPOLYACRILATE', 'POLYMETHYLSILSESQUIOXANE']
+      MATCH  win=2  'SOORUM POLYACRYLATE'  ->  'sodium polyacrylate'
+      SKIP   'TROMEIHAMONESOOIMPOLYACRILATE'
+      MATCH  win=1  'POLYMETHYLSILSESQUIOXANE'  ->  'polymethylsilsesquioxane'
+  SEG  ['SCLEROTIUMGUM']
+      SKIP   'SCLEROTIUMGUM'
+  SEG  ['HDL/TREMETHYLOL', 'HEXYLLACTONE', 'CROSSPOLYMER']
+      MATCH  win=3  'HDL/TREMETHYLOL HEXYLLACTONE CROSSPOLYMER'  ->  'hdi/trimethylol hexyllactone crosspolymer'
+  SEG  ['XCROAOAOTROR']
+      SKIP   'XCROAOAOTROR'
+  SEG  ['ACETAMIDEMEA']
+      MATCH  win=1  'ACETAMIDEMEA'  ->  'acetamide mea'
+  SEG  ['TRISCDILM', 'EDTA', 'ACETAMIDE', 'MEA']
+      MATCH  win=2  'TRISCDILM EDTA'  ->  'trisodium edta'
+      MATCH  win=2  'ACETAMIDE MEA'  ->  'acetamide mea'
+  SEG  ['TRISCDILMEDTA']
+      SKIP   'TRISCDILMEDTA'
+  SEG  ['SARCOSINE']
+      MATCH  win=1  'SARCOSINE'  ->  'sarcosine'
+  SEG  ['PENTYLENE', 'GLYCOL']
+      MATCH  win=2  'PENTYLENE GLYCOL'  ->  'pentylene glycol'
+  SEG  ['SQUALANE']
+      MATCH  win=1  'SQUALANE'  ->  'squalane'
+  SEG  ['PALMITAMEDEMEA']
+      SKIP   'PALMITAMEDEMEA'
+  SEG  ['TOCOPHERCL']
+      MATCH  win=1  'TOCOPHERCL'  ->  'tocopherol'
+  SEG  ['HYDROGENATED', 'LECITHIN']
+      MATCH  win=2  'HYDROGENATED LECITHIN'  ->  'hydrogenated lysolecithin'
+  SEG  ['ETHYUHEXYL', 'GLYCERIN']
+      MATCH  win=2  'ETHYUHEXYL GLYCERIN'  ->  'ethylhexylglycerin'
+  SEG  ['HIDROLYZED', 'SODIUM', 'HYALURONATE']
+      MATCH  win=3  'HIDROLYZED SODIUM HYALURONATE'  ->  'sodium hyaluronate crosspolymer'
+  SEG  ['CENTELLA', 'ASIATICA', 'EXTRACT']
+      MATCH  win=3  'CENTELLA ASIATICA EXTRACT'  ->  'centella asiatica root extract'
+  SEG  ['DIPOTASSIUM', 'GLYCYRRHIZATE']
+      MATCH  win=2  'DIPOTASSIUM GLYCYRRHIZATE'  ->  'dipotassium glycyrrhizate'
+  SEG  ['SODIUMHYALURONATE', 'CROSSPOLYMER']
+      SKIP   'SODIUMHYALURONATE'
+      SKIP   'CROSSPOLYMER'
+  SEG  ['CERAMIDE', 'NPCOPPER', 'TRIPSPTIDE-1', 'TRIPSPTIDE-L']
+      MATCH  win=1  'CERAMIDE'  ->  'ceramide 4'
+      MATCH  win=2  'NPCOPPER TRIPSPTIDE-1'  ->  'copper tripeptide-34'
+      SKIP   'TRIPSPTIDE-L'
+  scanning A27.jpg (cropped)...
+
+[OCR-TILED] 39 deduplicated lines:
+  y=  364  conf=0.90  'INGREDIENTSAqua (Water),Glycerin,Isostearyl Iso'
+  y=  394  conf=0.93  'stearate, Caprylic/Capric Triglycende, Pentylene Glycol,'
+  y=  424  conf=0.94  'Potassium CetylPhos-'
+  y=  424  conf=0.92  'Cetyl Alcohol, Polyglycerin-3,'
+  y=  429  conf=0.61  'PoassiumeeeoPn'
+  y=  429  conf=0.65  'crl.alcohor'
+  y=  430  conf=0.77  'Arolygycerin3'
+  y=  453  conf=0.88  'phate, Nylon 6/12,Hydrogenated Palm Kerncl Glycer'
+  y=  454  conf=0.90  'phatc, Nylon 6/12,Hydrogenated Palm Kerncl Glycer'
+  y=  482  conf=0.96  'ides, BoronNitride,Dimethicone,Ethylene/Acrylic Acid'
+  y=  510  conf=0.98  'SodiumHyaluronate,'
+  y=  512  conf=0.93  'Copolymer,.'
+  y=  512  conf=0.90  'Glyceryl Stearate,'
+  y=  538  conf=0.92  'Citrus Limon(Lemon)'
+  y=  540  conf=0.91  'Ficus Carica (Fig) Fruit Extract'
+  y=  566  conf=0.90  'Peel Oil, Cucumis Sativus (Cucumber Fruit Extract,'
+  y=  569  conf=0.67  'eeonr.'
+  y=  571  conf=0.85  '(Cucumis/Sativus (cucumber)Truit/Extrac'
+  y=  591  conf=0.85  'NC'
+  y=  594  conf=0.92  'Averrhoa Carambola Leaf Exuract, Algac Extract,'
+  y=  621  conf=0.92  'Hibiscus Esculentus'
+  y=  622  conf=0.91  'lumbo Nucifera Fower Extract,'
+  y=  648  conf=0.93  'Fruit Extract,Tocopheryl Acetate,Ascorbyl Tetraisopal-'
+  y=  677  conf=0.96  'Tocopherol,Bis-Diglycery Polyacyladipate-2,'
+  y=  678  conf=0.87  'mitate.'
+  y=  704  conf=0.90  'Sorbirol Behenyl Alcohol, Butylene Glyco,Carbomer,'
+  y=  710  conf=0.65  'ZCarpome'
+  y=  712  conf=0.79  'Tbitor BencnylAlcohols Butylcne Gycon'
+  y=  730  conf=0.89  'Citrate,'
+  y=  732  conf=0.95  'Gum'
+  y=  732  conf=0.95  'Sodium Polyacrylare,'
+  y=  732  conf=0.91  'Xanthan Gum,Sodium Citrate,'
+  y=  732  conf=0.87  'nthan'
+  y=  758  conf=0.93  'Sodium Hydroxide.'
+  y=  760  conf=0.95  'Glycendes,'
+  y=  760  conf=0.93  'Hydrogenated Palm'
+  y=  785  conf=0.91  'Citric Acid,BiosaccharideGum-2Caramel,'
+  y=  811  conf=0.90  'Caprylyl Glycol Potassium Sorbate Sorbic Acid'
+  y=  838  conf=0.94  'Phenoxyethanol,Limonene,Citral<09036/A>'
+
+[PARSE] extracted text (1089 chars):
+  'Aqua , Water,Glycerin,Isostearyl Iso stearate, Caprylic/Capric Triglycende, Pentylene Glycol, Potassium CetylPhos- Cetyl Alcohol, Poly glycerin-3, PoassiumeeeoPn crl, alcohor Arolygycerin3 phate, Nylon 6/12,Hydrogenated Palm Kerncl Glycer phatc, Nylon 6/12,Hydrogenated Palm Kerncl Glycer ides, BoronNitride,Dimethicone,Ethylene/Acrylic Acid SodiumHyaluronate, Copolymer,. Glyceryl Stearate, Citrus L'...
+  SEG  ['Aqua']
+      MATCH  win=1  'Aqua'  ->  'aqua'
+  SEG  ['Water']
+      MATCH  win=1  'Water'  ->  'water'
+  SEG  ['Glycerin']
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+  SEG  ['Isostearyl', 'Iso', 'stearate']
+      MATCH  win=3  'Isostearyl Iso stearate'  ->  'isostearyl isostearoyl stearate'
+  SEG  ['Caprylic/Capric', 'Triglycende']
+      MATCH  win=2  'Caprylic/Capric Triglycende'  ->  'caprylic/capric triglyceride'
+  SEG  ['Pentylene', 'Glycol']
+      MATCH  win=2  'Pentylene Glycol'  ->  'pentylene glycol'
+  SEG  ['Potassium', 'CetylPhos-', 'Cetyl', 'Alcohol']
+      MATCH  win=2  'Potassium CetylPhos-'  ->  'potassium cetyl phosphate'
+      MATCH  win=2  'Cetyl Alcohol'  ->  'cetyl alcohol'
+  SEG  ['Poly', 'glycerin-3']
+      SKIP   'Poly'
+      MATCH  win=1  'glycerin-3'  ->  'glycerin'
+  SEG  ['PoassiumeeeoPn', 'crl']
+      SKIP   'PoassiumeeeoPn'
+      SKIP   'crl'
+  SEG  ['alcohor', 'Arolygycerin3', 'phate']
+      SKIP   'alcohor'
+      SKIP   'Arolygycerin3'
+      SKIP   'phate'
+  SEG  ['Nylon', '6/12']
+      SKIP   'Nylon'
+      SKIP   '6/12'
+  SEG  ['Hydrogenated', 'Palm', 'Kerncl', 'Glycer', 'phatc']
+      MATCH  win=5  'Hydrogenated Palm Kerncl Glycer phatc'  ->  'hydrogenated palmpalm kernel glycerides'
+  SEG  ['Nylon', '6/12']
+      SKIP   'Nylon'
+      SKIP   '6/12'
+  SEG  ['Hydrogenated', 'Palm', 'Kerncl', 'Glycer', 'ides']
+      MATCH  win=5  'Hydrogenated Palm Kerncl Glycer ides'  ->  'hydrogenated palm kernel glycerides'
+  SEG  ['BoronNitride']
+      MATCH  win=1  'BoronNitride'  ->  'boron nitride'
+  SEG  ['Dimethicone']
+      MATCH  win=1  'Dimethicone'  ->  'dimethicone'
+  SEG  ['Ethylene/Acrylic', 'Acid', 'SodiumHyaluronate']
+      MATCH  win=2  'Ethylene/Acrylic Acid'  ->  'methacrylic acid'
+      SKIP   'SodiumHyaluronate'
+  SEG  ['Copolymer']
+      SKIP   'Copolymer'
+  SEG  ['.', 'Glyceryl', 'Stearate']
+      MATCH  win=3  '. Glyceryl Stearate'  ->  'glyceryl stearate'
+  SEG  ['Citrus', 'Limon']
+      SKIP   'Citrus'
+      SKIP   'Limon'
+  SEG  ['Lemon', 'Ficus', 'Carica']
+      MATCH  win=3  'Lemon Ficus Carica'  ->  'ficus carica seed'
+  SEG  ['Fig', 'Fruit', 'Extract', 'Peel', 'Oil']
+      MATCH  win=3  'Fig Fruit Extract'  ->  'fruit extracts'
+      MATCH  win=2  'Peel Oil'  ->  'peel ols'
+  SEG  ['Cucumis', 'Sativus', '(Cucumber', 'Fruit', 'Extract']
+      MATCH  win=2  'Cucumis Sativus'  ->  'cucumis sativus oil'
+      SKIP   '(Cucumber'
+      MATCH  win=2  'Fruit Extract'  ->  'fruit extracts'
+  SEG  ['eeonr.']
+      SKIP   'eeonr.'
+  SEG  ['Cucumis/Sativus', '(cucumberTruit/Extrac', 'NC', 'Averrhoa', 'Carambola', 'Leaf', 'Exuract']
+      MATCH  win=6  'Cucumis/Sativus (cucumberTruit/Extrac NC Averrhoa Carambola Leaf'  ->  'averrhoa carambola leaf extract'
+      SKIP   'Exuract'
+  SEG  ['Algac', 'Extract']
+      SKIP   'Algac'
+      SKIP   'Extract'
+  SEG  ['Hibiscus', 'Esculentus', 'lumbo', 'Nucifera', 'Fower', 'Extract']
+      SKIP   'Hibiscus'
+      MATCH  win=5  'Esculentus lumbo Nucifera Fower Extract'  ->  'nelumbo nucifera flower extract'
+  SEG  ['Fruit', 'Extract']
+      MATCH  win=2  'Fruit Extract'  ->  'fruit extracts'
+  SEG  ['Tocopheryl', 'Acetate']
+      MATCH  win=2  'Tocopheryl Acetate'  ->  'tocopheryl acetate'
+  SEG  ['Ascorbyl', 'Tetraisopal-', 'Tocopherol']
+      MATCH  win=2  'Ascorbyl Tetraisopal-'  ->  'ascorbyl tetraisopalmitate'
+      MATCH  win=1  'Tocopherol'  ->  'tocopherol'
+  SEG  ['Bis-Diglycery', 'Polyacyladipate-2']
+      SKIP   'Bis-Diglycery'
+      SKIP   'Polyacyladipate-2'
+  SEG  ['mitate.', 'Sorbirol', 'Behenyl', 'Alcohol']
+      SKIP   'mitate.'
+      SKIP   'Sorbirol'
+      MATCH  win=2  'Behenyl Alcohol'  ->  'behenyl alcohol'
+  SEG  ['Butylene', 'Glyco']
+      MATCH  win=2  'Butylene Glyco'  ->  'butylene glycol'
+  SEG  ['Carbomer']
+      MATCH  win=1  'Carbomer'  ->  'carbomer'
+  SEG  ['ZCarpome', 'Tbitor', 'BencnylAlcohols', 'Butylcne', 'Gycon', 'Citrate']
+      SKIP   'ZCarpome'
+      SKIP   'Tbitor'
+      SKIP   'BencnylAlcohols'
+      MATCH  win=2  'Butylcne Gycon'  ->  'butylene glycol'
+      SKIP   'Citrate'
+  SEG  ['Gum', 'Sodium', 'Polyacrylare']
+      MATCH  win=3  'Gum Sodium Polyacrylare'  ->  'sodium polyacrylate'
+  SEG  ['Xanthan', 'Gum']
+      MATCH  win=2  'Xanthan Gum'  ->  'xanthan gum'
+  SEG  ['Sodium', 'Citrate']
+      MATCH  win=2  'Sodium Citrate'  ->  'sodium citrate'
+  SEG  ['nthan', 'Sodium', 'Hydroxide.', 'Glycendes']
+      MATCH  win=3  'nthan Sodium Hydroxide.'  ->  'sodium hydroxide'
+      SKIP   'Glycendes'
+  SEG  ['Hydrogenated', 'Palm', 'Citric', 'Acid']
+      MATCH  win=3  'Hydrogenated Palm Citric'  ->  'hydrogenated palm glyceride'
+      SKIP   'Acid'
+  SEG  ['BiosaccharideGum-2', 'Caramel']
+      MATCH  win=1  'BiosaccharideGum-2'  ->  'biosaccharide gum-2'
+      MATCH  win=1  'Caramel'  ->  'caramel'
+  SEG  ['Caprylyl', 'Glycol', 'Potassium', 'Sorbate', 'Sorbic', 'Acid', 'Phenoxyethanol']
+      MATCH  win=2  'Caprylyl Glycol'  ->  'caprylyl glycol'
+      MATCH  win=3  'Potassium Sorbate Sorbic'  ->  'potassium sorbate'
+      SKIP   'Acid'
+      MATCH  win=1  'Phenoxyethanol'  ->  'phenoxyethanol'
+  SEG  ['Limonene']
+      MATCH  win=1  'Limonene'  ->  'limonene'
+  SEG  ['Citral<09036/A>']
+      SKIP   'Citral<09036/A>'
+  scanning A28.jpg (cropped)...
+
+[OCR-TILED] 38 deduplicated lines:
+  y=   28  conf=0.97  'Ingredients Water, Glycerin, Hydrogenated'
+  y=   78  conf=0.96  'Polydecene, Caprylic/Capric Triglyceride, Dipro-'
+  y=  127  conf=0.95  'pylene Glycol, Cyclohexasiloxane, Butyrospe-'
+  y=  174  conf=0.94  'rmum Parkii (Shea) Butter, Polyglyceryl-3 Me-'
+  y=  224  conf=0.97  'thylglucose Distearate, Cetyl Alcohol, Glycereth'
+  y=  272  conf=0.93  '-26, GlycerylStearate, Betaine, Behenyl Alcohol,'
+  y=  288  conf=0.50  'DecareiDcrieroyrrheorion'
+  y=  318  conf=0.97  'Vinyl Dimethicone, Pentylene Glycol, Laminaria'
+  y=  369  conf=0.96  'Japonica Extract, Eclipta Prostrata Leaf Extract,'
+  y=  418  conf=0.96  'Avena Sativa (Oat) Kernel Extract, Cynara Sco-'
+  y=  430  conf=0.73  'Xtlact,Cylala'
+  y=  460  conf=0.97  'Iymus (Artichoke) Leaf Extract. Prunus Armeniaca'
+  y=  466  conf=0.95  'lymus (Artichoke) Leaf Extract,Prunus Armeniaca'
+  y=  515  conf=0.98  '(Apricot) Kernel Oil, Argania Spinosa Kernel Oil,'
+  y=  564  conf=0.96  'Carthamus Tinctorius (Safftower) Seed Oil, So-'
+  y=  573  conf=0.65  'KOVVC'
+  y=  604  conf=0.87  'dium.Hyaluronate Hydro'
+  y=  604  conf=0.86  'xenatedLecithin'
+  y=  612  conf=0.96  'dium Hyaluronate, Hydrogenated Lecithin, Ca-'
+  y=  662  conf=0.95  'mellia Sinensis Leaf Water, Polyglyceryl-10 Lau-'
+  y=  710  conf=0.98  'rate,Pentaerythrityl Distearate,Ammonium'
+  y=  714  conf=0.86  'dlePenlae'
+  y=  716  conf=0.90  'learate,Ammonium'
+  y=  748  conf=0.83  'Acnlovldineth'
+  y=  758  conf=0.97  'Acryloyldimethyltaurate/Vp Copolymer, Glyceryl'
+  y=  806  conf=0.97  'Caprylate, Sodium Stearoyl Glutamate, Methyl-'
+  y=  854  conf=0.98  'propanediol,Fructooligosaccharides, Disodium'
+  y=  891  conf=0.76  'Det'
+  y=  891  conf=0.57  'Edto'
+  y=  902  conf=0.95  'Edta,Beta-Glucan, Hydrolyzed Hyaluronic Acid,'
+  y=  951  conf=0.97  'Polyquaternium-51,Butylene Glycol,Hydroxy-'
+  y= 1000  conf=0.98  'propyltrimonium Hyaluronate, Dimethylsilanol'
+  y= 1048  conf=0.97  'Hyaluronate, Hydrolyzed Sodium Hyaluronate,'
+  y= 1096  conf=0.97  'Potassium Hyaluronate, Hyaluronic Acid,Sodium'
+  y= 1144  conf=0.98  'Hyaluronate Crosspolymer, Sodium Acetylated'
+  y= 1192  conf=0.98  'Hyaluronate, Sodium Hyaluronate Dimethyl-'
+  y= 1240  conf=0.97  'silanol, 1,2-Hexanediol, Hydroxyacetophenone,'
+  y= 1282  conf=0.98  'Ethylhexylglycerin'
+
+[PARSE] extracted text (1375 chars):
+  'Water, Glycerin, Hydrogenated Polydecene, Caprylic/Capric Triglyceride, Dipropylene Glycol, Cyclohexasiloxane, Butyrospermum Parkii , Shea Butter, Polyglyceryl-3 Methylglucose Distearate, Cetyl Alcohol, Glycereth -26, GlycerylStearate, Betaine, Behenyl Alcohol, DecareiDcrieroyrrheorion Vinyl Dimethicone, Pentylene Glycol, Laminaria Japonica Extract, Eclipta Prostrata Leaf Extract, Avena Sativa , O'...
+  SEG  ['Water']
+      MATCH  win=1  'Water'  ->  'water'
+  SEG  ['Glycerin']
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+  SEG  ['Hydrogenated', 'Polydecene']
+      MATCH  win=2  'Hydrogenated Polydecene'  ->  'hydrogenated polydecene'
+  SEG  ['Caprylic/Capric', 'Triglyceride']
+      MATCH  win=2  'Caprylic/Capric Triglyceride'  ->  'caprylic/capric triglyceride'
+  SEG  ['Dipropylene', 'Glycol']
+      MATCH  win=2  'Dipropylene Glycol'  ->  'dipropylene glycol'
+  SEG  ['Cyclohexasiloxane']
+      MATCH  win=1  'Cyclohexasiloxane'  ->  'cyclohexasiloxane'
+  SEG  ['Butyrospermum', 'Parkii']
+      MATCH  win=2  'Butyrospermum Parkii'  ->  'butyrospermum parkii oil'
+  SEG  ['Shea', 'Butter']
+      SKIP   'Shea'
+      MATCH  win=1  'Butter'  ->  'butter'
+  SEG  ['Polyglyceryl-3', 'Methylglucose', 'Distearate']
+      MATCH  win=3  'Polyglyceryl-3 Methylglucose Distearate'  ->  'polyglyceryl-3 methylglucose distearate'
+  SEG  ['Cetyl', 'Alcohol']
+      MATCH  win=2  'Cetyl Alcohol'  ->  'cetyl alcohol'
+  SEG  ['Glycereth', '-26']
+      MATCH  win=1  'Glycereth'  ->  'glycereth-3'
+      SKIP   '-26'
+  SEG  ['GlycerylStearate']
+      MATCH  win=1  'GlycerylStearate'  ->  'glyceryl stearate'
+  SEG  ['Betaine']
+      MATCH  win=1  'Betaine'  ->  'betaine'
+  SEG  ['Behenyl', 'Alcohol']
+      MATCH  win=2  'Behenyl Alcohol'  ->  'behenyl alcohol'
+  SEG  ['DecareiDcrieroyrrheorion', 'Vinyl', 'Dimethicone']
+      SKIP   'DecareiDcrieroyrrheorion'
+      MATCH  win=2  'Vinyl Dimethicone'  ->  'vinyl dimethicone'
+  SEG  ['Pentylene', 'Glycol']
+      MATCH  win=2  'Pentylene Glycol'  ->  'pentylene glycol'
+  SEG  ['Laminaria', 'Japonica', 'Extract']
+      MATCH  win=3  'Laminaria Japonica Extract'  ->  'linaria japonica extract'
+  SEG  ['Eclipta', 'Prostrata', 'Leaf', 'Extract']
+      MATCH  win=4  'Eclipta Prostrata Leaf Extract'  ->  'eclipta prostrata stem extract'
+  SEG  ['Avena', 'Sativa']
+      MATCH  win=2  'Avena Sativa'  ->  'avena sativa bran'
+  SEG  ['Oat', 'Kernel', 'Extract']
+      SKIP   'Oat'
+      SKIP   'Kernel'
+      SKIP   'Extract'
+  SEG  ['Cynara', 'Sco-', 'Xtlact']
+      SKIP   'Cynara'
+      SKIP   'Sco-'
+      SKIP   'Xtlact'
+  SEG  ['Cylala', 'Iymus']
+      SKIP   'Cylala'
+      SKIP   'Iymus'
+  SEG  ['Artichoke', 'Leaf', 'Extract.', 'Prunus', 'Armeniaca', 'lymus']
+      MATCH  win=6  'Artichoke Leaf Extract. Prunus Armeniaca lymus'  ->  'prunus armeniaca leaf cell extract'
+  SEG  ['Artichoke', 'Leaf', 'Extract']
+      SKIP   'Artichoke'
+      MATCH  win=2  'Leaf Extract'  ->  'leaf extracts'
+  SEG  ['Prunus', 'Armeniaca']
+      MATCH  win=2  'Prunus Armeniaca'  ->  'prunus armeniaca juice'
+  SEG  ['Apricot', 'Kernel', 'Oil']
+      SKIP   'Apricot'
+      SKIP   'Kernel'
+      SKIP   'Oil'
+  SEG  ['Argania', 'Spinosa', 'Kernel', 'Oil']
+      MATCH  win=4  'Argania Spinosa Kernel Oil'  ->  'argania spinosa kernel oil'
+  SEG  ['Carthamus', 'Tinctorius']
+      MATCH  win=2  'Carthamus Tinctorius'  ->  'carthamus tinctorius oleosomes'
+  SEG  ['Safftower', 'Seed', 'Oil']
+      SKIP   'Safftower'
+      MATCH  win=2  'Seed Oil'  ->  'seed oils'
+  SEG  ['So-', 'KOVVC', 'dium']
+      SKIP   'So-'
+      SKIP   'KOVVC'
+      SKIP   'dium'
+  SEG  ['Hyaluronate', 'Hydro', 'xenated', 'Lecithin', 'dium', 'Hyaluronate']
+      SKIP   'Hyaluronate'
+      SKIP   'Hydro'
+      SKIP   'xenated'
+      MATCH  win=1  'Lecithin'  ->  'lecithin'
+      SKIP   'dium'
+      SKIP   'Hyaluronate'
+  SEG  ['Hydrogenated', 'Lecithin']
+      MATCH  win=2  'Hydrogenated Lecithin'  ->  'hydrogenated lysolecithin'
+  SEG  ['Camellia', 'Sinensis', 'Leaf', 'Water']
+      MATCH  win=4  'Camellia Sinensis Leaf Water'  ->  'camellia sinensis leaf water'
+  SEG  ['Polyglyceryl-10', 'Laurate']
+      MATCH  win=2  'Polyglyceryl-10 Laurate'  ->  'polyglyceryl-10 laurate'
+  SEG  ['Pentaerythrityl', 'Distearate']
+      MATCH  win=2  'Pentaerythrityl Distearate'  ->  'pentaerythrityl distearate'
+  SEG  ['Ammonium', 'dlePenlae', 'learate']
+      SKIP   'Ammonium'
+      SKIP   'dlePenlae'
+      SKIP   'learate'
+  SEG  ['Ammonium', 'Acnlovldineth', 'Acryloyldimethyltaurate/Vp', 'Copolymer']
+      MATCH  win=4  'Ammonium Acnlovldineth Acryloyldimethyltaurate/Vp Copolymer'  ->  'ammonium acryloyldimethyltaurate/vp copolymer'
+  SEG  ['Glyceryl', 'Caprylate']
+      MATCH  win=2  'Glyceryl Caprylate'  ->  'glyceryl caprylate'
+  SEG  ['Sodium', 'Stearoyl', 'Glutamate']
+      MATCH  win=3  'Sodium Stearoyl Glutamate'  ->  'sodium stearoyl glutamate'
+  SEG  ['Methyl', 'propanediol']
+      MATCH  win=2  'Methyl propanediol'  ->  'methylpropanediol'
+  SEG  ['Fructooligosaccharides']
+      SKIP   'Fructooligosaccharides'
+  SEG  ['Disodium', 'Det', 'Edto', 'Edta']
+      MATCH  win=3  'Disodium Det Edto'  ->  'disodium edta'
+      MATCH  win=1  'Edta'  ->  'edta'
+  SEG  ['Beta-Glucan']
+      MATCH  win=1  'Beta-Glucan'  ->  'beta-glucan'
+  SEG  ['Hydrolyzed', 'Hyaluronic', 'Acid']
+      MATCH  win=3  'Hydrolyzed Hyaluronic Acid'  ->  'hydrolyzed calcium hyaluronate'
+  SEG  ['Polyquaternium-51']
+      MATCH  win=1  'Polyquaternium-51'  ->  'polyquaternium-51'
+  SEG  ['Butylene', 'Glycol']
+      MATCH  win=2  'Butylene Glycol'  ->  'butylene glycol'
+  SEG  ['Hydroxypropyltrimonium', 'Hyaluronate']
+      MATCH  win=2  'Hydroxypropyltrimonium Hyaluronate'  ->  'hydroxypropyltrimonium hyaluronate'
+  SEG  ['Dimethylsilanol', 'Hyaluronate']
+      MATCH  win=2  'Dimethylsilanol Hyaluronate'  ->  'dimethylsilanol hyaluronate'
+  SEG  ['Hydrolyzed', 'Sodium', 'Hyaluronate']
+      MATCH  win=3  'Hydrolyzed Sodium Hyaluronate'  ->  'hydrolyzed sodium hyaluronate'
+  SEG  ['Potassium', 'Hyaluronate']
+      MATCH  win=2  'Potassium Hyaluronate'  ->  'potassium gluconate'
+  SEG  ['Hyaluronic', 'Acid']
+      MATCH  win=2  'Hyaluronic Acid'  ->  'hyaluronic acid'
+  SEG  ['Sodium', 'Hyaluronate', 'Crosspolymer']
+      MATCH  win=3  'Sodium Hyaluronate Crosspolymer'  ->  'sodium hyaluronate crosspolymer'
+  SEG  ['Sodium', 'Acetylated', 'Hyaluronate']
+      MATCH  win=3  'Sodium Acetylated Hyaluronate'  ->  'sodium acetylated hyaluronate'
+  SEG  ['Sodium', 'Hyaluronate', 'Dimethylsilanol']
+      MATCH  win=3  'Sodium Hyaluronate Dimethylsilanol'  ->  'sodium hyaluronate dimethylsilanol'
+  SEG  ['1.2-Hexanediol']
+      MATCH  win=1  '1.2-Hexanediol'  ->  '1�2-hexanediol'
+  SEG  ['Hydroxyacetophenone']
+      MATCH  win=1  'Hydroxyacetophenone'  ->  'hydroxyacetophenone'
+  SEG  ['Ethylhexyl', 'glycerin']
+      MATCH  win=2  'Ethylhexyl glycerin'  ->  'ethylhexylglycerin'
+  scanning A29.jpg (cropped)...
+
+[OCR-TILED] 34 deduplicated lines:
+  y=  130  conf=0.99  'Ingredients/Ingredients:'
+  y=  162  conf=0.96  'AQUA (WATER).CAPRYLIC/CAPRIC'
+  y=  189  conf=0.98  'TRIGLYCERIDE.CETYLALCOHOL'
+  y=  192  conf=0.95  'TRIGLYCERIDE,CETYL ALCOHOL,'
+  y=  221  conf=0.98  'PROPANEDIOL,STEARYL'
+  y=  248  conf=0.96  'ALCOHOL.GLYCERIN.SODIUM'
+  y=  277  conf=0.97  'HYALURONATE.ARGININE,'
+  y=  304  conf=0.95  'ASPARTIC ACID.GLYCINE.ALANINE'
+  y=  330  conf=0.94  'SERINE VALINE ISOLEUCINE'
+  y=  334  conf=0.91  'SERINE,VALINE.ISOLEUCINE'
+  y=  363  conf=0.94  'PROLINE.THREONINE.HISTIDINE'
+  y=  391  conf=0.97  'PHENYLALANINE.GLUCOSE'
+  y=  419  conf=0.95  'MALTOSE,FRUCTOSE,TREHALOSE'
+  y=  426  conf=0.62  'AEIOSDPROCIOSETRLHAL'
+  y=  447  conf=0.92  'SODIUM PCA.PCA.SODIUM'
+  y=  472  conf=0.98  'ALLANTOIN'
+  y=  474  conf=0.82  'ACTATELIDEA'
+  y=  477  conf=0.96  'LACTATE.UREA.ALLANTOIN,'
+  y=  504  conf=0.92  'LINOLEIC ACID.OLEIC ACID,'
+  y=  534  conf=0.97  'PHYTOSTERYL CANOLA'
+  y=  562  conf=0.95  'GLYCERIDES.PALMITIC ACID'
+  y=  566  conf=0.90  'SLYCERIDES.PALMITICACID'
+  y=  590  conf=0.94  'STEARIC ACID.LECITHIN.TRIOLEIN.'
+  y=  614  conf=0.77  'ADRONED'
+  y=  619  conf=0.97  'TOCOPHEROL.CARBOMER,'
+  y=  647  conf=0.95  'ISOCETETH-20.POLYSORBATE 60,'
+  y=  676  conf=0.92  'SODIUM CHLORIDE,CITRIC ACID,'
+  y=  704  conf=0.98  'TRISODIUM ETHYLENEDIAMINE'
+  y=  708  conf=0.96  'TRISODIOMETHYLENEDIAMINE'
+  y=  732  conf=0.98  'DISUCCINATE.PENTYLENE'
+  y=  761  conf=0.98  'GLYCOL,TRIETHANOLAMINE,'
+  y=  790  conf=0.97  'SODIUM HYDROXIDE,'
+  y=  818  conf=1.00  'PHENOXYETHANOL,'
+  y=  846  conf=0.99  'CHLORPHENESIN.'
+
+[PARSE] extracted text (776 chars):
+  'AQUA , WATER, CAPRYLIC/CAPRIC TRIGLYCERIDE, CETYLALCOHOL TRIGLYCERIDE,CETYL ALCOHOL, PROPANEDIOL,STEARYL ALCOHOL, GLYCERIN, SODIUM HYALURONATE, ARGININE, ASPARTIC ACID, GLYCINE, ALANINE SERINE VALINE ISOLEUCINE SERINE,VALINE, ISOLEUCINE PROLINE, THREONINE, HISTIDINE PHENYLALANINE, GLUCOSE MALTOSE,FRUCTOSE,TREHALOSE AEIOSDPROCIOSETRLHAL SODIUM PCA, PCA, SODIUM ALLANTOIN ACTATELIDEA LACTATE, UREA, A'...
+  SEG  ['AQUA']
+      MATCH  win=1  'AQUA'  ->  'aqua'
+  SEG  ['WATER']
+      MATCH  win=1  'WATER'  ->  'water'
+  SEG  ['CAPRYLIC/CAPRIC', 'TRIGLYCERIDE']
+      MATCH  win=2  'CAPRYLIC/CAPRIC TRIGLYCERIDE'  ->  'caprylic/capric triglyceride'
+  SEG  ['CETYLALCOHOL', 'TRIGLYCERIDE']
+      SKIP   'CETYLALCOHOL'
+      SKIP   'TRIGLYCERIDE'
+  SEG  ['CETYL', 'ALCOHOL']
+      MATCH  win=2  'CETYL ALCOHOL'  ->  'cetyl alcohol'
+  SEG  ['PROPANEDIOL']
+      MATCH  win=1  'PROPANEDIOL'  ->  'propanediol'
+  SEG  ['STEARYL', 'ALCOHOL']
+      MATCH  win=2  'STEARYL ALCOHOL'  ->  'stearyl alcohol'
+  SEG  ['GLYCERIN']
+      MATCH  win=1  'GLYCERIN'  ->  'glycerin'
+  SEG  ['SODIUM', 'HYALURONATE']
+      MATCH  win=2  'SODIUM HYALURONATE'  ->  'sodium hyaluronate'
+  SEG  ['ARGININE']
+      MATCH  win=1  'ARGININE'  ->  'arginine'
+  SEG  ['ASPARTIC', 'ACID']
+      MATCH  win=2  'ASPARTIC ACID'  ->  'aspartic acid'
+  SEG  ['GLYCINE']
+      MATCH  win=1  'GLYCINE'  ->  'glycine'
+  SEG  ['ALANINE', 'SERINE', 'VALINE', 'ISOLEUCINE', 'SERINE']
+      MATCH  win=1  'ALANINE'  ->  'alanine'
+      MATCH  win=1  'SERINE'  ->  'serine'
+      MATCH  win=1  'VALINE'  ->  'valine'
+      MATCH  win=1  'ISOLEUCINE'  ->  'isoleucine'
+      MATCH  win=1  'SERINE'  ->  'serine'
+  SEG  ['VALINE']
+      MATCH  win=1  'VALINE'  ->  'valine'
+  SEG  ['ISOLEUCINE', 'PROLINE']
+      MATCH  win=1  'ISOLEUCINE'  ->  'isoleucine'
+      MATCH  win=1  'PROLINE'  ->  'proline'
+  SEG  ['THREONINE']
+      MATCH  win=1  'THREONINE'  ->  'threonine'
+  SEG  ['HISTIDINE', 'PHENYLALANINE']
+      MATCH  win=1  'HISTIDINE'  ->  'histidine'
+      MATCH  win=1  'PHENYLALANINE'  ->  'phenylalanine'
+  SEG  ['GLUCOSE', 'MALTOSE']
+      MATCH  win=1  'GLUCOSE'  ->  'glucose'
+      MATCH  win=1  'MALTOSE'  ->  'maltose'
+  SEG  ['FRUCTOSE']
+      MATCH  win=1  'FRUCTOSE'  ->  'fructose'
+  SEG  ['TREHALOSE', 'AEIOSDPROCIOSETRLHAL', 'SODIUM', 'PCA']
+      MATCH  win=1  'TREHALOSE'  ->  'trehalose'
+      SKIP   'AEIOSDPROCIOSETRLHAL'
+      MATCH  win=1  'SODIUM'  ->  'sodium'
+      MATCH  win=1  'PCA'  ->  'pca'
+  SEG  ['PCA']
+      MATCH  win=1  'PCA'  ->  'pca'
+  SEG  ['SODIUM', 'ALLANTOIN', 'ACTATELIDEA', 'LACTATE']
+      MATCH  win=1  'SODIUM'  ->  'sodium'
+      MATCH  win=1  'ALLANTOIN'  ->  'allantoin'
+      SKIP   'ACTATELIDEA'
+      SKIP   'LACTATE'
+  SEG  ['UREA']
+      MATCH  win=1  'UREA'  ->  'urea'
+  SEG  ['ALLANTOIN']
+      MATCH  win=1  'ALLANTOIN'  ->  'allantoin'
+  SEG  ['LINOLEIC', 'ACID']
+      MATCH  win=2  'LINOLEIC ACID'  ->  'linoleic acid'
+  SEG  ['OLEIC', 'ACID']
+      MATCH  win=2  'OLEIC ACID'  ->  'oleic acid'
+  SEG  ['PHYTOSTERYL', 'CANOLA', 'GLYCERIDES']
+      MATCH  win=3  'PHYTOSTERYL CANOLA GLYCERIDES'  ->  'phytosteryl canola glycerides'
+  SEG  ['PALMITIC', 'ACID', 'SLYCERIDES']
+      MATCH  win=2  'PALMITIC ACID'  ->  'palmitic acid'
+      SKIP   'SLYCERIDES'
+  SEG  ['PALMITICACID', 'STEARIC', 'ACID']
+      SKIP   'PALMITICACID'
+      MATCH  win=2  'STEARIC ACID'  ->  'stearic acid'
+  SEG  ['LECITHIN']
+      MATCH  win=1  'LECITHIN'  ->  'lecithin'
+  SEG  ['TRIOLEIN.', 'ADRONED', 'TOCOPHEROL']
+      MATCH  win=1  'TRIOLEIN.'  ->  'triolein'
+      SKIP   'ADRONED'
+      MATCH  win=1  'TOCOPHEROL'  ->  'tocopherol'
+  SEG  ['CARBOMER']
+      MATCH  win=1  'CARBOMER'  ->  'carbomer'
+  SEG  ['ISOCETETH-20']
+      MATCH  win=1  'ISOCETETH-20'  ->  'isoceteth-20'
+  SEG  ['POLYSORBATE', '60']
+      MATCH  win=2  'POLYSORBATE 60'  ->  'polysorbate 60'
+  SEG  ['SODIUM', 'CHLORIDE']
+      MATCH  win=2  'SODIUM CHLORIDE'  ->  'sodium chloride'
+  SEG  ['CITRIC', 'ACID']
+      MATCH  win=2  'CITRIC ACID'  ->  'citric acid'
+  SEG  ['TRISODIUM', 'ETHYLENEDIAMINE', 'TRISODIOMETHYLENEDIAMINE', 'DISUCCINATE']
+      SKIP   'TRISODIUM'
+      MATCH  win=1  'ETHYLENEDIAMINE'  ->  'ethylenediamine'
+      SKIP   'TRISODIOMETHYLENEDIAMINE'
+      SKIP   'DISUCCINATE'
+  SEG  ['PENTYLENE', 'GLYCOL']
+      MATCH  win=2  'PENTYLENE GLYCOL'  ->  'pentylene glycol'
+  SEG  ['TRIETHANOLAMINE']
+      MATCH  win=1  'TRIETHANOLAMINE'  ->  'triethanolamine'
+  SEG  ['SODIUM', 'HYDROXIDE']
+      MATCH  win=2  'SODIUM HYDROXIDE'  ->  'sodium hydroxide'
+  SEG  ['PHENOXYETHANOL']
+      MATCH  win=1  'PHENOXYETHANOL'  ->  'phenoxyethanol'
+  SEG  ['CHLORPHENESIN.']
+      MATCH  win=1  'CHLORPHENESIN.'  ->  'chlorphenesin'
+  scanning A30.jpg (cropped)...
+
+[OCR-TILED] 27 deduplicated lines:
+  y=  102  conf=0.98  'Ingredients:'
+  y=  154  conf=0.93  'Aqua Glycerin Myristyl'
+  y=  160  conf=0.95  'Aqua,Glycerin,Myristy'
+  y=  206  conf=0.89  'Alcohol AlcoholDenat Myristyl'
+  y=  260  conf=0.97  'Myristate,Cetearyl Glucoside,'
+  y=  311  conf=0.97  'Coco-Caprylate/Caprate, Glyceryl'
+  y=  362  conf=0.94  'Stearate,Palmitic Acid, Stearic'
+  y=  416  conf=0.97  'Acid, Hydrogenated Coco-Glycerides'
+  y=  431  conf=0.53  'oyccilucs,'
+  y=  460  conf=0.96  'Simmondsig'
+  y=  461  conf=0.99  'Seed'
+  y=  462  conf=0.95  'Oil'
+  y=  462  conf=1.00  'Chinensis'
+  y=  465  conf=0.94  'Simmondsia Chinensis Seed Oil,'
+  y=  520  conf=0.95  'Tocopheryl Acetate Prunus Amygdalus'
+  y=  570  conf=0.94  'Dulcis Oil, Vegetable'
+  y=  571  conf=0.88  'eOil Cetyl'
+  y=  576  conf=0.53  'DOICS'
+  y=  579  conf=0.90  'Cety'
+  y=  580  conf=0.76  'yegelable'
+  y=  622  conf=0.94  'Ricinoleate, TriisostearinSorbitanStearate,'
+  y=  678  conf=0.98  'HydroxypropylStarchPhosphate,Sodium'
+  y=  728  conf=0.92  'Hydroxide,CetearylAlcohol,Gellan Gum'
+  y=  780  conf=0.94  'Xanthan Gum,Myristic Acid,Arachidic'
+  y=  832  conf=0.91  'Acid Oleic Acid, Lauric Acid,'
+  y=  878  conf=0.93  'Disodium CetearylSulfosuccinate,'
+  y=  938  conf=0.93  'Phenoxyethanol,Parfum'
+
+[PARSE] extracted text (604 chars):
+  'Aqua Glycerin Myristyl Aqua,Glycerin,Myristy Alcohol AlcoholDenat Myristyl Myristate,Cetearyl Glucoside, Coco-Caprylate/Caprate, Glyceryl Stearate,Palmitic Acid, Stearic Acid, Hydrogenated Coco-Glycerides oyccilucs, Simmondsig Seed Oil Chinensis Simmondsia Chinensis Seed Oil, Tocopheryl Acetate Prunus Amygdalus Dulcis Oil, Vegetable eOil Cetyl DOICS Cety yegelable Ricinoleate, TriisostearinSorbita'...
+  SEG  ['Aqua', 'Glycerin', 'Myristyl', 'Aqua']
+      MATCH  win=1  'Aqua'  ->  'aqua'
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+      SKIP   'Myristyl'
+      MATCH  win=1  'Aqua'  ->  'aqua'
+  SEG  ['Glycerin']
+      MATCH  win=1  'Glycerin'  ->  'glycerin'
+  SEG  ['Myristy', 'Alcohol', 'AlcoholDenat', 'Myristyl', 'Myristate']
+      MATCH  win=3  'Myristy Alcohol AlcoholDenat'  ->  'alcohol denat. sd alcohol 1'
+      MATCH  win=2  'Myristyl Myristate'  ->  'myristyl myristate'
+  SEG  ['Cetearyl', 'Glucoside']
+      MATCH  win=2  'Cetearyl Glucoside'  ->  'cetearyl glucoside'
+  SEG  ['Coco-Caprylate/Caprate']
+      MATCH  win=1  'Coco-Caprylate/Caprate'  ->  'coco-caprylate/caprate'
+  SEG  ['Glyceryl', 'Stearate']
+      MATCH  win=2  'Glyceryl Stearate'  ->  'glyceryl stearate'
+  SEG  ['Palmitic', 'Acid']
+      MATCH  win=2  'Palmitic Acid'  ->  'palmitic acid'
+  SEG  ['Stearic', 'Acid']
+      MATCH  win=2  'Stearic Acid'  ->  'stearic acid'
+  SEG  ['Hydrogenated', 'Coco-Glycerides', 'oyccilucs']
+      MATCH  win=3  'Hydrogenated Coco-Glycerides oyccilucs'  ->  'hydrogenated coco-glycerides'
+  SEG  ['Simmondsig', 'Seed', 'Oil', 'Chinensis', 'Simmondsia', 'Chinensis', 'Seed', 'Oil']
+      MATCH  win=4  'Simmondsig Seed Oil Chinensis'  ->  'simmondsia chinensis seed powder'
+      MATCH  win=4  'Simmondsia Chinensis Seed Oil'  ->  'simmondsia chinensis seed powder'
+  SEG  ['Tocopheryl', 'Acetate', 'Prunus', 'Amygdalus', 'Dulcis', 'Oil']
+      MATCH  win=3  'Tocopheryl Acetate Prunus'  ->  'tocopheryl acetate'
+      MATCH  win=3  'Amygdalus Dulcis Oil'  ->  'prunus amygdalus dulcis oil'
+  SEG  ['Vegetable', 'eOil', 'Cetyl', 'DOICS', 'Cety', 'yegelable', 'Ricinoleate']
+      MATCH  win=2  'Vegetable eOil'  ->  'vegetable oil'
+      SKIP   'Cetyl'
+      SKIP   'DOICS'
+      SKIP   'Cety'
+      SKIP   'yegelable'
+      SKIP   'Ricinoleate'
+  SEG  ['TriisostearinSorbitanStearate']
+      SKIP   'TriisostearinSorbitanStearate'
+  SEG  ['HydroxypropylStarchPhosphate']
+      SKIP   'HydroxypropylStarchPhosphate'
+  SEG  ['Sodium', 'Hydroxide']
+      MATCH  win=2  'Sodium Hydroxide'  ->  'sodium hydroxide'
+  SEG  ['CetearylAlcohol']
+      SKIP   'CetearylAlcohol'
+  SEG  ['Gellan', 'Gum', 'Xanthan', 'Gum']
+      MATCH  win=2  'Gellan Gum'  ->  'gellan gum'
+      MATCH  win=2  'Xanthan Gum'  ->  'xanthan gum'
+  SEG  ['Myristic', 'Acid']
+      MATCH  win=2  'Myristic Acid'  ->  'myristic acid'
+  SEG  ['Arachidic', 'Acid', 'Oleic', 'Acid']
+      MATCH  win=3  'Arachidic Acid Oleic'  ->  'arachidonic acid'
+      SKIP   'Acid'
+  SEG  ['Lauric', 'Acid']
+      MATCH  win=2  'Lauric Acid'  ->  'lauric acid'
+  SEG  ['Disodium', 'CetearylSulfosuccinate']
+      MATCH  win=2  'Disodium CetearylSulfosuccinate'  ->  'disodium coco-sulfosuccinate'
+  SEG  ['Phenoxyethanol']
+      MATCH  win=1  'Phenoxyethanol'  ->  'phenoxyethanol'
+  SEG  ['Parfum']
+      MATCH  win=1  'Parfum'  ->  'parfum'
+  scanning A31.jpg (cropped)...
+
+[OCR-TILED] 13 deduplicated lines:
+  y=   44  conf=0.96  'INGREDIENTS/INGREDIENTS WATER/EAU GLYCERIN'
+  y=  107  conf=0.97  'ISOHEXADECANEINIACINAMIDEADISTARCHPHOSPHATE'
+  y=  170  conf=0.94  'ISOPROPYL ISOSTEARATE DIMETHICONE PANTHENOL.'
+  y=  233  conf=0.92  'PALMITOYL PENTAPEPTIDEA**X SODIUM HYALURONATE'
+  y=  297  conf=0.98  'CAPRYLIC/CAPRIC TRIGLYCERIDEETHYLHEXYLGLYCERIN'
+  y=  302  conf=0.91  'CAPRYLICACAPRICTRIGLYOERIDEETIEYLHEXYLGLCERIN'
+  y=  360  conf=0.97  'HYDROXYACETOPHENONE DIMETHICONOL-CETEARYL'
+  y=  422  conf=0.96  'GLUCOSIDE CETEARYLALCOHOLSTEARIC ACIDPALMITICACID,'
+  y=  486  conf=0.99  'STEARYLALCOHOLCETYLALCOHOLBEHENYLALCOHOL'
+  y=  546  conf=0.94  'DISODIUM EDTA SODIUM ACRYLATES COPOLYMERPEGMOO'
+  y=  610  conf=0.95  'STEARATE TITANIUM DIOXIDE MICA PHENOXYETHANOL'
+  y=  674  conf=0.99  'FRAGRANCE/PARFUM'
+  y=  752  conf=0.89  '*Vitamin/vitamine B3.x*Pro-Vitamin/provitamine B5.*xPeptide'
+
+[PARSE] extracted text (550 chars):
+  'WATER/EAU GLYCERIN ISOHEXADECANEI NIACINAMIDEADISTARCHPHOSPHATE ISOPROPYL ISOSTEARATE DIMETHICONE PANTHENOL. PALMITOYL PENTAPEPTIDEAX SODIUM HYALURONATE CAPRYLIC/CAPRIC TRIGLYCERIDE ETHYLHEXYL GLYCERIN CAPRYLICACAPRICTRIGLYOERIDEETIEYLHEXYLGLCERIN HYDROXYACETOPHENONE DIMETHICONOL-CETEARYL GLUCOSIDE CETEARYLALCOHOLSTEARIC ACIDPALMITICACID, STEARYLALCOHOLCETYLALCOHOLBEHENYLALCOHOL DISODIUM EDTA SODI'...
+  SEG  ['WATER/EAU', 'GLYCERIN', 'ISOHEXADECANEI', 'NIACINAMIDEADISTARCHPHOSPHATE', 'ISOPROPYL', 'ISOSTEARATE', 'DIMETHICONE', 'PANTHENOL.', 'PALMITOYL', 'PENTAPEPTIDEAX', 'SODIUM', 'HYALURONATE', 'CAPRYLIC/CAPRIC', 'TRIGLYCERIDE', 'ETHYLHEXYL', 'GLYCERIN', 'CAPRYLICACAPRICTRIGLYOERIDEETIEYLHEXYLGLCERIN', 'HYDROXYACETOPHENONE', 'DIMETHICONOL-CETEARYL', 'GLUCOSIDE', 'CETEARYLALCOHOLSTEARIC', 'ACIDPALMITICACID']
+      MATCH  win=6  'WATER/EAU GLYCERIN ISOHEXADECANEI NIACINAMIDEADISTARCHPHOSPHATE ISOPROPYL ISOSTEARATE'  ->  'water'
+      MATCH  win=1  'DIMETHICONE'  ->  'dimethicone'
+      MATCH  win=1  'PANTHENOL.'  ->  'panthenol'
+      MATCH  win=2  'PALMITOYL PENTAPEPTIDEAX'  ->  'palmitoyl pentapeptide-4'
+      MATCH  win=7  'SODIUM HYALURONATE CAPRYLIC/CAPRIC TRIGLYCERIDE ETHYLHEXYL GLYCERIN CAPRYLICACAPRICTRIGLYOERIDEETIEYLHEXYLGLCERIN'  ->  'sodium caprooyl hyaluronate'
+      MATCH  win=1  'HYDROXYACETOPHENONE'  ->  'hydroxyacetophenone'
+      SKIP   'DIMETHICONOL-CETEARYL'
+      SKIP   'GLUCOSIDE'
+      SKIP   'CETEARYLALCOHOLSTEARIC'
+      SKIP   'ACIDPALMITICACID'
+  SEG  ['STEARYLALCOHOLCETYLALCOHOLBEHENYLALCOHOL', 'DISODIUM', 'EDTA', 'SODIUM', 'ACRYLATES', 'COPOLYMERPEGMOO', 'STEARATE', 'TITANIUM', 'DIOXIDE', 'MICA', 'PHENOXYETHANOL', 'FRAGRANCE/PARFUM', 'Vitamin/vitamine', 'B3']
+      SKIP   'STEARYLALCOHOLCETYLALCOHOLBEHENYLALCOHOL'
+      MATCH  win=2  'DISODIUM EDTA'  ->  'disodium edta'
+      MATCH  win=3  'SODIUM ACRYLATES COPOLYMERPEGMOO'  ->  'sodium acrylates crosspolymer'
+      MATCH  win=6  'STEARATE TITANIUM DIOXIDE MICA PHENOXYETHANOL FRAGRANCE/PARFUM'  ->  'parfum'
+      SKIP   'Vitamin/vitamine'
+      SKIP   'B3'
+  SEG  ['xPro-Vitamin/provitamine', 'B5']
+      SKIP   'xPro-Vitamin/provitamine'
+      SKIP   'B5'
+  SEG  ['xPeptide']
+      SKIP   'xPeptide'
+  scanning A32.jpg (cropped)...
+[DESKEW] correcting -0.5�
+
+[OCR-TILED] 24 deduplicated lines:
+  y=   30  conf=0.96  'INGREDIENTS:'
+  y=   70  conf=0.96  'WATER(AQUA/EAU)DIMETHICONE-BUTYLENEGLYCOL-ALCOHOLDENAT.'
+  y=  108  conf=0.97  'BETAINEGLYCERINISOHEXADECANE-HYDROGENATED POLYDECENEPPG-3'
+  y=  148  conf=0.96  'DIPIVALATE-SILICA-BEHENYLALCOHOL-STEARYLALCOHOLMYRISTYL'
+  y=  184  conf=0.92  'MYRISTATE:GLYCERYL STEARATE SE POLYSORBATE 60:PEG-1O0 STEARATE'
+  y=  186  conf=0.95  'MYRISTATE-GLYCERYLSTEARATE SEPOLYSORBATE 60PEG-100 STEARATE'
+  y=  226  conf=0.97  'PEG/PPG-14/7DIMETHYLETHERPEG/PPG-17/4DIMETHYLETHER'
+  y=  266  conf=0.99  'PHENOXYETHANOL-DIMETHYLACRYLAMIDE/SODIUM'
+  y=  303  conf=0.96  'ACRYLOYLDIMETHYLTAURATE CROSSPOLYMER-TITANIUMDIOXIDE (CI77891)'
+  y=  344  conf=0.95  'SORBITAN TRISTEARATEERYTHRITOL-FRAGRANCE (PARFUM)-ALCOHOL'
+  y=  383  conf=0.99  'AMINOPROPYLDIMETHICONE2-O-ETHYLASCORBICACIDCARBOMER'
+  y=  421  conf=0.95  'TRISODIUM EDTA XANTHAN GUM-CAFFEINEPOTASSIUM HYDROXIDE'
+  y=  430  conf=0.64  'JOMTTTDNONI'
+  y=  459  conf=0.99  'ISOSTEARICACIDSODIUM METAPHOSPHATEPHYTOSTERYL/OCTYLDODECYL'
+  y=  499  conf=0.95  'LAUROYL GLUTAMATE-ALUMINUM HYDROXIDE-LINALOOL-TOCOPHEROL'
+  y=  538  conf=0.96  'SODIUM METABISULFITE-LIMONENE-CITRUSUNSHIUPEEL EXTRACTSODIUM'
+  y=  576  conf=0.97  'HYALURONATEANGELICAKEISKEILEAF/STEM EXTRACTZIZIPHUSJUJUBA FRUIT'
+  y=  608  conf=0.93  'EXTRACTPANAXGINSENGROOTEXTRACTSOD'
+  y=  608  conf=0.86  'ATEDHVNLLIRONATE'
+  y=  616  conf=0.95  'EXTRACTPANAX GINSENG ROOT EXTRACT-SODIUM ACETYLATED HYALURONATE'
+  y=  654  conf=0.94  'SCUTELLARIA BAICALENSIS ROOT EXTRACTIRON OXIDES (CI77491)ALPINIA'
+  y=  693  conf=0.96  'SPECIOSALEAFEXTRACT-ROSMARINUS OFFICINALIS(ROSEMARY) LEAFEXTRACT'
+  y=  732  conf=0.95  '(ROSMARINUS OFFICINALIS LEAF EXTRACT)SANGUISORBA OFFICINALIS ROOT'
+  y=  772  conf=0.96  'EXTRACT-PYROLAINCARNATAEXTRACT<M098514-702>'
+
+[PARSE] extracted text (1231 chars):
+  'WATER, AQUA/EAU DIMETHICONE-BUTYLENE GLYCOL-ALCOHOLDENAT. BETAINE GLYCERINISOHEXADECANE-HYDROGENATED POLYDECENEPPG-3 DIPIVALATE-SILICA-BEHENYLALCOHOL-STEARYLALCOHOLMYRISTYL MYRISTATE:GLYCERYL STEARATE SE POLYSORBATE 60:PEG-1 O0 STEARATE MYRISTATE-GLYCERYLSTEARATE SEPOLYSORBATE 60 PEG-100 STEARATE PEG/PPG-14/7 DIMETHYLETHERPEG/PPG-17/4 DIMETHYLETHER PHENOXYETHANOL-DIMETHYLACRYLAMIDE/SODIUM ACRYLOYL'...
+  SEG  ['WATER']
+      MATCH  win=1  'WATER'  ->  'water'
+  SEG  ['AQUA/EAU', 'DIMETHICONE-BUTYLENE', 'GLYCOL-ALCOHOLDENAT.', 'BETAINE', 'GLYCERINISOHEXADECANE-HYDROGENATED', 'POLYDECENEPPG-3', 'DIPIVALATE-SILICA-BEHENYLALCOHOL-STEARYLALCOHOLMYRISTYL', 'MYRISTATE:GLYCERYL', 'STEARATE', 'SE', 'POLYSORBATE', '60:PEG-1', 'O0', 'STEARATE', 'MYRISTATE-GLYCERYLSTEARATE', 'SEPOLYSORBATE', '60', 'PEG-100', 'STEARATE', 'PEG/PPG-14/7', 'DIMETHYLETHERPEG/PPG-17/4', 'DIMETHYLETHER', 'PHENOXYETHANOL-DIMETHYLACRYLAMIDE/SODIUM', 'ACRYLOYLDIMETHYLTAURATE', 'CROSSPOLYMER-TITANIUMDIOXIDE']
+      MATCH  win=7  'AQUA/EAU DIMETHICONE-BUTYLENE GLYCOL-ALCOHOLDENAT. BETAINE GLYCERINISOHEXADECANE-HYDROGENATED POLYDECENEPPG-3 DIPIVALATE-SILICA-BEHENYLALCOHOL-STEARYLALCOHOLMYRISTYL'  ->  'aqua'
+      MATCH  win=3  'MYRISTATE:GLYCERYL STEARATE SE'  ->  'glyceryl stearate se'
+      MATCH  win=2  'POLYSORBATE 60:PEG-1'  ->  'polysorbate 61'
+      MATCH  win=2  'O0 STEARATE'  ->  'oleyl stearate'
+      SKIP   'MYRISTATE-GLYCERYLSTEARATE'
+      MATCH  win=7  'SEPOLYSORBATE 60 PEG-100 STEARATE PEG/PPG-14/7 DIMETHYLETHERPEG/PPG-17/4 DIMETHYLETHER'  ->  'dimethyl ether'
+      MATCH  win=1  'PHENOXYETHANOL-DIMETHYLACRYLAMIDE/SODIUM'  ->  'sodium'
+      MATCH  win=2  'ACRYLOYLDIMETHYLTAURATE CROSSPOLYMER-TITANIUMDIOXIDE'  ->  'sodium acryloyldimethyltaurate crosspolymer'
+  SEG  ['CI77891', 'SORBITAN', 'TRISTEARATEERYTHRITOL-FRAGRANCE']
+      SKIP   'CI77891'
+      SKIP   'SORBITAN'
+      SKIP   'TRISTEARATEERYTHRITOL-FRAGRANCE'
+  SEG  ['PARFUM-ALCOHOL', 'AMINOPROPYL', 'DIMETHICONE2-O-ETHYL', 'ASCORBICACID', 'CARBOMER', 'TRISODIUM', 'EDTA', 'XANTHAN', 'GUM-CAFFEINEPOTASSIUM', 'HYDROXIDE', 'JOMTTTDNONI', 'ISOSTEARICACIDSODIUM', 'METAPHOSPHATEPHYTOSTERYL/OCTYLDODECYL', 'LAUROYL', 'GLUTAMATE-ALUMINUM', 'HYDROXIDE-LINALOOL-TOCOPHEROL', 'SODIUM', 'METABISULFITE-LIMONENE-CITRUSUNSHIUPEEL', 'EXTRACTSODIUM', 'HYALURONATEANGELICAKEISKEILEAF/STEM', 'EXTRACTZIZIPHUSJUJUBA', 'FRUIT', 'EXTRACTPANAXGINSENGROOTEXTRACTSOD', 'ATEDHVNLLIRONATE', 'EXTRACTPANAX', 'GINSENG', 'ROOT', 'EXTRACT-SODIUM', 'ACETYLATED', 'HYALURONATE', 'SCUTELLARIA', 'BAICALENSIS', 'ROOT', 'EXTRACTIRON', 'OXIDES']
+      SKIP   'PARFUM-ALCOHOL'
+      MATCH  win=2  'AMINOPROPYL DIMETHICONE2-O-ETHYL'  ->  'aminopropyl dimethicone'
+      SKIP   'ASCORBICACID'
+      MATCH  win=1  'CARBOMER'  ->  'carbomer'
+      MATCH  win=2  'TRISODIUM EDTA'  ->  'trisodium edta'
+      SKIP   'XANTHAN'
+      SKIP   'GUM-CAFFEINEPOTASSIUM'
+      SKIP   'HYDROXIDE'
+      SKIP   'JOMTTTDNONI'
+      SKIP   'ISOSTEARICACIDSODIUM'
+      SKIP   'METAPHOSPHATEPHYTOSTERYL/OCTYLDODECYL'
+      SKIP   'LAUROYL'
+      SKIP   'GLUTAMATE-ALUMINUM'
+      SKIP   'HYDROXIDE-LINALOOL-TOCOPHEROL'
+      MATCH  win=1  'SODIUM'  ->  'sodium'
+      SKIP   'METABISULFITE-LIMONENE-CITRUSUNSHIUPEEL'
+      SKIP   'EXTRACTSODIUM'
+      SKIP   'HYALURONATEANGELICAKEISKEILEAF/STEM'
+      SKIP   'EXTRACTZIZIPHUSJUJUBA'
+      SKIP   'FRUIT'
+      SKIP   'EXTRACTPANAXGINSENGROOTEXTRACTSOD'
+      SKIP   'ATEDHVNLLIRONATE'
+      SKIP   'EXTRACTPANAX'
+      SKIP   'GINSENG'
+      MATCH  win=2  'ROOT EXTRACT-SODIUM'  ->  'root extracts'
+      MATCH  win=2  'ACETYLATED HYALURONATE'  ->  'sodium acetylated hyaluronate'
+      MATCH  win=4  'SCUTELLARIA BAICALENSIS ROOT EXTRACTIRON'  ->  'scutellaria baicalensis root powder'
+      SKIP   'OXIDES'
+  SEG  ['CI77491', 'ALPINIA', 'SPECIOSALEAFEXTRACT-ROSMARINUS', 'OFFICINALIS']
+      SKIP   'CI77491'
+      SKIP   'ALPINIA'
+      SKIP   'SPECIOSALEAFEXTRACT-ROSMARINUS'
+      SKIP   'OFFICINALIS'
+  SEG  ['ROSEMARY', 'LEAFEXTRACT']
+      SKIP   'ROSEMARY'
+      SKIP   'LEAFEXTRACT'
+  SEG  ['ROSMARINUS', 'OFFICINALIS', 'LEAF', 'EXTRACTSANGUISORBA', 'OFFICINALIS', 'ROOT', 'EXTRACT-PYROLAINCARNATAEXTRACT<M098514-702>']
+      MATCH  win=3  'ROSMARINUS OFFICINALIS LEAF'  ->  'rosmarinus officinalis leaf oil'
+      MATCH  win=3  'EXTRACTSANGUISORBA OFFICINALIS ROOT'  ->  'gomphrena officinalis root extract'
+      SKIP   'EXTRACT-PYROLAINCARNATAEXTRACT<M098514-702>'
+  scanning A33.jpg (cropped)...
+
+[OCR-TILED] 19 deduplicated lines:
+  y=  108  conf=0.95  'INGREDIENTS: WATERDIMETHICONE,GLYCERIN,BUTYLENE GLYCOL AMMONIUM'
+  y=  176  conf=0.64  'AORVLOY'
+  y=  178  conf=0.60  'CADCODO'
+  y=  194  conf=0.96  'ACRYLOYLDIMETHYLTAURATENVP COPOLYMER,NIACINAMIDE LINOLEAMIDOPROPYL PG-DIMONIUM'
+  y=  284  conf=0.95  'CHLORIDE PHOSPHATE, PHENOXYETHANOL AMMONIUM ACRYLOYLDIMETHYLTAURATE/BEHENETH-25'
+  y=  300  conf=0.84  'CHLORIDEPROSPHAIESPHENOAYCINANOL'
+  y=  300  conf=0.64  'MEIHLIADnA'
+  y=  302  conf=0.57  'TEIDEHENEIRFAO'
+  y=  369  conf=0.93  'METHACRYLATE CROSSPOLYMER, DIMETHICONE, PERFUME, SODIUM PCA,DISODIUM EDTA STEARIC ACID,'
+  y=  446  conf=0.57  'TRIP'
+  y=  446  conf=0.77  'XTOCOPHERVI'
+  y=  448  conf=0.87  'CAPRYICICAPRICTRIGIYCERIDE'
+  y=  448  conf=0.87  'RHTJODOPROPYNY'
+  y=  458  conf=0.98  'CAPRYLICICAPRICTRIGLYCERIDE,TOCOPHERYL'
+  y=  462  conf=0.92  'TRIETHANOLAMINE,BHT,JODOPROPYNYL'
+  y=  546  conf=0.94  'BUTYLCARBAMATE SODIUM HYALURONATE CROSSPOLYMER (AND) SODIUM HYALURONATE (AND) SODIUM'
+  y=  632  conf=0.94  'ACETYLATED HYALURONATE (AND) HYDROLYZED HYALURONIC ACID (AND) PENTYLENE GLYCOL AND'
+  y=  716  conf=0.92  'ETHYLHEXYLGLYCERIN AND)AQUA.CITRAL.CITRONELLOL.GERANIOLHEXYL CINNAMALLIMONENE LINALOOL.CI42090.'
+  y=  736  conf=0.88  'ETRYLRE'
+
+[PARSE] extracted text (781 chars):
+  'WATER DIMETHICONE,GLYCERIN,BUTYLENE GLYCOL AMMONIUM AORVLOY CADCODO ACRYLOYLDIMETHYLTAURATENVP COPOLYMER,NIACINAMIDE LINOLEAMIDOPROPYL PG-DIMONIUM CHLORIDE PHOSPHATE, PHENOXYETHANOL AMMONIUM ACRYLOYLDIMETHYLTAURATE/BEHENETH-25 CHLORIDEPROSPHAIESPHENOAYCINANOL MEIHLIADnA TEIDEHENEIRFAO METHACRYLATE CROSSPOLYMER, DIMETHICONE, PERFUME, SODIUM PCA,DISODIUM EDTA STEARIC ACID, TRIP XTOCOPHERVI CAPRYICIC'...
+  SEG  ['WATER', 'DIMETHICONE']
+      MATCH  win=1  'WATER'  ->  'water'
+      MATCH  win=1  'DIMETHICONE'  ->  'dimethicone'
+  SEG  ['GLYCERIN']
+      MATCH  win=1  'GLYCERIN'  ->  'glycerin'
+  SEG  ['BUTYLENE', 'GLYCOL', 'AMMONIUM', 'AORVLOY', 'CADCODO', 'ACRYLOYLDIMETHYLTAURATENVP', 'COPOLYMER']
+      MATCH  win=2  'BUTYLENE GLYCOL'  ->  'butylene glycol'
+      MATCH  win=5  'AMMONIUM AORVLOY CADCODO ACRYLOYLDIMETHYLTAURATENVP COPOLYMER'  ->  'ammonium acryloyldimethyltaurate/vp copolymer'
+  SEG  ['NIACINAMIDE', 'LINOLEAMIDOPROPYL', 'PG-DIMONIUM', 'CHLORIDE', 'PHOSPHATE']
+      MATCH  win=1  'NIACINAMIDE'  ->  'niacinamide'
+      MATCH  win=4  'LINOLEAMIDOPROPYL PG-DIMONIUM CHLORIDE PHOSPHATE'  ->  'linoleamidopropyl pg-dimonium chloride phosphate'
+  SEG  ['PHENOXYETHANOL', 'AMMONIUM', 'ACRYLOYLDIMETHYLTAURATE/BEHENETH-25', 'CHLORIDEPROSPHAIESPHENOAYCINANOL', 'MEIHLIADnA', 'TEIDEHENEIRFAO', 'METHACRYLATE', 'CROSSPOLYMER']
+      MATCH  win=1  'PHENOXYETHANOL'  ->  'phenoxyethanol'
+      MATCH  win=2  'AMMONIUM ACRYLOYLDIMETHYLTAURATE/BEHENETH-25'  ->  'beheneth-25'
+      SKIP   'CHLORIDEPROSPHAIESPHENOAYCINANOL'
+      SKIP   'MEIHLIADnA'
+      SKIP   'TEIDEHENEIRFAO'
+      MATCH  win=2  'METHACRYLATE CROSSPOLYMER'  ->  'allyl methacrylates crosspolymer'
+  SEG  ['DIMETHICONE']
+      MATCH  win=1  'DIMETHICONE'  ->  'dimethicone'
+  SEG  ['PERFUME']
+      SKIP   'PERFUME'
+  SEG  ['SODIUM', 'PCA']
+      MATCH  win=1  'SODIUM'  ->  'sodium'
+      MATCH  win=1  'PCA'  ->  'pca'
+  SEG  ['DISODIUM', 'EDTA', 'STEARIC', 'ACID']
+      MATCH  win=2  'DISODIUM EDTA'  ->  'disodium edta'
+      MATCH  win=2  'STEARIC ACID'  ->  'stearic acid'
+  SEG  ['TRIP', 'XTOCOPHERVI', 'CAPRYICICAPRICTRIGIYCERIDE', 'RHTJODOPROPYNY', 'CAPRYLICICAPRICTRIGLYCERIDE']
+      SKIP   'TRIP'
+      SKIP   'XTOCOPHERVI'
+      MATCH  win=1  'CAPRYICICAPRICTRIGIYCERIDE'  ->  'capryliccapric triglyceride'
+      SKIP   'RHTJODOPROPYNY'
+      MATCH  win=1  'CAPRYLICICAPRICTRIGLYCERIDE'  ->  'capryliccapric triglyceride'
+  SEG  ['TOCOPHERYL', 'TRIETHANOLAMINE']
+      MATCH  win=1  'TOCOPHERYL'  ->  'tocopherol'
+      MATCH  win=1  'TRIETHANOLAMINE'  ->  'triethanolamine'
+  SEG  ['BHT']
+      MATCH  win=1  'BHT'  ->  'bht'
+  SEG  ['JODOPROPYNYL', 'BUTYLCARBAMATE', 'SODIUM', 'HYALURONATE', 'CROSSPOLYMER']
+      MATCH  win=2  'JODOPROPYNYL BUTYLCARBAMATE'  ->  'iodopropynyl butylcarbamate'
+      MATCH  win=3  'SODIUM HYALURONATE CROSSPOLYMER'  ->  'sodium hyaluronate crosspolymer'
+  SEG  ['AND', 'SODIUM', 'HYALURONATE']
+      MATCH  win=3  'AND SODIUM HYALURONATE'  ->  'sodium hyaluronate'
+  SEG  ['AND', 'SODIUM', 'ACETYLATED', 'HYALURONATE']
+      MATCH  win=4  'AND SODIUM ACETYLATED HYALURONATE'  ->  'sodium acetylated hyaluronate'
+  SEG  ['AND', 'HYDROLYZED', 'HYALURONIC', 'ACID']
+      MATCH  win=2  'AND HYDROLYZED'  ->  'hydrolyzed algin'
+      MATCH  win=2  'HYALURONIC ACID'  ->  'hyaluronic acid'
+  SEG  ['AND', 'PENTYLENE', 'GLYCOL', 'AND', 'ETHYLHEXYL', 'GLYCERIN', 'AND)AQUA']
+      MATCH  win=3  'AND PENTYLENE GLYCOL'  ->  'pentylene glycol'
+      SKIP   'AND'
+      MATCH  win=2  'ETHYLHEXYL GLYCERIN'  ->  'ethylhexylglycerin'
+      SKIP   'AND)AQUA'
+  SEG  ['CITRAL']
+      MATCH  win=1  'CITRAL'  ->  'citral'
+  SEG  ['CITRONELLOL']
+      MATCH  win=1  'CITRONELLOL'  ->  'citronellol'
+  SEG  ['GERANIOLHEXYL', 'CINNAMALLIMONENE', 'LINALOOL']
+      SKIP   'GERANIOLHEXYL'
+      SKIP   'CINNAMALLIMONENE'
+      MATCH  win=1  'LINALOOL'  ->  'linalool'
+  SEG  ['CI42090.', 'ETRYLRE']
+      SKIP   'CI42090.'
+      SKIP   'ETRYLRE'
+
+Image                  Mode            P       R      F1   TP  FP  FN
+-------------------------------------------------------------------
+IMG_01.jpg             label        0.0%    0.0%    0.0%    0   0  26
+                         missed : ['alumina', 'ammonium acryloyldimethyltaurate/vp copolymer', 'ascorbyl tetraisopalmitate', 'butylene glycol', 'caprylhydroxamic acid', 'carbomer', 'di-water', 'dioctyldodecyl lauroyl glutamate', 'dl-alpha-tocopheryl acetate', 'glyceryl stearate', 'isododecane', 'methyl gluceth-20', 'methylpropanediol', 'neopentyl glycol diheptanoate', 'peg-100 stearate', 'phenoxyethanol', 'propanediol', 'saxifraga sarmentosa extract', 'simethicone', 'sodium hyaluronate', 'steareth-2', 'steareth-21', 'titanium dioxide (micronized)', 'triethanolamine', 'xanthan gum', 'zinc oxide (micronized)']
+IMG_02.jpg             label        0.0%    0.0%    0.0%    0   0  27
+                         missed : ['aqua', 'biosaccharide gum-1', 'butylene glycol', 'citric acid', 'croton lechleri resin extract', 'dipotassium glycyrrhizate', 'disodium edta', 'ethylhexylglycerin', 'fragrance', 'glycerin', 'glyceryl acrylate/acrylic acid copolymer', 'glycolic acid', 'hydrolyzed sponge', 'hydroxyethylcellulose', 'hydroxypropyl guar', 'lactic acid', 'lecithin', 'olive oil peg-7 esters', 'phenoxyethanol', 'polysorbate 20', 'propanediol', 'propylene glycol', 'pvm/ma copolymer', 'snail secretion filtrate', 'sodium acrylates copolymer', 'sodium magnesium silicate', 'xanthan gum']
+IMG_03.jpg             label        0.0%    0.0%    0.0%    0   0  48
+                         missed : ['1,2-hexanediol', 'alteromonas ferment extract', 'arachidic acid', 'bellis perennis (daisy) flower extract', 'butylene glycol', 'butylene glycol dicaprylate/dicaprate', 'caprylyl glycol', 'chamomilla recutita (matricaria) flower extract', 'citrus aurantium amara (bitter orange) flower extract', 'cocamide mea', 'cocamidopropyl betaine', 'coco-glucoside', 'dipropylene glycol', 'disodium edta', 'ethylhexylglycerin', 'fragrance', 'gardenia florida flower extract', 'glutathione', 'glycerin', 'glyceryl stearate', 'hydroxypropyl cyclodextrin', 'jasminum officinale (jasmine) flower extract', 'lauric acid', 'lilium candidum flower extract', 'lilium tigrinum flower extract', 'myristic acid', 'nelumbium speciosum flower extract', 'oleic acid', 'palmitic acid', 'peg-100 stearate', 'peg-14m', 'phenoxyethanol', 'polyquaternium-7', 'potassium hydroxide', 'prunus mume flower extract', 'rose extract', 'rubus idaeus (raspberry) fruit extract', 'silica', 'snail secretion filtrate', 'sodium benzoate', 'sodium chloride', 'stearic acid', 'titanium dioxide', 'tocopheryl acetate', 'vaccinium angustifolium (blueberry) fruit extract', 'vaccinium macrocarpon (cranberry) fruit extract', 'vaccinium vitis-idaea fruit extract', 'water']
+IMG_04.jpg             label        0.0%    0.0%    0.0%    0   0  37
+                         missed : ['1,2-hexanediol', 'acetyl hexapeptide-1', 'acetyl hexapeptide-8', 'acetyl tetrapeptide-2', 'acrylates/c10-30 alkyl acrylate crosspolymer', 'arginine', 'butylene glycol', 'caprylyl glycol', 'copper tripeptide-1', 'dimethylsilanol hyaluronate', 'dipropylene glycol', 'ethylhexylglycerin', 'glycereth-26', 'glycerin', 'hamamelis virginiana (witch hazel) extract', 'hexapeptide-9', 'hyaluronic acid', 'hydrolyzed glycosaminoglycans', 'hydrolyzed hyaluronic acid', 'hydrolyzed sodium hyaluronate', 'hydroxypropyl trimonium hyaluronate', 'methylpropanediol', 'niacinamide', 'nonapeptide-1', 'palmitoyl hexapeptide-12', 'palmitoyl pentapeptide-4', 'palmitoyl tetrapeptide-7', 'palmitoyl tripeptide-1', 'palmitoyl tripeptide-5', 'polyglyceryl-10 laurate', 'polyglyceryl-4 laurate', 'sodium acetylated hyaluronate', 'sodium hyaluronate', 'sodium hyaluronate crosspolymer', 'tripeptide-1', 'water', 'xanthan gum']
+IMG_05.jpg             label        0.0%    0.0%    0.0%    0   0  19
+                         missed : ['alpha-arbutin', 'aqua', 'caprylyl glycol', 'carbomer', 'dipotassium glycyrrhizinate', 'disodium edta', 'ethylhexylglycerin', 'fragrance', 'glutathione', 'glycerin', 'glyceryl acrylate/acrylic acid copolymer', 'hydrolyzed collagen', 'niacinamide', 'phenoxyethanol', 'polysorbate 20', 'propanediol', 'propylene glycol', 'triethanolamine', 'xanthan gum']
+A2.jpg                 cropped     75.0%   33.3%   46.2%    3   1   6
+                         missed : ['bis-peg-18 methyl ether dimethyl silane', 'glycerin', 'myristyl myristate', 'peg-8 stearate', 'squalane', 'sucrose stearate']
+                         FP     : ['peg-18 stearate']
+A3.jpg                 cropped     80.0%   72.7%   76.2%   16   4   6
+                         missed : ['avena sativa (oat) kernel extract', 'avena sativa (oat) kernel flour', 'c13-14 isoparaffin', 'centella asiatica extract', 'chrysanthemum parthenium (feverfew) flower/leaf/stem juice', 'laureth-7']
+                         FP     : ['avena sativa bran', 'centella asiatica root extract', 'chrysanthemum parthenium extract', 'laureth-6']
+A5.jpg                 cropped     78.6%   71.0%   74.6%   22   6   9
+                         missed : ['1,2-hexanediol', 'avena sativa (oat) kernel extract', 'chrysanthemum parthenium (feverfew) extract', 'citric acid', 'enantia chlorantha bark extract', 'glycyrrhiza glabra (licorice) root extract', 'hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer', 'laureth-8', 'sodium acrylates copolymer']
+                         FP     : ['1�2-hexanediol', 'avena sativa bran', 'chrysanthemum parthenium extract', 'glycyrrhiza glabra root oil', 'laureth-8 carboxylic acid', 'sodium acrylates crosspolymer']
+A6.jpg                 cropped     55.6%   27.8%   37.0%    5   4  13
+                         missed : ['aloe barbadensis leaf water', 'ammonium acryloyldimethyltaurate/vp copolymer', 'betula alba (birch) bark extract', 'butylene glycol', 'caffeine', 'camellia sinensis (green tea) leaf extract', 'dimethicone', 'saccharomyces lysate extract', "silybum marianum (lady's thistle) extract", 'sucrose', 'thermus thermophillus ferment', 'trehalose', 'trisiloxane']
+                         FP     : ['aloe barbadensis leaf powder', 'glycol', 'leaf extracts', 'sodium acryloyldimethyltaurate crosspolymer']
+A7.jpg                 cropped     78.6%   22.9%   35.5%   11   3  37
+                         missed : ['1,2-hexanediol', 'ammonium acryloyldimethyltaurate/vp copolymer', 'arachidyl alcohol', 'behenyl alcohol', 'butylene glycol', 'c14-22 alcohols', 'camellia sinensis leaf extract', 'camellia sinensis seed extract', 'camellia sinensis seed oil', 'caprylic/capric triglyceride', 'ceramide np', 'ethylhexylglycerin', 'fragrance/parfum', 'glyceryl caprylate', 'glyceryl stearate citrate', 'hyaluronic acid', 'hydrogenated lecithin', 'hydrogenated poly(c-14 olefin)', 'hydrolyzed hyaluronic acid', 'hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer', 'hydroxypropyl starch phosphate', 'lactic acid', 'lactobacillus ferment lysate', 'linalool', 'methyl trimethicone', 'panthenol', 'phytosteryl/behenyl/octyldodecyl lauroyl glutamate', 'polyglyceryl-3 methylglucose distearate', 'polymethylsilsesquioxane', 'sodium acetylated hyaluronate', 'sodium hyaluronate', 'sodium hyaluronate crosspolymer', 'sorbitan isostearate', 'squalane', 'theobroma cacao (cocoa) extract', 'tocopherol', 'trehalose']
+                         FP     : ['glyceryl polyacrylate', 'sorbitan triisostearate', 'steareth-3 phosphate']
+A8.jpg                 cropped     57.1%    7.1%   12.7%    4   3  52
+                         missed : ['aminopropyl ascorbyl phosphate', 'ascophyllum nodosum extract', 'asparagopsis armata extract', 'behenyl alcohol', 'bismuth oxychloride (ci 77163)', 'butylene glycol', 'butyrospermum parkii (shea) butter', 'caffeine', 'caprylic/capric triglyceride', 'caprylyl glycol', 'carbomer', 'chlorphenesin', 'chrysanthellum indicum extract', 'citrus aurantium dulcis (orange) peel extract', 'coffea arabica (coffee) seed oil', 'cucumis sativus (cucumber) fruit extract', 'dimethicone', 'disodium edta', 'ethylhexylglycerin', 'gelidiella acerosa extract', 'glycerin', 'hydrogenated lecithin', 'hypnea musciformis extract', 'inulin', 'iron oxides (ci 77491)', 'iron oxides (ci 77492)', 'jojoba wax peg-120 esters', 'linoleic acid', 'methyl trimethicone', 'mica', 'myristyl alcohol', 'niacinamide', 'olea europaea (olive) fruit oil', 'panax ginseng root extract', 'peg-100 stearate', 'phytosphingosine', 'pyrus malus (apple) fruit extract', 'scutellaria baicalensis root extract', 'sigesbeckia orientalis extract', 'silica', 'simmondsia chinensis (jojoba) seed oil', 'sodium hyaluronate', 'sodium hydroxide', 'sodium metabisulfite', 'sodium sulfite', 'sorbic acid', 'sorbitol', 'titanium dioxide (ci 77891)', 'tocopheryl acetate', 'trametes versicolor extract', 'trehalose', 'tribehenin']
+                         FP     : ['hydrogenated lysolecithin', 'iris versicolor extract', 'titanium dioxide']
+A9.jpg                 cropped     33.3%    5.3%    9.1%    1   2  18
+                         missed : ['1,2-hexanediol', 'butylene glycol dicaprylate/dicaprate', 'butyrospermum parkii (shea) butter', 'cetyl alcohol', 'cetyl ethylhexanoate', 'coptis japonica root extract', 'glyceryl caprylate', 'glyceryl stearate', 'isohexadecane', 'lauryl alcohol', 'myristyl alcohol', 'polyglyceryl-3 methylglucose distearate', 'polysorbate 80', 'simmondsia chinensis (jojoba) seed oil', 'sodium acrylate/sodium acryloyldimethyl taurate copolymer', 'sorbitan oleate', 'stearyl alcohol', 'water']
+                         FP     : ['1�2-hexanediol', 'sorbitan trioleate']
+A10.jpg                cropped     68.3%   66.1%   67.2%   41  19  21
+                         missed : ['1,2-hexanediol', 'acacia senegal gum', 'algae extract', 'aloe barbadensis leaf juice', 'amaranthus caudatus seed extract', 'artemisia vulgaris extract', 'beta vulgaris (beet) root extract', 'c12-16 alcohols', 'cetearyl glucoside', 'citrus aurantium bergamia (bergamot) fruit oil', 'glycyrrhiza glabra (licorice) root extract', 'hydrogenated lecithin', 'hydrogenated poly(c6-14 olefin)', 'hydrolyzed corn starch', 'hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer', 'paeonia lactiflora root extract', 'pogostemon cablin oil', 'portulaca oleracea extract', 'salvia officinalis (sage) oil', 'soluble collagen', 'xanthan gum']
+                         FP     : ['1�2-hexanediol', 'acacia senegal gum extract', 'algae', 'amaranthus cruentus seed extract', 'artemisia vulgaris herb extract', 'beta vulgaris sprout extract', 'c20-40 alcohols', 'c26-54 olefin', 'citrus aurantium bergamia fruit oil', 'collagen', 'glycyrrhiza glabra root oil', 'hydrogenated lysolecithin', 'hydrogenated polybutene', 'paeonia lactiflora phytoplacenta extract', 'pogostemon cablin leaf oil', 'polydecene', 'portulaca oleracea juice', 'root extracts', 'sodium acrylate/sodium acryloyldimethyl taurate copolymer']
+A12.jpg                cropped     66.0%   64.8%   65.4%   35  18  19
+                         missed : ['1,2-hexanediol', 'alcohol denat', 'avena sativa (oat) kernel extract', 'butyrospermum parkii (shea) butter', 'ceramide 3', 'equisetum arvense leaf extract', 'glyceryl stearate', 'hydrogenated lecithin', 'isohexadecane', 'malachite extract', 'nepeta cataria extract', 'peg-150', 'peg-40 hydrogenated castor oil', 'plantago lanceolata leaf extract', 'rubus idaeus (raspberry) leaf extract', 'sodium acrylate/acryloyldimethyltaurate/dimethylacrylamide crosspolymer', 'stearic acid', 'stellaria media (chickweed) extract', 'urtica dioica (nettle) leaf extract']
+                         FP     : ['1�2-hexanediol', 'alcohol denat.', 'butter', 'butyrospermum parkii oil', 'castoreum oil', 'ceramide 4', 'equisetum arvense leaf powder', 'hydrogenated lysolecithin', 'leaf extracts', 'malt extract', 'methyl stearic acid', 'nepeta cataria', 'peg-10', 'peg-40 hydrogenated lanolin', 'plantago lanceolata juice', 'rubus idaeus seed', 'sodium caprylate', 'urtica dioica']
+A14.jpg                cropped     73.3%   61.1%   66.7%   11   4   7
+                         missed : ['1,2-hexanediol', 'ceramide as', 'cholesterol', 'glycerin', 'hydrogenated lecithin', 'pentylene glycol', 'squalane']
+                         FP     : ['1�2-hexanediol', 'ceramide ag', 'hyaluronic acid', 'phytosterols']
+A15.jpg                cropped     73.5%   65.8%   69.4%   25   9  13
+                         missed : ['1,2-hexanediol', 'ammonium acryloyldimethyltaurate/vp copolymer', 'c30-45 alkyl cetearyl dimethicone crosspolymer', 'centella asiatica extract (72%)', 'ceramide ns', 'coptis chinensis root extract', 'dipotassium glycyrrhizate', 'hydrogenated lecithin', 'mentha piperita (peppermint) leaf extract', 'theobroma cacao (cocoa) extract', 'tranexamic acid', 'xanthan gum', 'zingiber officinale (ginger) root extract']
+                         FP     : ['1�2-hexanediol', 'ammonium polyacryloyldimethyl taurate', 'c30-45 alkyl dimethicone', 'centella asiatica root extract', 'ceramide ng', 'dimethicone', 'hydrogenated lysolecithin', 'root extracts', 'zingiber officinale root oil']
+A16.jpg                cropped     92.9%   89.7%   91.2%   26   2   3
+                         missed : ['acrylates/c10-30 alkyl acrylate crosspolymer', 'borago officialis seed oil', 'mineral oil']
+                         FP     : ['mineral oils', 'sodium acrylates/c10-30 alkyl acrylate crosspolymer']
+A18.jpg                cropped     50.0%    9.1%   15.4%    2   2  20
+                         missed : ['acrylates/c10-30 alkyl acrylate crosspolymer', 'aqua', 'benzoic acid', 'cetyl alcohol', 'citric acid', 'dicaprylyl ether', 'dimethicone', 'glycerin', 'glyceryl stearate', 'helianthus annuus seed oil', 'isopropyl palmitate', 'niacinamide', 'panthenol', 'peg-30 glyceryl stearate', 'petrolatum', 'phenoxyethanol', 'propylene glycol', 'prunus amygdalus dulcis oil', 'sodium hydroxide', 'tocopheryl acetate']
+                         FP     : ['lauryl acrylate', 'pantolactone']
+A19.jpg                cropped     50.0%    1.8%    3.4%    1   1  55
+                         missed : ['1,2-hexanediol', 'alpha-isomethyl ionone', 'arachidyl alcohol', 'arachidyl glucoside', 'behenyl alcohol', 'butylene glycol', 'butylene glycol dicaprylate/dicaprate', 'butyrospermum parkii (shea) butter', 'carthamus tinctorius (safflower) flower extract', 'cetyl ethylhexanoate', 'cetyl ppg/ppg-10/1 dimethicone', 'cyclohexasiloxane', 'cyclopentasiloxane', 'dextrin', 'dimethicone', 'disodium edta', 'disteardimonium hectorite', 'ethylhexylglycerin', 'fragrance/parfum', 'gardenia florida fruit extract', 'glucose', 'glycerin', 'glycyrrhiza uralensis (licorice) root extract', 'hexyl cinnamal', 'honey/mel/miel', 'hydrogenated lecithin', 'hydrolyzed ginseng saponins (enzyme-treated red ginseng saponins)', 'hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer', 'hydroxyisohexyl 3-cyclohexene carboxaldehyde', 'lauryl peg-9 polydimethylsiloxyethyl dimethicone', 'lilium candidum bulb extract', 'limonene', 'linalool', 'methoxy peg-114/polyepsilon caprolactone', 'nelumbo nucifera flower extract', 'panax ginseng flower extract', 'panax ginseng root extract', 'peg-10 dimethicone', 'pentaerythrityl tetraethylhexanoate', 'perilla ocymoides seed extract', 'phenoxyethanol', 'phytosphingosine', 'polyacrylate-13', 'polygonatum officinale rhizome/root extract', 'polyisobutene', 'polysorbate 20', 'polysorbate 60', 'rehmannia glutinosa root extract', 'sodium methyl stearoyl taurate', 'sodium polyaspartate', 'sorbitan isostearate', 'squalane', 'tocopherol', 'triethylhexanoin', 'water/aqua/eau']
+                         FP     : ['lauryl methicone']
+A20.jpg                cropped     87.0%   90.9%   88.9%   20   3   2
+                         missed : ['ceteth-20', 'glycerin']
+                         FP     : ['ceramide eop', 'ceteareth-20', 'dimethicone']
+A21.jpg                cropped     60.5%   60.5%   60.5%   23  15  15
+                         missed : ['1,2-hexanediol', 'acacia senegal gum', 'aloe barbadensis flower extract', 'coccinia indica fruit extract', 'corallina officinalis extract', 'curcuma longa (turmeric) root extract', 'dipotassium glycyrrhizate', 'glyceryl glucoside', 'hydrolyzed hibiscus esculentus extract', 'lupinus albus seed extract', 'moringa oleifera seed extract', 'ocimum sanctum leaf extract', 'pentaerythrityl tetraethylhexanoate', 'polyglyceryl-3 methylglucose distearate', 'solanum melongena (eggplant) fruit extract']
+                         FP     : ['1�2-hexanediol', 'acacia senegal gum extract', 'aloe barbadensis leaf extract', 'corallina officinalis thallus extract', 'fragaria indica extract', 'fruit extracts', 'hibiscus esculentus seed extract', 'lauryl glucoside', 'leaf extracts', 'lupinus albus seed oil', 'moringa oleifera seedcake extract', 'peg-20 methyl glucose distearate', 'pentaerythrityl tetraoleate', 'root extracts', 'tocopheryl glucoside']
+A23.jpg                cropped     63.6%   44.7%   52.5%   21  12  26
+                         missed : ['1,2-hexanediol', 'acrylates/ammonium methacrylate copolymer', 'arachidyl alcohol', 'butylene glycol', 'c12-20 alkyl glucoside', 'c14-22 alcohols', 'cetyl-pg hydroxyethyl palmitamide', 'cholesterol', 'dicaprylyl carbonate', 'dimethicone', 'dimethicone methacrylate copolymer', 'ethylhexyl stearate', 'glycerin', 'glyceryl caprylate', 'glycine max (soybean) oil', 'hydrogenated lecithin', 'hydrogenated poly(c6-14 olefin)', 'hydrogenated polyisobutene', 'panax ginseng root water', 'pentylene glycol', 'phytosphingosine', 'polyacrylate-13', 'propanediol', 'prunus mume fruit extract', 'rosmarinus officinalis (rosemary) leaf extract', 'silica']
+                         FP     : ['caprylyl laurate', 'dimethiconol', 'fruit extracts', 'gallyl glucoside', 'glyceryl hydrogenated soyate', 'glycine max pulp', 'glycol', 'hydrogenated lysolecithin', 'polyacrylate-33', 'rosa rugosa leaf extract', 'rosmarinus officinalis stem oil', 'sorbitan triisostearate']
+A24.jpg                cropped     48.9%   61.1%   54.3%   22  23  14
+                         missed : ['1,2-hexanediol', '2,3-butanediol', 'carbomer', 'chamomilla recutita (matricaria) flower extract', 'citrus aurantifolia (lime) extract', 'corallina officinalis extract', 'curcuma longa (turmeric) root extract', 'hamamelis virginiana (witch hazel) extract', 'hyacinthus orientalis (hyacinth) extract', 'hydrolyzed hyaluronic acid', 'hydroxypropyl acrylates/acrylic acid copolymer', 'malachite extract', 'ocimum sanctum leaf extract', 'pvm/ma copolymer']
+                         FP     : ['1�2-hexanediol', '23-butanediol', 'borago officinalis ethyl ester', 'chamomilla recutita leaf extract', 'coccinia indica fruit extract', 'corallina officinalis thallus extract', 'curcuma longa root extract', 'disodium edta', 'ethyl ether', 'flower extracts', 'fruit extracts', 'glutathione', 'hamamelis virginiana water', 'hyacinthus orientalis extract', 'hydrolyzed calcium hyaluronate', 'hydrolyzed sodium hyaluronate', 'lavandula angustifolia water', 'malachite', 'malt extract', 'root extracts', 'sea clay extract', 'sodium acrylate/sodium acryloyldimethyl taurate copolymer', 'sodium hyaluronate crosspolymer']
+A25.jpg                cropped     76.0%   63.3%   69.1%   19   6  11
+                         missed : ['1,2-hexanediol', '2,3-butanediol', 'carbomer', 'centella asiatica extract', 'ceramide np', 'copper tripeptide-1', 'hydrogenated lecithin', 'hydrolyzed sodium hyaluronate', 'palmitoyl tripeptide-1', 'sclerotium gum', 'water']
+                         FP     : ['centella asiatica root extract', 'ceramide 4', 'copper tripeptide-34', 'hexanediol', 'hydrogenated lysolecithin', 'panthenol']
+A27.jpg                cropped     70.3%   59.1%   64.2%   26  11  18
+                         missed : ['algae extract', 'aqua (water)', 'benzoyl alcohol', 'bis-diglyceryl polyacylalipdate-2', 'citral', 'citric acid', 'citrus � limon (lemon) peel oil', 'cucumis sativus (cucumber) fruit extract', 'ethylene/acrylic acid copolymer', 'ficus carica fruit extract', 'hibiscus esculentus fruit extract', 'hydrogenated palm glycerides', 'isostearyl isostearate', 'nylon 6/12', 'polyglycerin-3', 'sodium hyaluronate', 'sorbic acid', 'sorbitol']
+                         FP     : ['aqua', 'behenyl alcohol', 'cucumis sativus oil', 'ficus carica seed', 'fruit extracts', 'hydrogenated palm glyceride', 'hydrogenated palmpalm kernel glycerides', 'isostearyl isostearoyl stearate', 'methacrylic acid', 'peel ols', 'water']
+A28.jpg                cropped     64.7%   68.8%   66.7%   33  18  15
+                         missed : ['1,2-hexanediol', 'avena sativa (oat) kernel extract', 'butyrospermum parkii (shea) butter', 'carthamus tinctorius (safflower) seed oil', 'cynara scolymus (artichoke) leaf extract', 'eclipta prostrata leaf extract', 'fructooligosaccharides', 'glycereth-26', 'hydrogenated lecithin', 'hydrolyzed hyaluronic acid', 'hydroxypropyl trimonium hyaluronate', 'laminaria japonica extract', 'potassium hyaluronate', 'prunus armeniaca (apricot) kernel oil', 'sodium hyaluronate']
+                         FP     : ['1�2-hexanediol', 'avena sativa bran', 'butter', 'butyrospermum parkii oil', 'carthamus tinctorius oleosomes', 'eclipta prostrata stem extract', 'edta', 'glycereth-3', 'hydrogenated lysolecithin', 'hydrolyzed calcium hyaluronate', 'hydroxypropyltrimonium hyaluronate', 'leaf extracts', 'lecithin', 'linaria japonica extract', 'potassium gluconate', 'prunus armeniaca juice', 'prunus armeniaca leaf cell extract', 'seed oils']
+A29.jpg                cropped     91.3%   91.3%   91.3%   42   4   4
+                         missed : ['aqua (water)', 'sodium lactate', 'sodium pca', 'trisodium ethylenediamine disuccinate']
+                         FP     : ['aqua', 'ethylenediamine', 'sodium', 'water']
+A30.jpg                cropped     82.6%   63.3%   71.7%   19   4  11
+                         missed : ['alcohol denat.', 'arachidic acid', 'cetearyl alcohol', 'cetyl ricinoleate', 'disodium cetearyl sulfosuccinate', 'hydroxypropyl starch phosphate', 'myristyl alcohol', 'oleic acid', 'simmondsia chinensis seed oil', 'sorbitan stearate', 'triisostearin']
+                         FP     : ['alcohol denat. sd alcohol 1', 'arachidonic acid', 'disodium coco-sulfosuccinate', 'simmondsia chinensis seed powder']
+A31.jpg                cropped     77.8%   25.0%   37.8%    7   2  21
+                         missed : ['behenyl alcohol', 'caprylic/capric triglyceride', 'cetearyl alcohol', 'cetearyl glucoside', 'cetyl alcohol', 'dimethiconol', 'distarch phosphate', 'ethylhexylglycerin', 'glycerin', 'isohexadecane', 'isopropyl isostearate', 'mica', 'niacinamide', 'palmitic acid', 'peg-100 stearate', 'phenoxyethanol', 'sodium acrylates copolymer', 'sodium hyaluronate', 'stearic acid', 'stearyl alcohol', 'titanium dioxide']
+                         FP     : ['sodium acrylates crosspolymer', 'sodium caprooyl hyaluronate']
+A32.jpg                cropped     46.7%   13.5%   20.9%    7   8  45
+                         missed : ['2-o-ethyl ascorbic acid', 'alcohol', 'alcohol denat.', 'alpinia speciosa leaf extract', 'aluminum hydroxide', 'angelica keiskei leaf/stem extract', 'behenyl alcohol', 'betaine', 'butylene glycol', 'caffeine', 'citrus unshiu peel extract', 'dimethicone', 'erythritol', 'fragrance (parfum)', 'glycerin', 'hydrogenated polydecene', 'iron oxides (ci 77491)', 'isohexadecane', 'isostearic acid', 'limonene', 'linalool', 'myristyl myristate', 'panax ginseng root extract', 'peg-100 stearate', 'peg/ppg-14/7 dimethyl ether', 'peg/ppg-17/4 dimethyl ether', 'phenoxyethanol', 'phytosteryl/octyldodecyl lauroyl glutamate', 'polysorbate 60', 'potassium hydroxide', 'ppg-3 dipivalate', 'pyrola incarnata extract', 'rosmarinus officinalis (rosemary) leaf extract', 'sanguisorba officinalis root extract', 'scutellaria baicalensis root extract', 'silica', 'sodium hyaluronate', 'sodium metabisulfite', 'sodium metaphosphate', 'sorbitan tristearate', 'stearyl alcohol', 'titanium dioxide (ci 77891)', 'tocopherol', 'xanthan gum', 'ziziphus jujuba fruit extract']
+                         FP     : ['dimethyl ether', 'gomphrena officinalis root extract', 'oleyl stearate', 'polysorbate 61', 'root extracts', 'rosmarinus officinalis leaf oil', 'scutellaria baicalensis root powder', 'sodium']
+A33.jpg                cropped     73.3%   66.7%   69.8%   22   8  11
+                         missed : ['ammonium acryloyldimethyltaurate/beheneth-25 methacrylate crosspolymer', 'aqua', 'caprylic/capric triglyceride', 'ci 42090', 'geraniol', 'hexyl cinnamal', 'hydrolyzed hyaluronic acid', 'limonene', 'perfume', 'sodium pca', 'tocopheryl acetate']
+                         FP     : ['allyl methacrylates crosspolymer', 'beheneth-25', 'capryliccapric triglyceride', 'hyaluronic acid', 'hydrolyzed algin', 'pca', 'sodium', 'tocopherol']
+-------------------------------------------------------------------
+Macro avg                          57.3%   42.2%   45.7%  464 192 629
+Micro avg                          70.7%   42.5%   53.1%
+
+Images evaluated: 31

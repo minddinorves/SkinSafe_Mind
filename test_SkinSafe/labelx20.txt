@@ -1,0 +1,57 @@
+1	Water
+2	Propylene Glycol
+3	Niacinamide
+4	Glycerin
+5	Caprylic/Capric Triglyceride
+6	Cyclopentasiloxane
+7	Sorbitol
+8	Ammonium Acryloyldimethyltaurate/VP Copolymer
+9	Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer
+10	Isononyl Isononanoate
+11	Salicylic Acid
+12	Sodium Hyaluronate
+13	Propanediol
+14	C13-14 Isoparaffin
+15	Disodium EDTA
+16	O-Cymen-5-OL
+17	Xanthan Gum
+18	Triheptanoin
+19	PEG-8
+20	Pentylene Glycol
+21	Benzoic Acid
+22	Hyaluronic Acid
+23	Laureth-7
+24	Lavandula Angustifolia Oil
+25	Ceteareth-25
+26	Sodium Hydroxide
+27	Sodium Benzoate
+28	Isostearamidopropyl Ethyldimonium Ethosulfate
+29	Citrus Hystrix Leaf Oil
+30	Eucalyptus Globulus Leaf Oil
+31	Melaleuca Alternifolia Leaf Oil
+32	Madecassic Acid
+33	Potassium Sorbate
+34	Asiaticosid
+35	Oleic Acid
+36	Carthamus Tinctorius Seed Oil
+37	Olea Europaea (Olive) Fruit Oil
+38	Cetyl Alcohol
+39	Phenoxyethanol
+40	Bioflavonoids
+41	1,2-Hexanediol
+42	Ceramide NP
+43	Cholesterol
+44	Ceramide NS
+45	Ascorbyl Propyl Hyaluronate
+46	Ascorbylpropyl Hydrolyzed Hyaluronate
+47	Butylene Glycol
+48	Dimethylsilanol Hyaluronate
+49	Potassium Hyaluronate
+50	Hydrolyzed Hyaluronic Acid
+51	Hydroxypropyl Trimonium Hyaluronate
+52	Sodium Acetylated Hyaluronate
+53	Sodium Hyaluronate Crosspolymer
+54	Sodium Retinoyl Hyaluronate
+55	Zinc Hydrolyzed Hyaluronate
+56	Caproyl Phytosphingosine
+57	Caproyl Sphingosine

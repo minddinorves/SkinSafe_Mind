@@ -1,0 +1,33 @@
+1	Water
+2	Propanediol
+3	Caprylic/Capric Triglyceride
+4	Polyacrylamide
+5	Sodium Acrylate/Sodium Acryloyldimethyl Taurate
+6	Hydrogenated Polydecene
+7	Laureth-7
+8	Allantoin
+9	Hydrogenated Vegetable Oil
+10	Hyaluronic Acid
+11	Camellia Sinensis Leaf Extract
+12	Scutellaria Baicalensis Root Extract
+13	Sophora Flavescens Root Extract
+14	Glycyrrhiza Inflata Root Extract
+15	Hamamelis Virginiana (Witch Hazel) Extract
+16	Centella Asiatica Extract
+17	Sodium Hyaluronate
+18	Hydrolyzed Sodium Acetylated Hyaluronate
+19	Pentylene Glycol
+20	Butylene Glycol
+21	Zinc Sulfate
+22	Sodium Hyaluronate
+23	10-Hydroxydecanoic Acid
+24	Perfume
+25	Glycerin
+26	Ethylhexylglycerin
+27	Sebacic Acid
+28	1,10-Decanediol
+29	Caprylhydroxamic Acid
+30	1,2-Hexanediol
+31	Hexapeptide-2
+32	Citric Acid
+33	Sodium Chloride

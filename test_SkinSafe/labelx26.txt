@@ -1,0 +1,38 @@
+1	Water
+2	Propylene Glycol
+3	Niacinamide
+4	Paraffinum Liquidum
+5	Fragrance
+6	Sodium Polyacrylate
+7	Phenoxyethanol
+8	Butylene Glycol
+9	Isopropyl Palmitate
+10	Ethylhexyl Methoxycinnamate
+11	Disodium EDTA
+12	Octocrylene
+13	Xanthan Gum
+14	Ethylhexylglycerin
+15	Morus Alba Root Extract
+16	Glutathione
+17	Polyglyceryl-6 Laurate
+18	Polyglyceryl-10 Oleate
+19	BHT
+20	Chlorphenesin
+21	3-O-Ethyl Ascorbic Acid
+22	1,2-Hexanediol
+23	Magnolol
+24	Sodium Hyaluronate
+25	Dimethylsilanol Hyaluronate
+26	Ascorbyl Propyl Hyaluronate
+27	Ascorbylpropyl Hydrolyzed Hyaluronate
+28	Hydroxypropyl Trimonium Hyaluronate
+29	Hydrolyzed Hyaluronic Acid
+30	Hydrolyzed Sodium Hyaluronate
+31	Sodium Benzoate
+32	Sodium Hyaluronate Crosspolymer
+33	Pentylene Glycol
+34	Potassium Hyaluronate
+35	Propanediol
+36	Sodium Acetylated Hyaluronate
+37	Sodium Retinoyl Hyaluronate
+38	Zinc Hydrolyzed Hyaluronate

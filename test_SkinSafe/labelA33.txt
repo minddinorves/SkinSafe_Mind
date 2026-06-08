@@ -1,0 +1,33 @@
+1	Water
+2	Dimethicone
+3	Glycerin
+4	Butylene Glycol
+5	Ammonium Acryloyldimethyltaurate/VP Copolymer
+6	Niacinamide
+7	Linoleamidopropyl PG-Dimonium Chloride Phosphate
+8	Phenoxyethanol
+9	Ammonium Acryloyldimethyltaurate/Beheneth-25 Methacrylate Crosspolymer
+10	Dimethicone
+11	Perfume
+12	Sodium PCA
+13	Disodium EDTA
+14	Stearic Acid
+15	Caprylic/Capric Triglyceride
+16	Tocopheryl Acetate
+17	Triethanolamine
+18	BHT
+19	Iodopropynyl Butylcarbamate
+20	Sodium Hyaluronate Crosspolymer
+21	Sodium Hyaluronate
+22	Sodium Acetylated Hyaluronate
+23	Hydrolyzed Hyaluronic Acid
+24	Pentylene Glycol
+25	Ethylhexylglycerin
+26	Aqua
+27	Citral
+28	Citronellol
+29	Geraniol
+30	Hexyl Cinnamal
+31	Limonene
+32	Linalool
+33	CI 42090

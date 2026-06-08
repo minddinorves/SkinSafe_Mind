@@ -1,0 +1,47 @@
+1	Water
+2	Glycerin
+3	Dimethicone
+4	Cyclopentasiloxane
+5	Butylene Glycol
+6	Polymethylsilsesquioxane
+7	Simmonsia Chinensis Seed Oil
+8	Lauryl PEG-10 Tris(Trimethylsiloxy)Silylethyl Dimethicone
+9	Sodium Chloride
+10	Isopentyldiol
+11	Octyldodecanol
+12	Dimethicone/PEG-10/15 Crosspolymer
+13	Panthenol
+14	Aloe Barbadensis Leaf Juice
+15	Dimethicone Crosspolymer
+16	Bisabolol
+17	Fragrance
+18	Polysilicone-11
+19	Sodium Hyaluronate
+20	Hydrolyzed Hyaluronic Acid
+21	Echium Plantagineum Seed Oil
+22	Diglyceryl Alcohol
+23	Cymbopogon Nardus Oil
+24	Morus Alba Bark
+25	Hydrolyzed Glycerin
+26	Helianthus Annuus Seed Oil Unsaponifiables
+27	Cardiospermum Halicacabum Flower/Leaf/Vine Extract
+28	Sodium Polyglutamate
+29	Tocopherol
+30	Salicylic Acid
+31	Amylopectin
+32	Dextrin
+33	Niacinamide
+34	Xanthan Gum
+35	Camellia Sinensis Leaf Extract
+36	Zinc PCA
+37	Gluconolactone
+38	Lactococcus Ferment Lysate
+39	Propylene Glycol
+40	Betaine
+41	Magnesium Aspartate
+42	Zinc Gluconate
+43	Tromethamine
+44	Copper Gluconate
+45	Sodium Benzoate
+46	Phenoxyethanol
+47	Chlorphenesin

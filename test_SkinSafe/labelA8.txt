@@ -1,0 +1,56 @@
+1	Water/Aqua/Eau
+2	Butylene Glycol
+3	PEG-100 Stearate
+4	Dimethicone
+5	Silica
+6	Cetyl Ricinoleate
+7	Olea Europaea (Olive) Fruit Oil
+8	Trametes Versicolor Extract
+9	Glycerin
+10	Jojoba Wax PEG-120 Esters
+11	Behenyl Alcohol
+12	Hydrogenated Lecithin
+13	Myristyl Alcohol
+14	Panax Ginseng Root Extract
+15	Coffea Arabica (Coffee) Seed Oil
+16	Caffeine
+17	Citrus Aurantium Dulcis (Orange) Peel Extract
+18	Aminopropyl Ascorbyl Phosphate
+19	Caprylic/Capric Triglyceride
+20	Hypnea Musciformis Extract
+21	Gelidiella Acerosa Extract
+22	Sigesbeckia Orientalis Extract
+23	Ascophyllum Nodosum Extract
+24	Chrysanthellum Indicum Extract
+25	Asparagopsis Armata Extract
+26	Cucumis Sativus (Cucumber) Fruit Extract
+27	Pyrus Malus (Apple) Fruit Extract
+28	Scutellaria Baicalensis Root Extract
+29	Butyrospermum Parkii (Shea) Butter
+30	Simmondsia Chinensis (Jojoba) Seed Oil
+31	Sodium Hyaluronate
+32	Niacinamide
+33	Linoleic Acid
+34	Phytosphingosine
+35	Tocopheryl Acetate
+36	Trehalose
+37	Inulin
+38	Methyl Trimethicone
+39	Tribehenin
+40	Sorbitol
+41	Ethylhexylglycerin
+42	Caprylyl Glycol
+43	Carbomer
+44	Sodium Hydroxide
+45	Sodium Metabisulfite
+46	Sodium Sulfite
+47	Disodium EDTA
+48	Phenoxyethanol
+49	Chlorphenesin
+50	Sorbic Acid
+51	Potassium Sorbate
+52	Mica
+53	Titanium Dioxide (CI 77891)
+54	Iron Oxides (CI 77491)
+55	Iron Oxides (CI 77492)
+56	Bismuth Oxychloride (CI 77163)

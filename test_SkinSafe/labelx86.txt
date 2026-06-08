@@ -1,0 +1,40 @@
+1	Water
+2	Glycerin
+3	Caprylic/Capric Triglyceride
+4	Glyceryl Stearate
+5	PEG-100 Stearate
+6	Snail Secretion Filtrate
+7	Phenoxyethanol
+8	Niacinamide
+9	Sodium Polyacrylate
+10	Fragrance
+11	EG-90M
+12	Xanthan Gum
+13	Chlorphenesin
+14	Butylene Glycol
+15	Alchemilla Vulgaris Flower/Leaf/Stem Extract
+16	Malva Sylvestris Flower/Leaf/Stem Extract
+17	Mentha Officinalis Leaf/Stem Extract
+18	Primula Veris Flower/Leaf/Stem Extract
+19	Veronica Officinalis Flower/Leaf/Stem Extract
+20	Achillea Millefolium Extract
+21	Seboldi Extract
+22	Potassium Sorbate
+23	Glycocupides
+24	Glycoside
+25	Honey Extract
+26	Hydrolyzed Glycosaminoglycans
+27	Chondrus Crispus Extract
+28	Hydroxypropylcellulose
+29	Lactoot
+30	Trideceth-6
+31	Sodium Hyaluronate
+32	Alcohol
+33	Lactobacillus/Soybean Ferment Extract
+34	Saccharomyces/Viscum Album Ramus/Bark Ferment Extract
+35	Saccharomyces/Viscum Album Ramus Cylindrica/Soybean Ferment Extract
+36	Alpha-Arbutin
+37	Polysorbate 80
+38	Spilanthes Acmella Extract
+39	Lecithin
+40	Soy Isoflavone

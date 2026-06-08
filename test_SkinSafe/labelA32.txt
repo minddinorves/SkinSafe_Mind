@@ -1,0 +1,52 @@
+1	Water/Aqua/Eau
+2	Dimethicone
+3	Butylene Glycol
+4	Alcohol Denat.
+5	Betaine
+6	Glycerin
+7	Isohexadecane
+8	Hydrogenated Polydecene
+9	PPG-3 Dipivalate
+10	Silica
+11	Behenyl Alcohol
+12	Stearyl Alcohol
+13	Myristyl Myristate
+14	Glyceryl Stearate SE
+15	Polysorbate 60
+16	PEG-100 Stearate
+17	PEG/PPG-14/7 Dimethyl Ether
+18	PEG/PPG-17/4 Dimethyl Ether
+19	Phenoxyethanol
+20	Dimethylacrylamide/Sodium Acryloyldimethyltaurate Crosspolymer
+21	Titanium Dioxide (CI 77891)
+22	Sorbitan Tristearate
+23	Erythritol
+24	Fragrance (Parfum)
+25	Alcohol
+26	Aminopropyl Dimethicone
+27	2-O-Ethyl Ascorbic Acid
+28	Carbomer
+29	Trisodium EDTA
+30	Xanthan Gum
+31	Caffeine
+32	Potassium Hydroxide
+33	Isostearic Acid
+34	Sodium Metaphosphate
+35	Phytosteryl/Octyldodecyl Lauroyl Glutamate
+36	Aluminum Hydroxide
+37	Linalool
+38	Tocopherol
+39	Sodium Metabisulfite
+40	Limonene
+41	Citrus Unshiu Peel Extract
+42	Sodium Hyaluronate
+43	Angelica Keiskei Leaf/Stem Extract
+44	Ziziphus Jujuba Fruit Extract
+45	Panax Ginseng Root Extract
+46	Sodium Acetylated Hyaluronate
+47	Scutellaria Baicalensis Root Extract
+48	Iron Oxides (CI 77491)
+49	Alpinia Speciosa Leaf Extract
+50	Rosmarinus Officinalis (Rosemary) Leaf Extract
+51	Sanguisorba Officinalis Root Extract
+52	Pyrola Incarnata Extract

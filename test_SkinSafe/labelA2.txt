@@ -1,0 +1,9 @@
+1	Aqua/Water
+2	Glycerin
+3	Cyclohexasiloxane
+4	Squalane
+5	Bis-PEG-18 Methyl Ether Dimethyl Silane
+6	Sucrose Stearate
+7	Stearyl Alcohol
+8	PEG-8 Stearate
+9	Myristyl Myristate

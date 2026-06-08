@@ -1,0 +1,38 @@
+1	Aqua (Water)
+2	Dipropylene Glycol
+3	Pentylene Glycol
+4	Coco-Caprylate/Caprate
+5	Phenoxyethanol
+6	Glycerin
+7	Panthenol
+8	Polyacrylate-13
+9	Dipotassium Glycyrrhizate
+10	Chlorphenesin
+11	Allantoin
+12	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+13	Sodium Hydroxide
+14	Xanthan Gum
+15	Butylene Glycol
+16	Ectoin
+17	1,2-Hexanediol
+18	Sodium Hyaluronate
+19	Centella Asiatica Leaf Extract
+20	Phospholipids
+21	Saccharide Isomerate
+22	Sodium Lauroyl Lactylate
+23	Algin
+24	Caprylyl Glycol
+25	Glyceryl Polyacrylate
+26	Pullulan
+27	Sphingolipids
+28	Sodium Phosphate
+29	Aphanothece Sacrum Polysaccharides
+30	Ceramide NP
+31	Sodium Phytate
+32	Phytosphingosine
+33	Inositol
+34	Cholesterol
+35	Carbomer
+36	Tocopherol
+37	Centella Asiatica Leaf Vesicles
+38	Ceramide EOP

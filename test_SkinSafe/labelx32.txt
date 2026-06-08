@@ -1,0 +1,35 @@
+1	Deionized Water
+2	Niacinamide
+3	Propanediol
+4	Isododecane
+5	Polyglyceryl-2 Stearate
+6	Stearyl Alcohol
+7	Triethanolamine
+8	Glyceryl Stearate
+9	Sodium Hyaluronate Crosspolymer
+10	Zinc Gluconate
+11	Butylene Glycol
+12	Carbomer
+13	Chlorphenesin
+14	Peumus Boldus Leaf Extract
+15	Acacia Senegal Gum
+16	Sodium Shale Oil Sulfonate
+17	Allantoin
+18	Hydrolyzed Sodium Hyaluronate
+19	Sodium Hyaluronate
+20	Pentylene Glycol
+21	Centella Asiatica Leaf Extract
+22	Glycerine
+23	Hydrolyzed Algin
+24	Disodium EDTA
+25	Polygonum Cuspidatum Root Extract
+26	Scutellaria Baicalensis Root Extract
+27	Camellia Sinensis Leaf Extract
+28	Glycyrrhiza Glabra Root Extract
+29	Chamomilla Recutita Flower Extract
+30	Rosmarinus Officinalis Leaf Extract
+31	Citric Acid
+32	10-Hydroxydecanoic Acid
+33	Sebacic Acid
+34	Onopordum Acanthium Flower/Leaf/Stem Extract
+35	Xanthan Gum

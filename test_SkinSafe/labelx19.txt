@@ -1,0 +1,52 @@
+1	Water
+2	Propylene Glycol
+3	C12-15 Alkyl Benzoate
+4	Niacinamide
+5	Glycerin
+6	Isononyl Isononanoate
+7	Xanthan Gum
+8	Ammonium Acryloyldimethyltaurate/VP Copolymer
+9	Propanediol
+10	Carbomer
+11	Tocopheryl Acetate
+12	Benzoic Acid
+13	Caprylyl Glycol
+14	Disodium EDTA
+15	Dimethyl Isosorbide
+16	Ethylhexylglycerin
+17	Sodium Hyaluronate
+18	Butylene Glycol
+19	Pentylene Glycol
+20	Hydroxypyridinone Retinoate
+21	Citrus Sinensis Peel Oil Expressed
+22	Triheptanoin
+23	Phenoxyethanol
+24	Citrus Aurantium Bergamia Fruit Oil
+25	Citrus Limon Peel Oil
+26	Ceteareth-25
+27	Jasminum Sambac Flower Extract
+28	Cetyl Alcohol
+29	Cananga Odorata Flower Oil
+30	Lavandula Hybrida Extract
+31	Behenic Acid
+32	Ceramide NP
+33	Cholesterol
+34	Ceramide NS
+35	Ceramide AP
+36	Ceramide EOP
+37	Ceramide EOS
+38	Glycine Soja (Soybean) Oil
+39	Hydrogenated Lecithin
+40	Acetyl Hexapeptide-8
+41	Caproyl Phytosphingosine
+42	Caproyl Sphingosine
+43	Palmitoyl Tripeptide-8
+44	Ascorbyl Palmitate
+45	Citric Acid
+46	Glyceryl Oleate
+47	Glyceryl Stearate
+48	Lecithin
+49	Tocopherol
+50	Sodium Oleate
+51	Oligopeptide-1
+52	Fragrance

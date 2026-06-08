@@ -1,0 +1,25 @@
+1	Aqua (Water)
+2	Dipropylene Glycol
+3	Butylene Glycol
+4	Propanediol
+5	Phytol
+6	Chlorphenesin
+7	Panthenol
+8	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+9	Glycerin
+10	Allantoin
+11	Dipotassium Glycyrrhizate
+12	Sodium Hydroxide
+13	Disodium EDTA
+14	Sodium Hyaluronate
+15	Ectoin
+16	Acacia Senegal Gum
+17	Pentylene Glycol
+18	Castanea Sativa (Chestnut) Leaf Extract
+19	Algin
+20	Caprylyl Glycol
+21	Glyceryl Polyacrylate
+22	Pullulan
+23	Aphanothece Sacrum Polysaccharides
+24	Ethylhexylglycerin
+25	Centella Asiatica Leaf Vesicles

@@ -1,0 +1,34 @@
+1	Aqua
+2	Niacinamide
+3	Glycerin
+4	Propylene Glycol
+5	Phenoxyethanol
+6	Aloe Barbadensis Leaf Juice Powder
+7	Carbomer
+8	Polysorbate 20
+9	Mannitol
+10	Xanthan Gum
+11	Cellulose
+12	Triethanolamine
+13	Chlorphenesin
+14	Allantoin
+15	Disodium EDTA
+16	Methyl-Arbutin
+17	Potassium Glycyrrhizate
+18	CI 77492
+19	Tocopherol
+20	Glutathione
+21	Hydroxypropyl Alpha-Arbutin
+22	Sodium Metabisulfite
+23	Camellia Sinensis Leaf Extract
+24	Citrus Aurantium Dulcis Oil
+25	Menthyl Lactate
+26	Menthol
+27	CI 19140
+28	Ubiquinone
+29	Ethyl Menthane Carboxamide
+30	Hydroxypropylcellulose-1
+31	Methyl Diisopropyl Propionamide
+32	CI 42090
+33	Acrylates Copolymer
+34	Oligopeptide-1

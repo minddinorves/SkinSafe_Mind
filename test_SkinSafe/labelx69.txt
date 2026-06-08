@@ -1,0 +1,18 @@
+1	Aqua
+2	Arbutin
+3	Butylene Glycol
+4	Raphanus Sativus Root Extract
+5	Phenoxyethanol
+6	Tocopherol
+7	C13-14 Isoparaffin
+8	Chlorphenesin
+9	Allantoin
+10	Ascorbyl Tetraisopalmitate
+11	C9-11 Pareth-6
+12	Fragrance
+13	Disodium EDTA
+14	Sodium Hyaluronate
+15	Propylene Glycol
+16	Collagen
+17	Ubidecarenone
+18	Polyacrylamide

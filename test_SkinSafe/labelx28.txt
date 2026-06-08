@@ -1,0 +1,19 @@
+1	Oryza Sativa (Rice) Bran Oil
+2	Butylene Glycol
+3	Glycerin
+4	Dimethicone
+5	Titanium Dioxide (CI 77891)
+6	Niacinamide
+7	Water
+8	Isohexadecane
+9	Polysorbate 80
+10	Sodium Hydroxide
+11	Pyrus Malus (Apple) Juice
+12	Triethoxycaprylylsilane
+13	Fragaria Ananassa (Strawberry) Fruit Extract
+14	Actinidia Chinensis (Kiwi) Fruit Extract
+15	Camellia Sinensis Extract
+16	Tetrahexyl Decyl Ascorbate
+17	Sodium Riboflavin Phosphate
+18	Fragrance
+19	Caprylyl Glycol

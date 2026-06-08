@@ -1,0 +1,31 @@
+1	Aqua/Water/Eau
+2	Dimethicone
+3	Propanediol
+4	Butylene Glycol
+5	Niacinamide
+6	Nylon-12
+7	Acrylates Crosspolymer
+8	Sodium Hyaluronate
+9	Enantia Chlorantha Bark Extract
+10	Avena Sativa (Oat) Kernel Extract
+11	Camellia Sinensis Leaf Extract
+12	Chrysanthemum Parthenium (Feverfew) Extract
+13	Glycyrrhiza Glabra (Licorice) Root Extract
+14	Glycerin
+15	Oleanolic Acid
+16	Sorbitan Isostearate
+17	Caprylyl Glycol
+18	Glyceryl Stearate Citrate
+19	Hydrogenated Polydecene
+20	Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer
+21	1,2-Hexanediol
+22	Lecithin
+23	Polysilicone-11
+24	Polysorbate 60
+25	Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer
+26	Sodium Acrylates Copolymer
+27	Laureth-8
+28	Citric Acid
+29	Phenoxyethanol
+30	Potassium Sorbate
+31	Sodium Benzoate

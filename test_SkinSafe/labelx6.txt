@@ -1,0 +1,49 @@
+1	Water
+2	C12-15 Alkyl Benzoate
+3	Diethylamino Hydroxybenzoyl Hexyl Benzoate
+4	Ethylhexyl Salicylate
+5	Propanediol
+6	Dimethicone
+7	Ethylhexyl Triazone
+8	Silica
+9	Titanium Dioxide
+10	Polyglyceryl-4 Laurate
+11	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine
+12	Butyloctyl Salicylate
+13	1,2-Hexanediol
+14	Phenoxyethanol
+15	Lecithin
+16	Polyglyceryl-6 Laurate
+17	Talc
+18	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+19	Diutan Gum
+20	Niacinamide
+21	Allantoin
+22	Hydroxyacetophenone
+23	Sodium Hydroxide
+24	Ethylhexylglycerin
+25	Cyclopentasiloxane
+26	Zinc PCA
+27	Butylene Glycol
+28	Sodium PCA
+29	Capryloyl Salicylic Acid
+30	Hydrolyzed Corn Starch Octenylsuccinate
+31	Sodium Lauroyl Lactylate
+32	Biosaccharide Gum-4
+33	Capsicum Annuum Fruit Extract
+34	Ceramide NP
+35	Ceramide AP
+36	Phytosphingosine
+37	Cholesterol
+38	Isostearyl Isostearate
+39	Xanthan Gum
+40	Carbomer
+41	Sodium Benzoate
+42	Citric Acid
+43	Green Tea Extract
+44	Sodium Salicylate
+45	Astaxanthin
+46	Oryza Sativa Hull Extract
+47	Butyrospermum Parkii (Shea Butter)
+48	Tocopherol
+49	Ceramide EOP

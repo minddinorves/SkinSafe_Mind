@@ -1,0 +1,37 @@
+1	Aqua
+2	Niacinamide
+3	Citric Acid
+4	1,2-Hexanediol
+5	Alpha-Arbutin
+6	Methylpropanediol
+7	Sodium Ascorbyl Phosphate
+8	3-O-Ethyl Ascorbic Acid
+9	Phenoxyethanol
+10	Salicylic Acid
+11	Glycolic Acid
+12	Butylene Glycol
+13	PEG-40 Hydrogenated Castor Oil
+14	Sodium Hydroxide
+15	Acacia Senegal Gum
+16	Xanthan Gum
+17	Sodium Citrate
+18	Allantoin
+19	Ascorbyl Glucoside
+20	Ascorbyl Tetraisopalmitate
+21	Disodium EDTA
+22	Tocopheryl Acetate
+23	Sodium Diethylenetriamine Pentamethylene Phosphonate
+24	Allium Cepa Bulb Extract
+25	Sodium Hyaluronate
+26	Sodium Gluceptate
+27	Centella Asiatica Extract
+28	Potassium Sorbate
+29	Sodium Benzoate
+30	Ceramide NP
+31	Pentylene Glycol
+32	Ceramide AP
+33	Phytosphingosine
+34	Cholesterol
+35	Carbomer
+36	Ceramide EOP
+37	Nicotiana Benthamiana Hexapeptide-40 Sh-Polypeptide-47

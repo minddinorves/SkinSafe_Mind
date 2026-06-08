@@ -1,0 +1,36 @@
+1	Aqua
+2	Cyclopentasiloxane
+3	Triethylhexanoin
+4	Glycerin
+5	Niacinamide
+6	Dimethicone
+7	Propylene Glycol
+8	Stearic Acid
+9	Cetyl Alcohol
+10	Glyceryl Stearate
+11	PEG-100 Stearate
+12	Dimethicone Crosspolymer
+13	Titanium Dioxide
+14	Butyrospermum Parkii Butter
+15	Sodium Polyacrylate
+16	Trideceth-6
+17	PEG/PPG-18/18 Dimethicone
+18	Diisopropyl Dimer Dilinoleate
+19	Polyglyceryl-4-Isostearate
+20	Cetyl Dimethicone Copolyol
+21	Hexyl Laurate
+22	C9-15 Fluoroalcohol Phosphate
+23	Silica
+24	Alumina
+25	Polyethylene Glycol
+26	Stearate
+27	Cetearyl Alcohol
+28	Xanthan Gum
+29	Tocopheryl Acetate
+30	Tetrahydrodiferuloylmethane
+31	Hamamelis Virginiana Water
+32	BHT
+33	Phenoxyethanol
+34	Chlorphenesin
+35	Perfume
+36	Benzoic Acid

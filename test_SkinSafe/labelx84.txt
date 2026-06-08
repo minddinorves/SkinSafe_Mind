@@ -1,0 +1,16 @@
+1	Water
+2	Butylene Glycol
+3	Alcohol
+4	PEG-40 Hydrogenated Castor Oil
+5	Sorbitan Sesquioleate
+6	Squalane
+7	Triethylhexanoin
+8	Methylparaben
+9	Dipotassium Glycyrrhizate
+10	Tranexamic Acid
+11	Disodium EDTA
+12	Menthol
+13	Sodium Hyaluronate
+14	Coix Lacryma-Jobi Ma-Yuen Seed Extract
+15	Houttuynia Cordata Extract
+16	Chamomilla Recutita (Matricaria) Flower Extract

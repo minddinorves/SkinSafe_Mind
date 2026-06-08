@@ -1,0 +1,20 @@
+1	Water
+2	Propylene Glycol
+3	Cetyl Alcohol
+4	Stearic Acid
+5	Sulfur
+6	Glycerine
+7	Liquid Paraffin
+8	Polysorbate 60
+9	Salicylic Acid
+10	Zinc Acetate
+11	Polyacrylamide
+12	Aloe Barbadensis Leaf Extract
+13	Maltodextrin
+14	Xanthan Gum
+15	Triethanolamine
+16	Methylparaben
+17	Chamomile Extract
+18	Citrus Aurantium Dulcis Oil
+19	Propylparaben
+20	Disodium EDTA

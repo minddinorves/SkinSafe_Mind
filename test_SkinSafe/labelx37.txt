@@ -1,0 +1,38 @@
+1	Water
+2	Niacinamide
+3	Propanediol
+4	Neopentyl Glycol Dicaprylate/Dicaprate
+5	Dimethicone
+6	Glyceryl Stearate
+7	Cetyl Alcohol
+8	PEG-75 Stearate
+9	Titanium Dioxide
+10	Sodium Polyacrylate
+11	Ceteth-20
+12	Steareth-20
+13	Allantoin
+14	Aluminum Hydroxide
+15	Hydrolyzed Sodium Hyaluronate
+16	Sodium Acetylated Hyaluronate
+17	Sodium Hyaluronate
+18	Sodium Hyaluronate Crosspolymer
+19	Pearl Extract
+20	Lecithin
+21	Sodium Acrylates Copolymer
+22	Ethylhexyl Methoxycinnamate
+23	Scutellaria Baicalensis Root Extract
+24	Sophora Flavescens Root Extract
+25	Glycyrrhiza Inflata Root Extract
+26	Butylene Glycol
+27	Pentylene Glycol
+28	Biosaccharide Gum-4
+29	Phenoxyethanol
+30	Sodium Chloride
+31	Citric Acid
+32	Perfume
+33	Linolenic Acid
+34	1,2-Hexanediol
+35	Stearic Acid
+36	Disodium EDTA
+37	Caprylhydroxamic Acid
+38	Ethylhexylglycerin

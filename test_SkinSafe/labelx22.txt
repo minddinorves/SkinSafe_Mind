@@ -1,0 +1,24 @@
+1	Water
+2	Dipropylene Glycol
+3	Glycerin
+4	Niacinamide
+5	Methyl Gluceth-20
+6	Ceramide NP
+7	Bifida Ferment Filtrate
+8	Hydrolyzed Collagen
+9	Lactobacillus Ferment
+10	Lactococcus Ferment
+11	Panthenol
+12	Ammonium Acryloyldimethyltaurate/VP Copolymer
+13	Pentaerythrityl Tetraethylhexanoate
+14	Sodium Hyaluronate
+15	Hydroxyacetophenone
+16	Tromethamine
+17	Carbomer
+18	Butylene Glycol
+19	Adenosine
+20	Caprylic/Capric Triglyceride
+21	Caprylyl Glycol
+22	Hydrogenated Lecithin
+23	Disodium EDTA
+24	1,2-Hexanediol

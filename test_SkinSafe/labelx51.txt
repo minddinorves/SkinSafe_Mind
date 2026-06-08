@@ -1,0 +1,31 @@
+1	Aqua
+2	Ethylhexyl Methoxycinnamate
+3	Propylene Glycol
+4	Butyl Methoxydibenzoylmethane
+5	Cyclopentasiloxane
+6	C12-15 Alkyl Benzoate
+7	Phenoxyethanol
+8	Glyceryl Stearate
+9	PEG-100 Stearate
+10	Niacinamide
+11	Cetearyl Alcohol
+12	Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (Nano)
+13	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+14	Sodium Hydroxide
+15	Bakuchiol
+16	Disodium EDTA
+17	Tocopheryl Acetate
+18	Soluble Collagen
+19	Carbomer
+20	Ceramide NP
+21	Ceramide AP
+22	Phytosphingosine
+23	Centella Asiatica Leaf Extract
+24	Xanthan Gum
+25	Sodium Lauroyl Lactylate
+26	BHT
+27	Citrus Junos Peel Extract
+28	Cholesterol
+29	Citrus Aurantium Amara Peel Extract
+30	Ethylhexylglycerin
+31	Ceramide EOP

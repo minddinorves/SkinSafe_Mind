@@ -1,0 +1,48 @@
+1	Water
+2	Butylene Glycol
+3	C12-15 Alkyl Benzoate
+4	Isononyl Isononanoate
+5	Niacinamide (Vitamin B3)
+6	Mineral Oil
+7	Cetearyl Alcohol
+8	Dimethicone
+9	Glyceryl Stearate
+10	PEG-100 Stearate
+11	Phenoxyethanol
+12	Panthenol
+13	Cyclopentasiloxane
+14	Cyclohexyl Stearate
+15	Cetyl Alcohol
+16	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+17	Caprylyl Glycol
+18	Fragrance
+19	Chlorphenesin
+20	Potassium Hydroxide
+21	Tetrasodium EDTA
+22	Bisabolol
+23	Disodium EDTA
+24	Limonia Acidissima Extract (Thanaka Extract)
+25	Polyacrylamide
+26	PEG-40 Castor Oil
+27	C13-14 Isoparaffin
+28	Sodium Cetearyl Sulfate
+29	Polysorbate 20
+30	Laureth-7
+31	Leuconostoc/Radish Root Ferment Filtrate
+32	Hibiscus Sabdariffa Flower Extract (Roselle Extract)
+33	Sodium Hyaluronate
+34	Tocopheryl Acetate
+35	Morus Alba Bark Extract (Mulberry Extract)
+36	Retinyl Palmitate (Vitamin A)
+37	Aloe Barbadensis Leaf Juice (Aloe Vera Extract)
+38	Maltodextrin
+39	Helianthus Annuus (Sunflower) Seed Oil
+40	Cucumis Sativus (Cucumber) Seed Extract
+41	CI 19140
+42	BHA
+43	Citric Acid
+44	CI 14000
+45	Sodium Benzoate
+46	Tocopherol
+47	Potassium Phosphate
+48	Potassium Sorbate

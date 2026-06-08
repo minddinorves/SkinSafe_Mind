@@ -1,0 +1,26 @@
+1	Aqua
+2	Niacinamide
+3	Glycerin
+4	Propylene Glycol
+5	Phenoxyethanol
+6	PEG-40 Hydrogenated Castor Oil
+7	Dipropylene Glycol
+8	Carbomer
+9	Triethanolamine
+10	Chlorphenesin
+11	Sodium Hyaluronate
+12	Tetrasodium EDTA
+13	Fragrance
+14	Glutathione
+15	Sodium Ascorbic Acid
+16	Polyquaternium-11
+17	Agar
+18	Aloe Barbadensis Leaf Juice Powder
+19	Ethyl Ascorbic Acid
+20	Tocopheryl Acetate
+21	Imidazolidinyl Urea
+22	CI 73360
+23	Methylparaben
+24	Ethylparaben
+25	Butylparaben
+26	Propylparaben

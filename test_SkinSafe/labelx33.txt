@@ -1,0 +1,29 @@
+1	Water
+2	Niacinamide
+3	Butylene Glycol
+4	Glycerin
+5	Betaine
+6	Phenoxyethanol
+7	Panthenol
+8	Polysorbate 20
+9	Carbomer
+10	Xanthan Gum
+11	Polyquaternium-7
+12	Methylsilanol Mannuronate
+13	Centella Asiatica Leaf Vesicles
+14	Centella Asiatica Leaf Extract
+15	1,2-Hexanediol
+16	Ethylhexylglycerin
+17	Saccharide Isomerate
+18	Ubiquinone
+19	Caprylic/Capric Triglyceride
+20	Olea Europaea (Olive) Fruit Oil
+21	Hydrogenated Lecithin
+22	Butyrospermum Parkii (Shea) Butter
+23	Cholesterol
+24	Ceramide NP
+25	Phytosphingosine
+26	Fragrance
+27	Aloe Vera Vesicles
+28	Sodium Hyaluronate
+29	Potassium Hydroxide

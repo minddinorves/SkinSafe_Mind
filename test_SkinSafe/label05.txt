@@ -1,0 +1,19 @@
+1	Aqua
+2	Glycerin
+3	Polysorbate 20
+4	Niacinamide
+5	Propanediol
+6	Triethanolamine
+7	Carbomer
+8	Fragrance
+9	Ethylhexylglycerin
+10	Dipotassium Glycyrrhizinate
+11	Xanthan Gum
+12	Disodium EDTA
+13	Hydrolyzed Collagen
+14	Alpha-Arbutin
+15	Glutathione
+16	Glyceryl Acrylate/Acrylic Acid Copolymer
+17	Propylene Glycol
+18	Phenoxyethanol
+19	Caprylyl Glycol

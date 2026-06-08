@@ -1,0 +1,35 @@
+1	Water
+2	Propylene Glycol
+3	Niacinamide
+4	Panthenol
+5	C12-15 Pareth-12
+6	Betaine
+7	Caprylyl Glycol
+8	Ammonium Polyacryloydimethyl Taurate Copolymer
+9	Benzoic Acid
+10	Disodium EDTA
+11	Sodium Hyaluronate
+12	Ethylhexylglycerin
+13	Lavandula Angustifolia Oil
+14	Madecassic Acid
+15	Polysorbate 60
+16	Lecithin
+17	Citrus Aurantium Dulcis Peel Oil
+18	Michelia Alba Flower Oil
+19	Asiaticosid
+20	Asiatic Acid
+21	Pelargonium Graveolens Flower Oil
+22	Triheptanoin
+23	Jasminum Officinale Flower Oil
+24	Lavandula Hybrida Extract
+25	Ceramide EOP
+26	Caproyl Phytosphingosine
+27	Cholesterol
+28	Ceramide NS
+29	Ceramide AP
+30	Caproyl Sphingosine
+31	Ascorbyl Palmitate
+32	Citric Acid
+33	Glyceryl Oleate
+34	Glyceryl Stearate
+35	Tocopherol

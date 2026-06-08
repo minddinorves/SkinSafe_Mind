@@ -1,0 +1,27 @@
+1	Deionized Water
+2	Butylene Glycol
+3	Octyldodecanol
+4	Sodium Acrylate/Acryloyldimethyltaurate/Dimethylacrylamide Crosspolymer
+5	Allyl Methacrylates Crosspolymer
+6	Salicylic Acid
+7	Isohexadecane
+8	Polysorbate 80
+9	Phenoxyethanol
+10	Sodium Benzoate
+11	Echium Plantagineum Seed Oil
+12	Dimethylacrylamide/Acrylic Acid/Polystyrene Ethyl Methacrylate Copolymer
+13	Dipotassium Glycyrrhizate
+14	Zingiber Officinale Root Extract
+15	Caprylyl Glycol
+16	Helianthus Annuus Seed Oil Unsaponifiables
+17	Potassium Sorbate
+18	Sorbitan Oleate
+19	Cardiospermum Halicacabum Flower/Leaf/Vine Extract
+20	Boswellia Serrata Extract
+21	Honey Extract
+22	Oryza Sativa Bran Extract
+23	Camellia Sinensis Leaf Extract
+24	Tocopherol
+25	Aspalathus Linearis Extract
+26	Oligopeptide-10
+27	Bisabolol

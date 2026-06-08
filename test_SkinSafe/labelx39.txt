@@ -1,0 +1,47 @@
+1	Ethylhexyl Palmitate
+2	Isopropyl Myristate
+3	PEG-20 Glyceryl Triisostearate
+4	Synthetic Wax
+5	Butyrospermum Parkii Butter
+6	Charcoal Powder
+7	Butylene Glycol
+8	Polyglyceryl-2 Diisostearate
+9	Polyglyceryl-2 Isostearate
+10	Phenoxyethanol
+11	Butylated Hydroxytoluene
+12	Tocopheryl Acetate
+13	Water
+14	Glycerin
+15	Dimethicone
+16	Chlorphenesin
+17	Epigallocatechin Gallate
+18	Salicylic Acid
+19	Oryza Sativa Bran Oil
+20	Lecithin
+21	Bamboo
+22	Beta Vulgaris Leaf Extract
+23	Ceramide NP
+24	Dipropylene Glycol
+25	Tocopherol
+26	Hydrogenated Ferment
+27	Saccharomyces/Copper Ferment
+28	Saccharomyces/Iron Ferment
+29	Saccharomyces/Magnesium Ferment
+30	Saccharomyces/Silicon Ferment
+31	Camellia Japonica Seed Oil
+32	Camellia Sinensis Leaf Ferment
+33	Prunus Amygdalus Dulcis Oil
+34	Vitis Vinifera Ferment
+35	Camellia Sinensis Seed Ferment
+36	Camellia Sinensis Leaf Extract
+37	Alpinia Zerumbet Leaf Ferment
+38	Limnanthes Alba Seed Oil
+39	Helianthus Annuus Seed Oil
+40	Butyrospermum Parkii Oil
+41	Corylus Avellana Seed Oil
+42	Rosa Canina Fruit Oil
+43	Macadamia Ternifolia Seed Oil
+44	Oenothera Biennis Oil
+45	Persea Gratissima Oil
+46	Simmondsia Chinensis Seed Oil
+47	Tocopherol

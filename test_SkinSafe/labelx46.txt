@@ -1,0 +1,30 @@
+1	Deionized Water
+2	Niacinamide
+3	Salicylic Acid
+4	Dipotassium Glycyrrhizate
+5	Butylene Glycol
+6	Glycerine
+7	Propanediol
+8	Methyl Gluceth-20
+9	Peumus Boldus Leaf Extract
+10	Tranexamic Acid
+11	Sodium Hyaluronate
+12	Centella Asiatica Extract
+13	Amylopectin
+14	Dextrin
+15	Zinc Gluconate
+16	Acrylate Crosspolymer-3
+17	Xanthan Gum
+18	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+19	Pentylene Glycol
+20	Diutan Gum
+21	Sodium Lauroyl Lactylate
+22	Phenoxyethanol
+23	Chlorphenesin
+24	Ceramide NP
+25	Ceramide AP
+26	Cholesterol
+27	Phytosphingosine
+28	Disodium EDTA
+29	Ceramide EOP
+30	Ethylhexylglycerin

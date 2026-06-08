@@ -1,0 +1,28 @@
+1	Aqua
+2	Butylene Glycol
+3	Phenoxyethanol
+4	Polysorbate 20
+5	Triethanolamine
+6	Carbomer
+7	Allantoin
+8	Chlorphenesin
+9	Glycerin
+10	Disodium EDTA
+11	Xanthan Gum
+12	Aloe Barbadensis Leaf Juice Powder
+13	Dipotassium Glycyrrhizinate
+14	Sodium Hyaluronate
+15	Salicylic Acid
+16	Amylopectin
+17	Fragrance
+18	Collagen
+19	PEG-60 Almond Glycerides
+20	Caprylyl Glycol
+21	1,2-Hexanediol
+22	Centella Asiatica Extract
+23	Caprylic/Capric Triglyceride
+24	Ceteareth-20
+25	Polyglyceryl-10 Stearate
+26	Beta-Glucan
+27	Ceramide 3
+28	Oleanolic Acid

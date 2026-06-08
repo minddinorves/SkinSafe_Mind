@@ -1,0 +1,39 @@
+1	Water
+2	Dimethicone
+3	Niacinamide
+4	Cyclopentasiloxane
+5	Glycerin
+6	Sodium Chloride
+7	Cetyl PEG/PPG-10/1 Dimethicone
+8	Titanium Dioxide
+9	Methyl Methacrylate Crosspolymer
+10	Vinyl Dimethicone Crosspolymer
+11	Phenoxyethanol
+12	1,2-Hexanediol
+13	Fragrance
+14	Caprylyl Glycol
+15	Tripolyhydroxystearic Acid
+16	Aluminum Hydroxide
+17	Disodium EDTA
+18	Butylene Glycol
+19	Arbutin
+20	Ascorbic Acid
+21	Glutathione
+22	Hydrogenated Lecithin
+23	Isododecane
+24	Disteardimonium Hectorite
+25	Propylene Carbonate
+26	Aloe Barbadensis Leaf Extract
+27	Cimicifuga Heracleifolia Root Extract
+28	Eucalyptus Globulus Leaf Extract
+29	Mentha Arvensis Extract
+30	Morus Alba Bark Extract
+31	Opuntia Coccinellifera Extract
+32	Desamido Collagen
+33	Hydrolyzed Collagen
+34	Erythritol
+35	Soluble Collagen
+36	Collagen Extract
+37	Collagen Amino Acids
+38	Procollagen
+39	Sodium DNA

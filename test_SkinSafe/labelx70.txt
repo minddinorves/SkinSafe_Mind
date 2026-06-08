@@ -1,0 +1,13 @@
+1	Water
+2	Cetyl Alcohol
+3	Polyacrylamide
+4	Tranexamic Acid
+5	Stearic Acid
+6	Propylene Glycol
+7	Polysorbate 60
+8	C12-15 Alkyl Benzoate
+9	Glycolic Acid
+10	DMDM Hydantoin
+11	Methylparaben
+12	Sodium Metabisulfite
+13	Propylparaben

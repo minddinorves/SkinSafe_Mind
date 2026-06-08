@@ -1,0 +1,27 @@
+1	Aqua
+2	Propanediol
+3	Butylene Glycol
+4	Olive Oil PEG-7 Esters
+5	Polysorbate 20
+6	Glycerin
+7	Sodium Acrylates Copolymer
+8	Snail Secretion Filtrate
+9	Lecithin
+10	Biosaccharide Gum-1
+11	Hydrolyzed Sponge
+12	Croton Lechleri Resin Extract
+13	Ethylhexylglycerin
+14	Hydroxypropyl Guar
+15	Hydroxyethylcellulose
+16	Disodium EDTA
+17	Glyceryl Acrylate/Acrylic Acid Copolymer
+18	Propylene Glycol
+19	PVM/MA Copolymer
+20	Glycolic Acid
+21	Fragrance
+22	Lactic Acid
+23	Sodium Magnesium Silicate
+24	Citric Acid
+25	Phenoxyethanol
+26	Xanthan Gum
+27	Dipotassium Glycyrrhizate

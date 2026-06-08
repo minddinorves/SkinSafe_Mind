@@ -1,0 +1,40 @@
+1	Water
+2	Glycerin
+3	C12-15 Alkyl Benzoate
+4	Dipropylene Glycol Dibenzoate
+5	PPG-15 Stearyl Ether Benzoate
+6	Dimethicone
+7   Alcohol
+8	Niacinamide
+9	Butylene Glycol
+10	CI 77891
+11	Nylon-12
+12	Silica
+13	Sorbitan Sesquioleate
+14	Potassium Hydroxide
+15	Cetyl PEG/PPG-10/1 Dimethicone
+16	Polyisobutene
+17	Polysorbate 20
+18	Panthenol
+19	Magnesium Sulfate
+20	Phenoxyethanol
+21	Methylparaben
+22	Xanthan Gum
+23	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+24	Malva Sylvestris Leaf Extract
+25	Mentha Piperita Leaf Extract
+26	Primula Veris Extract
+27	Veronica Officinalis Leaf Extract
+28	Melissa Officinalis Leaf Extract
+29	Achillea Millefolium Extract
+30	Fragrance
+31	Zea Mays Starch
+32	Mannitol
+33	Shellac
+34	Hydrogenated Lecithin
+35	Synthetic Fluorphlogopite
+36	Tin Oxide
+37	Propylparaben
+38	Ascorbic Acid
+39	Bisabolol
+40	CI 17200

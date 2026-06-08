@@ -1,0 +1,30 @@
+1	Aqua
+2	Glycerin
+3	Myristyl Alcohol
+4	Alcohol Denat.
+5	Myristyl Myristate
+6	Cetearyl Glucoside
+7	Coco-Caprylate/Caprate
+8	Glyceryl Stearate
+9	Palmitic Acid
+10	Stearic Acid
+11	Hydrogenated Coco-Glycerides
+12	Simmondsia Chinensis Seed Oil
+13	Tocopheryl Acetate
+14	Prunus Amygdalus Dulcis Oil
+15	Vegetable Oil
+16	Cetyl Ricinoleate
+17	Triisostearin
+18	Sorbitan Stearate
+19	Hydroxypropyl Starch Phosphate
+20	Sodium Hydroxide
+21	Cetearyl Alcohol
+22	Gellan Gum
+23	Xanthan Gum
+24	Myristic Acid
+25	Arachidic Acid
+26	Oleic Acid
+27	Lauric Acid
+28	Disodium Cetearyl Sulfosuccinate
+29	Phenoxyethanol
+30	Parfum

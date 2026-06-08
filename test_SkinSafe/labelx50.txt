@@ -1,0 +1,37 @@
+1	Water
+2	Neopentyl Glycol Diheptanoate
+3	Ethylhexyl Methoxycinnamate
+4	Zinc Oxide
+5	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine
+6	Diaminopropionoyl Dimethicone
+7	Titanium Dioxide
+8	C12-15 Alkyl Benzoate
+9	Polyglyceryl-3 Methylglucose Distearate
+10	1,2-Hexanediol
+11	Betaine
+12	Tromethamine
+13	Polyhydroxystearic Acid
+14	Glyceryl Stearate
+15	Stearic Acid
+16	Allantoin
+17	Behenyl Alcohol
+18	Sodium Acryloyldimethyl Taurate
+19	Adenosine
+20	Hyaluronic Acid
+21	Caprylic/Capric Triglyceride
+22	Lecithin
+23	Adansonia Digitata Hyaluronate
+24	Ceramide NP
+25	Polyglyceryl-10 Stearate
+26	Hydrolyzed Sodium Hyaluronate
+27	Tocopherol
+28	Ascorbyl Tetraisopalmitate
+29	Zinc Hyaluronate
+30	Sodium Hyaluronate
+31	Hydroxypropyl Trimonium Hyaluronate
+32	Sodium Acetylated Hyaluronate
+33	Glyceryl Hydrolyzed Hyaluronate
+34	Vitis Vinifera Seed Extract
+35	Glyceryl Linolenate
+36	Biotin
+37	Resveratrol

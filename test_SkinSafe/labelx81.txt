@@ -1,0 +1,46 @@
+1	Deionized Water
+2	Silica
+3	Ethylhexyl Salicylate
+4	Methylene Bis-Benzotriazolyl Tetramethylbutylphenol
+5	Dibutyl Adipate
+6	Diisopropyl Sebacate
+7	Triethyl Citrate
+8	Dicaprylyl Carbonate
+9	Butyl Methoxydibenzoylmethane
+10	Polyglyceryl-10 Oleate
+11	Tocopherol
+12	Triazine
+13	1,3-Butylene Glycol
+14	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine
+15	Diethylamino Hydroxybenzoyl Hexyl Benzoate
+16	Sodium Stearoyl Glutamate
+17	Drometrizole Trisiloxane
+18	Terephthalylidene Dicamphor Sulfonic Acid
+19	Dipotassium Glycyrrhizate
+20	Panthenol
+21	Glycerine
+22	Cetearyl Alcohol
+23	Cetearyl Glucoside
+24	Propanediol
+25	Pentaerythrityl Tetrastearate
+26	Humulus Lupulus Extract
+27	Stearalkonium Hectorite
+28	Caprylic/Capric Triglyceride
+29	Phenoxyethanol
+30	Disodium EDTA
+31	Tocopheryl Acetate
+32	Ceramide NP
+33	Ceramide AP
+34	Ceramide EOP
+35	Phytosphingosine
+36	Cholesterol
+37	Sodium Lauroyl Lactylate
+38	Carbomer
+39	Propylene Carbonate
+40	Xanthan Gum
+41	Chlorphenesin
+42	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+43	Triethanolamine
+44	Ethylhexylglycerin
+45	Citric Acid
+46	Sodium Citrate

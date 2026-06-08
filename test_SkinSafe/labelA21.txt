@@ -1,0 +1,38 @@
+1	Water
+2	Glycerin
+3	Isononyl Isononanoate
+4	Isododecane
+5	1,2-Hexanediol
+6	Pentylene Glycol
+7	Polydecene
+8	Betula Platyphylla Japonica Juice
+9	Jojoba Esters
+10	Panthenol
+11	Glyceryl Glucoside
+12	Acacia Senegal Gum
+13	Hydrolyzed Hibiscus Esculentus Extract
+14	Sodium Hyaluronate
+15	Hyaluronic Acid
+16	Lupinus Albus Seed Extract
+17	Moringa Oleifera Seed Extract
+18	Melia Azadirachta Leaf Extract
+19	Melia Azadirachta Flower Extract
+20	Coccinia Indica Fruit Extract
+21	Aloe Barbadensis Flower Extract
+22	Solanum Melongena (Eggplant) Fruit Extract
+23	Ocimum Sanctum Leaf Extract
+24	Corallina Officinalis Extract
+25	Curcuma Longa (Turmeric) Root Extract
+26	Ascorbic Acid
+27	Pentaerythrityl Tetraethylhexanoate
+28	Ammonium Acryloyldimethyltaurate/VP Copolymer
+29	Polyglyceryl-3 Methylglucose Distearate
+30	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+31	Tromethamine
+32	Glyceryl Acrylate/Acrylic Acid Copolymer
+33	Ethylhexylglycerin
+34	Agar
+35	Dipotassium Glycyrrhizate
+36	Glyceryl Caprylate
+37	Butylene Glycol
+38	Disodium EDTA

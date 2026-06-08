@@ -1,0 +1,44 @@
+1	Aqua (Water)
+2	Glycerin
+3	Isostearyl Isostearate
+4	Caprylic/Capric Triglyceride
+5	Pentylene Glycol
+6	Cetyl Alcohol
+7	Polyglycerin-3
+8	Potassium Cetyl Phosphate
+9	Nylon 6/12
+10	Hydrogenated Palm Kernel Glycerides
+11	Boron Nitride
+12	Dimethicone
+13	Ethylene/Acrylic Acid Copolymer
+14	Glyceryl Stearate
+15	Sodium Hyaluronate
+16	Ficus Carica Fruit Extract
+17	Citrus × Limon (Lemon) Peel Oil
+18	Cucumis Sativus (Cucumber) Fruit Extract
+19	Averrhoa Carambola Leaf Extract
+20	Algae Extract
+21	Nelumbo Nucifera Flower Extract
+22	Hibiscus Esculentus Fruit Extract
+23	Tocopheryl Acetate
+24	Ascorbyl Tetraisopalmitate
+25	Tocopherol
+26	Bis-Diglyceryl Polyacylalipdate-2
+27	Sorbitol
+28	Benzoyl Alcohol
+29	Butylene Glycol
+30	Carbomer
+31	Sodium Polyacrylate
+32	Xanthan Gum
+33	Sodium Citrate
+34	Sodium Hydroxide
+35	Hydrogenated Palm Glycerides
+36	Citric Acid
+37	Biosaccharide Gum-2
+38	Caramel
+39	Caprylyl Glycol
+40	Potassium Sorbate
+41	Sorbic Acid
+42	Phenoxyethanol
+43	Limonene
+44	Citral

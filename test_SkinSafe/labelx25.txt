@@ -1,0 +1,31 @@
+1	Water
+2	Petrolatum
+3	Cyclopentasiloxane
+4	Glycerine
+5	Mineral Oil
+6	Glyceryl Stearate
+7	Dimethicone
+8	Polysorbate 80
+9	Cetyl Alcohol
+10	PEG-100 Stearate
+11	Stearyl Alcohol
+12	Fragrance
+13	Phenoxyethanol
+14	Acrylamide/Sodium Acrylate Copolymer
+15	Carbopol
+16	Niacinamide
+17	Butyrospermum Parkii Butter
+18	PEG-75 Stearate
+19	Trideceth-6
+20	Triethylene Glycol
+21	Aloe Barbadensis Leaf Juice Powder
+22	Disodium EDTA
+23	Tocopheryl Acetate
+24	Caprylyl 2-Glyceryl Ascorbate
+25	CI 16035
+26	Hibiscus Sabdariffa Flower Extract
+27	1,2-Hexanediol
+28	Diamond Powder
+29	Bellis Perennis Flower Extract
+30	Jasminum Officinale Flower Extract
+31	Spiraea Ulmaria Flower Extract

@@ -1,0 +1,38 @@
+1	Centella Asiatica Extract (72%)
+2	Glycerin
+3	Propanediol
+4	Dipropylene Glycol
+5	Cyclomethicone
+6	Water
+7	1,2-Hexanediol
+8	Trehalose
+9	Caprylyl Methicone
+10	C12-14 Pareth-12
+11	Carbomer
+12	Tromethamine
+13	Ammonium Acryloyldimethyltaurate/VP Copolymer
+14	C30-45 Alkyl Cetearyl Dimethicone Crosspolymer
+15	Xanthan Gum
+16	Mentha Piperita (Peppermint) Leaf Extract
+17	Zingiber Officinale (Ginger) Root Extract
+18	Butylene Glycol
+19	Ethylhexylglycerin
+20	Dipotassium Glycyrrhizate
+21	Tranexamic Acid
+22	Coptis Chinensis Root Extract
+23	Theobroma Cacao (Cocoa) Extract
+24	Dextrin
+25	Leuconostoc/Radish Root Ferment Filtrate
+26	Biosaccharide Gum-1
+27	Disodium EDTA
+28	Sodium Hyaluronate
+29	Beta-Glucan
+30	Ceramide EOP
+31	Ceramide NS
+32	Ceramide NP
+33	Ceramide AP
+34	Phytosphingosine
+35	Hydrogenated Lecithin
+36	Cetearyl Alcohol
+37	Stearic Acid
+38	Cholesterol

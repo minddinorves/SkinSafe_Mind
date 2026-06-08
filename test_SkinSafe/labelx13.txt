@@ -1,0 +1,38 @@
+1	Aqua
+2	Octyl Salicylate
+3	C12-15 Alkyl Benzoate
+4	Isohexadecane
+5	Propanediol
+6	PEG-15/PPG-70 Glyceryl Ether/IPD/DMPA Crosspolymer
+7	Dibutyl Adipate
+8	Homosalate
+9	Niacinamide
+10	Titanium Dioxide
+11	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine
+12	Diethylamino Hydroxybenzoyl Hexyl Benzoate
+13	Acrylates/C12-22 Alkyl Methacrylate Copolymer
+14	Zinc Oxide
+15	Behenyl Alcohol
+16	Magnesium Aluminum Silicate
+17	Phenoxyethanol
+18	Cucumis Melo Fruit Extract
+19	Propylene Glycol
+20	Polyhydroxystearic Acid
+21	Glycerin
+22	Butylene Glycol
+23	Citric Acid
+24	Diutan Gum
+25	Sodium Stearoyl Lactylate
+26	Pseudoalteromonas Ferment Extract
+27	Cetyl Alcohol
+28	Aluminum Hydroxide
+29	Neopentyl Glycol Diethylhexanoate
+30	Polysorbate 20
+31	Biosaccharide Gum-4
+32	Avena Sativa Kernel Extract
+33	Dipotassium Glycyrrhizate
+34	Aloe Barbadensis Leaf Juice
+35	Sodium Benzoate
+36	Disodium EDTA
+37	Zinc PCA
+38	1,2-Hexanediol

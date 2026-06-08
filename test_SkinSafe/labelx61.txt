@@ -1,0 +1,39 @@
+1	Water
+2	Niacinamide
+3	Rosa Damascena Flower Water
+4	Glycerin
+5	Propylene Glycol
+6	Trehalose
+7	Phenoxyethanol
+8	Avena Sativa Bran Extract
+9	Carbomer
+10	Triethanolamine
+11	Butylene Glycol
+12	Allantoin
+13	Disodium EDTA
+14	Titanium Dioxide
+15	Caprylyl Glycol
+16	Tetrahydrocurcumin
+17	Chlorphenesin
+18	Propanediol
+19	Xanthan Gum
+20	1,2-Hexanediol
+21	Melissa Officinalis Extract
+22	Pentylene Glycol
+23	Citrus Reticulata Peel Extract
+24	Polyethylene Glycol 400
+25	Phosphatidylcholine
+26	Sodium Hyaluronate
+27	Hydrolyzed Hyaluronic Acid
+28	Squalane
+29	Cetyl Alcohol
+30	Ethyl Linoleate
+31	Ziziphus Spina-Christi Leaf Extract
+32	Coco-Glucoside
+33	Hesperidin
+34	Citric Acid
+35	Sodium Acetylated Hyaluronate
+36	Ceramide NP
+37	Sodium Benzoate
+38	Glycosaminoglycan
+39	Nicotiana Benthamiana Hexapeptide-40 sh-Polypeptide-47

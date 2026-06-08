@@ -1,0 +1,62 @@
+1	Water/Aqua/Eau
+2	Glycerin
+3	Dipropylene Glycol
+4	Caprylic/Capric Triglyceride
+5	Hydrogenated Poly(C6-14 Olefin)
+6	Hydrogenated Polydecene
+7	Cetearyl Alcohol
+8	1,2-Hexanediol
+9	Cyclomethicone
+10	Dimethicone
+11	Vegetable Oil/Huile Végétale
+12	Bifida Ferment Lysate
+13	Cyclopentasiloxane
+14	Dimethiconol
+15	Glyceryl Stearate SE
+16	Cetearyl Glucoside
+17	Cetearyl Olivate
+18	Sorbitan Olivate
+19	C12-16 Alcohols
+20	Ceramide NP
+21	Amaranthus Caudatus Seed Extract
+22	Ulmus Davidiana Root Extract
+23	Microcrystalline Cellulose
+24	Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer
+25	Squalane
+26	Glyceryl Stearate
+27	PEG-100 Stearate
+28	Hydrogenated Lecithin
+29	Palmitic Acid
+30	Coco-Caprylate/Caprate
+31	Beta Vulgaris (Beet) Root Extract
+32	Portulaca Oleracea Extract
+33	Pueraria Thunbergiana Root Extract
+34	Cnidium Officinale Root Extract
+35	Glycyrrhiza Glabra (Licorice) Root Extract
+36	Paeonia Lactiflora Root Extract
+37	Polysorbate 60
+38	Caramel
+39	Cellulose Gum
+40	Sodium Hyaluronate
+41	Citrus Aurantium Bergamia (Bergamot) Fruit Oil
+42	Hydrolyzed Corn Starch
+43	Soluble Collagen
+44	Pelargonium Graveolens Flower Oil
+45	Propylene Glycol
+46	Butylene Glycol
+47	Aloe Barbadensis Leaf Juice
+48	Disodium EDTA
+49	Panthenol
+50	Acacia Senegal Gum
+51	Algae Extract
+52	Artemisia Vulgaris Extract
+53	Folic Acid
+54	Salvia Officinalis (Sage) Oil
+55	Acetic Acid
+56	Pogostemon Cablin Oil
+57	Cholesterol
+58	Raffinose
+59	Lactic Acid
+60	Xanthan Gum
+61	Tromethamine
+62	Palmitoyl Pentapeptide-4

@@ -1,0 +1,40 @@
+1	Water
+2	Glycerin
+3	Dimethicone
+4	Butylene Glycol
+5	Dipropylene Glycol
+6	Phenoxyethanol
+7	Saccharide Isomerate
+8	Niacinamide
+9	Carbomer
+10	Chlorphenesin
+11	Disodium EDTA
+12	Panthenol
+13	PPG-5-Decyltetradeceth-30
+14	Potassium Hydroxide
+15	Xanthan Gum
+16	PEG-14M
+17	Sodium Hyaluronate
+18	Fragrance
+19	3-O-Ethyl Ascorbic Acid
+20	Aloe Barbadensis Leaf Juice
+21	Maltodextrin
+22	Citric Acid
+23	Sodium Citrate
+24	Prunus Yedoensis Leaf Extract
+25	Hydrolyzed Collagen
+26	1,2-Hexanediol
+27	Terminalia Ferdinandiana Fruit Extract
+28	Caprylyl Glycol
+29	Potassium Sorbate
+30	Sodium Benzoate
+31	Algae Extract
+32	Chondrus Crispus Extract
+33	Citrus Junos Fruit Extract
+34	Cynara Scolymus (Artichoke) Leaf Extract
+35	Hyaluronic Acid
+36	Hydrolyzed Hyaluronic Acid
+37	Hydrolyzed Sodium Hyaluronate
+38	Hydroxypropyl Cyclodextrin
+39	Sodium Acetylated Hyaluronate
+40	Sodium Hyaluronate Crosspolymer

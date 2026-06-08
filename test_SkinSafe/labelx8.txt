@@ -1,0 +1,44 @@
+1	DI-Water
+2	Cyclopentasiloxane
+3	Dicaprylyl Carbonate
+4	Aloe Barbadensis Leaf Juice
+5	Pentaerythrityl Distearate
+6	Glyceryl Stearate
+7	Dimethicone
+8	Niacinamide
+9	Methylsilaniol Hydroxyproline Aspartate
+10	Propylene Glycol
+11	Polymethyl Methacrylate
+12	Sodium Stearoyl Glutamate
+13	PEG-100 Stearate
+14	Sodium Polyacrylate
+15	Butyrospermum Parkii Butter
+16	Butylene Glycol
+17	Glycerin
+18	Citric Acid
+19	Cyclohexasiloxane
+20	Tocopheryl Acetate
+21	Polysilicone-11
+22	Phenoxyethanol
+23	Cetearyl Alcohol
+24	Sodium Benzoate
+25	Fragrance
+26	Disodium EDTA
+27	Caprylyl Glycol
+28	Disodium Cocoamphodiacetate
+29	Potassium Sorbate
+30	Hydrolyzed Ceratonia Siliqua Seed Extract
+31	Allium Cepa Bulb Extract
+32	Sodium Hyaluronate
+33	Centella Asiatica Extract
+34	Cephalins
+35	PVP
+36	Salicylic Acid
+37	Palmitoyl Tripeptide-5
+38	Ethylhexylglycerin
+39	Sodium Methylparaben
+40	Hexylene Glycol
+41	Propylparaben
+42	Butylparaben
+43	Methylparaben
+44	Ethylparaben

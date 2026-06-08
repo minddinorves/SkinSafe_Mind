@@ -1,0 +1,23 @@
+﻿1	Water
+2	Glycerin
+3	Betaine
+4	Phenoxyethanol
+5	Saccharide Isomerate
+6	Isononyl Isononanoate
+7	Carbomer
+8	Sodium Acrylate/Sodium Acryloylmethyl Taurate Copolymer
+9	Potassium Hydroxide
+10	Chlorphenesin
+11	Disodium EDTA
+12	Polysorbate 80
+13	Butyrospermum Parkii Butter
+14	Centella Asiatica Leaf Extract
+15	Sorbitol Oleate
+16	Hydrolyzed Hyaluronic Acid
+17	Tocopheryl Acetate
+18	Aloe Barbadensis Leaf Extract
+19	Citric Acid
+20	Sodium Citrate
+21	Butylene Glycol
+22	Alteromonas Ferment Extract
+23	Sodium Benzoate

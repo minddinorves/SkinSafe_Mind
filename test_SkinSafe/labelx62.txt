@@ -1,0 +1,48 @@
+1	Aqua
+2	Glycerin
+3	Niacinamide
+4	Dimethicone
+5	Betaine
+6	Isohexadecane
+7	Cetyl Alcohol
+8	Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer
+9	Crocus Chrysanthus Bulb Extract
+10	Acetyl Hexapeptide-8
+11	Acacia Senegal Gum
+12	Laminaria Saccharina Extract
+13	Wine
+14	Hydrolyzed Hyaluronic Acid
+15	Saccharide Isomerate
+16	Isomalt
+17	Dipotassium Glycyrrhizate
+18	Caesalpinia Spinosa Gum
+19	Centella Asiatica Extract
+20	Stearyl Alcohol
+21	Butylene Glycol
+22	Glyceryl Stearate
+23	Cetearyl Alcohol
+24	Cetearyl Olivate
+25	Sorbitan Olivate
+26	Chlorphenesin
+27	PEG-75 Stearate
+28	Palmitic Acid
+29	Stearic Acid
+30	Tocopheryl Acetate
+31	Maltodextrin
+32	Phytol
+33	Triethanolamine
+34	C13-14 Isoparaffin
+35	Laureth-7
+36	Ceteth-20 Stearate
+37	Caprylyl Glycol
+38	Hexanediol
+39	Citric Acid
+40	Potassium Sorbate
+41	Sodium Benzoate
+42	Cyclopentasiloxane
+43	Perfume
+44	Phenoxyethanol
+45	Triethoxycaprylylsilane
+46	Aluminum Hydroxide
+47	Sodium Citrate
+48	CI 16035

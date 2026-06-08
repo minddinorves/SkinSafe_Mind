@@ -1,0 +1,30 @@
+1	Water
+2	Glycerin
+3	2,3-Butanediol
+4	Niacinamide
+5	Caprylic/Capric Triglyceride
+6	1,2-Hexanediol
+7	Propanediol
+8	Nylon-12
+9	Coco-Caprylate/Caprate
+10	Carbomer
+11	Tromethamine
+12	Sodium Polyacrylate
+13	Polymethylsilsesquioxane
+14	Sclerotium Gum
+15	HDI/Trimethylol Hexyllactone Crosspolymer
+16	Acetamide MEA
+17	Trisodium EDTA
+18	Sarcosine
+19	Pentylene Glycol
+20	Squalane
+21	Palmitoyl Tripeptide-1
+22	Tocopherol
+23	Hydrogenated Lecithin
+24	Ethylhexylglycerin
+25	Hydrolyzed Sodium Hyaluronate
+26	Centella Asiatica Extract
+27	Dipotassium Glycyrrhizate
+28	Sodium Hyaluronate Crosspolymer
+29	Ceramide NP
+30	Copper Tripeptide-1

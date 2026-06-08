@@ -1,0 +1,48 @@
+1	Water/Aqua/Eau
+2	Butylene Glycol
+3	Propanediol
+4	Glycerin
+5	Diisostearyl Malate
+6	Hydrogenated Poly(C-14 Olefin)
+7	Caprylic/Capric Triglyceride
+8	Polyglyceryl-3 Methylglucose Distearate
+9	Methyl Trimethicone
+10	Phytosteryl/Behenyl/Octyldodecyl Lauroyl Glutamate
+11	1,2-Hexanediol
+12	Trehalose
+13	Squalane
+14	Ammonium Acryloyldimethyltaurate/VP Copolymer
+15	Panthenol
+16	Glyceryl Stearate Citrate
+17	C14-22 Alcohols
+18	Arachidyl Alcohol
+19	Hydroxypropyl Starch Phosphate
+20	Polymethylsilsesquioxane
+21	Behenyl Alcohol
+22	C12-20 Alkyl Glucoside
+23	Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer
+24	Arachidyl Glucoside
+25	Lactobacillus Ferment Lysate
+26	Glyceryl Caprylate
+27	Fragrance/Parfum
+28	Ethylhexylglycerin
+29	Disodium EDTA
+30	Camellia Sinensis Seed Extract
+31	Camellia Sinensis Leaf Extract
+32	Sorbitan Isostearate
+33	Camellia Sinensis Seed Oil
+34	Lactic Acid
+35	Linalool
+36	Limonene
+37	Glucose
+38	Ceramide NP
+39	Dextrin
+40	Theobroma Cacao (Cocoa) Extract
+41	Sodium Hyaluronate
+42	Hydrogenated Lecithin
+43	Phytosphingosine
+44	Hydrolyzed Hyaluronic Acid
+45	Tocopherol
+46	Sodium Hyaluronate Crosspolymer
+47	Hyaluronic Acid
+48	Sodium Acetylated Hyaluronate

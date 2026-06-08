@@ -1,0 +1,22 @@
+1	Aqua
+2	Glycerin
+3	Petrolatum
+4	Dicaprylyl Ether
+5	Dimethicone
+6	Glyceryl Stearate
+7	Cetyl Alcohol
+8	Helianthus Annuus Seed Oil
+9	PEG-30 Glyceryl Stearate
+10	Panthenol
+11	Niacinamide
+12	Prunus Amygdalus Dulcis Oil
+13	Tocopheryl Acetate
+14	Isopropyl Palmitate
+15	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+16	Propylene Glycol
+17	BHT
+18	Disodium EDTA
+19	Benzoic Acid
+20	Phenoxyethanol
+21	Sodium Hydroxide
+22	Citric Acid

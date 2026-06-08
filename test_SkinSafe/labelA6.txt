@@ -1,0 +1,18 @@
+1	Water/Aqua/Eau
+2	Dimethicone
+3	Butylene Glycol
+4	Glycerin
+5	Trisiloxane
+6	Trehalose
+7	Sucrose
+8	Ammonium Acryloyldimethyltaurate/VP Copolymer
+9	Hydroxyethyl Urea
+10	Camellia Sinensis (Green Tea) Leaf Extract
+11	Silybum Marianum (Lady's Thistle) Extract
+12	Betula Alba (Birch) Bark Extract
+13	Saccharomyces Lysate Extract
+14	Aloe Barbadensis Leaf Water
+15	Aloe Barbadensis Leaf Extract
+16	Thermus Thermophillus Ferment
+17	Caffeine
+18	Sorbitol

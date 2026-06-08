@@ -1,0 +1,32 @@
+1	Deionized Water
+2	Polysorbate 20
+3	Niacinamide
+4	Butylene Glycol
+5	Propylene Glycol
+6	Allium Cepa Bulb Extract
+7	Melaleuca Alternifolia Leaf Extract
+8	Melaleuca Alternifolia Leaf Oil
+9	Salix Nigra Bark Extract
+10	Salicylic Acid
+11	Zinc PCA
+12	Croton Lechleri Resin Extract
+13	Citrus Aurantifolia Fruit Extract
+14	Citrus Limon Fruit Extract
+15	Pyrus Malus Fruit Extract
+16	Citrus Aurantium Dulcis Fruit Extract
+17	Aloe Barbadensis Extract
+18	Allantoin
+19	Tocopheryl Acetate
+20	Bisabolol
+21	Saccharide Isomerate
+22	Hydrogenated Polyisobutene
+23	1,2-Hexanediol
+24	Disodium EDTA
+25	PEG-40 Hydrogenated Castor Oil
+26	Chlorphenesin
+27	Glycerin
+28	Propanediol
+29	Sodium Benzoate
+30	Citric Acid
+31	Sodium Citrate
+32	Phenoxyethanol

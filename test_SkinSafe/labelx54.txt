@@ -1,0 +1,35 @@
+1	Aqua
+2	Octocrylene
+3	Dibutyl Adipate
+4	Dipropylene Glycol
+5	Butyl Methoxydibenzoylmethane
+6	Glycerin
+7	Cyclopentasiloxane
+8	Cetearyl Alcohol
+9	Diethylhexyl 2,6-Naphthalate
+10	Methylene Bis-Benzotriazolyl Tetramethylbutylphenol Triazine
+11	Chlorphenesin
+12	Glyceryl Stearate
+13	PEG-100 Stearate
+14	Niacinamide
+15	Titanium Dioxide
+16	Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine
+17	Phenoxyethanol
+18	Xanthan Gum
+19	Carbomer
+20	Acrylates/C12-22 Alkyl Methacrylate Copolymer
+21	Decyl Glucoside
+22	Disodium EDTA
+23	Tocopheryl Acetate
+24	Glycerin
+25	Sodium Hydroxide
+26	Propanediol
+27	Arginine
+28	Sodium Lauroyl Sulfosuccinate
+29	Sodium Hyaluronate
+30	Buddleja Officinalis Flower Extract
+31	Glyceryl Caprylate
+32	Sodium Acetylated Hyaluronate
+33	Sodium Hyaluronate Crosspolymer
+34	Hydrolyzed Sodium Hyaluronate
+35	Ethylhexylglycerin

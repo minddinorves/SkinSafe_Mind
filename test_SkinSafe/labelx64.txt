@@ -1,0 +1,7 @@
+1	Isopropyl Palmitate
+2	Caprylic/Capric Triglyceride
+3	Sorbeth-30 Tetraoleate
+4	Helianthus Annuus Seed Oil
+5	Olea Europaea Fruit Oil
+6	Tocopheryl Acetate
+7	3-O-Ethyl Ascorbic Acid

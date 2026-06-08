@@ -1,0 +1,11 @@
+1	Aqua
+2	Niacinamide
+3	Carbomer
+4	Glycerin
+5	Propylene Glycol
+6	Aloe Barbadensis Leaf Extract
+7	Triethanolamine
+8	Phenoxyethanol
+9	Snail Secretion Filtrate
+10	Allantoin
+11	Fragrance

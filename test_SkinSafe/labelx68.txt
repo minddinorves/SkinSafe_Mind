@@ -1,0 +1,20 @@
+1	Aqua
+2	Butylene Glycol
+3	Niacinamide
+4	Hydrogenated Polydecene
+5	Citrullus Lanatus Fruit Extract
+6	Sodium Hyaluronate
+7	Sodium Ascorbyl Phosphate
+8	Polyacrylamide
+9	Phenoxyethanol
+10	Tocopheryl Acetate
+11	C13-14 Isoparaffin
+12	Chlorphenesin
+13	Fragrance
+14	Allantoin
+15	Punica Granatum Extract
+16	Collagen
+17	Laureth-7
+18	Glycerin
+19	CI 15985
+20	CI 16255

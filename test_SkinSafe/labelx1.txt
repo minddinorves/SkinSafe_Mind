@@ -1,0 +1,34 @@
+1	Water
+2	Propanediol
+3	Glycerin
+4	Cyclopentasiloxane
+5	Niacinamide
+6	Phenyl Trimethicone
+7	1,2-Hexanediol
+8	Lactobacillus Ferment Filtrate
+9	Galactomyces Ferment Filtrate
+10	Morinda Citrifolia Seed Extract
+11	Phaseolus Radiatus Seed Extract
+12	Portulaca Oleracea Extract
+13	Camellia Japonica Seed Extract
+14	Centella Asiatica Extract
+15	Arctium Lappa Seed Extract
+16	Decursinol
+17	Swiftlet Nest Extract
+18	Phenoxyethanol
+19	Acrylates/Polysilicone-1
+20	Camellia Sinensis Leaf Extract
+21	Nelumbo Nucifera Flower Extract
+22	Adenosine
+23	PEG-40 Hydrogenated Lecithin
+24	C12-36 Alkyl Acrylate Crosspolymer
+25	Sodium Hyaluronate
+26	Disodium EDTA
+27	Polysilicone-11
+28	Hamamelis Virginiana (Witch Hazel) Extract
+29	Arginine
+30	Hydroxypropyl Methylcellulose
+31	Citric Acid
+32	Calcium Carbonate
+33	Ascorbic Acid
+34	Glutathione

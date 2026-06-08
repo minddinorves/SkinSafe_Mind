@@ -1,0 +1,52 @@
+1	Aqua
+2	Glycereth-26
+3	Niacinamide
+4	Butylene Glycol
+5	Phenoxyethanol
+6	PEG-40 Hydrogenated Castor Oil
+7	Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+8	Triethanolamine
+9	Betaine
+10	Chlorphenesin
+11	Tetrasodium EDTA
+12	Mannitol
+13	Citrus Aurantium Dulcis (Orange) Peel Oil
+14	Glycerin
+15	Hippophae Rhamnoides Fruit Oil
+16	Microcrystalline Cellulose
+17	Sucrose
+18	Hydrolyzed Corn Starch Octenylsuccinate
+19	Zea Mays Starch
+20	Ascorbyl Tetraisopalmitate
+21	Ethyl Ascorbic Acid
+22	Aloe Barbadensis Leaf Juice Powder
+23	Sodium Starch Octenylsuccinate
+24	Hydroxypropyl Methylcellulose
+25	Tocopherol
+26	C12-13 Alkyl Glyceryl Hydrolyzed Hyaluronate
+27	Calcium Pantothenate
+28	Maltodextrin
+29	Sodium Ascorbyl Phosphate
+30	Sodium Carboxymethyl Hyaluronate
+31	1,2-Hexanediol
+32	Caprylyl 2-Glyceryl Ascorbate
+33	Ascorbic Acid
+34	Xanthan Gum
+35	Pyridoxine HCl
+36	Sodium Lauroyl Lactylate
+37	Caprylyl Glycol
+38	Propanediol
+39	Silica
+40	Centella Asiatica Extract
+41	Glucose
+42	Sodium Hyaluronate
+43	Chondrus Crispus Extract
+44	Colloidal Gold
+45	Hydroxypropyl Trimonium Hyaluronate
+46	Glutathione
+47	Hydrolyzed Hyaluronic Acid
+48	Sodium Acetylated Hyaluronate
+49	Hyaluronic Acid
+50	Hydrolyzed Sodium Hyaluronate
+51	Sodium Hyaluronate Crosspolymer
+52	Potassium Hyaluronate
