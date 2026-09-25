@@ -32,7 +32,7 @@ def recommend(ingredients: list[str], user: dict) -> dict:
       1. hazard.classify_ingredient() — EU Annex II, problematic DB, fragrance tier
       2. DB ingredient_skin_effects — compatibility with the user's skin type
          bad  → upgrade level to 'caution', add warning
-         caution → add warning note (no level change)
+         caution → upgrade level to 'caution', add warning
       3. DB ingredient_risks — pregnancy / fungal_acne / acne_trigger
          medium/high + matching user flag → upgrade to 'caution', add warning
 
@@ -79,6 +79,9 @@ def recommend(ingredients: list[str], user: dict) -> dict:
                     elif fx['compatibility'] == 'caution':
                         w = fx.get('warning_reason') or 'ควรระวังสำหรับสภาพผิวของคุณ'
                         ing['extra_warnings'].append(w)
+                        warnings.append(f"{inci_name}: {w}")
+                        if ing['level'] not in ('prohibited',):
+                            ing['level'] = 'caution'
 
             # Per-user risk checks
             for risk in db.get_ingredient_risks(iid):

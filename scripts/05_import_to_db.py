@@ -30,7 +30,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DSN = os.getenv('DATABASE_URL', 'postgresql://postgres:postgres@localhost:5432/skinsafe_db')
+DSN = os.getenv('DATABASE_URL', 'postgresql://postgres:postgres@localhost:5432/skinsafe')
 
 # ─── Skin types ───────────────────────────────────────────────────────────────
 
@@ -44,16 +44,16 @@ SKIN_TYPES = [
 
 # ─── Skin compatibility rules by function category ───────────────────────────
 # Each entry: skin_type_id → (compatibility, severity | None, warning_reason | None)
-# Academic basis: EU Cosmetics Regulation Annex III + SCCS consolidated opinions;
-# emollient/occlusive concerns for oily/combination skin (Draelos 2006);
-# fragrance sensitization for sensitive skin (IFRA 51st amendment).
+# These are deliberately conservative category-level rules.  A function alone
+# cannot prove that an ingredient is pore-clogging or irritating, so wording
+# tells the user who may want to patch-test rather than making a diagnosis.
 
 _FUNC_SKIN_RULES: dict[str, dict[int, tuple]] = {
     'moisturizer': {
         1: ('good',    None,     None),
         2: ('good',    None,     None),
-        3: ('caution', 'low',    'อาจอุดตันรูขุมขนในผิวมัน'),
-        4: ('caution', 'low',    'อาจอุดตันบริเวณ T-zone'),
+        3: ('good',    None,     None),
+        4: ('good',    None,     None),
         5: ('good',    None,     None),
     },
     'preservative': {
@@ -61,48 +61,38 @@ _FUNC_SKIN_RULES: dict[str, dict[int, tuple]] = {
         2: ('good',    None,     None),
         3: ('good',    None,     None),
         4: ('good',    None,     None),
-        5: ('caution', 'low',    'สารกันเสียบางชนิดอาจระคายผิวแพ้ง่าย'),
+        5: ('caution', 'low',    'หากเคยแพ้สารกันเสียหรือมีผื่นง่าย ควรทดสอบบนผิวบริเวณเล็ก ๆ ก่อนใช้'),
     },
     'fragrance': {
-        1: ('caution', 'low',    'น้ำหอมอาจระคายเคือง'),
-        2: ('caution', 'low',    'น้ำหอมอาจระคายเคือง'),
-        3: ('caution', 'low',    'น้ำหอมอาจระคายเคือง'),
-        4: ('caution', 'low',    'น้ำหอมอาจระคายเคือง'),
-        5: ('bad',     'medium', 'น้ำหอมมักก่อภูมิแพ้ในผิวแพ้ง่าย (IFRA)'),
+        1: ('caution', 'low',    'มีน้ำหอม: ผู้ที่แพ้น้ำหอมหรือระคายเคืองง่ายอาจเกิดผื่นหรือแสบได้'),
+        2: ('caution', 'low',    'มีน้ำหอม: ผู้ที่แพ้น้ำหอมหรือระคายเคืองง่ายอาจเกิดผื่นหรือแสบได้'),
+        3: ('caution', 'low',    'มีน้ำหอม: ผู้ที่แพ้น้ำหอมหรือระคายเคืองง่ายอาจเกิดผื่นหรือแสบได้'),
+        4: ('caution', 'low',    'มีน้ำหอม: ผู้ที่แพ้น้ำหอมหรือระคายเคืองง่ายอาจเกิดผื่นหรือแสบได้'),
+        5: ('bad',     'medium', 'มีน้ำหอม: หากผิวแพ้ง่ายหรือเคยแพ้น้ำหอม แนะนำเลือกสูตรไม่มีน้ำหอม'),
     },
     'surfactant': {
         1: ('good',    None,     None),
-        2: ('caution', 'low',    'ซัลเฟตอาจทำผิวแห้งมากขึ้น'),
+        2: ('caution', 'low',    'ผลิตภัณฑ์ล้างออกบางชนิดอาจทำให้ผิวแห้งตึง โดยเฉพาะเมื่อใช้บ่อย'),
         3: ('good',    None,     None),
         4: ('good',    None,     None),
-        5: ('caution', 'low',    'ซัลเฟตอาจระคายผิวแพ้ง่าย'),
+        5: ('caution', 'low',    'ผลิตภัณฑ์ล้างออกบางชนิดอาจระคายผิวแพ้ง่าย ควรหยุดใช้หากแสบหรือมีผื่น'),
     },
     'antioxidant': {i: ('good', None, None) for i in range(1, 6)},
     'colorant': {
-        1: ('caution', 'low',    'สีย้อมอาจระคายเคือง'),
-        2: ('caution', 'low',    'สีย้อมอาจระคายเคือง'),
-        3: ('caution', 'low',    'สีย้อมอาจระคายเคือง'),
-        4: ('caution', 'low',    'สีย้อมอาจระคายเคือง'),
-        5: ('bad',     'medium', 'สีย้อมมักก่อภูมิแพ้ในผิวแพ้ง่าย'),
-    },
-    'solvent': {
         1: ('good',    None,     None),
-        2: ('caution', 'low',    'ตัวทำละลายอาจทำผิวแห้ง'),
+        2: ('good',    None,     None),
         3: ('good',    None,     None),
         4: ('good',    None,     None),
-        5: ('caution', 'low',    'ตัวทำละลายอาจระคายผิวแพ้ง่าย'),
+        5: ('caution', 'low',    'หากเคยแพ้สีหรือมีผิวไวต่อการระคายเคือง ควรทดสอบก่อนใช้'),
     },
+    # Do not warn from the generic solvent category: it includes water.
+    'solvent': {i: ('good', None, None) for i in range(1, 6)},
     'thickener':  {i: ('good', None, None) for i in range(1, 6)},
     'UV filter':  {i: ('good', None, None) for i in range(1, 6)},
     'hair care':  {i: ('good', None, None) for i in range(1, 6)},
     'masking':    {i: ('good', None, None) for i in range(1, 6)},
-    'bleaching': {
-        1: ('caution', 'low',    'สารฟอกสีอาจระคายเคือง'),
-        2: ('caution', 'low',    'อาจทำผิวแห้งและระคายเคือง'),
-        3: ('good',    None,     None),
-        4: ('good',    None,     None),
-        5: ('bad',     'medium', 'สารฟอกสีมักระคายผิวแพ้ง่าย'),
-    },
+    # Specific bleaching agents are assessed in ingredient_risks instead.
+    'bleaching': {i: ('good', None, None) for i in range(1, 6)},
     'other': {i: ('good', None, None) for i in range(1, 6)},
 }
 
@@ -128,24 +118,24 @@ _FUNGAL_ACNE_TRIGGERS = {
 # Source: ACOG Committee Opinion 2007; SCCS/1603/19; dermatology literature
 
 _PREGNANCY_CAUTION: dict[str, tuple[str, str]] = {
-    'salicylic acid':       ('medium', 'BHA — ในความเข้มข้นสูงควรปรึกษาแพทย์'),
-    'retinol':              ('high',   'Vitamin A derivative — ห้ามใช้ระหว่างตั้งครรภ์ (ACOG)'),
-    'retinyl palmitate':    ('high',   'Vitamin A derivative — ห้ามใช้ระหว่างตั้งครรภ์'),
-    'retinyl acetate':      ('high',   'Vitamin A derivative — ห้ามใช้ระหว่างตั้งครรภ์'),
-    'retinaldehyde':        ('high',   'Vitamin A derivative — ห้ามใช้ระหว่างตั้งครรภ์'),
-    'tretinoin':            ('high',   'Retinoic acid — ห้ามใช้ระหว่างตั้งครรภ์'),
-    'benzoyl peroxide':     ('medium', 'ควรปรึกษาแพทย์ก่อนใช้ระหว่างตั้งครรภ์'),
-    'hydroquinone':         ('high',   'ห้ามใช้ระหว่างตั้งครรภ์ — systemic absorption'),
-    'kojic acid':           ('medium', 'ควรปรึกษาแพทย์ระหว่างตั้งครรภ์'),
-    'alpha arbutin':        ('low',    'อนุพันธ์ของ hydroquinone — ควรระมัดระวัง'),
-    'arbutin':              ('low',    'อนุพันธ์ของ hydroquinone — ควรระมัดระวัง'),
-    'formaldehyde':         ('high',   'ห้ามใช้ระหว่างตั้งครรภ์'),
-    'quaternium-15':        ('medium', 'สาร formaldehyde releaser — ควรหลีกเลี่ยง'),
-    'dmdm hydantoin':       ('medium', 'สาร formaldehyde releaser — ควรหลีกเลี่ยง'),
-    'triclosan':            ('medium', 'สงสัย endocrine disruption — ควรหลีกเลี่ยง'),
-    'oxybenzone':           ('medium', 'Benzophenone-3 — สงสัย endocrine disruption'),
-    'diethylhexyl butamido triazone': ('low', 'Chemical UV filter — ควรระมัดระวัง'),
-    'avobenzone':           ('low',    'Chemical UV filter — ควรระมัดระวัง'),
+    'salicylic acid':       ('low',    'กำลังตั้งครรภ์: ใช้เฉพาะที่ตามฉลากได้ แต่ควรหลีกเลี่ยงความเข้มข้นสูงหรือใช้พื้นที่กว้างโดยไม่ปรึกษาแพทย์'),
+    'retinol':              ('high',   'กำลังตั้งครรภ์: ควรหลีกเลี่ยง retinoids และปรึกษาสูติแพทย์หรือแพทย์ผิวหนัง'),
+    'retinyl palmitate':    ('high',   'กำลังตั้งครรภ์: ควรหลีกเลี่ยง retinoids และปรึกษาสูติแพทย์หรือแพทย์ผิวหนัง'),
+    'retinyl acetate':      ('high',   'กำลังตั้งครรภ์: ควรหลีกเลี่ยง retinoids และปรึกษาสูติแพทย์หรือแพทย์ผิวหนัง'),
+    'retinaldehyde':        ('high',   'กำลังตั้งครรภ์: ควรหลีกเลี่ยง retinoids และปรึกษาสูติแพทย์หรือแพทย์ผิวหนัง'),
+    'tretinoin':            ('high',   'กำลังตั้งครรภ์: ควรหลีกเลี่ยง retinoids และปรึกษาสูติแพทย์หรือแพทย์ผิวหนัง'),
+    'benzoyl peroxide':     ('low',    'กำลังตั้งครรภ์: ใช้เฉพาะที่ตามคำแนะนำได้ หากต้องใช้ต่อเนื่องควรปรึกษาแพทย์'),
+    'hydroquinone':         ('high',   'กำลังตั้งครรภ์: ควรหลีกเลี่ยง hydroquinone และปรึกษาแพทย์เรื่องทางเลือก'),
+    'kojic acid':           ('low',    'ข้อมูลการใช้ระหว่างตั้งครรภ์ยังจำกัด หากต้องการใช้ต่อเนื่องควรปรึกษาแพทย์'),
+    'alpha arbutin':        ('low',    'ข้อมูลการใช้ระหว่างตั้งครรภ์ยังจำกัด หากต้องการใช้ต่อเนื่องควรปรึกษาแพทย์'),
+    'arbutin':              ('low',    'ข้อมูลการใช้ระหว่างตั้งครรภ์ยังจำกัด หากต้องการใช้ต่อเนื่องควรปรึกษาแพทย์'),
+    'formaldehyde':         ('high',   'กำลังตั้งครรภ์: ควรหลีกเลี่ยงและปรึกษาแพทย์เรื่องทางเลือก'),
+    'quaternium-15':        ('medium', 'มีสารปลดปล่อย formaldehyde: กำลังตั้งครรภ์ควรเลือกทางเลือกอื่นหรือปรึกษาแพทย์'),
+    'dmdm hydantoin':       ('medium', 'มีสารปลดปล่อย formaldehyde: กำลังตั้งครรภ์ควรเลือกทางเลือกอื่นหรือปรึกษาแพทย์'),
+    'triclosan':            ('medium', 'กำลังตั้งครรภ์: แนะนำปรึกษาแพทย์ก่อนใช้ต่อเนื่อง'),
+    'oxybenzone':           ('low',    'ข้อมูลการใช้ระหว่างตั้งครรภ์ยังจำกัด หากกังวลควรปรึกษาแพทย์'),
+    'diethylhexyl butamido triazone': ('low', 'ข้อมูลการใช้ระหว่างตั้งครรภ์ยังจำกัด หากกังวลควรปรึกษาแพทย์'),
+    'avobenzone':           ('low',    'ข้อมูลการใช้ระหว่างตั้งครรภ์ยังจำกัด หากกังวลควรปรึกษาแพทย์'),
 }
 
 # ─── Acne triggers (comedogenic ingredients) ──────────────────────────────────
@@ -181,11 +171,15 @@ def run():
     )
 
     # 2. Ingredients
+    # Same two files ocr_core.py's load_inci_vocabulary() reads (INCI_DB_PATH +
+    # INCI_PATCH_PATH) -- keeping the DB import on this single source of truth
+    # is what makes ocr_production.py's DB-backed vocabulary match the same
+    # ingredient set ocr_paddle_fuzzy.py's evaluation runs were validated against.
     print("[2/5] Loading ingredient CSVs...")
     base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     sources = [
-        os.path.join(base, 'data', 'ingredients_dataset.csv'),
-        os.path.join(base, 'cleaned_ingredients.csv'),
+        os.path.join(base, 'ingredient_master_dataset_fixed.csv'),
+        os.path.join(base, 'common_ingredients_patch.csv'),
     ]
     frames = []
     for path in sources:
@@ -221,10 +215,26 @@ def run():
         return
 
     df['inci_name'] = df['inci_name'].astype(str).str.strip()
+    df['inci_name'] = df['inci_name'].str.replace(r'\s+', ' ', regex=True)
     df['cas_no']    = df.get('cas_no',    pd.Series(dtype=str)).where(pd.notna(df.get('cas_no',    pd.Series(dtype=str))), None)
     df['function']  = df.get('function',  pd.Series(dtype=str)).where(pd.notna(df.get('function',  pd.Series(dtype=str))), None)
 
-    # Deduplicate (case-insensitive)
+    # Drop rows with no real name (incl. "nan" left over from astype(str) on NaN),
+    # and names too long for ingredient_name VARCHAR(255) -- truncating would
+    # silently store a different (wrong) name that no longer matches OCR output.
+    df = df[~df['inci_name'].str.lower().isin(('nan', 'none', ''))]
+    df = df[df['inci_name'].str.len() <= 255]
+
+    # Uppercase for consistency with ingredient_master_dataset_fixed.csv (the
+    # vocabulary ocr_paddle_fuzzy.py validates against) and with how ingredient
+    # lists are printed on product labels. rapidfuzz's fuzz.ratio is
+    # case-sensitive ("AQUA" vs "Aqua" scores ~25, not 100), so leaving the
+    # source CSVs' mixed casing (ALL CAPS vs Title Case) in the DB would make
+    # ocr_production.py's DB-backed vocabulary silently fail to match real,
+    # ALL-CAPS OCR text.
+    df['inci_name'] = df['inci_name'].str.upper()
+
+    # Deduplicate (names are already uppercased above, so this is exact-match)
     df['_key'] = df['inci_name'].str.lower()
     df = df.drop_duplicates(subset=['_key']).copy()
     df = df[df['_key'].str.len() > 2]
@@ -236,7 +246,7 @@ def run():
         return s[:50] if s else None  # CAS VARCHAR(50) — trim garbage long values
 
     batch = [
-        (row['inci_name'][:254], _cas(row.get('cas_no')), None)
+        (row['inci_name'], _cas(row.get('cas_no')), None)
         for _, row in df.iterrows()
     ]
     execute_values(
@@ -290,13 +300,15 @@ def run():
             continue
         rules = _FUNC_SKIN_RULES.get(row['_func'], _FUNC_SKIN_RULES['other'])
         for stid, (compat, severity, reason) in rules.items():
-            effects.append((iid, stid, compat, severity, reason))
+            # effect_type records *why* this row exists: the ingredient's function
+            # category, which is what _FUNC_SKIN_RULES keyed the rule on.
+            effects.append((iid, stid, compat, severity, reason, row['_func']))
 
     if effects:
         execute_values(
             cur,
             """INSERT INTO ingredient_skin_effects
-               (ingredient_id, skin_type_id, compatibility, severity, warning_reason)
+               (ingredient_id, skin_type_id, compatibility, severity, warning_reason, effect_type)
                VALUES %s""",
             effects,
             page_size=1000,
@@ -314,25 +326,29 @@ def run():
             continue
         name_lower = row['_key']
 
-        # Fungal acne — substring match
+        # Fungal acne — substring match. evidence_level 'community': sourced
+        # from crowd-sourced "holy grail" lists (SCA), not a clinical study.
         if any(t in name_lower for t in _FUNGAL_ACNE_TRIGGERS):
             risks.append((iid, 'fungal_acne', 'medium',
-                          'อาจเลี้ยง Malassezia — กระตุ้น fungal acne'))
+                          'อยู่ในรายการคัดกรองสำหรับผู้ที่มี fungal acne บางคนอาจเลือกหลีกเลี่ยง ควรดูร่วมกับประวัติอาการของคุณ', 'community'))
 
-        # Pregnancy — exact match
+        # Pregnancy — exact match. evidence_level 'high': ACOG/SCCS clinical
+        # guidance bodies.
         if name_lower in _PREGNANCY_CAUTION:
             lvl, note = _PREGNANCY_CAUTION[name_lower]
-            risks.append((iid, 'pregnancy', lvl, note))
+            risks.append((iid, 'pregnancy', lvl, note, 'high'))
 
-        # Acne trigger — substring match
+        # Acne trigger — substring match. evidence_level 'moderate': an
+        # established comedogenicity scale (Kligman & Kwong 1979), not a
+        # clinical guideline.
         if any(t in name_lower for t in _ACNE_TRIGGERS):
             risks.append((iid, 'acne_trigger', 'medium',
-                          'พบในรายการ comedogenic ingredients (Kligman scale)'))
+                          'อาจไม่เหมาะกับผู้ที่มีสิวอุดตันง่าย ผลลัพธ์แตกต่างกันในแต่ละคน', 'moderate'))
 
     if risks:
         execute_values(
             cur,
-            "INSERT INTO ingredient_risks (ingredient_id, risk_type, risk_level, note) VALUES %s",
+            "INSERT INTO ingredient_risks (ingredient_id, risk_type, risk_level, note, evidence_level) VALUES %s",
             risks,
             page_size=500,
         )

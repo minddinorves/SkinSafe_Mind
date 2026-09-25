@@ -29,6 +29,7 @@ _BASE = os.path.dirname(os.path.abspath(__file__))
 
 _FUNC_MAP: dict[str, str] = {
     'humectant':             'moisturizer',
+    'moisturising':          'moisturizer',
     'emollient':             'moisturizer',
     'skin-conditioning':     'moisturizer',
     'skin-protecting':       'moisturizer',
@@ -47,6 +48,7 @@ _FUNC_MAP: dict[str, str] = {
     'hair-dyeing':           'colorant',
     'solvent':               'solvent',
     'viscosity-controlling': 'thickener',
+    'emulsion-stabilising':  'thickener',
     'hair-conditioning':     'hair care',
     'antistatic':            'hair care',
     'antidandruff':          'hair care',
