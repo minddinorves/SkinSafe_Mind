@@ -10,7 +10,7 @@ is unavailable — the basic scan still works without PostgreSQL.
 """
 
 import db
-from hazard import classify_ingredient, LEVEL_LABEL, summarize_scan
+from old.hazard import classify_ingredient, LEVEL_LABEL, summarize_scan
 
 _SKIN_TYPE_TH = {
     1: 'ผิวปกติ',

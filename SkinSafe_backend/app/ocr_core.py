@@ -217,24 +217,123 @@ def _add_border(image_bgr, frac=PAD_FRACTION):
     )
 
 
-def run_ocr_lines(image, lang="en"):
-    """Run PaddleOCR on a file path (str) or an image (numpy ndarray, BGR).
-
-    Returns (list_of_recognized_text_lines, elapsed_seconds, error_message_or_None).
+def run_ocr_lines(image_path, lang="en"):
     """
-    ocr = get_ocr(lang)
-    t0 = time.time()
+    Run PaddleOCR with compatibility for both:
+      - newer PaddleOCR API: ocr.predict(...)
+      - legacy PaddleOCR API: ocr.ocr(...)
+    """
+
+    import time
+    import cv2
+
+    image = cv2.imread(image_path)
+
+    if image is None:
+        return [], 0.0, f"Cannot read image: {image_path}"
+
     try:
-        if isinstance(image, str):
-            image = cv2.imread(image)
-        image = _add_border(image)
-        result = ocr.predict(image)
+        ocr = get_ocr(lang)
+    except Exception as e:
+        return [], 0.0, str(e)
+
+    start = time.time()
+
+    try:
+        # --------------------------------------------------
+        # New PaddleOCR API
+        # --------------------------------------------------
+        if hasattr(ocr, "predict"):
+            result = ocr.predict(image)
+
+        # --------------------------------------------------
+        # Legacy PaddleOCR API
+        # --------------------------------------------------
+        elif hasattr(ocr, "ocr"):
+            result = ocr.ocr(image, cls=False)
+
+        else:
+            return [], 0.0, (
+                "Installed PaddleOCR has neither "
+                "'predict' nor 'ocr' API."
+            )
+
+        elapsed = time.time() - start
+
         lines = []
-        for page in result:
-            lines.extend(page.get("rec_texts", []))
-        return lines, time.time() - t0, None
-    except Exception as exc:  # noqa: BLE001 - want to record any OCR failure per-image
-        return [], time.time() - t0, str(exc)
+
+        # ==================================================
+        # Parse legacy PaddleOCR result
+        # ==================================================
+
+        if isinstance(result, list):
+
+            for page in result:
+
+                if not page:
+                    continue
+
+                # Legacy result commonly:
+                #
+                # [
+                #   [
+                #       [[x1,y1],...], ("TEXT", score)
+                #   ],
+                #   ...
+                # ]
+
+                if isinstance(page, list):
+
+                    for item in page:
+
+                        if not item:
+                            continue
+
+                        try:
+                            text_info = item[1]
+
+                            if (
+                                isinstance(text_info, (list, tuple))
+                                and len(text_info) >= 1
+                            ):
+                                text = str(text_info[0]).strip()
+
+                                if text:
+                                    lines.append(text)
+
+                        except Exception:
+                            continue
+
+        # ==================================================
+        # Remove empty / duplicate lines
+        # ==================================================
+
+        cleaned = []
+
+        seen = set()
+
+        for line in lines:
+
+            line = str(line).strip()
+
+            if not line:
+                continue
+
+            key = line.casefold()
+
+            if key in seen:
+                continue
+
+            seen.add(key)
+            cleaned.append(line)
+
+        return cleaned, elapsed, None
+
+    except Exception as e:
+
+        elapsed = time.time() - start
+
+        return [], elapsed, str(e)
 
 
 def run_ocr(image, lang="en"):

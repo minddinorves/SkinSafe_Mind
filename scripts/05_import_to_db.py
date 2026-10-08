@@ -262,7 +262,7 @@ def run():
 
     # 3. Functions + ingredient_functions
     print("[3/5] Building functions...")
-    from hazard import _normalise_function
+    from old.hazard import _normalise_function
 
     df['_func'] = df['function'].apply(_normalise_function)
     unique_funcs = df['_func'].dropna().unique().tolist()

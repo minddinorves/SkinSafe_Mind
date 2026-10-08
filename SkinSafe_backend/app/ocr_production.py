@@ -16,8 +16,8 @@ Usage:
 import argparse
 
 import db
-import ocr_core as core
-from ocr_paddle_fuzzy import correct_with_vocabulary
+import SkinSafe_backend.app.ocr_core as core
+from SkinSafe_backend.app.ocr_paddle_fuzzy1 import correct_with_vocabulary
 
 DEFAULT_THRESHOLD = 90.0  # see ocr_paddle_fuzzy.py's --threshold for the sweep that picked this
 

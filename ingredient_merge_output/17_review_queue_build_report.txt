@@ -1,0 +1,16 @@
+REVIEW QUEUE BUILD REPORT
+========================
+
+Source: 14_ingredient_scope_classification_v2_clean.csv
+Source rows: 11286
+Filter: product_scope = REVIEW
+Output: 11_review_queue.csv
+Output rows: 89
+All output product_scope values are REVIEW: True
+Blank clean INCI: 0
+Blank raw INCI: 0
+Duplicate normalized INCI rows: 0
+Source SHA-256: 944715802b158d7b6b053236df404db8ae5c44425942052b098745ccf5e327e2
+Output SHA-256: d9a7eb6aa5aa5ea784c70cc6956831aade7b288fd058c6b0ee782bb710e49b93
+
+No values were changed. The output preserves every input column and row order.

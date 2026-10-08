@@ -47,7 +47,7 @@ _HEADER_RE = re.compile(r"^[^:：]*ingredient[^:：]*[:：]\s*", re.IGNORECASE)
 # it can never match anything. Real ingredient names essentially never contain
 # a colon (checked: 2/8198 in this project's reference labels, a "CI xxxxx:1"
 # ratio notation), so this trade is one-sided in practice.
-_SPLIT_RE = re.compile(r",(?!\s*\d)|[:：]")
+_SPLIT_RE = re.compile(r",(?!\s*\d)|[:：.]")
 MIN_TOKEN_LEN = 3
 MAX_LEN_RATIO = 1.6
 
@@ -92,30 +92,217 @@ def _split_match_glued_names(token, vocabulary, threshold):
             best = (combined_score, match_l[0], match_r[0])
     return [best[1], best[2]] if best else None
 
+def _recover_glued_ingredient(token, vocabulary, threshold):
+    """
+    Recover an ingredient name from OCR text where multiple words/names
+    were glued together without separators.
+
+    Strategy:
+      1. Try the complete token first.
+      2. If no reliable match, search vocabulary names contained in the token.
+      3. Prefer longer canonical ingredient names.
+    """
+
+    import re
+
+    token_clean = re.sub(r"[^A-Z0-9 ]+", " ", token.upper())
+    token_clean = re.sub(r"\s+", " ", token_clean).strip()
+
+    if not token_clean:
+        return None
+
+    # --------------------------------------------------
+    # First: normal fuzzy match
+    # --------------------------------------------------
+
+    match = process.extractOne(
+        token_clean,
+        vocabulary,
+        scorer=fuzz.ratio,
+        score_cutoff=threshold,
+    )
+
+    if match and _is_reliable_match(token_clean, match[0]):
+        return [match[0]]
+
+    # --------------------------------------------------
+    # Second: search canonical vocabulary inside OCR text
+    # --------------------------------------------------
+
+    compact_token = re.sub(r"[^A-Z0-9]", "", token_clean)
+
+    candidates = []
+
+    for name in vocabulary:
+
+        name_compact = re.sub(
+            r"[^A-Z0-9]",
+            "",
+            name.upper(),
+        )
+
+        if len(name_compact) < MIN_TOKEN_LEN:
+            continue
+
+        if name_compact in compact_token:
+
+            start = compact_token.find(name_compact)
+
+            candidates.append(
+                (
+                    len(name_compact),
+                    start,
+                    name,
+                )
+            )
+
+    if not candidates:
+        return None
+
+    # Prefer longer ingredient names first.
+    candidates.sort(
+        key=lambda x: (-x[0], x[1])
+    )
+
+    selected = []
+
+    occupied = []
+
+    for length, start, name in candidates:
+
+        end = start + length
+
+        overlap = False
+
+        for old_start, old_end in occupied:
+
+            if start < old_end and end > old_start:
+                overlap = True
+                break
+
+        if overlap:
+            continue
+
+        selected.append((start, end, name))
+        occupied.append((start, end))
+
+    selected.sort(key=lambda x: x[0])
+
+    if not selected:
+        return None
+
+    return [item[2] for item in selected]
+
 
 def correct_with_vocabulary(lines, vocabulary, threshold):
     tokens = []
+
     for line in lines:
+
         line = _strip_header(line)
-        tokens.extend(t.strip(" .;:*-") for t in _SPLIT_RE.split(line))
+
+        # OCR frequently converts ingredient separators into periods.
+        # Normalize them before fuzzy matching.
+        line = line.replace("：", ":")
+        line = re.sub(r"\.(?!\d)", ",", line)
+
+        parts = _SPLIT_RE.split(line)
+
+        for part in parts:
+
+            token = part.strip(
+                " .;:*-"
+            )
+
+            if token:
+                tokens.append(token)
 
     corrected = []
+
     for token in tokens:
+
         if not token:
             continue
+
         if len(token) < MIN_TOKEN_LEN:
-            corrected.append(token)
             continue
-        match = process.extractOne(token, vocabulary, scorer=fuzz.ratio, score_cutoff=threshold)
-        if match and _is_reliable_match(token, match[0]):
+
+        # --------------------------------------------------
+        # Normal fuzzy matching
+        # --------------------------------------------------
+
+        match = process.extractOne(
+            token,
+            vocabulary,
+            scorer=fuzz.ratio,
+            score_cutoff=threshold,
+        )
+
+        if match and _is_reliable_match(
+            token,
+            match[0],
+        ):
             corrected.append(match[0])
             continue
-        split = _split_match_glued_names(token, vocabulary, threshold)
+
+        # --------------------------------------------------
+        # Existing whitespace split recovery
+        # --------------------------------------------------
+
+        split = _split_match_glued_names(
+            token,
+            vocabulary,
+            threshold,
+        )
+
         if split:
             corrected.extend(split)
-        else:
-            corrected.append(token)
-    return ", ".join(corrected)
+            continue
+
+        # --------------------------------------------------
+        # New glued-name recovery
+        # --------------------------------------------------
+
+        recovered = _recover_glued_ingredient(
+            token,
+            vocabulary,
+            threshold,
+        )
+
+        if recovered:
+            corrected.extend(recovered)
+            continue
+
+        # --------------------------------------------------
+        # Unmatched token
+        # --------------------------------------------------
+
+        corrected.append(token)
+
+    # ------------------------------------------------------
+    # Final deduplication
+    # ------------------------------------------------------
+
+    final = []
+
+    seen = set()
+
+    for name in corrected:
+
+        name = name.strip()
+
+        if not name:
+            continue
+
+        key = name.casefold()
+
+        if key in seen:
+            continue
+
+        seen.add(key)
+        final.append(name)
+
+    return ", ".join(final)
 
 
 def build_row(entry, raw_text, fuzzy_text, elapsed, error=None):

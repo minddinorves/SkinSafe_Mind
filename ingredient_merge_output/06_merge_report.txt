@@ -1,0 +1,69 @@
+============================================================
+SKINSAFE BOT - INGREDIENT DATASET MERGE REPORT
+============================================================
+
+INPUT FILES
+------------------------------------------------------------
+Patch file:
+    common_ingredients_patch.csv
+
+Master file:
+    ingredient_master_dataset_fixed.csv
+
+
+ROW COUNTS
+------------------------------------------------------------
+Patch rows:
+    199
+
+Master rows:
+    11,091
+
+Total rows before identity merge:
+    11,290
+
+
+NORMALIZED UNIQUE INCI
+------------------------------------------------------------
+Patch unique INCI:
+    199
+
+Master unique INCI:
+    11,091
+
+
+IDENTITY MATCH RESULTS
+------------------------------------------------------------
+Exact normalized INCI matches:
+    0
+
+CAS candidates with different INCI:
+    9
+
+Fuzzy INCI candidates >= 90:
+    47
+
+Patch ingredients requiring identity review:
+    34
+
+
+IMPORTANT
+------------------------------------------------------------
+1. Exact INCI matches are only name-level matches.
+2. CAS matches are candidates, not automatic identity confirmation.
+3. Fuzzy matches are candidates only.
+4. Do NOT import fuzzy candidates as merged ingredients.
+5. Verify uncertain identity using authoritative sources
+   such as CosIng / PubChem before assigning canonical identity.
+6. Ingredients without enough evidence should remain separate
+   until identity is verified.
+
+
+OUTPUT FILES
+------------------------------------------------------------
+01_exact_inci_matches.csv
+02_cas_candidates.csv
+03_fuzzy_candidates.csv
+04_manual_identity_mapping.csv
+05_ingredient_union_before_identity_merge.csv
+06_merge_report.txt
