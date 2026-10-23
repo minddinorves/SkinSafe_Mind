@@ -19,7 +19,6 @@ from rapidfuzz import fuzz, process
 from tqdm import tqdm
 
 import ocr_core as core
-from rapidfuzz import process, fuzz
 
 FIELDNAMES = [
     "dataset",
@@ -48,202 +47,112 @@ _HEADER_RE = re.compile(r"^[^:：]*ingredient[^:：]*[:：]\s*", re.IGNORECASE)
 # it can never match anything. Real ingredient names essentially never contain
 # a colon (checked: 2/8198 in this project's reference labels, a "CI xxxxx:1"
 # ratio notation), so this trade is one-sided in practice.
-_SPLIT_RE = re.compile(r",(?!\s*\d)|[;:：.]")
-GENERIC_WORDS = {
-    "extract",
-    "flower",
-    "flowers",
-    "ingredient",
-    "ingredients",
-}
+_SPLIT_RE = re.compile(r",(?!\s*\d)|[:：]")
+MIN_TOKEN_LEN = 3
+MAX_LEN_RATIO = 1.6
 
 
-def _is_reliable_match(candidate: str, matched: str) -> bool:
-    """Reject implausible fuzzy matches caused by severe length differences."""
-    if not candidate or not matched:
-        return False
-
-    a = len(candidate.strip())
-    b = len(matched.strip())
-
-    if a == 0 or b == 0:
-        return False
-
-    ratio = max(a, b) / min(a, b)
-    return ratio <= 2.5
+def _strip_header(line):
+    return _HEADER_RE.sub("", line)
 
 
-def _fuzzy_match(
-    candidate: str,
-    vocabulary: list[str],
-    threshold: int = 90,
-) -> str | None:
-    """Match one candidate against canonical INCI vocabulary.
+def _is_reliable_match(token, match_name):
+    # Guard against fuzz.ratio/WRatio matching a short or partial token to an
+    # unrelated, much longer (or shorter) vocabulary entry.
+    longer, shorter = sorted((len(token), len(match_name)), reverse=True)
+    return shorter > 0 and longer / shorter <= MAX_LEN_RATIO
 
-    Single-word candidates remain strict to reduce false positives.
+
+def _extract_one(token, vocabulary, threshold):
+    # Case-insensitive: ~half the labels OCR as UPPERCASE while the vocabulary
+    # is mostly Title Case, and fuzz.ratio is case-sensitive, so "GLYCERIN"
+    # scored far below the 90 cutoff against "Glycerin" and was never matched.
+    # Returns (vocabulary_name, score) or None.
+    match = process.extractOne(token, vocabulary, scorer=fuzz.ratio, processor=str.lower,
+                               score_cutoff=threshold)
+    return (match[0], match[1]) if match else None
+
+
+def _split_match_glued_names(token, vocabulary, threshold):
+    """Recover two ingredient names OCR'd with the separating comma dropped
+    entirely (e.g. "DIMETHICONE NIACINAMIDE" read with a space where a comma
+    belongs, instead of the usual comma->period misread that _SPLIT_RE
+    already handles). Tries every whitespace split point in the token and
+    accepts the split whose two halves both match the vocabulary above
+    `threshold` with the highest combined score. Returns a list of one or two
+    corrected names, or None if no such split exists.
     """
-    candidate = re.sub(r"\s+", " ", candidate.strip())
-    if not candidate or len(candidate) < 2:
+    words = token.split(" ")
+    if len(words) < 2:
         return None
+    best = None
+    for i in range(1, len(words)):
+        left = " ".join(words[:i])
+        right = " ".join(words[i:])
+        if len(left) < MIN_TOKEN_LEN or len(right) < MIN_TOKEN_LEN:
+            continue
+        match_l = _extract_one(left, vocabulary, threshold)
+        match_r = _extract_one(right, vocabulary, threshold)
+        if not match_l or not match_r:
+            continue
+        if not (_is_reliable_match(left, match_l[0]) and _is_reliable_match(right, match_r[0])):
+            continue
+        combined_score = match_l[1] + match_r[1]
+        if best is None or combined_score > best[0]:
+            best = (combined_score, match_l[0], match_r[0])
+    return [best[1], best[2]] if best else None
 
-    # Exact case-insensitive match first.
-    lower_map = {v.lower(): v for v in vocabulary}
-    exact = lower_map.get(candidate.lower())
-    if exact:
-        return exact
 
-    effective_threshold = max(threshold, 88) if len(candidate.split()) == 1 else threshold
+def correct_with_vocabulary(lines, vocabulary, threshold):
+    # Join the OCR lines before splitting: labels wrap long names across
+    # printed lines ("Hydrogenated" / "Lecithin"), and correcting each line on
+    # its own split every wrapped name into two unmatchable fragments.
+    text = _strip_header(" ".join(lines))
+    tokens = [t.strip(" .;:*-") for t in _SPLIT_RE.split(text)]
 
-    result = process.extractOne(
-        candidate,
-        vocabulary,
-        scorer=fuzz.token_sort_ratio,
+    corrected = []
+    for token in tokens:
+        if not token:
+            continue
+        if len(token) < MIN_TOKEN_LEN:
+            corrected.append(token)
+            continue
+        match = _extract_one(token, vocabulary, threshold)
+        if match and _is_reliable_match(token, match[0]):
+            corrected.append(match[0])
+            continue
+        split = _split_match_glued_names(token, vocabulary, threshold)
+        if split:
+            corrected.extend(split)
+        else:
+            corrected.append(token)
+    return ", ".join(corrected)
+
+
+def build_row(entry, raw_text, fuzzy_text, elapsed, error=None):
+    row = {field: "" for field in FIELDNAMES}
+    row.update(
+        dataset=entry["dataset"],
+        image_file=entry["image_file"],
+        label_file=entry.get("label_file") or "",
+        status=entry["status"],
+        reference_text=entry.get("reference_text", ""),
+        ocr_text_raw=raw_text,
+        ocr_text_fuzzy=fuzzy_text,
+        ocr_time_sec=round(elapsed, 4),
+        error=error or "",
     )
-
-    if not result:
-        return None
-
-    matched, score, _ = result
-
-    if score < effective_threshold:
-        return None
-
-    if not _is_reliable_match(candidate, matched):
-        return None
-
-    # Multi-word candidates should not collapse into a much shorter
-    # one-word ingredient unless the similarity is exceptionally strong.
-    cand_words = len(candidate.split())
-    match_words = len(matched.split())
-
-    if cand_words >= 2 and match_words == 1 and score < 96:
-        return None
-
-    return matched
-
-
-def _normalize_ocr_text(text: str) -> str:
-    """Normalize common OCR artifacts before ingredient segmentation."""
-    text = text.replace("：", ":")
-    text = text.replace("，", ",")
-    text = text.replace("；", ";")
-
-    # OCR often turns a missing comma into a period between INCI names.
-    # Keep decimal-like periods intact.
-    text = re.sub(r"\.(?!\d)", ",", text)
-
-    # Remove obvious line-number prefixes.
-    text = re.sub(r"(?m)^\s*\d{1,3}\s*[\.\)]\s*", "", text)
-
-    # Normalize whitespace.
-    text = re.sub(r"\s+", " ", text).strip()
-
-    return text
-
-
-def _greedy_window_match(
-    words: list[str],
-    vocabulary: list[str],
-    threshold: int = 90,
-) -> list[str]:
-    """Recover ingredient names when OCR removed commas between names.
-
-    The matcher tries longer word windows first, then advances left-to-right.
-    This is deliberately conservative: unmatched fragments are skipped rather
-    than converted into arbitrary database ingredients.
-    """
-    matched = []
-    i = 0
-
-    while i < len(words):
-        word = words[i].strip(" ,;:.()[]{}").lower()
-
-        if not word:
-            i += 1
-            continue
-
-        # Never return generic words as standalone ingredients.
-        if word in GENERIC_WORDS:
-            i += 1
-            continue
-
-        found = False
-
-        # Longest-first window search.
-        max_n = min(7, len(words) - i)
-
-        for n in range(max_n, 0, -1):
-            candidate = " ".join(words[i:i + n]).strip(" ,;:.")
-
-            if not candidate:
-                continue
-
-            hit = _fuzzy_match(candidate, vocabulary, threshold)
-
-            if hit:
-                # Avoid accepting a very short match for a longer OCR span.
-                if n >= 2 and len(hit.split()) == 1:
-                    continue
-
-                matched.append(hit)
-                i += n
-                found = True
-                break
-
-        if not found:
-            i += 1
-
-    # De-duplicate while preserving OCR order.
-    result = []
-    seen = set()
-
-    for item in matched:
-        key = item.lower()
-        if key not in seen:
-            seen.add(key)
-            result.append(item)
-
-    return result
-
-
-def correct_with_vocabulary(
-    lines: list[str],
-    vocabulary: list[str],
-    threshold: int = 90,
-) -> str:
-    """Convert OCR lines into canonical INCI names.
-
-    Pipeline:
-      OCR text -> normalization -> punctuation segmentation
-      -> greedy multi-word matching -> canonical vocabulary.
-    """
-    if not lines:
-        return ""
-
-    raw = " ".join(str(line) for line in lines if str(line).strip())
-    raw = _normalize_ocr_text(raw)
-
-    # First split on punctuation that separates ingredient names.
-    segments = re.split(r"[,;:]+", raw)
-
-    results = []
-    seen = set()
-
-    for segment in segments:
-        segment = re.sub(r"\s+", " ", segment).strip(" ,;:.")
-        if not segment:
-            continue
-
-        words = segment.split()
-        hits = _greedy_window_match(words, vocabulary, threshold)
-
-        for hit in hits:
-            key = hit.lower()
-            if key not in seen:
-                seen.add(key)
-                results.append(hit)
-
-    return ", ".join(results)
+    if entry["status"] == "ok" and error is None:
+        ref = entry["reference_text"]
+        row["ref_chars"] = len(core.normalize_text(ref))
+        row["ref_words"] = len(core.normalize_text(ref).split())
+        row["cer_raw"] = round(core.compute_cer(raw_text, ref), 4)
+        row["wer_raw"] = round(core.compute_wer(raw_text, ref), 4)
+        row["cer_fuzzy"] = round(core.compute_cer(fuzzy_text, ref), 4)
+        row["wer_fuzzy"] = round(core.compute_wer(fuzzy_text, ref), 4)
+    elif error is not None:
+        row["status"] = "ocr_error"
+    return row
 
 
 def main():
@@ -251,10 +160,11 @@ def main():
     parser.add_argument(
         "--threshold",
         type=float,
-        default=90.0,
-        # 90 measurably beats the original 85 default on this dataset (threshold
-        # sweep: 85->0.359 CER, 90->0.354 CER) with no downside found -- a higher
-        # bar means fewer accidental corrections of already-correct tokens.
+        default=85.0,
+        # Picked by mean Set F1 on the 40-image dev split only (sweep_fuzzy_threshold.py,
+        # 75-95 + no fuzzy); confirmed on the 176 held-out images, where 84-86 are best
+        # and 85 beats 90 by +0.005 F1 (paired-bootstrap CI excludes 0). Below ~82 too
+        # many correct tokens get "corrected" into a wrong near neighbour.
         help="Minimum fuzzy similarity score (0-100) required to accept a vocabulary match",
     )
     args = parser.parse_args()

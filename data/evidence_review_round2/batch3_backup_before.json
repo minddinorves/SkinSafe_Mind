@@ -1,0 +1,60 @@
+{
+ "taken_at": "2026-10-20",
+ "ingredient_ids": [
+  11116,
+  11106,
+  1091,
+  11093,
+  11097,
+  10347,
+  9602,
+  11353
+ ],
+ "ingredient_evidence": [
+  {
+   "evidence_id": 86,
+   "ingredient_id": 11093,
+   "claim": "CIR Expert Panel concluded that phenoxyethanol is safe as a cosmetic ingredient in the present practices of use and concentration; in clinical studies it was neither a primary irritant nor a sensitizer. The Panel later declined to reopen the assessment (2007). This is safety evidence, not evidence that phenoxyethanol is suitable for a particular facial skin type.",
+   "source_type": "SAFETY_ASSESSMENT",
+   "source_name": "Cosmetic Ingredient Review",
+   "citation": "Final Report on the Safety Assessment of Phenoxyethanol. J Am Coll Toxicol. 1990;9(2):259-277. DOI 10.3109/10915819009078737",
+   "url_doi": "https://doi.org/10.3109/10915819009078737",
+   "publication_year": 1990,
+   "evidence_level": "HIGH",
+   "reviewed_at": "2026-10-20"
+  },
+  {
+   "evidence_id": 87,
+   "ingredient_id": 11093,
+   "claim": "SCCS opinion: 2-phenoxyethanol is safe for use as a preservative with a maximum concentration of 1.0% in cosmetic products, including for children (exposure from non-cosmetic sources not considered). This is safety evidence, not evidence of suitability for a particular facial skin type.",
+   "source_type": "SAFETY_ASSESSMENT",
+   "source_name": "Scientific Committee on Consumer Safety (SCCS), European Commission",
+   "citation": "SCCS Opinion on Phenoxyethanol, SCCS/1575/16, adopted 6 October 2016",
+   "url_doi": "https://health.ec.europa.eu/publications/phenoxyethanol_en",
+   "publication_year": 2016,
+   "evidence_level": "HIGH",
+   "reviewed_at": "2026-10-20"
+  },
+  {
+   "evidence_id": 88,
+   "ingredient_id": 11097,
+   "claim": "CIR Expert Panel concluded that chlorphenesin is safe in the present practices of use and concentration (reported use up to 0.3% in leave-on and 0.32% in rinse-off products). Dermal absorption was high in rats but available data showed an absence of toxicity. This is safety evidence, not evidence of suitability for a particular facial skin type.",
+   "source_type": "SAFETY_ASSESSMENT",
+   "source_name": "Cosmetic Ingredient Review",
+   "citation": "Johnson W Jr et al. Safety Assessment of Chlorphenesin as Used in Cosmetics. Int J Toxicol. 2014;33(2 Suppl):5S-15S. PMID 24861369. DOI 10.1177/1091581814526893",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/24861369/",
+   "publication_year": 2014,
+   "evidence_level": "HIGH",
+   "reviewed_at": "2026-10-20"
+  }
+ ],
+ "ingredient_skin_effects": [],
+ "ingredient_risks": [],
+ "effect_evidence": [],
+ "risk_evidence": [],
+ "count_ingredient_evidence": 84,
+ "count_ingredient_skin_effects": 9,
+ "count_effect_evidence": 17,
+ "count_ingredient_risks": 22,
+ "count_risk_evidence": 17
+}

@@ -1,0 +1,200 @@
+{
+ "ingredient_evidence": [
+  {
+   "evidence_id": 4,
+   "ingredient_id": 7309,
+   "claim": "A 2007 cosmetic-science study evaluated octyldodecanol in stick formulations for sensory properties and skin-care use; it provides formulation-use evidence but not a specific facial skin-type effect.",
+   "source_type": "PubMed",
+   "source_name": "Gámbaro et al., Journal of Cosmetic Science (2006)",
+   "citation": "PMID 17256075",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/17256075/",
+   "publication_year": 2006,
+   "evidence_level": "LOW",
+   "reviewed_at": null
+  },
+  {
+   "evidence_id": 6,
+   "ingredient_id": 7309,
+   "claim": "2025 case report documented allergic contact dermatitis to octyldodecanol in a men's anti-aging cream; this establishes a reported sensitization signal but does not determine general facial-skin compatibility or prevalence.",
+   "source_type": "PubMed",
+   "source_name": "Badaoui, Contact Dermatitis (2025)",
+   "citation": "PMID 40545374; DOI 10.1111/cod.14828",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/40545374/",
+   "publication_year": 2025,
+   "evidence_level": "MEDIUM",
+   "reviewed_at": null
+  },
+  {
+   "evidence_id": 10,
+   "ingredient_id": 11092,
+   "claim": "AAD lists glycerin among facial-mask ingredients for dry or sensitive skin; clinical studies also report improved hydration with topical glycerol in dry skin.",
+   "source_type": "AAD/PubMed",
+   "source_name": "American Academy of Dermatology; PubMed",
+   "citation": "Do facial masks work...; Effects of Locally Applied Glycerol... (PMID 27349297)",
+   "url_doi": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/facial-masks-and-skin-care; https://pubmed.ncbi.nlm.nih.gov/27349297/",
+   "publication_year": 2026,
+   "evidence_level": "HIGH",
+   "reviewed_at": null
+  },
+  {
+   "evidence_id": 11,
+   "ingredient_id": 11094,
+   "claim": "Niacinamide/niacin safety assessment found no significant skin irritation, sensitization, or photosensitization at tested cosmetic-use levels.",
+   "source_type": "PubMed/CIR",
+   "source_name": "Final report on niacinamide and niacin",
+   "citation": "PMID 16596767",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/16596767/",
+   "publication_year": 2006,
+   "evidence_level": "HIGH",
+   "reviewed_at": null
+  },
+  {
+   "evidence_id": 12,
+   "ingredient_id": 11094,
+   "claim": "Topical niacinamide has clinical evidence for skin barrier support and dermatologic uses including acne.",
+   "source_type": "PubMed",
+   "source_name": "Ong & Goh 2024",
+   "citation": "PMID 38722460",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/38722460/",
+   "publication_year": 2024,
+   "evidence_level": "HIGH",
+   "reviewed_at": null
+  },
+  {
+   "evidence_id": 24,
+   "ingredient_id": 11167,
+   "claim": "A case report documented allergic contact dermatitis involving rosemary leaf extract in a cleansing gel, with a positive patch test to the extract. This supports retaining a sensitization-risk evidence record separately from facial-scope classification.",
+   "source_type": "case report",
+   "source_name": "Inui & Katayama",
+   "citation": "J Dermatol. 2005;32(8):667-669. PMID 16334869. DOI 10.1111/j.1346-8138.2005.tb00819.x.",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/16334869/",
+   "publication_year": 2005,
+   "evidence_level": "MEDIUM",
+   "reviewed_at": "2026-09-27"
+  },
+  {
+   "evidence_id": 25,
+   "ingredient_id": 11167,
+   "claim": "Topical rosemary applications are documented in a review covering cosmetic formulations and dermatologic/topical uses, including antioxidant and anti-inflammatory applications; the review also notes the need for stronger clinical evidence.",
+   "source_type": "review",
+   "source_name": "Nazzaro et al.",
+   "citation": "Plants. 2020;9(5):651. PMID 32455585. DOI 10.3390/plants9050651.",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/32455585/",
+   "publication_year": 2020,
+   "evidence_level": "MEDIUM",
+   "reviewed_at": "2026-09-27"
+  },
+  {
+   "evidence_id": 38,
+   "ingredient_id": 11212,
+   "claim": "Topical olive oil has been studied on human skin; a 2012 study found reduced stratum-corneum integrity and mild erythema after 4 weeks, including in volunteers with atopic dermatitis. This is safety/skin-barrier evidence, not a basis to classify the ingredient as incompatible with a skin type by itself.",
+   "source_type": "clinical study",
+   "source_name": "Danby et al.",
+   "citation": "Pediatric Dermatology. 2012. PMID 22995032.",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/22995032/",
+   "publication_year": 2012,
+   "evidence_level": "HIGH",
+   "reviewed_at": "2026-09-27"
+  },
+  {
+   "evidence_id": 39,
+   "ingredient_id": 11212,
+   "claim": "Facial skincare use is documented in a 2023 clinical study of clay-mask formulations containing Olea europaea fruit oil applied to adult women's facial skin; the study evaluated moisture, oiliness, texture, pigmentation, sensitivity and wrinkles. The study tested the oil both alone and in combination, so effects cannot be attributed exclusively to the oil.",
+   "source_type": "clinical study",
+   "source_name": "Widyawati et al.",
+   "citation": "Acta Inform Med. 2023;31(3):168-171. PMID 37781490.",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/37781490/",
+   "publication_year": 2023,
+   "evidence_level": "MEDIUM",
+   "reviewed_at": "2026-09-27"
+  },
+  {
+   "evidence_id": 41,
+   "ingredient_id": 11227,
+   "claim": "Benzyl alcohol can cause allergic contact dermatitis, particularly with prolonged/repeated exposure.",
+   "source_type": "PubMed",
+   "source_name": "Benzyl Alcohol: Allergen of the Year 2026",
+   "citation": "PMID 41649135",
+   "url_doi": "https://pubmed.ncbi.nlm.nih.gov/41649135/",
+   "publication_year": 2026,
+   "evidence_level": "HIGH",
+   "reviewed_at": null
+  }
+ ],
+ "ingredient_risks": [
+  {
+   "risk_id": 2,
+   "ingredient_id": 11227,
+   "risk_type": "skin_sensitization",
+   "risk_level": "moderate",
+   "note": "Benzyl alcohol can cause allergic contact dermatitis; published reviews/case evidence support a sensitization signal, while safety assessments also indicate generally safe cosmetic use under specified conditions.",
+   "evidence_level": "HIGH"
+  },
+  {
+   "risk_id": 3,
+   "ingredient_id": 7309,
+   "risk_type": "skin_sensitization",
+   "risk_level": "moderate",
+   "note": "Allergic contact dermatitis has been reported for octyldodecanol in cosmetic/topical products, including a 2025 case report. This is a risk signal, not evidence of incompatibility with a particular skin type.",
+   "evidence_level": "MEDIUM"
+  },
+  {
+   "risk_id": 4,
+   "ingredient_id": 11167,
+   "risk_type": "skin_sensitization",
+   "risk_level": "moderate",
+   "note": "A published case report documented allergic contact dermatitis to rosemary leaf extract in a cleansing gel with positive patch testing to the extract.",
+   "evidence_level": "MEDIUM"
+  },
+  {
+   "risk_id": 24,
+   "ingredient_id": 8345,
+   "risk_type": "pregnancy",
+   "risk_level": "high",
+   "note": "Retinoid ester (vitamin A derivative). Retinoids are generally advised to be avoided during pregnancy as a precaution.",
+   "evidence_level": "MEDIUM"
+  },
+  {
+   "risk_id": 29,
+   "ingredient_id": 11193,
+   "risk_type": "comedogenic",
+   "risk_level": "high",
+   "note": "Rated highly comedogenic in rabbit-ear comedogenicity testing; may clog pores in acne-prone skin.",
+   "evidence_level": "LOW"
+  },
+  {
+   "risk_id": 33,
+   "ingredient_id": 11212,
+   "risk_type": "fungal_acne_trigger",
+   "risk_level": "moderate",
+   "note": "Plant oil rich in C12–C24 fatty acids/triglycerides that Malassezia yeast can use for growth; may aggravate Malassezia (fungal) folliculitis.",
+   "evidence_level": "LOW"
+  },
+  {
+   "risk_id": 35,
+   "ingredient_id": 11114,
+   "risk_type": "fungal_acne_trigger",
+   "risk_level": "moderate",
+   "note": "Polysorbates (Tweens) are fatty acid esters used to culture Malassezia in the lab; may support Malassezia growth on skin.",
+   "evidence_level": "LOW"
+  },
+  {
+   "risk_id": 36,
+   "ingredient_id": 11155,
+   "risk_type": "fungal_acne_trigger",
+   "risk_level": "moderate",
+   "note": "Polysorbates (Tweens) are fatty acid esters used to culture Malassezia in the lab; may support Malassezia growth on skin.",
+   "evidence_level": "LOW"
+  }
+ ],
+ "ingredient_skin_risks": [
+  {
+   "risk_id": 2,
+   "skin_type_id": 4,
+   "risk_level": null,
+   "warning_reason": "มีข้อมูลเกี่ยวกับความเสี่ยงต่อการแพ้สัมผัส (Allergic Contact Dermatitis) ควรสังเกตอาการผิดปกติหลังใช้ โดยเฉพาะในผู้ที่มีผิวแพ้ง่าย"
+  }
+ ],
+ "effect_evidence_ev6": [],
+ "risk_evidence_ev6": []
+}

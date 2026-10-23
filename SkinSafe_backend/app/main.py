@@ -162,6 +162,7 @@ def analyze_ingredients_from_db(ingredients, profile):
                 "compatible_with_risk": "⚠️ มีข้อมูลความเสี่ยงเพิ่มเติม",
                 "caution": "⚠️ ควรพิจารณา",
                 "compatible": "🟢 เข้ากันได้กับสภาพผิวที่เลือก",
+                "other_risk_only": "ℹ️ มีข้อควรระวังที่ไม่เกี่ยวกับโปรไฟล์ของคุณ",
                 "evidence_only": "ℹ️ มีหลักฐาน แต่ยังไม่มี skin-effect/risk record",
                 "no_evidence": "ℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ",
             }.get(item.get("status"), item.get("status", "ไม่ทราบสถานะ"))

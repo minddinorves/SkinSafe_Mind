@@ -217,123 +217,24 @@ def _add_border(image_bgr, frac=PAD_FRACTION):
     )
 
 
-def run_ocr_lines(image_path, lang="en"):
+def run_ocr_lines(image, lang="en"):
+    """Run PaddleOCR on a file path (str) or an image (numpy ndarray, BGR).
+
+    Returns (list_of_recognized_text_lines, elapsed_seconds, error_message_or_None).
     """
-    Run PaddleOCR with compatibility for both:
-      - newer PaddleOCR API: ocr.predict(...)
-      - legacy PaddleOCR API: ocr.ocr(...)
-    """
-
-    import time
-    import cv2
-
-    image = cv2.imread(image_path)
-
-    if image is None:
-        return [], 0.0, f"Cannot read image: {image_path}"
-
+    ocr = get_ocr(lang)
+    t0 = time.time()
     try:
-        ocr = get_ocr(lang)
-    except Exception as e:
-        return [], 0.0, str(e)
-
-    start = time.time()
-
-    try:
-        # --------------------------------------------------
-        # New PaddleOCR API
-        # --------------------------------------------------
-        if hasattr(ocr, "predict"):
-            result = ocr.predict(image)
-
-        # --------------------------------------------------
-        # Legacy PaddleOCR API
-        # --------------------------------------------------
-        elif hasattr(ocr, "ocr"):
-            result = ocr.ocr(image, cls=False)
-
-        else:
-            return [], 0.0, (
-                "Installed PaddleOCR has neither "
-                "'predict' nor 'ocr' API."
-            )
-
-        elapsed = time.time() - start
-
+        if isinstance(image, str):
+            image = cv2.imread(image)
+        image = _add_border(image)
+        result = ocr.predict(image)
         lines = []
-
-        # ==================================================
-        # Parse legacy PaddleOCR result
-        # ==================================================
-
-        if isinstance(result, list):
-
-            for page in result:
-
-                if not page:
-                    continue
-
-                # Legacy result commonly:
-                #
-                # [
-                #   [
-                #       [[x1,y1],...], ("TEXT", score)
-                #   ],
-                #   ...
-                # ]
-
-                if isinstance(page, list):
-
-                    for item in page:
-
-                        if not item:
-                            continue
-
-                        try:
-                            text_info = item[1]
-
-                            if (
-                                isinstance(text_info, (list, tuple))
-                                and len(text_info) >= 1
-                            ):
-                                text = str(text_info[0]).strip()
-
-                                if text:
-                                    lines.append(text)
-
-                        except Exception:
-                            continue
-
-        # ==================================================
-        # Remove empty / duplicate lines
-        # ==================================================
-
-        cleaned = []
-
-        seen = set()
-
-        for line in lines:
-
-            line = str(line).strip()
-
-            if not line:
-                continue
-
-            key = line.casefold()
-
-            if key in seen:
-                continue
-
-            seen.add(key)
-            cleaned.append(line)
-
-        return cleaned, elapsed, None
-
-    except Exception as e:
-
-        elapsed = time.time() - start
-
-        return [], elapsed, str(e)
+        for page in result:
+            lines.extend(page.get("rec_texts", []))
+        return lines, time.time() - t0, None
+    except Exception as exc:  # noqa: BLE001 - want to record any OCR failure per-image
+        return [], time.time() - t0, str(exc)
 
 
 def run_ocr(image, lang="en"):
@@ -375,15 +276,21 @@ def write_csv(path, rows, fieldnames=None):
 
 
 _INCI_VOCAB_CACHE = None
-INCI_DB_PATH = os.path.join(PROJECT_ROOT, "ingredient_master_dataset_fixed.csv")
-# ingredient_master_dataset_fixed.csv is missing ~200 extremely common INCI names
-# (Glycerin, Niacinamide, Fragrance, Aqua, ... -- verified 58.6% of real label
-# ingredient names have no exact match in it at all). This patch file holds names
-# that occur in >=5 different product labels in test_SkinSafe/label/ but are absent
-# from the main DB; a small curated addition like this measurably helps CER/F1,
-# whereas dumping in every rare name too was tested and made matching *worse*
-# (more confusable near-duplicate candidates -> more wrong "corrections").
-INCI_PATCH_PATH = os.path.join(PROJECT_ROOT, "common_ingredients_patch.csv")
+# SkinSafe_backend copy: this file is identical to the research ocr_core.py
+# (D:\OCR_System) except that the vocabulary CSVs live in the repository root,
+# two levels above SkinSafe_backend/app/.
+VOCAB_DIR = os.path.abspath(os.path.join(PROJECT_ROOT, "..", ".."))
+INCI_DB_PATH = os.path.join(VOCAB_DIR, "ingredient_master_dataset_fixed.csv")
+# ingredient_master_dataset_fixed.csv is missing many extremely common INCI names
+# (Glycerin, Niacinamide, Fragrance, Aqua, ... -- 58.6% of real label ingredient
+# occurrences have no exact match in it). The patch adds label names missing from
+# the main DB. It is built from the 40 Dev labels only (build_vocabulary_patch.py,
+# names in >= 1 Dev product), so it has never seen a Held-out label and the
+# reported Held-out results are leak-free. Adds ~0.02 Set F1 on Held-out.
+INCI_PATCH_PATH = os.path.join(VOCAB_DIR, "vocabulary_patch_dev.csv")
+# Earlier patch: names in >= 5 of ALL 216 labels -- the same labels used for
+# scoring, so results with it leak. Kept only for comparison experiments.
+LEGACY_PATCH_PATH = os.path.join(VOCAB_DIR, "common_ingredients_patch.csv")
 
 
 def _load_names(path):

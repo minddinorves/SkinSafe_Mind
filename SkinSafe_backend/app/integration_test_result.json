@@ -1,0 +1,403 @@
+{
+ "run_at": "2026-10-20 00:11:31",
+ "image": "A10.jpg",
+ "vocabulary_size": 11286,
+ "steps": [
+  {
+   "step": "1. Invalid X-Line-Signature",
+   "http": 400,
+   "sec": 0.02,
+   "reply": null
+  },
+  {
+   "step": "2. Follow event",
+   "http": 200,
+   "sec": 0.08,
+   "reply": {
+    "text": "👋 ยินดีต้อนรับสู่ SkinSafe Bot ค่ะ!\nก่อนเริ่มใช้งาน กรุณาตั้งค่าโปรไฟล์ของคุณก่อนนะคะ",
+    "quick_reply": [
+     "🚀 เริ่มต้นใช้งาน",
+     "📖 วิธีใช้งาน"
+    ]
+   }
+  },
+  {
+   "step": "3. Text 'เริ่มต้นใช้งาน'",
+   "http": 200,
+   "sec": 0.03,
+   "reply": {
+    "text": "SkinSafe Bot ยินดีต้อนรับค่ะ 👋\n\nตอนนี้คุณมีโปรไฟล์ของคุณแล้วหรือยังคะ:",
+    "quick_reply": [
+     "มีแล้ว",
+     "ยังไม่มี"
+    ]
+   }
+  },
+  {
+   "step": "4. Text 'ยังไม่มี'",
+   "http": 200,
+   "sec": 0.0,
+   "reply": {
+    "text": "ได้เลยค่ะ 👋\n\nมาเริ่มตั้งค่าโปรไฟล์กันเลยนะคะ\n\nกรุณาเลือกสภาพผิวของคุณ:",
+    "quick_reply": [
+     "1. ผิวปกติ",
+     "2. ผิวแห้ง",
+     "3. ผิวมัน",
+     "4. ผิวผสม",
+     "5. ผิวแพ้ง่าย"
+    ]
+   }
+  },
+  {
+   "step": "5. Select skin type '3' (ผิวมัน)",
+   "http": 200,
+   "sec": 0.0,
+   "reply": {
+    "text": "✅ สภาพผิว: ผิวมัน 🍳\n\nคุณกำลังตั้งครรภ์อยู่หรือไม่?",
+    "quick_reply": [
+     "ใช่",
+     "ไม่"
+    ]
+   }
+  },
+  {
+   "step": "6. Pregnancy 'ไม่'",
+   "http": 200,
+   "sec": 0.0,
+   "reply": {
+    "text": "รับทราบค่ะ 💗\n\nมีปัญหาสิวหรือไม่?",
+    "quick_reply": [
+     "ใช่",
+     "ไม่"
+    ]
+   }
+  },
+  {
+   "step": "7. Acne 'ใช่'",
+   "http": 200,
+   "sec": 0.0,
+   "reply": {
+    "text": "มีปัญหา fungal acne (สิวเชื้อรา) หรือไม่?",
+    "quick_reply": [
+     "ใช่",
+     "ไม่"
+    ]
+   }
+  },
+  {
+   "step": "8. Fungal acne 'ไม่'",
+   "http": 200,
+   "sec": 0.14,
+   "reply": {
+    "text": "✅ บันทึกโปรไฟล์เรียบร้อย!\n\nสภาพผิว: ผิวมัน 🍳\nตั้งครรภ์: ไม่\nสิว: ใช่\nFungal acne: ไม่\n\n📸 ส่งรูปส่วนผสมมาได้เลยค่ะ",
+    "quick_reply": [
+     "📸 สแกนฉลาก",
+     "⚙️ ตั้งค่าโปรไฟล์"
+    ]
+   }
+  },
+  {
+   "step": "9. Image message (ingredient label)",
+   "http": 200,
+   "sec": 17.35,
+   "reply": {
+    "text": "🔎 ผลวิเคราะห์สำหรับ ผิวมัน 🍳\nพิจารณาเพิ่มเติม: ผิวเป็นสิวง่าย\n\n🚩 พบประเด็นความเสี่ยงที่ควรระวัง\n\nGLYCERIN\nℹ️ มีหลักฐาน แต่ยังไม่มี skin-effect/risk record\nหลักฐาน: 6 | ความเสี่ยง: 0\n\nDIPROPYLENE GLYCOL\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nCAPRYLIC/CAPRIC TRIGLYCERIDE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nHYDROGENATED POLY(C6-14 OLEFIN)\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nHYDROGENATED POLYDECENE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nCETEARYL ALCOHOL\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nCYCLOMETHICONE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nDIMETHICONE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nCYCLOPENTASILOXANE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nDIMETHICONOL\nℹ️ มีหลักฐาน แต่ยังไม่มี skin-effect/risk record\nหลักฐาน: 1 | ความเสี่ยง: 0\n\nGLYCERYL STEARATE\n🚩 มีข้อมูลความเสี่ยง\nหลักฐาน: 0 | ความเสี่ยง: 1\n\nCETEARYL GLUCOSIDE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nCETEARYL OLIVATE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nSORBITAN OLIVATE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nULMUS DAVIDIANA ROOT EXTRACT\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nMICROCRYSTALLINE CELLULOSE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nHYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nSQUALANE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nPEG-100 STEARATE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nHYDROGENATED LECITHIN\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nPALMITIC ACID\n🚩 มีข้อมูลความเสี่ยง\nหลักฐาน: 0 | ความเสี่ยง: 1\n\nCOCO-CAPRYLATE/CAPRATE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nPORTULACA OLERACEA EXTRACT\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nPUERARIA THUNBERGIANA ROOT EXTRACT\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nCNIDIUM OFFICINALE ROOT EXTRACT\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nGLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nPAEONIA ALBIFLORA ROOT EXTRACT\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nPOLYSORBATE 60\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nSODIUM HYALURONATE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nHYDROLYZED SOY STARCH\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nPROPYLENE GLYCOL\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nBUTYLENE GLYCOL\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nALOE BARBADENSIS LEAF JUICE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nDISODIUM EDTA\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nPANTHENOL\nℹ️ มีหลักฐาน แต่ยังไม่มี skin-effect/risk record\nหลักฐาน: 5 | ความเสี่ยง: 0\n\nACACIA SENEGAL GUM\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nALGAE EXTRACT\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nFOLIC ACID\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nLACTIC ACID\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nCHOLESTEROL\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nRAFFINOSE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nXANTHAN GUM\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nTROMETHAMINE\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\nPALMITOYL PENTAPEPTIDE-4\nℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ\nหลักฐาน: 0 | ความเสี่ยง: 0\n\n⚠️ ไม่สามารถจับคู่ส่วนผสมเหล่านี้กับฐานข้อมูลได้:\n• INGREDIENTS/INGREDIENTS Water/Aqua/Eau\n• 1\n• 2-HEXANEDIOL\n• Vegetable Oil/Huile vegetale Bifida Ferment Lysate\n• C12-16 Alcohols Ceramide NP Amaranthus Caudatus Seed Extract\n• Beta Vulgaris (Beet) Root Extract\n• Caramel\n• Cellulose Gum\n• Citrus Aurantium Bergamia Bergamot) Fruit Oil\n• Soluble Collagen\n• Pela- rgonium Graveolens Flower Oil\n• Artemisia Vulgaris Extract\n• Salvia Officinalis (Sage Oil\n• Pogostemon Cablin Oil\n\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์",
+    "quick_reply": [
+     "📸 สแกนขวดอื่นต่อ",
+     "⚙️ ตั้งค่าโปรไฟล์"
+    ]
+   }
+  }
+ ],
+ "db": {
+  "users": [
+   [
+    "12",
+    "2",
+    "Oily",
+    "False",
+    "True",
+    "False"
+   ]
+  ],
+  "scans": [
+   [
+    "22",
+    "INGREDIENTS/INGREDIENTS Water/Aqua/Eau, GLYCERIN, DIPROPYLENE GLYCOL, CAPRYLIC/CAPRIC TRIGLYCERIDE, HYDROGENATED POLY(C6-14 OLEFIN), HYDROGENATED POLYDECENE, CE"
+   ]
+  ],
+  "scan_results": [
+   [
+    "GLYCERIN",
+    "11092",
+    "1.00"
+   ],
+   [
+    "DIPROPYLENE GLYCOL",
+    "11109",
+    "1.00"
+   ],
+   [
+    "CAPRYLIC/CAPRIC TRIGLYCERIDE",
+    "11102",
+    "1.00"
+   ],
+   [
+    "HYDROGENATED POLY(C6-14 OLEFIN)",
+    "3039",
+    "1.00"
+   ],
+   [
+    "HYDROGENATED POLYDECENE",
+    "11148",
+    "1.00"
+   ],
+   [
+    "CETEARYL ALCOHOL",
+    "9842",
+    "1.00"
+   ],
+   [
+    "CYCLOMETHICONE",
+    "11188",
+    "1.00"
+   ],
+   [
+    "DIMETHICONE",
+    "7459",
+    "1.00"
+   ],
+   [
+    "CYCLOPENTASILOXANE",
+    "11104",
+    "1.00"
+   ],
+   [
+    "DIMETHICONOL",
+    "11198",
+    "1.00"
+   ],
+   [
+    "GLYCERYL STEARATE",
+    "1009",
+    "1.00"
+   ],
+   [
+    "CETEARYL GLUCOSIDE",
+    "11174",
+    "1.00"
+   ],
+   [
+    "CETEARYL OLIVATE",
+    "11221",
+    "1.00"
+   ],
+   [
+    "SORBITAN OLIVATE",
+    "11239",
+    "1.00"
+   ],
+   [
+    "ULMUS DAVIDIANA ROOT EXTRACT",
+    "1272",
+    "1.00"
+   ],
+   [
+    "MICROCRYSTALLINE CELLULOSE",
+    "7747",
+    "1.00"
+   ],
+   [
+    "HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER",
+    "88",
+    "1.00"
+   ],
+   [
+    "SQUALANE",
+    "11137",
+    "1.00"
+   ],
+   [
+    "GLYCERYL STEARATE",
+    "1009",
+    "1.00"
+   ],
+   [
+    "PEG-100 STEARATE",
+    "11110",
+    "1.00"
+   ],
+   [
+    "HYDROGENATED LECITHIN",
+    "11108",
+    "1.00"
+   ],
+   [
+    "PALMITIC ACID",
+    "10327",
+    "1.00"
+   ],
+   [
+    "COCO-CAPRYLATE/CAPRATE",
+    "4352",
+    "1.00"
+   ],
+   [
+    "PORTULACA OLERACEA EXTRACT",
+    "11223",
+    "1.00"
+   ],
+   [
+    "PUERARIA THUNBERGIANA ROOT EXTRACT",
+    "4314",
+    "1.00"
+   ],
+   [
+    "CNIDIUM OFFICINALE ROOT EXTRACT",
+    "1565",
+    "1.00"
+   ],
+   [
+    "GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT",
+    "11199",
+    "1.00"
+   ],
+   [
+    "PAEONIA ALBIFLORA ROOT EXTRACT",
+    "7144",
+    "1.00"
+   ],
+   [
+    "POLYSORBATE 60",
+    "11131",
+    "1.00"
+   ],
+   [
+    "SODIUM HYALURONATE",
+    "1972",
+    "1.00"
+   ],
+   [
+    "HYDROLYZED SOY STARCH",
+    "3286",
+    "1.00"
+   ],
+   [
+    "PROPYLENE GLYCOL",
+    "5442",
+    "1.00"
+   ],
+   [
+    "BUTYLENE GLYCOL",
+    "5451",
+    "1.00"
+   ],
+   [
+    "ALOE BARBADENSIS LEAF JUICE",
+    "11117",
+    "1.00"
+   ],
+   [
+    "DISODIUM EDTA",
+    "5609",
+    "1.00"
+   ],
+   [
+    "PANTHENOL",
+    "11105",
+    "1.00"
+   ],
+   [
+    "ACACIA SENEGAL GUM",
+    "11203",
+    "1.00"
+   ],
+   [
+    "ALGAE EXTRACT",
+    "11281",
+    "1.00"
+   ],
+   [
+    "FOLIC ACID",
+    "7447",
+    "1.00"
+   ],
+   [
+    "LACTIC ACID",
+    "8674",
+    "1.00"
+   ],
+   [
+    "CHOLESTEROL",
+    "3724",
+    "1.00"
+   ],
+   [
+    "RAFFINOSE",
+    "7276",
+    "1.00"
+   ],
+   [
+    "LACTIC ACID",
+    "8674",
+    "1.00"
+   ],
+   [
+    "XANTHAN GUM",
+    "8519",
+    "1.00"
+   ],
+   [
+    "TROMETHAMINE",
+    "11144",
+    "1.00"
+   ],
+   [
+    "PALMITOYL PENTAPEPTIDE-4",
+    "3367",
+    "1.00"
+   ]
+  ],
+  "recommendations": [
+   [
+    "risk",
+    "False",
+    "None"
+   ]
+  ]
+ },
+ "checks": [
+  {
+   "name": "Webhook rejects invalid signature (HTTP 400)",
+   "pass": true
+  },
+  {
+   "name": "Follow event -> welcome reply",
+   "pass": true
+  },
+  {
+   "name": "Profile flow -> 'บันทึกโปรไฟล์เรียบร้อย'",
+   "pass": true
+  },
+  {
+   "name": "users row saved: Oily / pregnant=F / acne=T / fungal=F",
+   "pass": true
+  },
+  {
+   "name": "Image -> analysis reply ('ผลวิเคราะห์')",
+   "pass": true
+  },
+  {
+   "name": "scans row saved",
+   "pass": true
+  },
+  {
+   "name": "scan_results rows saved (matched ingredient_id)",
+   "pass": true
+  },
+  {
+   "name": "recommendations row saved",
+   "pass": true
+  }
+ ]
+}

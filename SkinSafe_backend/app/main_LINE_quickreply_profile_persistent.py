@@ -1,4 +1,5 @@
 import os
+import re
 import cv2
 import psycopg2
 from dotenv import load_dotenv
@@ -10,7 +11,7 @@ from linebot.models import (
     QuickReply, QuickReplyButton, MessageAction, CameraAction, FollowEvent
 )
 from rapidfuzz import process, fuzz
-from ocr_core import run_ocr_lines
+from ocr_core import run_ocr_lines, load_inci_vocabulary, INCI_PATCH_PATH
 from ocr_paddle_fuzzy import correct_with_vocabulary
 import db
 import recommendation as rec
@@ -24,17 +25,18 @@ load_dotenv()
 
 app = FastAPI()
 
-print("กำลังโหลด canonical INCI จาก PostgreSQL...")
+# คลังคำสำหรับ Fuzzy Matching = คลังคำเดียวกับที่ใช้ประเมินผลในบทที่ 3
+# (ingredient_master_dataset_fixed.csv + vocabulary_patch_dev.csv = 11,490 ชื่อ)
+# PostgreSQL ใช้หาข้อมูลของส่วนผสมหลังจับคู่ชื่อแล้ว (recommendation.py)
+print("กำลังโหลด INCI vocabulary (master + vocabulary_patch_dev.csv)...")
 try:
-    INCI_VOCABULARY = sorted(set(
-        x.strip()
-        for x in db.get_all_ingredient_names()
-        if x and x.strip()
-    ))
-    print(f"✅ PostgreSQL vocabulary: {len(INCI_VOCABULARY):,} รายการ")
+    if not os.path.isfile(INCI_PATCH_PATH):
+        raise FileNotFoundError(f"ไม่พบไฟล์คำศัพท์เสริม: {INCI_PATCH_PATH}")
+    INCI_VOCABULARY = load_inci_vocabulary()
+    print(f"✅ INCI vocabulary: {len(INCI_VOCABULARY):,} รายการ")
 except Exception as e:
     INCI_VOCABULARY = []
-    print(f"⚠️ โหลด PostgreSQL vocabulary ไม่สำเร็จ: {e}")
+    print(f"⚠️ โหลด INCI vocabulary ไม่สำเร็จ: {e}")
 
 # ตั้งค่า LINE Bot API (ตัวแปร handler อยู่ตรงนี้ครับ)
 line_bot_api = LineBotApi(os.getenv('LINE_TOKEN'))
@@ -85,6 +87,9 @@ def camera_quick_reply(label="📸 สแกนฉลาก"):
 # ข้อมูลถาวรเก็บใน PostgreSQL users
 # state/ข้อมูลที่กำลังกรอกเก็บชั่วคราวใน memory
 user_profiles = {}
+
+# จุลภาคที่คั่นรายการส่วนผสม (ไม่ใช่จุลภาคระหว่างตัวเลข เช่น "1,2-Hexanediol")
+INGREDIENT_SEP_RE = re.compile(r"(?<!\d),|,(?!\d)")
 
 SKIN_TYPE_OPTIONS = [
     ("1", "ผิวปกติ ☁️", 5),   # DB skin_type_id = 5
@@ -232,20 +237,187 @@ def have_no_quick_reply():
 # ==========================================
 # 🔍 ฟังก์ชันวิเคราะห์ส่วนผสมจาก Database
 # ==========================================
-def analyze_ingredients_from_db(ingredients, profile):
-    """วิเคราะห์ด้วย recommendation.py + PostgreSQL schema ล่าสุด"""
-    try:
-        skin_name_to_id = {
-            "ผิวแห้ง 🌵": 1,
-            "ผิวมัน 🍳": 2,
-            "ผิวผสม 🌗": 3,
-            "แพ้ง่าย 🥺": 4,
-            "ผิวปกติ ☁️": 5,
-        }
+# ==========================================
+# 📝 ข้อความผลวิเคราะห์ (สรุปสั้น + รายละเอียด)
+# ==========================================
+# ผลสแกนล่าสุดของแต่ละผู้ใช้ สำหรับปุ่ม "ดูรายละเอียด" (เก็บใน memory)
+last_scan_detail = {}
 
-        skin_type_id = skin_name_to_id.get(profile.get("skin_type"))
+RISK_REASON_TH = {
+    "skin_sensitization": "อาจทำให้เกิดอาการแพ้ในผิวแพ้ง่าย",
+    "irritation": "อาจทำให้ผิวระคายเคือง",
+    "pregnancy": "ควรหลีกเลี่ยงระหว่างตั้งครรภ์",
+    "comedogenic": "อาจอุดตันรูขุมขน ทำให้เกิดสิว",
+    "acne_trigger": "อาจกระตุ้นให้เกิดสิว",
+    "fungal_acne_trigger": "อาจกระตุ้นสิวเชื้อรา",
+}
+RISK_LEVEL_TH = {"low": " (ความเสี่ยงต่ำ)", "high": " (ความเสี่ยงสูง)"}
+EFFECT_TH = {
+    "Hydration": "ช่วยเพิ่มความชุ่มชื้น",
+    "Oil Control": "ช่วยควบคุมความมัน",
+    "Blemish Support": "ช่วยดูแลปัญหาสิว",
+    "Exfoliation": "ช่วยผลัดเซลล์ผิว",
+    "Anti-Aging": "ช่วยดูแลริ้วรอย",
+}
+RISKY_STATUSES = {"risk_only", "caution_with_risk", "compatible_with_risk"}
+VERDICT_TH = {
+    "risk": ("🔴 ไม่แนะนำสำหรับคุณ",
+             "💡 ควรปรึกษาแพทย์หรือเภสัชกรก่อนใช้"),
+    "caution": ("🟡 ใช้ได้ แต่ควรระวัง",
+                "💡 ลองทาบริเวณเล็ก ๆ เช่น ท้องแขน 1–2 วันก่อนใช้จริง "
+                "หากมีอาการแดง คัน หรือแสบ ให้หยุดใช้"),
+    "no_risk_found": ("🟢 ไม่พบข้อควรระวังสำหรับคุณ",
+                      "💡 หากผิวแพ้ง่าย ควรลองทาบริเวณเล็ก ๆ ก่อนใช้จริง"),
+    "no_evidence": ("⚪ ยังสรุปไม่ได้",
+                    "💡 ข้อมูลยังไม่พอ ควรอ่านฉลากเพิ่มเติม หรือปรึกษาผู้เชี่ยวชาญ"),
+}
+
+
+def _display_name(name):
+    """ชื่อตัวพิมพ์ใหญ่ทั้งหมดอ่านยาก → แปลงเป็น Title Case"""
+    return name.title() if name.isupper() else name
+
+
+def _risk_reason(risk):
+    risk_type = str(risk.get("risk_type", "")).lower()
+    level = str(risk.get("risk_level", "")).lower()
+    return RISK_REASON_TH.get(risk_type, risk_type) + RISK_LEVEL_TH.get(level, "")
+
+
+def _item_reasons(item, risks_key="relevant_risks"):
+    reasons = list(dict.fromkeys(_risk_reason(r) for r in item.get(risks_key, [])))
+    if not reasons and item.get("status") == "caution":
+        reasons.append("ควรใช้อย่างระมัดระวังกับสภาพผิวนี้")
+    return reasons
+
+
+def _item_effects(item):
+    names = dict.fromkeys(e.get("effect_name") for e in item.get("skin_effects", [])
+                          if e.get("effect_name"))
+    return [EFFECT_TH.get(n, n) for n in names]
+
+
+def _coverage(report):
+    results = report.get("results", [])
+    with_data = [x for x in results if x["status"] in RISKY_STATUSES | {"caution", "compatible"}]
+    total = len(results) + len(report.get("unmatched", []))
+    return len(with_data), total
+
+
+def build_summary_message(report, profile):
+    """ข้อความหลัก: ตอบก่อนว่าเหมาะหรือไม่ แล้วจึงบอกเหตุผล"""
+    results = report.get("results", [])
+    conditions = report.get("conditions", [])
+    uncovered = set(report.get("uncovered_conditions", []))
+    status = report.get("overall_status", "no_evidence")
+    verdict, tip = VERDICT_TH.get(status, VERDICT_TH["no_evidence"])
+    watch = [x for x in results if x["status"] in RISKY_STATUSES | {"caution"}]
+    good = [x for x in results if x["status"] == "compatible"]
+    n_data, n_total = _coverage(report)
+
+    skin_type = str(profile.get("skin_type", ""))
+    # ผิวแพ้ง่ายเป็นทั้งสภาพผิวและเงื่อนไข → ไม่แสดงชื่อซ้ำ
+    labels = [rec.PROFILE_CONDITIONS[c]["label"] for c in conditions
+              if rec.PROFILE_CONDITIONS[c]["label"] not in skin_type]
+    lines = ["🔎 ผลวิเคราะห์สำหรับคุณ",
+             f"({' · '.join([skin_type] + labels)})", "", verdict]
+    if watch:
+        lines.append(f"พบส่วนผสมที่ควรระวังสำหรับคุณ {len(watch)} รายการ")
+    elif status == "no_evidence":
+        lines.append("ไม่พบข้อควรระวังสำหรับคุณ แต่ข้อมูลยังไม่พอจะยืนยันว่าเหมาะกับคุณ")
+
+    # เช็กทีละเงื่อนไขในโปรไฟล์
+    if conditions:
+        lines += ["", "✔️ เช็กตามโปรไฟล์ของคุณ"]
+        for cond in conditions:
+            label = rec.PROFILE_CONDITIONS[cond]["label"]
+            hits = [a for a in report.get("profile_alerts", []) if a["condition"] == cond]
+            if hits:
+                icon = "🔴" if any(str(a.get("risk_level", "")).lower()
+                                  not in rec.LOW_RISK_LEVELS for a in hits) else "🟡"
+                n = len({a["ingredient_name"] for a in hits})
+                lines.append(f"{icon} {label}: พบ {n} รายการที่ควรระวัง")
+            elif label in uncovered:
+                lines.append(f"❔ {label}: ฐานข้อมูลยังไม่มีข้อมูลด้านนี้")
+            else:
+                lines.append(f"✅ {label}: ไม่พบสารที่ควรระวัง (จากข้อมูลที่มี)")
+
+    if watch:
+        lines += ["", "⚠️ ส่วนผสมที่ควรระวัง"]
+        for item in watch:
+            lines.append(f"• {_display_name(item['ingredient_name'])} — "
+                         + "; ".join(_item_reasons(item)))
+    if good:
+        lines += ["", "👍 ส่วนผสมที่ดีต่อผิวคุณ"]
+        for item in good:
+            lines.append(f"• {_display_name(item['ingredient_name'])} — "
+                         + ", ".join(_item_effects(item)))
+
+    lines += ["", tip, "",
+              f"ℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ {n_data} จาก {n_total} รายการ "
+              "ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น",
+              "👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด",
+              "",
+              "หมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล "
+              "ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์"]
+    return "\n".join(lines)
+
+
+def build_detail_message(report):
+    """ข้อความรายละเอียด: ส่วนผสมทั้งหมดแยกตามกลุ่ม (ส่งเมื่อกด "ดูรายละเอียด")"""
+    results = report.get("results", [])
+    lines = ["📋 รายละเอียดส่วนผสมทั้งหมด"]
+
+    def names(items):
+        return ", ".join(_display_name(x["ingredient_name"]) for x in items)
+
+    groups = [
+        (RISKY_STATUSES, "🔴 มีความเสี่ยงสำหรับคุณ"),
+        ({"caution"}, "🟡 ควรใช้ด้วยความระมัดระวัง"),
+        ({"compatible"}, "🟢 ดีต่อสภาพผิวของคุณ"),
+    ]
+    for statuses, header in groups:
+        items = [x for x in results if x["status"] in statuses]
+        if not items:
+            continue
+        lines += ["", f"{header} ({len(items)})"]
+        for item in items:
+            notes = _item_reasons(item) + _item_effects(item)
+            lines.append(f"• {_display_name(item['ingredient_name'])}"
+                         + (" — " + "; ".join(notes) if notes else ""))
+
+    other = [x for x in results if x.get("other_risks")
+             and x["status"] not in RISKY_STATUSES | {"caution"}]
+    if other:
+        lines += ["", f"ℹ️ มีข้อควรระวังสำหรับคนกลุ่มอื่น (ไม่เกี่ยวกับโปรไฟล์ของคุณ) ({len(other)})"]
+        for item in other:
+            lines.append(f"• {_display_name(item['ingredient_name'])} — "
+                         + "; ".join(_item_reasons(item, "other_risks")))
+
+    evidence_only = [x for x in results if x["status"] == "evidence_only"]
+    if evidence_only:
+        lines += ["", f"📚 มีข้อมูลความปลอดภัยทั่วไป แต่ยังไม่มีข้อมูลเฉพาะสภาพผิว ({len(evidence_only)})",
+                  names(evidence_only)]
+    no_data = [x for x in results if x["status"] == "no_evidence"]
+    if no_data:
+        lines += ["", f"⚪ ยังไม่มีข้อมูลในฐานข้อมูล ({len(no_data)})", names(no_data)]
+    unmatched = report.get("unmatched", [])
+    if unmatched:
+        lines += ["", f"❔ อ่านจากฉลากแล้วจับคู่ไม่ได้ ({len(unmatched)})", ", ".join(unmatched)]
+    return "\n".join(lines)
+
+
+def analyze_ingredients_from_db(ingredients, profile):
+    """วิเคราะห์ด้วย recommendation.py + PostgreSQL schema ล่าสุด
+
+    คืนค่า (ข้อความตอบกลับ, report) — report เป็น None ถ้าวิเคราะห์ไม่สำเร็จ
+    """
+    try:
+        # ใช้ ID ที่บันทึก/อ่านกลับจาก PostgreSQL โดยตรง ป้องกันชื่อแสดงผลไม่ตรงกัน
+        skin_type_id = profile.get("skin_type_id")
+        skin_type_id = int(skin_type_id) if skin_type_id is not None else None
         if skin_type_id is None:
-            return "ยังไม่ได้ตั้งค่าสภาพผิว กรุณาตั้งค่าโปรไฟล์ก่อนสแกนนะจ๊ะ 👇"
+            return "ยังไม่ได้ตั้งค่าสภาพผิว กรุณาตั้งค่าโปรไฟล์ก่อนสแกนนะจ๊ะ 👇", None
 
         user = {
             "skin_type_id": skin_type_id,
@@ -256,55 +428,11 @@ def analyze_ingredients_from_db(ingredients, profile):
 
         report = rec.recommend(ingredients, user)
 
-        status_text = {
-            "risk": "🚩 พบประเด็นความเสี่ยงที่ควรระวัง",
-            "caution": "⚠️ พบส่วนผสมที่ควรพิจารณาเพิ่มเติม",
-            "no_risk_found": "🟢 ไม่พบ risk record ที่ตรงกับข้อมูลในฐานข้อมูล",
-            "no_evidence": "ℹ️ ข้อมูลในฐานข้อมูลยังไม่เพียงพอสำหรับสรุปความปลอดภัย",
-        }
-
-        lines = [f"🔎 ผลวิเคราะห์สำหรับ {profile['skin_type']}"]
-        if profile.get("has_acne") is True:
-            lines.append("เน้นพิจารณาผลต่อผิวที่มีปัญหาสิวเป็นพิเศษ")
-        lines.append("")
-        lines.append(status_text.get(
-            report.get("overall_status"),
-            f"สถานะ: {report.get('overall_status')}"
-        ))
-
-        for item in report.get("results", []):
-            status_label = {
-                "risk_only": "🚩 มีข้อมูลความเสี่ยง",
-                "caution_with_risk": "🚩 ควรระวัง",
-                "compatible_with_risk": "⚠️ มีข้อมูลความเสี่ยงเพิ่มเติม",
-                "caution": "⚠️ ควรพิจารณา",
-                "compatible": "🟢 เข้ากันได้กับสภาพผิวที่เลือก",
-                "evidence_only": "ℹ️ มีหลักฐาน แต่ยังไม่มี skin-effect/risk record",
-                "no_evidence": "ℹ️ ยังไม่มีข้อมูลในฐานข้อมูลเพียงพอ",
-            }.get(item.get("status"), item.get("status", "ไม่ทราบสถานะ"))
-
-            lines.append(
-                f"\n{item.get('ingredient_name', '')}\n"
-                f"{status_label}\n"
-                f"หลักฐาน: {len(item.get('evidence', []))} | "
-                f"ความเสี่ยง: {len(item.get('risks', []))}"
-            )
-
-        unmatched = report.get("unmatched", [])
-        if unmatched:
-            lines.append(
-                "\n⚠️ ไม่สามารถจับคู่ส่วนผสมเหล่านี้กับฐานข้อมูลได้:\n"
-                + "\n".join(f"• {x}" for x in unmatched)
-            )
-
-        lines.append(
-            "\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล "
-            "ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์"
-        )
-        return "\n".join(lines)
+        report["detail_text"] = build_detail_message(report)
+        return build_summary_message(report, profile), report
 
     except Exception as e:
-        return f"เกิดข้อผิดพลาดในการวิเคราะห์: {str(e)}"
+        return f"เกิดข้อผิดพลาดในการวิเคราะห์: {str(e)}", None
 
 # ==========================================
 # 👋 ดักจับคนแอดไลน์มาใหม่ (Follow Event)
@@ -361,6 +489,22 @@ def handle_text(event):
     user_id = event.source.user_id
     profile = get_profile(user_id)
     state = profile.get("state", "normal")
+
+    # ---------------------------------------------------
+    # 📋 ดูรายละเอียดผลสแกนล่าสุด
+    # ---------------------------------------------------
+    if raw_text == "ดูรายละเอียด":
+        detail = last_scan_detail.get(user_id)
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(
+                text=detail or "ยังไม่มีผลการสแกนล่าสุด ลองส่งรูปฉลากส่วนผสมมาก่อนนะคะ 📸",
+                quick_reply=QuickReply(items=[
+                    QuickReplyButton(action=CameraAction(label="📸 สแกนขวดอื่นต่อ")),
+                ])
+            )
+        )
+        return
 
     # ---------------------------------------------------
     # 📚 Rich Menu: เกี่ยวกับระบบ
@@ -432,22 +576,22 @@ def handle_text(event):
     # ---------------------------------------------------
     if text_low in {
         "welcome to skinsafe bot",
-        "สวัสดี",
+        "สวัสดี! Skinsafe Bot ช่วยฉันหน่อย",
         "เริ่มต้นใช้งาน",
     }:
-    # โหลด profile ล่าสุดจาก DB และใช้ object ที่ refresh กลับมาโดยตรง
-     profile = refresh_profile_from_db(user_id)
-     profile["state"] = "waiting_profile_exists"
-     
-     line_bot_api.reply_message(
-         event.reply_token,
-         TextSendMessage(
-            text="SkinSafe Bot ยินดีต้อนรับค่ะ 👋\n\n"
-               "ตอนนี้คุณมีโปรไฟล์ของคุณแล้วหรือยังคะ:",
-            quick_reply=have_no_quick_reply()
+        # โหลด profile ล่าสุดจาก DB และใช้ object ที่ refresh กลับมาโดยตรง
+        profile = refresh_profile_from_db(user_id)
+        profile["state"] = "waiting_profile_exists"
+
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(
+                text="SkinSafe Bot ยินดีต้อนรับค่ะ 👋\n\n"
+                     "ตอนนี้คุณมีโปรไฟล์ของคุณแล้วหรือยังคะ:",
+                quick_reply=have_no_quick_reply()
+            )
         )
-    )
-    return
+        return
 
     # ---------------------------------------------------
     # 👤 ผู้ใช้ตอบว่ามี/ยังไม่มี profile
@@ -768,6 +912,26 @@ def handle_image(event):
         return
 
     profile["state"] = "normal"
+    # ไม่ให้ปุ่ม "ดูรายละเอียด" แสดงผลของรูปก่อนหน้า ถ้ารูปนี้วิเคราะห์ไม่สำเร็จ
+    last_scan_detail.pop(user_id, None)
+
+    # แจ้งให้รอทันที (ใช้ reply token) แล้วส่งผลจริงตามไปด้วย push message
+    # เพราะ reply token ใช้ตอบได้ครั้งเดียว และ OCR + วิเคราะห์ใช้เวลาหลายวินาที
+    waiting_sent = False
+    try:
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text="📸 ได้รับรูปแล้วค่ะ\nกรุณารอผลการวิเคราะห์สักครู่นะคะ ⏳")
+        )
+        waiting_sent = True
+    except Exception as e:
+        print(f"[LINE] waiting message failed: {e}")
+
+    def send_result(message):
+        if waiting_sent:
+            line_bot_api.push_message(user_id, message)
+        else:
+            line_bot_api.reply_message(event.reply_token, message)
 
     temp_file_path = f"temp_{event.message.id}.jpg"
 
@@ -789,7 +953,7 @@ def handle_image(event):
 
 
         if not INCI_VOCABULARY:
-            raise RuntimeError("ไม่พบ INCI vocabulary จาก PostgreSQL")
+            raise RuntimeError("ไม่พบ INCI vocabulary")
 
         # ใช้ OCR pipeline เดียวกับ integration test ที่ผ่านล่าสุด
         print(f"[LINE OCR] image={temp_file_path}, bytes={os.path.getsize(temp_file_path)}")
@@ -813,16 +977,17 @@ def handle_image(event):
         else:
             raw_text = "\n".join(raw_lines)
 
-            # threshold 90 ตาม pipeline ที่ผ่าน integration test
+            # threshold 85 เลือกจากชุด Dev ด้วย cross-fitting (บทที่ 3 หัวข้อ 3.8.2)
             corrected_text = correct_with_vocabulary(
                 raw_lines,
                 INCI_VOCABULARY,
-                threshold=90
+                threshold=85
             )
 
+            # แยกด้วยจุลภาค ยกเว้นจุลภาคในตัวเลข เช่น "1,2-Hexanediol"
             ingredients = [
                 x.strip()
-                for x in corrected_text.split(",")
+                for x in INGREDIENT_SEP_RE.split(corrected_text)
                 if x.strip()
             ]
 
@@ -832,14 +997,17 @@ def handle_image(event):
                     "ลองถ่ายใหม่ให้รายการ Ingredients ชัดและเต็มบรรทัดนะจ๊ะ"
                 )
             else:
-                reply_text = analyze_ingredients_from_db(
+                reply_text, report = analyze_ingredients_from_db(
                     ingredients,
                     profile
                 )
+                if report is not None:
+                    last_scan_detail[user_id] = report.get("detail_text")
 
                 # Persistence: ใช้ db.py ตัวจริง
                 try:
-                    db_user_id = db.get_or_create_user(user_id)
+                    db_user = db.get_or_create_user(user_id)
+                    db_user_id = int(db_user["user_id"])
                     scan_id = db.save_scan(
                         db_user_id,
                         temp_file_path,
@@ -857,25 +1025,15 @@ def handle_image(event):
                                 1.0
                             )
 
-                    skin_type_id = profile["skin_type_id"]
-
-                    report = rec.recommend(
-                        ingredients,
-                        {
-                            "skin_type_id": skin_type_id,
-                            "pregnancy_status": profile.get("pregnancy_status"),
-                            "acne_prone": profile.get("has_acne") is True,
-                            "fungal_acne_prone": profile.get("has_fungal_acne") is True,
-                        }
-                    )
-
-                    db.save_recommendation(
-                        scan_id,
-                        report.get("overall_status"),
-                        reply_text,
-                        report.get("suitable"),
-                        report.get("safe_score")
-                    )
+                    # ใช้ report เดียวกับที่ตอบผู้ใช้ ไม่ต้องวิเคราะห์ซ้ำ
+                    if report is not None:
+                        db.save_recommendation(
+                            scan_id,
+                            report.get("overall_status"),
+                            reply_text,
+                            report.get("suitable"),
+                            report.get("safe_score")
+                        )
 
                 except Exception as db_error:
                     # แสดงผลวิเคราะห์ต่อผู้ใช้ได้ แม้ persistence จะล้มเหลว
@@ -883,6 +1041,9 @@ def handle_image(event):
 
         reset_quick_reply = QuickReply(
             items=[
+                QuickReplyButton(
+                    action=MessageAction(label="📋 ดูรายละเอียด", text="ดูรายละเอียด")
+                ),
                 QuickReplyButton(
                     action=CameraAction(label="📸 สแกนขวดอื่นต่อ")
                 ),
@@ -895,8 +1056,7 @@ def handle_image(event):
             ]
         )
 
-        line_bot_api.reply_message(
-            event.reply_token,
+        send_result(
             TextSendMessage(
                 text=reply_text,
                 quick_reply=reset_quick_reply
@@ -904,8 +1064,7 @@ def handle_image(event):
         )
 
     except Exception as e:
-        line_bot_api.reply_message(
-            event.reply_token,
+        send_result(
             TextSendMessage(
                 text=f"ระบบขัดข้อง: {str(e)}"
             )
