@@ -1,0 +1,1044 @@
+{
+ "bot_import_error": null,
+ "results": [
+  {
+   "id": "TC01",
+   "level": "ingredient",
+   "profile": "P_OILY_ACNE",
+   "desc": "ไม่มีความเสี่ยงตรงกับโปรไฟล์ แต่มีข้อมูล compatible",
+   "rule": "1.3 step 5",
+   "expected": {
+    "status": "compatible",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "compatible",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC02",
+   "level": "ingredient",
+   "profile": "P_OILY_ACNE",
+   "desc": "มีความเสี่ยงตรงกับโปรไฟล์ ระดับ low",
+   "rule": "1.3 step 4",
+   "expected": {
+    "status": "caution",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "actual": {
+    "status": "caution",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC03",
+   "level": "ingredient",
+   "profile": "P_OILY_ACNE",
+   "desc": "มีความเสี่ยงตรงกับโปรไฟล์ ระดับ moderate (ไม่มีข้อมูลอื่น)",
+   "rule": "1.3 step 3",
+   "expected": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "actual": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC04",
+   "level": "ingredient",
+   "profile": "P_NORMAL_PREG",
+   "desc": "มีความเสี่ยงตรงกับโปรไฟล์ ระดับ high (ไม่มีข้อมูลอื่น)",
+   "rule": "1.3 step 3",
+   "expected": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "pregnancy"
+    ]
+   },
+   "actual": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "pregnancy"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC05",
+   "level": "ingredient",
+   "profile": "P_OILY_ACNE",
+   "desc": "มี compatible และมีความเสี่ยงตรงกับโปรไฟล์ระดับ moderate",
+   "rule": "1.3 step 2",
+   "expected": {
+    "status": "compatible_with_risk",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "actual": {
+    "status": "compatible_with_risk",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC06",
+   "level": "ingredient",
+   "profile": "P_SENS",
+   "desc": "มี caution และมีความเสี่ยงตรงกับโปรไฟล์ระดับ medium (ผิวแพ้ง่าย)",
+   "rule": "1.3 step 1",
+   "expected": {
+    "status": "caution_with_risk",
+    "alert_conditions": [
+     "sensitive_skin"
+    ]
+   },
+   "actual": {
+    "status": "caution_with_risk",
+    "alert_conditions": [
+     "sensitive_skin"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC07",
+   "level": "ingredient",
+   "profile": "P_OILY_ACNE",
+   "desc": "มีความเสี่ยงที่ไม่ตรงกับโปรไฟล์ (ตั้งครรภ์) แต่ไม่มีข้อมูลอื่น",
+   "rule": "1.3 step 6",
+   "expected": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC08",
+   "level": "ingredient",
+   "profile": "P_NORMAL",
+   "desc": "มีหลักฐานอ้างอิง แต่ไม่มีสถานะความเหมาะสมหรือความเสี่ยง",
+   "rule": "1.3 step 7",
+   "expected": {
+    "status": "evidence_only",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "evidence_only",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC09",
+   "level": "ingredient",
+   "profile": "P_NORMAL",
+   "desc": "ไม่มีหลักฐาน สถานะความเหมาะสม และความเสี่ยง",
+   "rule": "1.3 step 8",
+   "expected": {
+    "status": "no_evidence",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "no_evidence",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC10",
+   "level": "product",
+   "profile": "P_NORMAL",
+   "desc": "ชื่อส่วนผสมเชื่อมโยงกับฐานข้อมูลไม่ได้ → อยู่ใน unmatched",
+   "rule": "1.2 step 4",
+   "expected": {
+    "unmatched": [
+     "UNKNOWN_XYZ"
+    ],
+    "ingredient_count": 1,
+    "safe_score": null
+   },
+   "actual": {
+    "unmatched": [
+     "UNKNOWN_XYZ"
+    ],
+    "ingredient_count": 1,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC11",
+   "level": "product",
+   "profile": "P_DRY_FUNGAL",
+   "desc": "โปรไฟล์มีสิวเชื้อรา แต่ DB ไม่มี risk_type fungal_acne_trigger เลย",
+   "rule": "1.4 uncovered / suitable",
+   "expected": {
+    "overall_status": "no_risk_found",
+    "uncovered_conditions": [
+     "สิวเชื้อรา (Fungal acne)"
+    ],
+    "suitable": false,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "no_risk_found",
+    "uncovered_conditions": [
+     "สิวเชื้อรา (Fungal acne)"
+    ],
+    "suitable": false,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC12",
+   "level": "product",
+   "profile": "P_NORMAL",
+   "desc": "ไม่พบความเสี่ยง แต่มีส่วนผสมที่จับคู่ไม่ได้ → no_risk_found ถูกเปลี่ยนเป็น no_evidence",
+   "rule": "1.4 unmatched downgrade",
+   "expected": {
+    "overall_status": "no_evidence",
+    "suitable": false,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "no_evidence",
+    "suitable": false,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC13",
+   "level": "ingredient",
+   "profile": "P_NORMAL",
+   "desc": "มีเฉพาะ skin effect caution",
+   "rule": "1.3 step 4",
+   "expected": {
+    "status": "caution",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "caution",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC14",
+   "level": "ingredient",
+   "profile": "P_OILY_ACNE",
+   "desc": "compatible + ความเสี่ยงตรงโปรไฟล์ระดับ low → caution ไม่ใช่ compatible",
+   "rule": "1.3 step 4 (E3)",
+   "expected": {
+    "status": "caution",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "actual": {
+    "status": "caution",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC15",
+   "level": "ingredient",
+   "profile": "P_OILY_ACNE",
+   "desc": "risk_level เป็นค่าว่าง (NULL) → นับเป็น serious",
+   "rule": "1.3 serious definition (E2)",
+   "expected": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "actual": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC16",
+   "level": "ingredient",
+   "profile": "P_NORMAL_PREG",
+   "desc": "risk_type/risk_level ตัวพิมพ์ใหญ่ (Pregnancy/HIGH)",
+   "rule": "1.1 case-insensitive risk_type",
+   "expected": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "pregnancy"
+    ]
+   },
+   "actual": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "pregnancy"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC17",
+   "level": "ingredient",
+   "profile": "P_OILY_ACNE",
+   "desc": "risk_level ตัวพิมพ์ใหญ่ LOW → ยังนับเป็น low",
+   "rule": "1.3 serious definition",
+   "expected": {
+    "status": "caution",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "actual": {
+    "status": "caution",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC18",
+   "level": "ingredient",
+   "profile": "P_NORMAL",
+   "desc": "compatibility = good/bad (นอกเหนือ compatible/caution) ถูกมองข้าม",
+   "rule": "1.5 N5",
+   "expected": {
+    "status": "no_evidence",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "no_evidence",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC19",
+   "level": "ingredient",
+   "profile": "P_NORMAL",
+   "desc": "มีทั้ง compatible และ caution → caution มาก่อน",
+   "rule": "1.3 step 4 before step 5",
+   "expected": {
+    "status": "caution",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "caution",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC20",
+   "level": "ingredient",
+   "profile": "P_NORMAL",
+   "desc": "มีความเสี่ยงไม่เกี่ยวกับโปรไฟล์ + evidence → other_risk_only มาก่อน",
+   "rule": "1.3 step 6 before step 7",
+   "expected": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC21",
+   "level": "ingredient",
+   "profile": "P_SENS",
+   "desc": "ผิวแพ้ง่าย + irritation low",
+   "rule": "1.1 sensitive_skin via skin_type_id 4",
+   "expected": {
+    "status": "caution",
+    "alert_conditions": [
+     "sensitive_skin"
+    ]
+   },
+   "actual": {
+    "status": "caution",
+    "alert_conditions": [
+     "sensitive_skin"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC22",
+   "level": "ingredient",
+   "profile": "P_NORMAL",
+   "desc": "ผิวปกติ + irritation low → ไม่เกี่ยวกับโปรไฟล์",
+   "rule": "1.1 sensitive_skin only for skin_type_id 4",
+   "expected": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC23",
+   "level": "ingredient",
+   "profile": "P_DRY_FUNGAL",
+   "desc": "สิวเชื้อรา + fungal_acne_trigger medium",
+   "rule": "1.1 fungal_acne",
+   "expected": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "fungal_acne"
+    ]
+   },
+   "actual": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "fungal_acne"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC24",
+   "level": "ingredient",
+   "profile": "P_DRY_FUNGAL",
+   "desc": "risk_type สะกดต่าง (fungal_acne แทน fungal_acne_trigger) → ไม่ตรงกับโปรไฟล์",
+   "rule": "1.1 exact risk_type match",
+   "expected": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC25",
+   "level": "ingredient",
+   "profile": "P_NORMAL_PREG_NONE",
+   "desc": "pregnancy_status = None (ยังไม่ระบุ) → ไม่เปิดเงื่อนไขตั้งครรภ์",
+   "rule": "1.1 pregnancy only when is True",
+   "expected": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC26",
+   "level": "ingredient",
+   "profile": "P_OILY_ACNE",
+   "desc": "acne_trigger high + comedogenic low → มี serious จึงเป็น risk_only; alert 2 รายการ",
+   "rule": "1.3 step 3",
+   "expected": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "acne",
+     "acne"
+    ]
+   },
+   "actual": {
+    "status": "risk_only",
+    "alert_conditions": [
+     "acne",
+     "acne"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC27",
+   "level": "ingredient",
+   "profile": "P_SENS_ALL",
+   "desc": "โปรไฟล์หลายเงื่อนไข: alert ผูกกับเงื่อนไขสิวเท่านั้น",
+   "rule": "1.1 + 1.3 step 2",
+   "expected": {
+    "status": "compatible_with_risk",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "actual": {
+    "status": "compatible_with_risk",
+    "alert_conditions": [
+     "acne"
+    ]
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC28",
+   "level": "ingredient",
+   "profile": "P_DRY",
+   "desc": "สารเดียวกัน ผิวแห้ง (มี compatible)",
+   "rule": "1.2 skin_effects filtered by skin_type_id",
+   "expected": {
+    "status": "compatible",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "compatible",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC29",
+   "level": "ingredient",
+   "profile": "P_OILY",
+   "desc": "สารเดียวกัน ผิวมัน (มี caution)",
+   "rule": "1.2 skin_effects filtered by skin_type_id",
+   "expected": {
+    "status": "caution",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "caution",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC30",
+   "level": "ingredient",
+   "profile": "P_COMBO",
+   "desc": "สารเดียวกัน ผิวผสม (มี compatible)",
+   "rule": "1.2 skin_effects filtered by skin_type_id",
+   "expected": {
+    "status": "compatible",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "compatible",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC31",
+   "level": "ingredient",
+   "profile": "P_SENS",
+   "desc": "สารเดียวกัน ผิวแพ้ง่าย (มี caution)",
+   "rule": "1.2 skin_effects filtered by skin_type_id",
+   "expected": {
+    "status": "caution",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "caution",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC32",
+   "level": "ingredient",
+   "profile": "P_NORMAL",
+   "desc": "สารเดียวกัน ผิวปกติ (ไม่มีข้อมูลของสภาพผิวนี้)",
+   "rule": "1.2 + 1.5 N2",
+   "expected": {
+    "status": "no_evidence",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "no_evidence",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC33",
+   "level": "ingredient",
+   "profile": "P_OILY",
+   "desc": "ผิวมันแต่ไม่ได้เลือกว่ามีสิว → acne risk ไม่เกี่ยวกับโปรไฟล์",
+   "rule": "1.1 acne only when acne_prone is True",
+   "expected": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "actual": {
+    "status": "other_risk_only",
+    "alert_conditions": []
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC34",
+   "level": "product",
+   "profile": "P_DRY",
+   "desc": "ทุกส่วนผสม compatible",
+   "rule": "1.4 step 4",
+   "expected": {
+    "overall_status": "no_risk_found",
+    "suitable": true,
+    "unmatched": [],
+    "uncovered_conditions": [],
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "no_risk_found",
+    "suitable": true,
+    "unmatched": [],
+    "uncovered_conditions": [],
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC35",
+   "level": "product",
+   "profile": "P_NORMAL",
+   "desc": "compatible + caution",
+   "rule": "1.4 step 2",
+   "expected": {
+    "overall_status": "caution",
+    "suitable": false,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "caution",
+    "suitable": false,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC36",
+   "level": "product",
+   "profile": "P_OILY_ACNE",
+   "desc": "compatible + risk_only",
+   "rule": "1.4 step 1",
+   "expected": {
+    "overall_status": "risk",
+    "suitable": false,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "risk",
+    "suitable": false,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC37",
+   "level": "product",
+   "profile": "P_NORMAL",
+   "desc": "compatible 1 ตัว ที่เหลือไม่มีข้อมูล → ตามกฎผลเป็น 🟢",
+   "rule": "1.4 step 4 (E1)",
+   "expected": {
+    "overall_status": "no_risk_found",
+    "suitable": true,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "no_risk_found",
+    "suitable": true,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC38",
+   "level": "product",
+   "profile": "P_NORMAL",
+   "desc": "ทุกส่วนผสมเป็น no_evidence / evidence_only / other_risk_only",
+   "rule": "1.4 step 3 / N7",
+   "expected": {
+    "overall_status": "no_evidence",
+    "suitable": false,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "no_evidence",
+    "suitable": false,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC39",
+   "level": "product",
+   "profile": "P_NORMAL",
+   "desc": "รายการส่วนผสมว่าง",
+   "rule": "1.4 step 3",
+   "expected": {
+    "overall_status": "no_evidence",
+    "suitable": false,
+    "ingredient_count": 0,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "no_evidence",
+    "suitable": false,
+    "ingredient_count": 0,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC40",
+   "level": "product",
+   "profile": "P_NORMAL",
+   "desc": "caution + unmatched → ไม่ถูกลดเป็น no_evidence",
+   "rule": "1.4 (E4)",
+   "expected": {
+    "overall_status": "caution",
+    "unmatched": [
+     "UNKNOWN_XYZ"
+    ],
+    "suitable": false,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "caution",
+    "unmatched": [
+     "UNKNOWN_XYZ"
+    ],
+    "suitable": false,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC41",
+   "level": "product",
+   "profile": "P_OILY_ACNE",
+   "desc": "มีเฉพาะ profile alert ระดับ low",
+   "rule": "1.4 low-only profile alert",
+   "expected": {
+    "overall_status": "caution",
+    "suitable": false,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "caution",
+    "suitable": false,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC42",
+   "level": "product",
+   "profile": "P_OILY_ACNE",
+   "desc": "ความเสี่ยงที่ไม่เกี่ยวกับโปรไฟล์ไม่ทำให้ผลเป็น 🔴",
+   "rule": "1.4 (E5)",
+   "expected": {
+    "overall_status": "no_risk_found",
+    "suitable": true,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "no_risk_found",
+    "suitable": true,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC43",
+   "level": "product",
+   "profile": "P_NORMAL",
+   "desc": "ชื่อซ้ำต่างตัวพิมพ์/มีช่องว่าง → นับครั้งเดียว",
+   "rule": "1.2 step 1",
+   "expected": {
+    "ingredient_count": 1,
+    "unmatched": [],
+    "safe_score": null
+   },
+   "actual": {
+    "ingredient_count": 1,
+    "unmatched": [],
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TC44",
+   "level": "product",
+   "profile": "P_SENS_ALL",
+   "desc": "มีทั้งความเสี่ยงและเงื่อนไขที่ DB ไม่ครอบคลุม",
+   "rule": "1.4",
+   "expected": {
+    "overall_status": "risk",
+    "uncovered_conditions": [
+     "ผิวแพ้ง่าย"
+    ],
+    "suitable": false,
+    "safe_score": null
+   },
+   "actual": {
+    "overall_status": "risk",
+    "uncovered_conditions": [
+     "ผิวแพ้ง่าย"
+    ],
+    "suitable": false,
+    "safe_score": null
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TD01",
+   "level": "display",
+   "profile": "P_OILY_ACNE",
+   "desc": "ข้อความผลภาพรวม risk + disclaimer",
+   "rule": "1.4 display",
+   "expected": {
+    "summary_contains": [
+     "🔴 ไม่แนะนำสำหรับคุณ",
+     "ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์"
+    ]
+   },
+   "actual": {
+    "overall_status": "risk",
+    "missing": [],
+    "unexpected": [],
+    "summary": "🔎 ผลวิเคราะห์สำหรับคุณ\n(ผิวมัน 🍳 · ผิวเป็นสิวง่าย)\n\n🔴 ไม่แนะนำสำหรับคุณ\nพบส่วนผสมที่ควรระวังสำหรับคุณ 1 รายการ\n\n✔️ เช็กตามโปรไฟล์ของคุณ\n🔴 ผิวเป็นสิวง่าย: พบ 1 รายการที่ควรระวัง\n\n⚠️ ส่วนผสมที่ควรระวัง\n• Test_Acne_Mod — อาจกระตุ้นให้เกิดสิว\n\n👍 ส่วนผสมที่ดีต่อผิวคุณ\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n\n💡 ควรปรึกษาแพทย์หรือเภสัชกรก่อนใช้\n\nℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ 2 จาก 2 รายการ ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น\n👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด\n\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์",
+    "detail": "📋 รายละเอียดส่วนผสมทั้งหมด\n\n🔴 มีความเสี่ยงสำหรับคุณ (1)\n• Test_Acne_Mod — อาจกระตุ้นให้เกิดสิว\n\n🟢 ดีต่อสภาพผิวของคุณ (1)\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น"
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TD02",
+   "level": "display",
+   "profile": "P_NORMAL",
+   "desc": "ข้อความผลภาพรวม caution + disclaimer",
+   "rule": "1.4 display",
+   "expected": {
+    "summary_contains": [
+     "🟡 ใช้ได้ แต่ควรระวัง",
+     "ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์"
+    ]
+   },
+   "actual": {
+    "overall_status": "caution",
+    "missing": [],
+    "unexpected": [],
+    "summary": "🔎 ผลวิเคราะห์สำหรับคุณ\n(ผิวปกติ ☁️)\n\n🟡 ใช้ได้ แต่ควรระวัง\nพบส่วนผสมที่ควรระวังสำหรับคุณ 1 รายการ\n\n⚠️ ส่วนผสมที่ควรระวัง\n• Test_Caution_Eff — ควรใช้อย่างระมัดระวังกับสภาพผิวนี้\n\n👍 ส่วนผสมที่ดีต่อผิวคุณ\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n\n💡 ลองทาบริเวณเล็ก ๆ เช่น ท้องแขน 1–2 วันก่อนใช้จริง หากมีอาการแดง คัน หรือแสบ ให้หยุดใช้\n\nℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ 2 จาก 2 รายการ ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น\n👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด\n\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์",
+    "detail": "📋 รายละเอียดส่วนผสมทั้งหมด\n\n🟡 ควรใช้ด้วยความระมัดระวัง (1)\n• Test_Caution_Eff — ควรใช้อย่างระมัดระวังกับสภาพผิวนี้\n\n🟢 ดีต่อสภาพผิวของคุณ (1)\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น"
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TD03",
+   "level": "display",
+   "profile": "P_DRY",
+   "desc": "ข้อความผลภาพรวม no_risk_found + disclaimer",
+   "rule": "1.4 display",
+   "expected": {
+    "summary_contains": [
+     "🟢 ไม่พบข้อควรระวังสำหรับคุณ",
+     "ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์"
+    ]
+   },
+   "actual": {
+    "overall_status": "no_risk_found",
+    "missing": [],
+    "unexpected": [],
+    "summary": "🔎 ผลวิเคราะห์สำหรับคุณ\n(ผิวแห้ง 🌵)\n\n🟢 ไม่พบข้อควรระวังสำหรับคุณ\n\n👍 ส่วนผสมที่ดีต่อผิวคุณ\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n• Test_Skin_Specific — ช่วยเพิ่มความชุ่มชื้น\n\n💡 หากผิวแพ้ง่าย ควรลองทาบริเวณเล็ก ๆ ก่อนใช้จริง\n\nℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ 2 จาก 2 รายการ ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น\n👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด\n\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์",
+    "detail": "📋 รายละเอียดส่วนผสมทั้งหมด\n\n🟢 ดีต่อสภาพผิวของคุณ (2)\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n• Test_Skin_Specific — ช่วยเพิ่มความชุ่มชื้น"
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TD04",
+   "level": "display",
+   "profile": "P_NORMAL",
+   "desc": "ข้อความผลภาพรวม no_evidence บอกว่าข้อมูลไม่พอ",
+   "rule": "1.4 display",
+   "expected": {
+    "summary_contains": [
+     "⚪ ยังสรุปไม่ได้",
+     "ข้อมูลยังไม่พอ",
+     "ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์"
+    ]
+   },
+   "actual": {
+    "overall_status": "no_evidence",
+    "missing": [],
+    "unexpected": [],
+    "summary": "🔎 ผลวิเคราะห์สำหรับคุณ\n(ผิวปกติ ☁️)\n\n⚪ ยังสรุปไม่ได้\nไม่พบข้อควรระวังสำหรับคุณ แต่ข้อมูลยังไม่พอจะยืนยันว่าเหมาะกับคุณ\n\n💡 ข้อมูลยังไม่พอ ควรอ่านฉลากเพิ่มเติม หรือปรึกษาผู้เชี่ยวชาญ\n\nℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ 0 จาก 3 รายการ ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น\n👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด\n\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์",
+    "detail": "📋 รายละเอียดส่วนผสมทั้งหมด\n\nℹ️ มีข้อควรระวังสำหรับคนกลุ่มอื่น (ไม่เกี่ยวกับโปรไฟล์ของคุณ) (1)\n• Test_Preg_High — ควรหลีกเลี่ยงระหว่างตั้งครรภ์ (ความเสี่ยงสูง)\n\n📚 มีข้อมูลความปลอดภัยทั่วไป แต่ยังไม่มีข้อมูลเฉพาะสภาพผิว (1)\nTest_Evid\n\n⚪ ยังไม่มีข้อมูลในฐานข้อมูล (1)\nTest_None"
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TD05",
+   "level": "display",
+   "profile": "P_NORMAL",
+   "desc": "แจ้งรายการที่จับคู่ไม่ได้และความครอบคลุม",
+   "rule": "1.4 display + coverage",
+   "expected": {
+    "summary_contains": [
+     "⚪ ยังสรุปไม่ได้",
+     "1 จาก 2 รายการ"
+    ],
+    "detail_contains": [
+     "จับคู่ไม่ได้",
+     "UNKNOWN_XYZ"
+    ]
+   },
+   "actual": {
+    "overall_status": "no_evidence",
+    "missing": [],
+    "unexpected": [],
+    "summary": "🔎 ผลวิเคราะห์สำหรับคุณ\n(ผิวปกติ ☁️)\n\n⚪ ยังสรุปไม่ได้\nไม่พบข้อควรระวังสำหรับคุณ แต่ข้อมูลยังไม่พอจะยืนยันว่าเหมาะกับคุณ\n\n👍 ส่วนผสมที่ดีต่อผิวคุณ\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n\n💡 ข้อมูลยังไม่พอ ควรอ่านฉลากเพิ่มเติม หรือปรึกษาผู้เชี่ยวชาญ\n\nℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ 1 จาก 2 รายการ ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น\n👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด\n\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์",
+    "detail": "📋 รายละเอียดส่วนผสมทั้งหมด\n\n🟢 ดีต่อสภาพผิวของคุณ (1)\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n\n❔ อ่านจากฉลากแล้วจับคู่ไม่ได้ (1)\nUNKNOWN_XYZ"
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TD06",
+   "level": "display",
+   "profile": "P_DRY_FUNGAL",
+   "desc": "แจ้งเงื่อนไขที่ฐานข้อมูลไม่ครอบคลุม",
+   "rule": "1.4 display uncovered",
+   "expected": {
+    "summary_contains": [
+     "❔ สิวเชื้อรา (Fungal acne): ฐานข้อมูลยังไม่มีข้อมูลด้านนี้"
+    ]
+   },
+   "actual": {
+    "overall_status": "no_risk_found",
+    "missing": [],
+    "unexpected": [],
+    "summary": "🔎 ผลวิเคราะห์สำหรับคุณ\n(ผิวแห้ง 🌵 · สิวเชื้อรา (Fungal acne))\n\n🟢 ไม่พบข้อควรระวังสำหรับคุณ\n\n✔️ เช็กตามโปรไฟล์ของคุณ\n❔ สิวเชื้อรา (Fungal acne): ฐานข้อมูลยังไม่มีข้อมูลด้านนี้\n\n👍 ส่วนผสมที่ดีต่อผิวคุณ\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n\n💡 หากผิวแพ้ง่าย ควรลองทาบริเวณเล็ก ๆ ก่อนใช้จริง\n\nℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ 1 จาก 1 รายการ ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น\n👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด\n\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์",
+    "detail": "📋 รายละเอียดส่วนผสมทั้งหมด\n\n🟢 ดีต่อสภาพผิวของคุณ (1)\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น"
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TD07",
+   "level": "display",
+   "profile": "P_NORMAL",
+   "desc": "กรณี E1 ต้องแจ้งว่ามีข้อมูลเพียง 1 จาก 3 รายการ",
+   "rule": "1.4 coverage (E1)",
+   "expected": {
+    "summary_contains": [
+     "1 จาก 3 รายการ"
+    ]
+   },
+   "actual": {
+    "overall_status": "no_risk_found",
+    "missing": [],
+    "unexpected": [],
+    "summary": "🔎 ผลวิเคราะห์สำหรับคุณ\n(ผิวปกติ ☁️)\n\n🟢 ไม่พบข้อควรระวังสำหรับคุณ\n\n👍 ส่วนผสมที่ดีต่อผิวคุณ\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n\n💡 หากผิวแพ้ง่าย ควรลองทาบริเวณเล็ก ๆ ก่อนใช้จริง\n\nℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ 1 จาก 3 รายการ ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น\n👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด\n\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์",
+    "detail": "📋 รายละเอียดส่วนผสมทั้งหมด\n\n🟢 ดีต่อสภาพผิวของคุณ (1)\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n\n📚 มีข้อมูลความปลอดภัยทั่วไป แต่ยังไม่มีข้อมูลเฉพาะสภาพผิว (1)\nTest_Evid\n\n⚪ ยังไม่มีข้อมูลในฐานข้อมูล (1)\nTest_None"
+   },
+   "outcome": "Pass",
+   "note": ""
+  },
+  {
+   "id": "TD08",
+   "level": "display",
+   "profile": "P_OILY_ACNE",
+   "desc": "ความเสี่ยงของกลุ่มอื่นแสดงเป็นข้อมูล ไม่แสดงเป็น 🔴",
+   "rule": "1.4 display (E5)",
+   "expected": {
+    "summary_not_contains": [
+     "🔴"
+    ],
+    "detail_contains": [
+     "ไม่เกี่ยวกับโปรไฟล์ของคุณ"
+    ]
+   },
+   "actual": {
+    "overall_status": "no_risk_found",
+    "missing": [],
+    "unexpected": [],
+    "summary": "🔎 ผลวิเคราะห์สำหรับคุณ\n(ผิวมัน 🍳 · ผิวเป็นสิวง่าย)\n\n🟢 ไม่พบข้อควรระวังสำหรับคุณ\n\n✔️ เช็กตามโปรไฟล์ของคุณ\n✅ ผิวเป็นสิวง่าย: ไม่พบสารที่ควรระวัง (จากข้อมูลที่มี)\n\n👍 ส่วนผสมที่ดีต่อผิวคุณ\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n\n💡 หากผิวแพ้ง่าย ควรลองทาบริเวณเล็ก ๆ ก่อนใช้จริง\n\nℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ 1 จาก 2 รายการ ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น\n👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด\n\nหมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล ไม่ใช่การวินิจฉัยหรือคำแนะนำทางการแพทย์",
+    "detail": "📋 รายละเอียดส่วนผสมทั้งหมด\n\n🟢 ดีต่อสภาพผิวของคุณ (1)\n• Test_Compat — ช่วยเพิ่มความชุ่มชื้น\n\nℹ️ มีข้อควรระวังสำหรับคนกลุ่มอื่น (ไม่เกี่ยวกับโปรไฟล์ของคุณ) (1)\n• Test_Preg_High — ควรหลีกเลี่ยงระหว่างตั้งครรภ์ (ความเสี่ยงสูง)"
+   },
+   "outcome": "Pass",
+   "note": ""
+  }
+ ]
+}
