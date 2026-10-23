@@ -1,0 +1,33 @@
+TUPLE INCI CLEANUP REPORT
+========================
+
+Master input: 07_ingredient_master_final.csv
+Master rows: 11286
+Master normalized unique INCI: 11286
+
+Method:
+- Source files were read without modification.
+- Each inci_name was required to be a valid tuple with exactly one non-empty string.
+- The inner string was written to inci_name; the original serialized value was retained in inci_name_raw.
+
+Source: 12_ingredient_scope_classification_v2.csv
+Output: 14_ingredient_scope_classification_v2_clean.csv
+Rows read/written: 11286 / 11286
+Validated one-string tuple rows: 11286
+Missing clean INCI: 0
+Duplicate normalized INCI rows: 0
+Normalized INCI not in master: 0
+Master INCI absent from output: 0
+Source SHA-256: 04596a7bbaf15475c0bbf407ef0434aa3bbdab3ee9f2389eae20e204e7325957
+Output SHA-256: 944715802b158d7b6b053236df404db8ae5c44425942052b098745ccf5e327e2
+
+Source: 13_skin_safe_ingredient_master_v2_preliminary.csv
+Output: 15_skin_safe_ingredient_master_v2_clean.csv
+Rows read/written: 11180 / 11180
+Validated one-string tuple rows: 11180
+Missing clean INCI: 0
+Duplicate normalized INCI rows: 0
+Normalized INCI not in master: 0
+Master INCI absent from output: 106
+Source SHA-256: 6a6f94242cc3579a5a3ac5a6b29abed859d015a967ebbf840b65c792fca901fe
+Output SHA-256: ea14aecb110d802650cef5a6c89ed45476ef318f39a7b9cf9898cb9e2fecfc87

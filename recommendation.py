@@ -3,7 +3,7 @@ SkinSafe BOT - Recommendation Engine V2
 """
 
 import db
-from hazard import classify_ingredient, summarize_scan
+from old.hazard import classify_ingredient, summarize_scan
 
 _SKIN_TYPE_TH = {
     1: 'ผิวมัน',

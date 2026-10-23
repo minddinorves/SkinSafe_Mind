@@ -1,0 +1,200 @@
+inci_name,cas_no,function,source
+GLYCERIN,56-81-5,"en:denaturant, en:hair-conditioning, en:humectant, en:oral-care, en:perfuming, en:skin-protecting, en:viscosity-controlling",ingredients_dataset_exact_match
+PHENOXYETHANOL,122-99-6,en:preservative,ingredients_dataset_exact_match
+NIACINAMIDE,98-92-0,en:smoothing,ingredients_dataset_exact_match
+"1,2-HEXANEDIOL",,,manual_patch_needs_metadata
+ETHYLHEXYLGLYCERIN,70445-33-9,"en:deodorant, en:skin-conditioning",ingredients_dataset_exact_match
+CHLORPHENESIN,104-29-0,"en:antimicrobial, en:preservative",ingredients_dataset_exact_match
+FRAGRANCE,,,ingredients_dataset_exact_match
+AQUA,7732-18-5,en:solvent,ingredients_dataset_exact_match
+SODIUM BENZOATE,532-32-1,"en:anticorrosive, en:masking, en:preservative",ingredients_dataset_exact_match
+CAPRYLYL GLYCOL,1117-86-8,"en:emollient, en:hair-conditioning, en:humectant, en:skin-conditioning",ingredients_dataset_exact_match
+CITRIC ACID,77-92-9 / 5949-29-1,"en:buffering, en:chelating, en:masking",ingredients_dataset_exact_match
+CAPRYLIC/CAPRIC TRIGLYCERIDE,73398-61-5 / 65381-09-1,"en:masking, en:perfuming, en:skin-conditioning",ingredients_dataset_exact_match
+POTASSIUM SORBATE,24634-61-5 / 590-00-1,en:preservative,ingredients_dataset_exact_match
+CYCLOPENTASILOXANE,,,ingredients_dataset_exact_match
+PANTHENOL,81-13-0 / 16485-10-2,"en:antistatic, en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+CENTELLA ASIATICA EXTRACT,,,manual_patch_needs_metadata
+CERAMIDE NP,72968-43-5,"en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+HYDROGENATED LECITHIN,,,manual_patch_needs_metadata
+DIPROPYLENE GLYCOL,110-98-5 / 25265-71-8,"en:masking, en:perfuming, en:solvent, en:viscosity-controlling",ingredients_dataset_exact_match
+PEG-100 STEARATE,9004-99-3,en:surfactant,ingredients_dataset_exact_match
+MALTODEXTRIN,9050-36-6,"en:absorbent, en:binding, en:emulsion-stabilising, en:film-forming, en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+HYDROLYZED HYALURONIC ACID,,,manual_patch_needs_metadata
+POTASSIUM HYDROXIDE,1310-58-3,en:buffering,ingredients_dataset_exact_match
+POLYSORBATE 20,9005-64-5,"en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+TRIETHANOLAMINE,102-71-6,"en:buffering, en:emulsifying, en:masking, en:surfactant",ingredients_dataset_exact_match
+CAMELLIA SINENSIS LEAF EXTRACT,,,ingredients_dataset_exact_match
+ALOE BARBADENSIS LEAF JUICE,,,manual_patch_needs_metadata
+ARGININE,74-79-3 / 7200-25-1,"en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning",ingredients_dataset_exact_match
+GLUTATHIONE,70-18-8,en:reducing,ingredients_dataset_exact_match
+SALICYLIC ACID,69-72-7,"en:antidandruff, en:hair-conditioning, en:keratolytic, en:masking, en:preservative, en:skin-conditioning",ingredients_dataset_exact_match
+SODIUM HYDROXIDE,1310-73-2,"en:buffering, en:denaturant",ingredients_dataset_exact_match
+CERAMIDE EOP,,"en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+PEG-40 HYDROGENATED CASTOR OIL,,,manual_patch_needs_metadata
+CERAMIDE AP,100403-19-8,"en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+ISOHEXADECANE,,,manual_patch_needs_metadata
+SCUTELLARIA BAICALENSIS ROOT EXTRACT,,,manual_patch_needs_metadata
+POTASSIUM HYALURONATE,,,manual_patch_needs_metadata
+SODIUM POLYACRYLATE,9003-04-7 / 25549-84-2,"en:absorbent, en:binding, en:emollient, en:emulsion-stabilising, en:film-forming, en:hair-fixing, en:skin-conditioning, en:viscosity-controlling",ingredients_dataset_exact_match
+BETAINE,107-43-7,"en:antistatic, en:hair-conditioning, en:humectant, en:skin-conditioning, en:viscosity-controlling",ingredients_dataset_exact_match
+AQUA (WATER),,,manual_patch_needs_metadata
+POLYSORBATE 60,9005-67-8,"en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+LAURETH-7,,,manual_patch_needs_metadata
+SODIUM CITRATE,68-04-2 / 6132-04-3,"en:buffering, en:chelating, en:masking",ingredients_dataset_exact_match
+POLYMETHYLSILSESQUIOXANE,68554-70-1,en:opacifying,ingredients_dataset_exact_match
+PHYTOSPHINGOSINE,554-62-1,"en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE,187393-00-6,"en:hair-conditioning, en:light-stabilizer, en:uv-absorber, en:uv-filter",ingredients_dataset_exact_match
+SQUALANE,111-01-3,"en:emollient, en:hair-conditioning, en:refatting, en:skin-conditioning",ingredients_dataset_exact_match
+BHT,128-37-0,"en:antioxidant, en:masking",ingredients_dataset_exact_match
+CI 19140,1934-21-0,en:cosmetic-colorant,ingredients_dataset_exact_match
+TRIETHOXYCAPRYLYLSILANE,2943-75-1,en:binding,ingredients_dataset_exact_match
+HYDROXYACETOPHENONE,99-93-4,en:antioxidant,ingredients_dataset_exact_match
+HYDROXYETHYLCELLULOSE,,,manual_patch_needs_metadata
+METHYLPARABEN,99-76-3,en:preservative,ingredients_dataset_exact_match
+TROMETHAMINE,77-86-1,"en:buffering, en:masking",ingredients_dataset_exact_match
+DEIONIZED WATER,,,manual_patch_needs_metadata
+ISODODECANE,31807-55-3 / 93685-81-5 / 13475-82-6,"en:emollient, en:perfuming, en:solvent",ingredients_dataset_exact_match
+BUTYROSPERMUM PARKII (SHEA) BUTTER,,,manual_patch_needs_metadata
+HYDROGENATED POLYDECENE,68037-01-4,"en:emollient, en:hair-conditioning, en:masking, en:perfuming, en:skin-conditioning, en:solvent",ingredients_dataset_exact_match
+CI 42090,3844-45-9,en:cosmetic-colorant,ingredients_dataset_exact_match
+ALOE BARBADENSIS LEAF EXTRACT,,,ingredients_dataset_exact_match
+DIMETHICONE CROSSPOLYMER,,,ingredients_dataset_exact_match
+PERFUME,,,manual_patch_needs_metadata
+CI 77492,51274-00-1 / 1345-27-3 / 20344-49-4 / 52357-70-7,en:cosmetic-colorant,ingredients_dataset_exact_match
+CI 77491,1309-37-1 / 1317-61-9 / 1345-27-3 / 52357-70-7 / 1345-25-1,en:cosmetic-colorant,ingredients_dataset_exact_match
+POLYSORBATE 80,9005-65-6,"en:denaturant, en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+CAPRYLHYDROXAMIC ACID,7377-03-9,en:chelating,ingredients_dataset_exact_match
+ZINC PCA,,,manual_patch_needs_metadata
+COLLAGEN,9007-34-5,"en:hair-conditioning, en:moisturising, en:skin-conditioning",ingredients_dataset_exact_match
+CETYL PEG/PPG-10/1 DIMETHICONE,,,manual_patch_needs_metadata
+GLYCOLIC ACID,79-14-1,en:buffering,ingredients_dataset_exact_match
+SODIUM LAUROYL LACTYLATE,13557-75-0,en:emulsifying,ingredients_dataset_exact_match
+CENTELLA ASIATICA LEAF EXTRACT,,,manual_patch_needs_metadata
+ASCORBYL PALMITATE,137-66-6,"en:antioxidant, en:masking",ingredients_dataset_exact_match
+ALPHA-ARBUTIN,84380-01-8,"en:antioxidant, en:bleaching, en:skin-conditioning",ingredients_dataset_exact_match
+CHONDRUS CRISPUS EXTRACT,,,manual_patch_needs_metadata
+SERINE,302-84-1 / 56-45-1,"en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning",ingredients_dataset_exact_match
+ROSMARINUS OFFICINALIS LEAF EXTRACT,,,manual_patch_needs_metadata
+SODIUM METABISULFITE,7681-57-4 / 7757-74-6,"en:antioxidant, en:preservative, en:reducing",ingredients_dataset_exact_match
+HYDROLYZED COLLAGEN,92113-31-0 / 73049-73-7,"en:antistatic, en:emollient, en:film-forming, en:hair-conditioning, en:humectant, en:skin-conditioning",ingredients_dataset_exact_match
+SORBITAN ISOSTEARATE,71902-01-7,en:emulsifying,ingredients_dataset_exact_match
+SODIUM ASCORBYL PHOSPHATE,66170-10-3,en:antioxidant,ingredients_dataset_exact_match
+ASCORBYL GLUCOSIDE,129499-78-1,en:antioxidant,ingredients_dataset_exact_match
+TRIDECETH-6,24938-91-8 / 69011-36-5,"en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+CETEARYL GLUCOSIDE,246159-33-1,"en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+BENZOIC ACID,65-85-0,"en:bulking, en:masking, en:preservative",ingredients_dataset_exact_match
+ARBUTIN,497-76-7,"en:antioxidant, en:bleaching, en:skin-conditioning",ingredients_dataset_exact_match
+ASIATICOSIDE,16830-15-2,"en:antioxidant, en:perfuming, en:skin-conditioning",ingredients_dataset_exact_match
+GLYCYRRHIZA GLABRA ROOT EXTRACT,,,manual_patch_needs_metadata
+POTASSIUM CETYL PHOSPHATE,84861-79-0; 19035-79-1,"en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+CI 77891,,,ingredients_dataset_exact_match
+METHYLPROPANEDIOL,2163-42-0,en:solvent,ingredients_dataset_exact_match
+HOUTTUYNIA CORDATA EXTRACT,,,manual_patch_needs_metadata
+POLYGONUM CUSPIDATUM ROOT EXTRACT,,,manual_patch_needs_metadata
+GLYCERINE,,,manual_patch_needs_metadata
+GLYCINE,56-40-6,"en:antistatic, en:buffering, en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+CITRULLUS LANATUS FRUIT EXTRACT,,,manual_patch_needs_metadata
+MICA,12001-26-2,en:opacifying,ingredients_dataset_exact_match
+CYCLOMETHICONE,69430-24-6 / 556-67-2 / 541-02-6 / 540-97-6,"en:antistatic, en:emollient, en:hair-conditioning, en:humectant, en:solvent, en:viscosity-controlling",ingredients_dataset_exact_match
+ZINC OXIDE,1314-13-2,"en:bulking, en:cosmetic-colorant, en:skin-protecting, en:uv-absorber, en:uv-filter",ingredients_dataset_exact_match
+MINERAL OIL,,,manual_patch_needs_metadata
+CYCLOHEXASILOXANE,,,ingredients_dataset_exact_match
+CERAMIDE NS,,,manual_patch_needs_metadata
+ISOPROPYL MYRISTATE,110-27-0,"en:binding, en:emollient, en:masking, en:perfuming",ingredients_dataset_exact_match
+SIMMONDSIA CHINENSIS SEED OIL,,,manual_patch_needs_metadata
+HYDROGENATED POLYISOBUTENE,,,manual_patch_needs_metadata
+ISOLEUCINE,73-32-5 / 443-79-8,"en:antistatic, en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+CI 15985,2783-94-0,en:cosmetic-colorant,ingredients_dataset_exact_match
+DIMETHICONOL,,,ingredients_dataset_exact_match
+GLYCYRRHIZA GLABRA (LICORICE) ROOT EXTRACT,,,manual_patch_needs_metadata
+SORBITAN OLEATE,,,manual_patch_needs_metadata
+POLYGLYCERYL-3 METHYLGLUCOSE DISTEARATE,,en:emulsifying,ingredients_dataset_exact_match
+DIPOTASSIUM GLYCYRRHIZINATE,,,manual_patch_needs_metadata
+CERAMIDE AS,,,manual_patch_needs_metadata
+ACACIA SENEGAL GUM,,,manual_patch_needs_metadata
+ZINC GLUCONATE,4468-02-4,"en:deodorant, en:skin-conditioning",ingredients_dataset_exact_match
+VALINE,516-06-3 / 640-68-6 / 72-18-4,"en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning",ingredients_dataset_exact_match
+PHENYLALANINE,63-91-2 / 150-30-1,"en:hair-conditioning, en:masking, en:skin-conditioning",ingredients_dataset_exact_match
+THREONINE,72-19-5 / 80-68-2,"en:antistatic, en:hair-conditioning, en:hair-waving-or-straightening",ingredients_dataset_exact_match
+GLUTAMIC ACID,56-86-0,"en:antistatic, en:hair-conditioning, en:humectant",ingredients_dataset_exact_match
+PROLINE,147-85-3 -L-- / 609-36-9 -dl-alpha-,"en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+ASPARTIC ACID,56-84-8 / 617-45-8,"en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning",ingredients_dataset_exact_match
+ALANINE,302-72-7 / 56-41-7,"en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning",ingredients_dataset_exact_match
+OLEA EUROPAEA (OLIVE) FRUIT OIL,,,manual_patch_needs_metadata
+SODIUM STEAROYL GLUTAMATE,38517-23-6 / 79811-24-8,"en:cleansing, en:emulsifying, en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+CROTON LECHLERI RESIN EXTRACT,,,manual_patch_needs_metadata
+HAMAMELIS VIRGINIANA (WITCH HAZEL) EXTRACT,,,manual_patch_needs_metadata
+PROPYLPARABEN,94-13-3,"en:perfuming, en:preservative",ingredients_dataset_exact_match
+POTASSIUM PHOSPHATE,7778-77-0 / 16068-46-5,en:buffering,ingredients_dataset_exact_match
+CI 16255,2611-82-7,en:cosmetic-colorant,ingredients_dataset_exact_match
+CHAMOMILLA RECUTITA (MATRICARIA) FLOWER EXTRACT,,,manual_patch_needs_metadata
+CI 77499,12227-89-3 / 1309-37-1 / 1317-61-9 / 1345-25-1 / 1345-27-3 / 52357-70-7,en:cosmetic-colorant,ingredients_dataset_exact_match
+CETEARYL OLIVATE,,en:hair-conditioning,ingredients_dataset_exact_match
+SODIUM PCA,,,manual_patch_needs_metadata
+PORTULACA OLERACEA EXTRACT,,,manual_patch_needs_metadata
+HAMAMELIS VIRGINIANA WATER,84696-19-5,"en:astringent, en:hair-conditioning, en:skin-conditioning, en:soothing",ingredients_dataset_exact_match
+PALMITOYL TRIPEPTIDE-1,147732-56-7,,ingredients_dataset_exact_match
+BUTYLOCTYL SALICYLATE,190085-41-7,"en:hair-conditioning, en:skin-conditioning, en:solvent",ingredients_dataset_exact_match
+BENZYL ALCOHOL,100-51-6,"en:perfuming, en:preservative, en:solvent, en:viscosity-controlling",ingredients_dataset_exact_match
+CI 17200,3567-66-6,en:cosmetic-colorant,ingredients_dataset_exact_match
+MELALEUCA ALTERNIFOLIA LEAF OIL,85085-48-9 / 8022-72-8 / 68647-73-4,"en:antioxidant, en:perfuming",ingredients_dataset_exact_match
+OCTYLDODECANOL,5333-42-6,"en:emollient, en:masking, en:perfuming",ingredients_dataset_exact_match
+BAKUCHIOL,17015-60-0,en:antimicrobial,ingredients_dataset_exact_match
+TRIETHYLENE GLYCOL,112-27-6,"en:masking, en:perfuming, en:viscosity-controlling",ingredients_dataset_exact_match
+ANHYDROXYLITOL,,,manual_patch_needs_metadata
+SODIUM ACRYLATES COPOLYMER,,,manual_patch_needs_metadata
+PARFUM (FRAGRANCE),,,manual_patch_needs_metadata
+CI 14720,3567-69-9,en:cosmetic-colorant,ingredients_dataset_exact_match
+LINOLENIC ACID,463-40-1 -CIS-,"en:antistatic, en:cleansing, en:emollient, en:hair-conditioning, en:perfuming, en:skin-conditioning, en:surfactant",ingredients_dataset_exact_match
+CETETH-20,9004-95-9,"en:cleansing, en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+PEG-75 STEARATE,,,manual_patch_needs_metadata
+SORBITAN OLIVATE,223706-40-9,en:emulsifying,ingredients_dataset_exact_match
+STEARETH-20,9005-00-9 -Generic-,"en:cleansing, en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+PANAX GINSENG ROOT EXTRACT,,,manual_patch_needs_metadata
+LIMONENE,138-86-3,"en:deodorant, en:perfuming, en:solvent",ingredients_dataset_exact_match
+LINALOOL,78-70-6,"en:deodorant, en:perfuming",ingredients_dataset_exact_match
+CETEARETH-20,68439-49-6,"en:cleansing, en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+HIBISCUS SABDARIFFA FLOWER EXTRACT,,,ingredients_dataset_exact_match
+SORBITAN SESQUIOLEATE,8007-43-0,en:emulsifying,ingredients_dataset_exact_match
+LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE,,"en:antidandruff, en:antimicrobial",ingredients_dataset_exact_match
+HELIANTHUS ANNUUS SEED OIL,,,manual_patch_needs_metadata
+O-CYMEN-5-OL,3228-02-2 / 39660-61-2,en:preservative,ingredients_dataset_exact_match
+ETHOXYDIGLYCOL,111-90-0,"en:humectant, en:perfuming, en:solvent",ingredients_dataset_exact_match
+SORBIC ACID,110-44-1,en:preservative,ingredients_dataset_exact_match
+CERAMIDE EOS,,,manual_patch_needs_metadata
+AVENA SATIVA (OAT) KERNEL EXTRACT,,,manual_patch_needs_metadata
+MENTHOL,1490-04-6 / 2216-51-5 / 89-78-1 / 15356-70-4,"en:denaturant, en:masking, en:refreshing, en:soothing",ingredients_dataset_exact_match
+HYDROLYZED ALGIN,,en:hair-conditioning,ingredients_dataset_exact_match
+SACCHARUM OFFICINARUM EXTRACT,,,manual_patch_needs_metadata
+METHYLENE BIS-BENZOTRIAZOLYL TETRAMETHYLBUTYLPHENOL (NANO),,,manual_patch_needs_metadata
+METHYLENE BIS-BENZOTRIAZOLYL TETRAMETHYLBUTYLPHENOL,,,manual_patch_needs_metadata
+COCO-GLUCOSIDE,,,manual_patch_needs_metadata
+TYROSINE,556-02-5 / 556-03-6 / 60-18-4,"en:antistatic, en:hair-conditioning, en:masking, en:skin-conditioning",ingredients_dataset_exact_match
+LYSINE,56-87-1,"en:antistatic, en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+LEUCINE,61-90-5,"en:antistatic, en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+CETYL DIMETHICONE,,,ingredients_dataset_exact_match
+POLYGLYCERYL-4 ISOSTEARATE,,en:emulsifying,ingredients_dataset_exact_match
+PVM/MA COPOLYMER,,,manual_patch_needs_metadata
+OCTYL SALICYLATE,,,manual_patch_needs_metadata
+ACETYL HEXAPEPTIDE-8,,,manual_patch_needs_metadata
+CI 16035,25956-17-6,en:cosmetic-colorant,ingredients_dataset_exact_match
+DISODIUM PHOSPHATE,7558-79-4 / 7782-85-6,"en:anticorrosive, en:buffering, en:masking",ingredients_dataset_exact_match
+PISTACIA LENTISCUS GUM,,,manual_patch_needs_metadata
+PHENETHYL ALCOHOL,60-12-8,en:masking,ingredients_dataset_exact_match
+BUDDLEJA OFFICINALIS FLOWER EXTRACT,,,manual_patch_needs_metadata
+PEG-10 DIMETHICONE,,,manual_patch_needs_metadata
+METHICONE,,,manual_patch_needs_metadata
+ASPALATHUS LINEARIS EXTRACT,,,manual_patch_needs_metadata
+HAMAMELIS VIRGINIANA LEAF EXTRACT,,,manual_patch_needs_metadata
+DEXTRIN PALMITATE,83271-10-7,"en:anticaking, en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+ISOCETETH-20,,"en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+CETEARETH-25,68439-49-6,"en:cleansing, en:emulsifying, en:surfactant",ingredients_dataset_exact_match
+POLYACRYLATE-13,,,manual_patch_needs_metadata
+BEHENIC ACID,112-85-6,"en:cleansing, en:emulsifying, en:opacifying, en:surfactant",ingredients_dataset_exact_match
+ALGAE EXTRACT,,,manual_patch_needs_metadata
+TRIETHYLHEXANOIN,7360-38-5,"en:hair-conditioning, en:masking, en:perfuming, en:skin-conditioning",ingredients_dataset_exact_match
+VITIS VINIFERA FRUIT EXTRACT,,,manual_patch_needs_metadata
+LINOLEIC ACID,60-33-3 -CIS-,"en:antistatic, en:cleansing, en:emollient, en:hair-conditioning, en:skin-conditioning, en:surfactant",ingredients_dataset_exact_match
+PHENYL TRIMETHICONE,2116-84-9,"en:antifoaming, en:hair-conditioning, en:skin-conditioning",ingredients_dataset_exact_match
+ETHYL HEXANEDIOL,,,manual_patch_needs_metadata

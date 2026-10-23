@@ -1,0 +1,18 @@
+FINAL IDENTITY MERGE REPORT
+============================
+
+Input union rows: 11290
+Candidate mapping rows reviewed: 56
+SAME decisions: 4
+DIFFERENT decisions: 52
+
+Final canonical ingredient rows: 11286
+Rows reduced by canonical identity merge: 4
+
+IMPORTANT:
+- Only rows explicitly marked SAME were canonicalized.
+- DIFFERENT candidates were not merged.
+- No fuzzy score was used as proof of identity.
+- This is an identity-resolution output, not a safety/effectiveness evidence database.
+- CAS values were not used as a universal one-to-one key.
+- Review provenance/evidence before populating skin effects and risks.

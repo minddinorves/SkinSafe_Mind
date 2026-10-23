@@ -1,0 +1,14 @@
+SkinSafe PostgreSQL Import Package Validation
+================================================
+Ingredients CSV rows: 11,286
+Functions CSV rows: 66
+Ingredient_functions CSV rows: 19,475
+Unique ingredient names: 11,286
+Unique function names: 66
+Duplicate ingredient-function pairs: 0
+Missing ingredient IDs in links: 0
+Missing function IDs in links: 0
+
+Important: product_scope and audit/evidence columns are intentionally NOT
+loaded into the DB.pdf Ingredients table because those columns are not
+part of the schema specified there. They remain in 86_final_master_with_deterministic_ids.csv.

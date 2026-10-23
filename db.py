@@ -68,6 +68,13 @@ def set_user_profile(line_user_id: str, skin_type_id: int,
 
 # ─── Ingredients ──────────────────────────────────────────────────────────────
 
+def get_all_ingredient_names() -> list[str]:
+    with _conn() as con:
+        with con.cursor() as cur:
+            cur.execute("SELECT ingredient_name FROM ingredients ORDER BY ingredient_name")
+            return [r[0] for r in cur.fetchall()]
+
+
 def get_ingredient_by_name(name: str) -> dict | None:
     with _conn() as con:
         with con.cursor(cursor_factory=RealDictCursor) as cur:
