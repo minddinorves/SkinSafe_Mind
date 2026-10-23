@@ -176,6 +176,10 @@ def classify_ingredient(inci_name: str) -> dict:
     """
     name_lower = inci_name.lower().strip()
     func = _INCI_FUNC.get(name_lower, 'other')
+
+    # Manual overrides for common actives
+    if name_lower == "mandelic acid":
+        func = "aha"
     cas = _INCI_CAS.get(name_lower, '')
 
     # Tier 1 — EU Prohibited (Annex II, Regulation (EC) 1223/2009)
@@ -198,9 +202,15 @@ def classify_ingredient(inci_name: str) -> dict:
     # Requiring a concerning function prevents false positives: e.g. glycerin appears
     # in the problematic dataset due to a spurious 'perfuming' tag, but its actual
     # function is moisturizer — it should not be flagged as caution.
-    if name_lower in _PROBLEMATIC_SET and func in _CONCERNING_FUNCS:
+
+    if (
+        name_lower in _PROBLEMATIC_SET
+        and func in _CONCERNING_FUNCS
+        and name_lower != "mandelic acid"
+    ):
         return {
-            'name': inci_name, 'level': 'caution',
+            'name': inci_name,
+            'level': 'caution',
             'function': func,
             'reason': 'มีหลักฐานด้าน skin sensitization / irritation / toxicity',
         }
@@ -209,14 +219,16 @@ def classify_ingredient(inci_name: str) -> dict:
     # Safe at regulated concentrations but worth noting for sensitive skin
     if func in ('preservative', 'fragrance'):
         return {
-            'name': inci_name, 'level': 'monitor',
+            'name': inci_name,
+            'level': 'monitor',
             'function': func,
             'reason': f'ประเภท {func} — ปลอดภัยตามมาตรฐาน แต่ควรระวังในผิวแพ้ง่าย',
         }
 
     # Default — safe
     return {
-        'name': inci_name, 'level': 'safe',
+        'name': inci_name,
+        'level': 'safe',
         'function': func,
         'reason': 'ไม่มีหลักฐานความเป็นพิษหรือ allergenicity ที่มีนัยสำคัญ',
     }
@@ -294,3 +306,8 @@ def summarize_scan(ingredients: list) -> str:
 
     lines.append('💡 พิมพ์ "crop" แล้วส่งรูปใหม่เพื่อวิเคราะห์ผลิตภัณฑ์อื่น')
     return '\n'.join(lines)
+if __name__ == "__main__":
+    print(classify_ingredient("mandelic acid"))
+    print(classify_ingredient("niacinamide"))
+    print(classify_ingredient("glycerin"))
+    print(classify_ingredient("phenoxyethanol"))

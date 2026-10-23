@@ -188,7 +188,7 @@ def _run_ocr_tiled(img: np.ndarray) -> list:
     Returns deduplicated list of (y, text, confidence), sorted top-to-bottom.
     """
     zh = img.shape[0]
-    strip_h, overlap = 200, 60
+    strip_h, overlap = 160, 60
     step = strip_h - overlap
     all_lines = []
 
@@ -453,6 +453,12 @@ def _dual_pass(img_bgr: np.ndarray, to_text_fn) -> list:
     """
     bg_brightness = img_bgr.mean()   # compute before deskew adds white border
     img_bgr = _deskew(img_bgr)
+
+    # Exp 3: apply SR proactively for genuinely small originals (short side < 600px)
+    orig_short = min(img_bgr.shape[:2])
+    if orig_short < 600:
+        img_bgr = _super_resolve(img_bgr)
+
     primary = 'clahe' if bg_brightness > 160 else 'equalize'
     alt = 'equalize' if primary == 'clahe' else 'clahe'
 
@@ -522,60 +528,6 @@ def scan_cropped(image_path: str) -> list:
     return _dual_pass(img, _lines_to_text)
 
 
-# ─── Evaluation ───────────────────────────────────────────────────────────────
-
-def evaluate(result: list, ground_truth_path: str) -> dict:
-    """
-    Compute precision, recall, and F1 against a ground-truth ingredient list.
-
-    GT file formats supported:
-      - One name per line:          "Aqua"
-      - Numbered lines:             "1  Aqua/Water"  or  "1\tAqua/Water"
-      - Slash-separated aliases:    "Aqua/Water/Eau"  — any part counts as a match
-
-    Both result and GT names are lowercased before comparison.
-    """
-    def _norm(s: str) -> str:
-        return s.lower().replace('é', ',')
-
-    with open(ground_truth_path, encoding='utf-8') as f:
-        gt_entries = []
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            line = _norm(re.sub(r'^\d+[\t\s]+', '', line))
-            if line:
-                gt_entries.append(line)
-
-    found = {_norm(r) for r in result}
-
-    # Each GT entry may contain "/" aliases (e.g. "aqua/water/eau");
-    # a result matches the entry if it equals any of the slash-parts or the full string.
-    gt_alias_sets = [{p.strip() for p in e.split('/')} | {e} for e in gt_entries]
-
-    tp_gt  = [e for e, aliases in zip(gt_entries, gt_alias_sets) if aliases & found]
-    fn_gt  = [e for e, aliases in zip(gt_entries, gt_alias_sets) if not (aliases & found)]
-    matched = {r for r in found if any(r in aliases for aliases in gt_alias_sets)}
-    fp_list = sorted(found - matched)
-
-    tp = len(tp_gt)
-    fp = len(fp_list)
-    fn = len(fn_gt)
-    precision = tp / max(tp + fp, 1)
-    recall    = tp / max(tp + fn, 1)
-    f1        = 2 * precision * recall / max(precision + recall, 1e-9)
-    return {
-        'precision': round(precision, 3),
-        'recall':    round(recall, 3),
-        'f1':        round(f1, 3),
-        'tp': tp, 'fp': fp, 'fn': fn,
-        'found':           sorted(tp_gt),
-        'missed':          sorted(fn_gt),
-        'false_positives': fp_list,
-    }
-
-
 # ─── LINE Bot session state ───────────────────────────────────────────────────
 # In-memory; single-instance deployment (thesis scope).
 
@@ -584,12 +536,28 @@ _user_state:   dict = {}      # line_user_id → setup stage name
 _setup_data:   dict = {}      # line_user_id → partial profile dict
 
 _SKIN_CHOICES: dict[str, tuple[int, str]] = {
-    '1': (1, 'ผิวปกติ'),  'normal':      (1, 'ผิวปกติ'),  'ผิวปกติ':   (1, 'ผิวปกติ'),
-    '2': (2, 'ผิวแห้ง'),  'dry':         (2, 'ผิวแห้ง'),  'ผิวแห้ง':   (2, 'ผิวแห้ง'),
-    '3': (3, 'ผิวมัน'),   'oily':        (3, 'ผิวมัน'),   'ผิวมัน':    (3, 'ผิวมัน'),
-    '4': (4, 'ผิวผสม'),   'combination': (4, 'ผิวผสม'),   'ผิวผสม':    (4, 'ผิวผสม'),
-    '5': (5, 'ผิวแพ้ง่าย'), 'sensitive': (5, 'ผิวแพ้ง่าย'), 'ผิวแพ้ง่าย': (5, 'ผิวแพ้ง่าย'),
+    
+    '1': (1, 'ผิวมัน'),
+    'oily': (1, 'ผิวมัน'),
+    'ผิวมัน': (1, 'ผิวมัน'),
+
+    '2': (2, 'ผิวแห้ง'),
+    'dry': (2, 'ผิวแห้ง'),
+    'ผิวแห้ง': (2, 'ผิวแห้ง'),
+
+    '3': (3, 'ผิวแพ้ง่าย'),
+    'sensitive': (3, 'ผิวแพ้ง่าย'),
+    'ผิวแพ้ง่าย': (3, 'ผิวแพ้ง่าย'),
+
+    '4': (4, 'ผิวผสม'),
+    'combination': (4, 'ผิวผสม'),
+    'ผิวผสม': (4, 'ผิวผสม'),
+
+    '5': (5, 'ผิวปกติ'),
+    'normal': (5, 'ผิวปกติ'),
+    'ผิวปกติ': (5, 'ผิวปกติ'),
 }
+
 
 _YES = {'ใช่', 'yes', 'y', '1', 'true', 'มี', 'ใช่ค่ะ', 'ใช่ครับ'}
 
@@ -604,11 +572,11 @@ def _ask_skin_type(reply_token: str, user_id: str) -> None:
     _send(reply_token,
           "👋 ยินดีต้อนรับสู่ SkinSafe Bot!\n"
           "กรุณาเลือกสภาพผิวของคุณ:\n\n"
-          "1️⃣  ผิวปกติ (Normal)\n"
+          "1️⃣  ผิวมัน (Oily)\n"
           "2️⃣  ผิวแห้ง (Dry)\n"
-          "3️⃣  ผิวมัน (Oily)\n"
+          "3️⃣  ผิวแพ้ง่าย (Sensitive)\n"
           "4️⃣  ผิวผสม (Combination)\n"
-          "5️⃣  ผิวแพ้ง่าย (Sensitive)\n\n"
+          "5️⃣  ผิวปกติ (Normal)\n\n"
           "พิมพ์หมายเลข 1–5 หรือชื่อสภาพผิว")
 
 
@@ -643,6 +611,12 @@ def handle_image(event):
             _ask_skin_type(event.reply_token, user_id)
             return
 
+        # Acknowledge immediately — OCR takes several seconds
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text='🔍 กำลังวิเคราะห์ส่วนผสม กรุณารอสักครู่...')
+        )
+
         # OCR — auto-fallback: scan_label() requires an "INGREDIENTS" header;
         # if it returns < 3 results the image is likely already cropped,
         # so retry with scan_cropped() which reads the whole image directly.
@@ -657,7 +631,7 @@ def handle_image(event):
                     ingredients = cropped_result
 
         # Build reply using skin-type aware engine
-        reply = rec.format_reply(ingredients, user)
+        result_text = rec.format_reply(ingredients, user)
 
         # Persist scan + results + recommendation to DB
         try:
@@ -686,9 +660,9 @@ def handle_image(event):
 
     except Exception as e:
         print("ERROR handle_image:", e)
-        reply = "เกิดข้อผิดพลาด กรุณาลองใหม่"
+        result_text = "เกิดข้อผิดพลาด กรุณาลองใหม่"
 
-    _send(event.reply_token, reply)
+    line_bot_api.push_message(user_id, TextSendMessage(text=result_text))
 
 
 @handler.add(MessageEvent)
@@ -748,7 +722,13 @@ def handle_text(event):
             print(f"[DB] profile save error: {e}")
         _user_state.pop(user_id, None)
         _setup_data.pop(user_id, None)
-        _NAMES = {1: 'ผิวปกติ', 2: 'ผิวแห้ง', 3: 'ผิวมัน', 4: 'ผิวผสม', 5: 'ผิวแพ้ง่าย'}
+        _NAMES = {
+            1: 'ผิวมัน',
+            2: 'ผิวแห้ง',
+            3: 'ผิวแพ้ง่าย',
+            4: 'ผิวผสม',
+            5: 'ผิวปกติ'
+        }
         _send(event.reply_token,
               f"✅ บันทึกโปรไฟล์เรียบร้อย!\n"
               f"สภาพผิว: {_NAMES.get(d['skin_type_id'], '?')}\n"
@@ -793,119 +773,3 @@ def handle_text(event):
     _send(event.reply_token,
           "ส่งรูปส่วนผสมมาได้เลย 📸\n"
           "หรือพิมพ์ 'help' เพื่อดูวิธีใช้")
-
-
-# ─── Local test ───────────────────────────────────────────────────────────────
-
-if __name__ == "__main__":
-    import sys
-    import glob
-
-    raw_args = [a for a in sys.argv[1:] if a != '--debug']
-    if '--debug' in sys.argv:
-        globals()['_VERBOSE'] = True
-
-    mode    = raw_args[0] if raw_args else "cropped"
-    path    = raw_args[1] if len(raw_args) > 1 else r"test_SkinSafe\IMG_03.jpg"
-    gt_path = raw_args[2] if len(raw_args) > 2 else None
-
-    # ── Batch evaluation across all test images ────────────────────────────────
-    if mode == "eval_all":
-        test_dir = path if len(raw_args) > 1 else "test_SkinSafe"
-        records  = []
-
-        # IMG_*.jpg → scan_label (full label, needs INGREDIENTS keyword)
-        for img_path in sorted(glob.glob(os.path.join(test_dir, 'IMG_*.jpg'))):
-            stem = os.path.basename(img_path)
-            m_num = re.search(r'IMG_(\d+)', stem)
-            if not m_num:
-                continue
-            gt = os.path.join(test_dir, f'label{m_num.group(1)}.txt')
-            if not os.path.exists(gt):
-                continue
-            print(f"  scanning {stem} (label)...", flush=True)
-            result = scan_label(img_path)
-            records.append(('label', stem, evaluate(result, gt)))
-
-        # A*.jpg → scan_cropped (already cropped to ingredient block)
-        for img_path in sorted(glob.glob(os.path.join(test_dir, 'A*.jpg')),
-                               key=lambda p: int(re.search(r'A(\d+)', os.path.basename(p)).group(1))):
-            stem  = os.path.basename(img_path)
-            m_num = re.search(r'A(\d+)', stem)
-            if not m_num:
-                continue
-            gt = os.path.join(test_dir, f'labelA{m_num.group(1)}.txt')
-            if not os.path.exists(gt):
-                continue
-            print(f"  scanning {stem} (cropped)...", flush=True)
-            result = scan_cropped(img_path)
-            records.append(('cropped', stem, evaluate(result, gt)))
-
-        # x*.jpg → scan_cropped (cropped ingredient block)
-        for img_path in sorted(glob.glob(os.path.join(test_dir, 'x*.jpg')),
-                               key=lambda p: int(re.search(r'x(\d+)', os.path.basename(p)).group(1))):
-            stem  = os.path.basename(img_path)
-            m_num = re.search(r'x(\d+)', stem)
-            if not m_num:
-                continue
-            gt = os.path.join(test_dir, f'labelx{m_num.group(1)}.txt')
-            if not os.path.exists(gt):
-                continue
-            print(f"  scanning {stem} (cropped)...", flush=True)
-            result = scan_cropped(img_path)
-            records.append(('cropped', stem, evaluate(result, gt)))
-
-        if not records:
-            print("No image/GT pairs found.")
-            sys.exit(0)
-
-        # Per-image table
-        print(f"\n{'Image':<22} {'Mode':<9} {'P':>7} {'R':>7} {'F1':>7}  {'TP':>3} {'FP':>3} {'FN':>3}")
-        print('-' * 67)
-        for mode_used, name, m in records:
-            print(f"{name:<22} {mode_used:<9} {m['precision']:>7.1%} {m['recall']:>7.1%} {m['f1']:>7.1%}  {m['tp']:>3} {m['fp']:>3} {m['fn']:>3}")
-            if _VERBOSE:
-                if m['missed']:
-                    print(f"  {'':22} missed : {m['missed']}")
-                if m['false_positives']:
-                    print(f"  {'':22} FP     : {m['false_positives']}")
-
-        # Aggregate
-        n   = len(records)
-        tps = sum(m['tp'] for _, _, m in records)
-        fps = sum(m['fp'] for _, _, m in records)
-        fns = sum(m['fn'] for _, _, m in records)
-        macro_p  = sum(m['precision'] for _, _, m in records) / n
-        macro_r  = sum(m['recall']    for _, _, m in records) / n
-        macro_f1 = sum(m['f1']        for _, _, m in records) / n
-        micro_p  = tps / max(tps + fps, 1)
-        micro_r  = tps / max(tps + fns, 1)
-        micro_f1 = 2 * micro_p * micro_r / max(micro_p + micro_r, 1e-9)
-
-        print('-' * 67)
-        print(f"{'Macro avg':<22} {'':9} {macro_p:>7.1%} {macro_r:>7.1%} {macro_f1:>7.1%}  {tps:>3} {fps:>3} {fns:>3}")
-        print(f"{'Micro avg':<22} {'':9} {micro_p:>7.1%} {micro_r:>7.1%} {micro_f1:>7.1%}")
-        print(f"\nImages evaluated: {n}")
-        sys.exit(0)
-
-    # ── Single-image mode ──────────────────────────────────────────────────────
-    if mode == "cropped":
-        result = scan_cropped(path)
-        print(f"\n[cropped mode] Found {len(result)} matched ingredients:")
-    else:
-        result = scan_label(path)
-        print(f"\n[full-label mode] Found {len(result)} matched ingredients:")
-
-    for ing in result:
-        print(f"  • {ing}")
-
-    if gt_path and os.path.exists(gt_path):
-        m = evaluate(result, gt_path)
-        print(f"\n[Evaluation vs {os.path.basename(gt_path)}]")
-        print(f"  Precision : {m['precision']:.1%}  ({m['tp']} TP / {m['tp'] + m['fp']} found)")
-        print(f"  Recall    : {m['recall']:.1%}  ({m['tp']} / {m['tp'] + m['fn']} GT found)")
-        print(f"  F1        : {m['f1']:.1%}")
-        if m['missed']:
-            print(f"  Missed    : {m['missed']}")
-        if m['false_positives']:
-            print(f"  FPs       : {m['false_positives']}")

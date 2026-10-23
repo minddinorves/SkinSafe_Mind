@@ -1,185 +1,288 @@
 """
-Skin-type aware recommendation engine for SkinSafe Bot.
-
-Extends hazard.py (EU prohibition + problematic DB) with per-user analysis:
-  - skin-type compatibility from ingredient_skin_effects table
-  - pregnancy / fungal_acne / acne_trigger risk from ingredient_risks table
-
-Falls back to hazard.py summarize_scan() when the user has no profile or DB
-is unavailable — the basic scan still works without PostgreSQL.
+SkinSafe BOT - Recommendation Engine V2
 """
 
 import db
-from hazard import classify_ingredient, LEVEL_LABEL, summarize_scan
+from hazard import classify_ingredient, summarize_scan
 
 _SKIN_TYPE_TH = {
-    1: 'ผิวปกติ',
+    1: 'ผิวมัน',
     2: 'ผิวแห้ง',
-    3: 'ผิวมัน',
+    3: 'ผิวแพ้ง่าย',
     4: 'ผิวผสม',
-    5: 'ผิวแพ้ง่าย',
+    5: 'ผิวปกติ',
 }
 
-_RESULT_EMOJI = {'safe': '🟢', 'caution': '🟠', 'unsafe': '🔴'}
-_RESULT_TH    = {'safe': 'ปลอดภัย', 'caution': 'ควรระวัง', 'unsafe': 'ไม่แนะนำ'}
+_RESULT_EMOJI = {
+    'safe': '🟢',
+    'caution': '🟡',
+    'high_risk': '🔴'
+}
+
+_RESULT_TH = {
+    'safe': 'เหมาะสม',
+    'caution': 'ควรสังเกต',
+    'high_risk': 'ความเสี่ยงสูง'
+}
+
+_SCORE_MAP = {
+    'safe': 2,
+    'monitor': -2,
+    'caution': -10,
+    'prohibited': -25
+}
+
+_EFFECT_MESSAGES = {
+    "hydrating": {
+        "low": "ช่วยเพิ่มความชุ่มชื้นให้ผิว",
+        "medium": "ช่วยกักเก็บความชุ่มชื้น",
+        "high": "เป็นส่วนผสมเด่นด้านความชุ่มชื้น"
+    },
+    "barrier_support": {
+        "low": "ช่วยเสริมเกราะป้องกันผิว",
+        "medium": "ช่วยฟื้นฟู skin barrier",
+        "high": "ช่วยเสริมความแข็งแรงของผิว"
+    },
+    "brightening": {
+        "low": "ช่วยให้ผิวดูกระจ่างใสขึ้น",
+        "medium": "ช่วยลดความหมองคล้ำ",
+        "high": "ช่วยปรับสีผิวให้สม่ำเสมอ"
+    },
+    "anti_acne": {
+        "low": "ช่วยดูแลผิวที่มีแนวโน้มเป็นสิว",
+        "medium": "ช่วยลดโอกาสการอุดตัน",
+        "high": "เป็นส่วนผสมเด่นด้านการดูแลสิว"
+    },
+    "anti_inflammatory": {
+        "low": "ช่วยปลอบประโลมผิว",
+        "medium": "ช่วยลดการระคายเคือง",
+        "high": "ช่วยลดการอักเสบของผิว"
+    },
+    "irritation": {
+        "low": "อาจทำให้บางคนรู้สึกระคายเคืองได้",
+        "medium": "อาจก่อให้เกิดการระคายเคืองในผิวบอบบาง",
+        "high": "ควรหลีกเลี่ยงหากมีผิวแพ้ง่าย"
+    },
+    "drying": {
+        "low": "อาจทำให้ผิวแห้งตึง",
+        "medium": "อาจลดความชุ่มชื้นของผิว",
+        "high": "อาจทำให้ผิวแห้งหรือระคายเคืองได้"
+    },
+    "comedogenic": {
+        "low": "อาจเพิ่มโอกาสการอุดตันในบางคน",
+        "medium": "อาจเพิ่มโอกาสการเกิดสิวอุดตัน",
+        "high": "อาจไม่เหมาะกับผู้ที่เป็นสิวง่าย"
+    }
+}
+
+_POSITIVE_EFFECTS = {
+    'hydrating',
+    'barrier_support',
+    'brightening',
+    'anti_acne',
+    'anti_inflammatory',
+}
+
+_NEGATIVE_EFFECTS = {
+    'irritation',
+    'drying',
+    'comedogenic',
+    'pregnancy_concern',
+}
 
 
-def recommend(ingredients: list[str], user: dict) -> dict:
-    """
-    Classify each ingredient against the user's profile.
+def generate_display_reason(effect_type, severity):
+    if not effect_type:
+        return None
+    return _EFFECT_MESSAGES.get(effect_type, {}).get(severity or "low")
 
-    Algorithm:
-      1. hazard.classify_ingredient() — EU Annex II, problematic DB, fragrance tier
-      2. DB ingredient_skin_effects — compatibility with the user's skin type
-         bad  → upgrade level to 'caution', add warning
-         caution → add warning note (no level change)
-      3. DB ingredient_risks — pregnancy / fungal_acne / acne_trigger
-         medium/high + matching user flag → upgrade to 'caution', add warning
 
-    Returns dict:
-      overall_result  : 'safe' | 'caution' | 'unsafe'
-      warning_message : newline-joined warning strings (Thai)
-      suitable        : bool
-      safe_score      : float (0–100)
-      details         : list[dict] — per-ingredient breakdown
-    """
-    skin_type_id    = user.get('skin_type_id')
-    pregnancy       = user.get('pregnancy_status', False)
-    acne_prone      = user.get('acne_prone', False)
-    fungal_acne     = user.get('fungal_acne_prone', False)
+def recommend(ingredients, user):
+    skin_type_id = user.get('skin_type_id')
+    pregnancy = user.get('pregnancy_status', False)
+    acne_prone = user.get('acne_prone', False)
+    fungal_acne = user.get('fungal_acne_prone', False)
 
-    details: list[dict] = []
-    warnings: list[str] = []
+    details = []
+    warnings = []
+    good_ingredients = []
     level_counts = {'prohibited': 0, 'caution': 0, 'monitor': 0, 'safe': 0}
 
     for inci_name in ingredients:
         hazard = classify_ingredient(inci_name)
-        ing: dict = {
-            'name':          inci_name,
-            'level':         hazard['level'],
-            'function':      hazard['function'],
-            'reason':        hazard['reason'],
-            'extra_warnings': [],
+
+        ing = {
+            'name': inci_name,
+            'level': hazard['level'],
+            'function': hazard.get('function'),
+            'reason': hazard.get('reason'),
+            'extra_warnings': []
         }
 
         db_row = db.get_ingredient_by_name(inci_name)
+
         if db_row:
             iid = db_row['ingredient_id']
 
-            # Skin-type compatibility
             if skin_type_id:
                 fx = db.get_ingredient_skin_effect(iid, skin_type_id)
+
                 if fx:
-                    if fx['compatibility'] == 'bad':
-                        if ing['level'] not in ('prohibited',):
+                    effect_msg = generate_display_reason(
+                        fx.get('effect_type'),
+                        fx.get('severity')
+                    )
+
+                    if (
+                        fx['compatibility'] == 'good'
+                        and fx.get('effect_type') in _POSITIVE_EFFECTS
+                    ):
+                        if effect_msg:
+                            good_ingredients.append({
+                                'name': inci_name,
+                                'reason': effect_msg
+                            })
+
+                    elif fx['compatibility'] == 'bad':
+                        if ing['level'] != 'prohibited':
                             ing['level'] = 'caution'
-                        w = fx.get('warning_reason') or 'ไม่เหมาะกับสภาพผิวของคุณ'
+
+                        w = (
+                            effect_msg
+                            or fx.get('warning_reason')
+                            or 'ไม่เหมาะกับสภาพผิวของคุณ'
+                        )
                         ing['extra_warnings'].append(w)
                         warnings.append(f"{inci_name}: {w}")
-                    elif fx['compatibility'] == 'caution':
-                        w = fx.get('warning_reason') or 'ควรระวังสำหรับสภาพผิวของคุณ'
-                        ing['extra_warnings'].append(w)
 
-            # Per-user risk checks
+                    elif (
+                        fx['compatibility'] == 'caution'
+                        and fx.get('effect_type') in _NEGATIVE_EFFECTS
+                    ):
+                        w = (
+                            effect_msg
+                            or fx.get('warning_reason')
+                            or 'ควรระวังสำหรับสภาพผิวของคุณ'
+                        )
+                        ing['extra_warnings'].append(w)
+                        warnings.append(f"{inci_name}: {w}")
+
             for risk in db.get_ingredient_risks(iid):
-                rt  = risk['risk_type']
-                rl  = risk['risk_level']
+                rt = risk['risk_type']
+                rl = risk['risk_level']
                 note = risk.get('note', '')
+
                 if rt == 'pregnancy' and pregnancy and rl in ('medium', 'high'):
-                    msg = f'ไม่เหมาะสำหรับคนตั้งครรภ์: {note}'
-                    ing['extra_warnings'].append(f'⚠️ {msg}')
+                    msg = f'ควรหลีกเลี่ยงในช่วงตั้งครรภ์ {note}'
+                    ing['extra_warnings'].append(msg)
                     warnings.append(f"{inci_name}: {msg}")
-                    if ing['level'] not in ('prohibited',):
+                    if ing['level'] != 'prohibited':
                         ing['level'] = 'caution'
+
                 if rt == 'fungal_acne' and fungal_acne and rl in ('medium', 'high'):
-                    ing['extra_warnings'].append('⚠️ กระตุ้น fungal acne')
-                    warnings.append(f"{inci_name}: กระตุ้น fungal acne")
+                    msg = 'อาจเพิ่มความเสี่ยงต่อ fungal acne ในบางคน'
+                    ing['extra_warnings'].append(msg)
+                    warnings.append(f"{inci_name}: {msg}")
+
                 if rt == 'acne_trigger' and acne_prone and rl in ('medium', 'high'):
-                    ing['extra_warnings'].append('⚠️ อาจกระตุ้นสิว (comedogenic)')
-                    warnings.append(f"{inci_name}: อาจกระตุ้นสิว")
+                    msg = 'อาจเพิ่มโอกาสการเกิดสิวอุดตัน'
+                    ing['extra_warnings'].append(msg)
+                    warnings.append(f"{inci_name}: {msg}")
 
         level_counts[ing['level']] += 1
         details.append(ing)
 
-    n = max(len(ingredients), 1)
-    if level_counts['prohibited'] > 0 or any('ตั้งครรภ์' in w for w in warnings):
-        overall = 'unsafe'
+    raw_score = sum(_SCORE_MAP.get(d['level'], 0) for d in details)
+    max_score = max(len(details) * 2, 1)
+
+    safe_score = round(
+        ((raw_score + max_score) / (max_score * 2)) * 100,
+        1
+    )
+
+    if level_counts['prohibited'] > 0:
+        overall = 'high_risk'
     elif level_counts['caution'] > 0 or warnings:
         overall = 'caution'
     else:
         overall = 'safe'
 
-    safe_count = level_counts['safe'] + level_counts['monitor']
-    safe_score = round(safe_count / n * 100, 1)
+    if safe_score >= 80:
+        summary = (
+            'สูตรนี้มีแนวโน้มเหมาะกับสภาพผิวของคุณ\n'
+            'มีส่วนผสมที่ช่วยดูแลและเสริมสุขภาพผิวหลายชนิด\n'
+            'อย่างไรก็ตามควรสังเกตการตอบสนองของผิวเมื่อเริ่มใช้งาน'
+        )
+    elif safe_score >= 60:
+        summary = 'สามารถใช้งานได้ แต่ควรสังเกตการตอบสนองของผิว'
+    else:
+        summary = 'ควรพิจารณาส่วนผสมบางรายการเพิ่มเติมก่อนใช้งาน'
 
     return {
-        'overall_result':  overall,
+        'overall_result': overall,
         'warning_message': '\n'.join(warnings) if warnings else 'ไม่พบส่วนผสมที่น่ากังวล',
-        'suitable':        overall == 'safe',
-        'safe_score':      safe_score,
-        'details':         details,
+        'suitable': overall == 'safe',
+        'safe_score': safe_score,
+        'details': details,
+        'good_ingredients': good_ingredients,
+        'summary': summary
     }
 
 
-def format_reply(ingredients: list[str], user: dict) -> str:
-    """
-    Build the Thai LINE Bot reply for a completed scan.
-
-    Uses recommend() when the user has a skin profile; falls back to
-    hazard.summarize_scan() for anonymous users (no profile set yet).
-    """
+def format_reply(ingredients, user):
     if not ingredients:
         return 'ไม่พบส่วนผสม\n💡 ลองส่ง crop เฉพาะส่วน INGREDIENTS แล้วส่งมาใหม่'
 
     if not user.get('skin_type_id'):
         return summarize_scan(ingredients)
 
-    report   = recommend(ingredients, user)
-    overall  = report['overall_result']
+    report = recommend(ingredients, user)
+    overall = report['overall_result']
     skin_name = _SKIN_TYPE_TH.get(user.get('skin_type_id', 0), 'ไม่ระบุ')
 
-    flags = []
-    if user.get('pregnancy_status'):   flags.append('ตั้งครรภ์')
-    if user.get('acne_prone'):         flags.append('สิว')
-    if user.get('fungal_acne_prone'):  flags.append('fungal acne')
-    flag_str = f' | ตรวจ: {", ".join(flags)}' if flags else ''
-
     lines = [
-        '🧴 ผลการวิเคราะห์ส่วนผสม',
-        f'สภาพผิว: {skin_name}{flag_str}',
+        '📊 ผลการวิเคราะห์',
         '',
+        f'สภาพผิว: {skin_name}',
         f'{_RESULT_EMOJI[overall]} ผลโดยรวม: {_RESULT_TH[overall]}',
-        f'คะแนนความปลอดภัย: {report["safe_score"]}%',
+        f'คะแนนความเหมาะสม: {report["safe_score"]}/100',
+        '',
+        '',
+        'เกณฑ์คะแนน',
+        '🟢 80-100 เหมาะสม',
+        '🟡 60-79 ควรสังเกต',
+        '🔴 ต่ำกว่า 60 ควรระวัง',
         '',
     ]
 
-    concern_levels = [('prohibited', '🔴 ห้ามใช้'),
-                      ('caution',    '🟠 ควรระวัง'),
-                      ('monitor',    '🟡 สังเกต')]
-
-    any_concern = any(
-        d['level'] in ('prohibited', 'caution', 'monitor')
-        for d in report['details']
-    )
-
-    if not any_concern:
-        lines.append('✅ ไม่พบส่วนผสมที่น่ากังวล')
+    if report['good_ingredients']:
+        lines.append('✅ ส่วนผสมที่น่าสนใจ')
+        for item in report['good_ingredients'][:5]:
+            lines.append(f'• {item["name"]}')
+            lines.append(f'  {item["reason"]}')
         lines.append('')
-    else:
-        for level, label in concern_levels:
-            tier = [d for d in report['details'] if d['level'] == level]
-            if not tier:
-                continue
-            lines.append(label)
-            for item in tier[:10]:
-                lines.append(f'  • {item["name"]}')
-                if item.get('reason'):
-                    lines.append(f'    สาเหตุ: {item["reason"]}')
-                for w in item['extra_warnings'][:3]:
-                    lines.append(f'    {w}')
-            if len(tier) > 10:
-                lines.append(f'  … และอีก {len(tier) - 10} รายการ')
-            lines.append('')
 
-    lines.append('💡 พิมพ์ "ตั้งค่า" เพื่อแก้ไขโปรไฟล์ผิว')
+    concern_levels = [
+        ('prohibited', '🔴 ความเสี่ยงสูง'),
+        ('caution', '🟡 ควรสังเกต'),
+        ('monitor', '🟠 ติดตามการใช้งาน'),
+    ]
+
+    for level, label in concern_levels:
+        tier = [d for d in report['details'] if d['level'] == level]
+        if not tier:
+            continue
+
+        lines.append(label)
+
+        for item in tier[:10]:
+            lines.append(f'• {item["name"]}')
+            for w in item['extra_warnings'][:3]:
+                lines.append(f'  ⚠️ {w}')
+
+        lines.append('')
+
+    lines.append('💡 สรุป')
+    lines.append(report['summary'])
+
     return '\n'.join(lines)
