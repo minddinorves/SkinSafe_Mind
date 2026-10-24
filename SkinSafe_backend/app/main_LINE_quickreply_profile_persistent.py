@@ -263,14 +263,17 @@ RISKY_STATUSES = {"risk_only", "caution_with_risk", "compatible_with_risk"}
 VERDICT_TH = {
     "risk": ("🔴 ไม่แนะนำสำหรับคุณ",
              "💡 ควรปรึกษาแพทย์หรือเภสัชกรก่อนใช้"),
-    "caution": ("🟡 ใช้ได้ แต่ควรระวัง",
+    "caution": ("🟡 ควรระวัง",
                 "💡 ลองทาบริเวณเล็ก ๆ เช่น ท้องแขน 1–2 วันก่อนใช้จริง "
                 "หากมีอาการแดง คัน หรือแสบ ให้หยุดใช้"),
-    "no_risk_found": ("🟢 ไม่พบข้อควรระวังสำหรับคุณ",
-                      "💡 หากผิวแพ้ง่าย ควรลองทาบริเวณเล็ก ๆ ก่อนใช้จริง"),
+    # ไม่ใช้สีเขียว/คำว่า "ใช้ได้" — ข้อมูลไม่ครบและ OCR อาจอ่านส่วนผสมไม่ครบ (กัน false reassurance)
+    "no_risk_found": ("⚪ ยังไม่พบข้อมูลความเสี่ยงในฐานข้อมูล",
+                      "💡 ผลนี้ไม่ได้ยืนยันว่าปลอดภัย ระบบอาจอ่านส่วนผสมได้ไม่ครบ "
+                      "หากผิวแพ้ง่าย ควรลองทาบริเวณเล็ก ๆ ก่อนใช้จริง"),
     "no_evidence": ("⚪ ยังสรุปไม่ได้",
                     "💡 ข้อมูลยังไม่พอ ควรอ่านฉลากเพิ่มเติม หรือปรึกษาผู้เชี่ยวชาญ"),
 }
+PREGNANCY_TIP = "🤰 ระหว่างตั้งครรภ์ ควรปรึกษาแพทย์หรือเภสัชกรก่อนใช้ผลิตภัณฑ์ทุกครั้ง"
 
 
 def _display_name(name):
@@ -300,8 +303,8 @@ def _item_effects(item):
 def _coverage(report):
     results = report.get("results", [])
     with_data = [x for x in results if x["status"] in RISKY_STATUSES | {"caution", "compatible"}]
-    total = len(results) + len(report.get("unmatched", []))
-    return len(with_data), total
+    n_unmatched = len(report.get("unmatched", []))
+    return len(with_data), len(results) + n_unmatched, n_unmatched
 
 
 def build_summary_message(report, profile):
@@ -313,7 +316,8 @@ def build_summary_message(report, profile):
     verdict, tip = VERDICT_TH.get(status, VERDICT_TH["no_evidence"])
     watch = [x for x in results if x["status"] in RISKY_STATUSES | {"caution"}]
     good = [x for x in results if x["status"] == "compatible"]
-    n_data, n_total = _coverage(report)
+    n_data, n_total, n_unmatched = _coverage(report)
+    coverage = f"(มีข้อมูล {n_data} จาก {n_total} รายการ และอ่านไม่ได้ {n_unmatched} รายการ)"
 
     skin_type = str(profile.get("skin_type", ""))
     # ผิวแพ้ง่ายเป็นทั้งสภาพผิวและเงื่อนไข → ไม่แสดงชื่อซ้ำ
@@ -324,7 +328,9 @@ def build_summary_message(report, profile):
     if watch:
         lines.append(f"พบส่วนผสมที่ควรระวังสำหรับคุณ {len(watch)} รายการ")
     elif status == "no_evidence":
-        lines.append("ไม่พบข้อควรระวังสำหรับคุณ แต่ข้อมูลยังไม่พอจะยืนยันว่าเหมาะกับคุณ")
+        lines.append("ยังไม่พบข้อมูลความเสี่ยงในฐานข้อมูล แต่ข้อมูลยังไม่พอจะประเมินว่าเหมาะกับคุณหรือไม่")
+    else:
+        lines.append(coverage)
 
     # เช็กทีละเงื่อนไขในโปรไฟล์
     if conditions:
@@ -340,7 +346,7 @@ def build_summary_message(report, profile):
             elif label in uncovered:
                 lines.append(f"❔ {label}: ฐานข้อมูลยังไม่มีข้อมูลด้านนี้")
             else:
-                lines.append(f"✅ {label}: ไม่พบสารที่ควรระวัง (จากข้อมูลที่มี)")
+                lines.append(f"➖ {label}: ยังไม่พบข้อมูลความเสี่ยงในฐานข้อมูล {coverage}")
 
     if watch:
         lines += ["", "⚠️ ส่วนผสมที่ควรระวัง"]
@@ -353,9 +359,12 @@ def build_summary_message(report, profile):
             lines.append(f"• {_display_name(item['ingredient_name'])} — "
                          + ", ".join(_item_effects(item)))
 
-    lines += ["", tip, "",
+    lines += ["", tip]
+    if "pregnancy" in conditions:
+        lines.append(PREGNANCY_TIP)
+    lines += ["",
               f"ℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ {n_data} จาก {n_total} รายการ "
-              "ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น",
+              f"และอ่านไม่ได้ {n_unmatched} รายการ ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น",
               "👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด",
               "",
               "หมายเหตุ: ผลลัพธ์เป็นการประเมินจากข้อมูลในฐานข้อมูล "
