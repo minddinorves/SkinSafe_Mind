@@ -1,0 +1,6 @@
+﻿primary_cause,occurrences,pct_of_missing_occurrences
+"in raw_data, dropped",3103,64.6
+in CosIng (exact),1118,23.3
+not in any list,268,5.6
+in CosIng after normalization,188,3.9
+format/normalization only,126,2.6

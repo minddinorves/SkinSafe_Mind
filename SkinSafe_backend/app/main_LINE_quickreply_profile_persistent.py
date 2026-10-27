@@ -263,14 +263,18 @@ RISKY_STATUSES = {"risk_only", "caution_with_risk", "compatible_with_risk"}
 VERDICT_TH = {
     "risk": ("🔴 ไม่แนะนำสำหรับคุณ",
              "💡 ควรปรึกษาแพทย์หรือเภสัชกรก่อนใช้"),
-    "caution": ("🟡 ใช้ได้ แต่ควรระวัง",
+    "caution": ("🟡 พบส่วนผสมที่ควรระวังสำหรับคุณ",
                 "💡 ลองทาบริเวณเล็ก ๆ เช่น ท้องแขน 1–2 วันก่อนใช้จริง "
                 "หากมีอาการแดง คัน หรือแสบ ให้หยุดใช้"),
-    "no_risk_found": ("🟢 ไม่พบข้อควรระวังสำหรับคุณ",
-                      "💡 หากผิวแพ้ง่าย ควรลองทาบริเวณเล็ก ๆ ก่อนใช้จริง"),
+    # ไม่พบความเสี่ยง ≠ ปลอดภัย: ระบบอาจอ่านส่วนผสมไม่ครบหรือไม่มีข้อมูล → ใช้ข้อความเชิงกลาง
+    "no_risk_found": ("⚪ ยังไม่พบข้อมูลความเสี่ยงในฐานข้อมูล",
+                      "💡 ผลนี้ไม่ได้ยืนยันว่าปลอดภัย หากผิวแพ้ง่าย "
+                      "ควรลองทาบริเวณเล็ก ๆ ก่อนใช้จริง"),
     "no_evidence": ("⚪ ยังสรุปไม่ได้",
                     "💡 ข้อมูลยังไม่พอ ควรอ่านฉลากเพิ่มเติม หรือปรึกษาผู้เชี่ยวชาญ"),
 }
+PREGNANCY_TIP = ("🤰 ระหว่างตั้งครรภ์ ควรปรึกษาแพทย์หรือเภสัชกรก่อนใช้ผลิตภัณฑ์ทุกครั้ง "
+                 "ไม่ว่าผลวิเคราะห์จะเป็นอย่างไร")
 
 
 def _display_name(name):
@@ -298,10 +302,12 @@ def _item_effects(item):
 
 
 def _coverage(report):
+    """(มีข้อมูลเฉพาะ, ทั้งหมด, ไม่มีข้อมูลในฐานข้อมูล, จับคู่ไม่ได้)"""
     results = report.get("results", [])
     with_data = [x for x in results if x["status"] in RISKY_STATUSES | {"caution", "compatible"}]
-    total = len(results) + len(report.get("unmatched", []))
-    return len(with_data), total
+    no_data = [x for x in results if x["status"] == "no_evidence"]
+    n_unmatched = len(report.get("unmatched", []))
+    return len(with_data), len(results) + n_unmatched, len(no_data), n_unmatched
 
 
 def build_summary_message(report, profile):
@@ -313,7 +319,8 @@ def build_summary_message(report, profile):
     verdict, tip = VERDICT_TH.get(status, VERDICT_TH["no_evidence"])
     watch = [x for x in results if x["status"] in RISKY_STATUSES | {"caution"}]
     good = [x for x in results if x["status"] == "compatible"]
-    n_data, n_total = _coverage(report)
+    n_data, n_total, n_no_data, n_unmatched = _coverage(report)
+    coverage_note = f"มีข้อมูล {n_data} จาก {n_total} รายการ และอ่านไม่ได้ {n_unmatched} รายการ"
 
     skin_type = str(profile.get("skin_type", ""))
     # ผิวแพ้ง่ายเป็นทั้งสภาพผิวและเงื่อนไข → ไม่แสดงชื่อซ้ำ
@@ -323,12 +330,12 @@ def build_summary_message(report, profile):
              f"({' · '.join([skin_type] + labels)})", "", verdict]
     if watch:
         lines.append(f"พบส่วนผสมที่ควรระวังสำหรับคุณ {len(watch)} รายการ")
-    elif status == "no_evidence":
-        lines.append("ไม่พบข้อควรระวังสำหรับคุณ แต่ข้อมูลยังไม่พอจะยืนยันว่าเหมาะกับคุณ")
+    else:
+        lines.append(f"({coverage_note}) ผลนี้ไม่ได้ยืนยันว่าเหมาะหรือปลอดภัยสำหรับคุณ")
 
     # เช็กทีละเงื่อนไขในโปรไฟล์
     if conditions:
-        lines += ["", "✔️ เช็กตามโปรไฟล์ของคุณ"]
+        lines += ["", "📋 เช็กตามโปรไฟล์ของคุณ"]
         for cond in conditions:
             label = rec.PROFILE_CONDITIONS[cond]["label"]
             hits = [a for a in report.get("profile_alerts", []) if a["condition"] == cond]
@@ -340,7 +347,7 @@ def build_summary_message(report, profile):
             elif label in uncovered:
                 lines.append(f"❔ {label}: ฐานข้อมูลยังไม่มีข้อมูลด้านนี้")
             else:
-                lines.append(f"✅ {label}: ไม่พบสารที่ควรระวัง (จากข้อมูลที่มี)")
+                lines.append(f"➖ {label}: ยังไม่พบข้อมูลความเสี่ยงในฐานข้อมูล ({coverage_note})")
 
     if watch:
         lines += ["", "⚠️ ส่วนผสมที่ควรระวัง"]
@@ -353,8 +360,13 @@ def build_summary_message(report, profile):
             lines.append(f"• {_display_name(item['ingredient_name'])} — "
                          + ", ".join(_item_effects(item)))
 
-    lines += ["", tip, "",
+    lines += ["", tip]
+    if "pregnancy" in conditions:
+        lines.append(PREGNANCY_TIP)
+    lines += ["",
               f"ℹ️ ระบบมีข้อมูลเฉพาะสำหรับคุณ {n_data} จาก {n_total} รายการ "
+              f"ยังไม่มีข้อมูลในฐานข้อมูล {n_no_data} รายการ "
+              f"และอ่านจากฉลากแล้วจับคู่ไม่ได้ {n_unmatched} รายการ "
               "ผลนี้จึงอิงจากข้อมูลที่มีเท่านั้น",
               "👉 กด “ดูรายละเอียด” เพื่อดูส่วนผสมทั้งหมด",
               "",

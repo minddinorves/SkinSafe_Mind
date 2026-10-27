@@ -1,0 +1,115 @@
+﻿vocab sizes: {'master (11,091)': 11091, 'master + Dev patch (399)': 11490, 'raw_data/ingredients_dataset.csv': 22262, 'master + raw_data': 22262, 'CosIng full (33,603)': 33603, 'CosIng full + Dev patch': 33688, 'CosIng full + master': 33961}
+master (11,091)                    | exact (case-insensitive, as in thesis) | all     occ  41.4%  uniq  31.3%
+master (11,091)                    | exact (case-insensitive, as in thesis) | heldout occ  41.6%  uniq  32.1%
+master (11,091)                    | + Unicode/punctuation/spacing          | all     occ  41.6%  uniq  32.1%
+master (11,091)                    | + Unicode/punctuation/spacing          | heldout occ  41.8%  uniq  33.0%
+master (11,091)                    | + parentheses                          | all     occ  42.7%  uniq  34.4%
+master (11,091)                    | + parentheses                          | heldout occ  43.0%  uniq  35.2%
+master (11,091)                    | + EU/US dual names & CI numbers        | all     occ  43.7%  uniq  34.6%
+master (11,091)                    | + EU/US dual names & CI numbers        | heldout occ  44.0%  uniq  35.4%
+master (11,091)                    | + slash/(and) mixtures                 | all     occ  43.9%  uniq  35.0%
+master (11,091)                    | + slash/(and) mixtures                 | heldout occ  44.1%  uniq  35.8%
+master + Dev patch (399)           | exact (case-insensitive, as in thesis) | all     occ  86.4%  uniq  56.7%
+master + Dev patch (399)           | exact (case-insensitive, as in thesis) | heldout occ  83.3%  uniq  52.6%
+master + Dev patch (399)           | + Unicode/punctuation/spacing          | all     occ  86.8%  uniq  58.1%
+master + Dev patch (399)           | + Unicode/punctuation/spacing          | heldout occ  83.8%  uniq  54.1%
+master + Dev patch (399)           | + parentheses                          | all     occ  88.0%  uniq  61.6%
+master + Dev patch (399)           | + parentheses                          | heldout occ  85.2%  uniq  58.0%
+master + Dev patch (399)           | + EU/US dual names & CI numbers        | all     occ  88.1%  uniq  61.8%
+master + Dev patch (399)           | + EU/US dual names & CI numbers        | heldout occ  85.4%  uniq  58.2%
+master + Dev patch (399)           | + slash/(and) mixtures                 | all     occ  88.3%  uniq  62.3%
+master + Dev patch (399)           | + slash/(and) mixtures                 | heldout occ  85.6%  uniq  58.7%
+raw_data/ingredients_dataset.csv   | exact (case-insensitive, as in thesis) | all     occ  79.3%  uniq  57.2%
+raw_data/ingredients_dataset.csv   | exact (case-insensitive, as in thesis) | heldout occ  79.4%  uniq  58.7%
+raw_data/ingredients_dataset.csv   | + Unicode/punctuation/spacing          | all     occ  81.1%  uniq  58.6%
+raw_data/ingredients_dataset.csv   | + Unicode/punctuation/spacing          | heldout occ  81.3%  uniq  60.3%
+raw_data/ingredients_dataset.csv   | + parentheses                          | all     occ  82.8%  uniq  62.8%
+raw_data/ingredients_dataset.csv   | + parentheses                          | heldout occ  83.1%  uniq  64.5%
+raw_data/ingredients_dataset.csv   | + EU/US dual names & CI numbers        | all     occ  83.0%  uniq  62.9%
+raw_data/ingredients_dataset.csv   | + EU/US dual names & CI numbers        | heldout occ  83.3%  uniq  64.6%
+raw_data/ingredients_dataset.csv   | + slash/(and) mixtures                 | all     occ  83.1%  uniq  63.4%
+raw_data/ingredients_dataset.csv   | + slash/(and) mixtures                 | heldout occ  83.5%  uniq  65.2%
+master + raw_data                  | exact (case-insensitive, as in thesis) | all     occ  79.3%  uniq  57.2%
+master + raw_data                  | exact (case-insensitive, as in thesis) | heldout occ  79.4%  uniq  58.7%
+master + raw_data                  | + Unicode/punctuation/spacing          | all     occ  81.1%  uniq  58.6%
+master + raw_data                  | + Unicode/punctuation/spacing          | heldout occ  81.3%  uniq  60.3%
+master + raw_data                  | + parentheses                          | all     occ  82.8%  uniq  62.8%
+master + raw_data                  | + parentheses                          | heldout occ  83.1%  uniq  64.5%
+master + raw_data                  | + EU/US dual names & CI numbers        | all     occ  83.0%  uniq  62.9%
+master + raw_data                  | + EU/US dual names & CI numbers        | heldout occ  83.3%  uniq  64.6%
+master + raw_data                  | + slash/(and) mixtures                 | all     occ  83.1%  uniq  63.4%
+master + raw_data                  | + slash/(and) mixtures                 | heldout occ  83.5%  uniq  65.2%
+CosIng full (33,603)               | exact (case-insensitive, as in thesis) | all     occ  92.1%  uniq  76.9%
+CosIng full (33,603)               | exact (case-insensitive, as in thesis) | heldout occ  91.9%  uniq  78.0%
+CosIng full (33,603)               | + Unicode/punctuation/spacing          | all     occ  92.4%  uniq  78.5%
+CosIng full (33,603)               | + Unicode/punctuation/spacing          | heldout occ  92.3%  uniq  79.5%
+CosIng full (33,603)               | + parentheses                          | all     occ  95.6%  uniq  86.4%
+CosIng full (33,603)               | + parentheses                          | heldout occ  95.7%  uniq  87.8%
+CosIng full (33,603)               | + EU/US dual names & CI numbers        | all     occ  96.5%  uniq  86.6%
+CosIng full (33,603)               | + EU/US dual names & CI numbers        | heldout occ  96.5%  uniq  88.0%
+CosIng full (33,603)               | + slash/(and) mixtures                 | all     occ  96.7%  uniq  87.0%
+CosIng full (33,603)               | + slash/(and) mixtures                 | heldout occ  96.7%  uniq  88.5%
+CosIng full + Dev patch            | exact (case-insensitive, as in thesis) | all     occ  95.7%  uniq  82.3%
+CosIng full + Dev patch            | exact (case-insensitive, as in thesis) | heldout occ  94.7%  uniq  80.7%
+CosIng full + Dev patch            | + Unicode/punctuation/spacing          | all     occ  96.1%  uniq  83.9%
+CosIng full + Dev patch            | + Unicode/punctuation/spacing          | heldout occ  95.2%  uniq  82.4%
+CosIng full + Dev patch            | + parentheses                          | all     occ  97.8%  uniq  90.0%
+CosIng full + Dev patch            | + parentheses                          | heldout occ  97.3%  uniq  89.0%
+CosIng full + Dev patch            | + EU/US dual names & CI numbers        | all     occ  97.9%  uniq  90.0%
+CosIng full + Dev patch            | + EU/US dual names & CI numbers        | heldout occ  97.4%  uniq  89.1%
+CosIng full + Dev patch            | + slash/(and) mixtures                 | all     occ  98.0%  uniq  90.4%
+CosIng full + Dev patch            | + slash/(and) mixtures                 | heldout occ  97.5%  uniq  89.5%
+CosIng full + master               | exact (case-insensitive, as in thesis) | all     occ  92.1%  uniq  77.1%
+CosIng full + master               | exact (case-insensitive, as in thesis) | heldout occ  92.0%  uniq  78.1%
+CosIng full + master               | + Unicode/punctuation/spacing          | all     occ  92.5%  uniq  78.6%
+CosIng full + master               | + Unicode/punctuation/spacing          | heldout occ  92.3%  uniq  79.6%
+CosIng full + master               | + parentheses                          | all     occ  95.6%  uniq  86.5%
+CosIng full + master               | + parentheses                          | heldout occ  95.7%  uniq  88.0%
+CosIng full + master               | + EU/US dual names & CI numbers        | all     occ  96.5%  uniq  86.7%
+CosIng full + master               | + EU/US dual names & CI numbers        | heldout occ  96.5%  uniq  88.2%
+CosIng full + master               | + slash/(and) mixtures                 | all     occ  96.7%  uniq  87.2%
+CosIng full + master               | + slash/(and) mixtures                 | heldout occ  96.7%  uniq  88.7%
+
+Top 20 missing from master:
+   1. Glycerin                                 occ=175 prod=174 | in raw_data but dropped from master; in CosIng
+   2. Phenoxyethanol                           occ=163 prod=163 | in raw_data but dropped from master; in CosIng
+   3. Niacinamide                              occ=128 prod=128 | in raw_data but dropped from master; in CosIng
+   4. 1,2-Hexanediol                           occ=104 prod=104 | in CosIng
+   5. Ethylhexylglycerin                       occ= 92 prod= 91 | in raw_data but dropped from master; in CosIng
+   6. Chlorphenesin                            occ= 87 prod= 87 | in raw_data but dropped from master; in CosIng
+   7. Fragrance                                occ= 71 prod= 71 | in raw_data but dropped from master; in CosIng after: + EU/US dual names & CI numbers
+   8. Aqua                                     occ= 66 prod= 66 | in raw_data but dropped from master; master matches after: + EU/US dual names & CI numbers; in CosIng
+   9. Sodium Benzoate                          occ= 66 prod= 66 | in raw_data but dropped from master; in CosIng
+  10. Caprylyl Glycol                          occ= 64 prod= 64 | in raw_data but dropped from master; in CosIng
+  11. Citric Acid                              occ= 58 prod= 58 | in raw_data but dropped from master; in CosIng
+  12. Caprylic/Capric Triglyceride             occ= 56 prod= 56 | in raw_data but dropped from master; in CosIng
+  13. Potassium Sorbate                        occ= 50 prod= 50 | in raw_data but dropped from master; in CosIng
+  14. Cyclopentasiloxane                       occ= 49 prod= 49 | in raw_data but dropped from master; in CosIng
+  15. Panthenol                                occ= 48 prod= 48 | in raw_data but dropped from master; in CosIng
+  16. Centella Asiatica Extract                occ= 42 prod= 42 | in CosIng
+  17. Ceramide NP                              occ= 41 prod= 41 | in raw_data but dropped from master; in CosIng
+  18. Dipropylene Glycol                       occ= 40 prod= 40 | in raw_data but dropped from master; in CosIng
+  19. Hydrogenated Lecithin                    occ= 40 prod= 40 | in CosIng
+  20. PEG-100 Stearate                         occ= 39 prod= 39 | in raw_data but dropped from master; in CosIng
+
+Primary cause (occurrence-weighted): {'in raw_data, dropped': 3103, 'in CosIng (exact)': 1118, 'format/normalization only': 126, 'not in any list': 268, 'in CosIng after normalization': 188}
+original  master + Dev patch (shipped)       F1=0.6782 [0.6281, 0.7274]  
+original  CosIng full                        F1=0.6867 [0.6362, 0.7360] 0.0084 [+0.0034, +0.0144]
+original  CosIng full + Dev patch            F1=0.6909 [0.6396, 0.7414] 0.0127 [+0.0079, +0.0186]
+original  CosIng full + master + Dev patch   F1=0.6909 [0.6397, 0.7391] 0.0127 [+0.0079, +0.0183]
+indoor    master + Dev patch (shipped)       F1=0.6432 [0.5930, 0.6913]  
+indoor    CosIng full                        F1=0.6526 [0.6017, 0.7017] 0.0094 [+0.0047, +0.0146]
+indoor    CosIng full + Dev patch            F1=0.6567 [0.6065, 0.7051] 0.0135 [+0.0088, +0.0185]
+indoor    CosIng full + master + Dev patch   F1=0.6567 [0.6071, 0.7065] 0.0135 [+0.0088, +0.0185]
+low_light master + Dev patch (shipped)       F1=0.5606 [0.5050, 0.6159]  
+low_light CosIng full                        F1=0.5641 [0.5076, 0.6206] 0.0035 [-0.0011, +0.0081]
+low_light CosIng full + Dev patch            F1=0.5709 [0.5122, 0.6270] 0.0103 [+0.0070, +0.0142]
+low_light CosIng full + master + Dev patch   F1=0.5709 [0.5142, 0.6276] 0.0103 [+0.0069, +0.0141]
+blur      master + Dev patch (shipped)       F1=0.1721 [0.1276, 0.2195]  
+blur      CosIng full                        F1=0.1750 [0.1273, 0.2236] 0.0028 [-0.0005, +0.0061]
+blur      CosIng full + Dev patch            F1=0.1779 [0.1310, 0.2279] 0.0058 [+0.0032, +0.0088]
+blur      CosIng full + master + Dev patch   F1=0.1779 [0.1294, 0.2289] 0.0058 [+0.0032, +0.0087]
+night     master + Dev patch (shipped)       F1=0.1906 [0.1459, 0.2392]  
+night     CosIng full                        F1=0.1969 [0.1504, 0.2471] 0.0063 [+0.0014, +0.0116]
+night     CosIng full + Dev patch            F1=0.2008 [0.1531, 0.2508] 0.0102 [+0.0055, +0.0158]
+night     CosIng full + master + Dev patch   F1=0.2008 [0.1533, 0.2502] 0.0102 [+0.0056, +0.0158]

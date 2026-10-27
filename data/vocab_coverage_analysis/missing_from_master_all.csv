@@ -1,0 +1,1082 @@
+﻿rank,label_name,occurrences,products,in_patch,causes
+1,Glycerin,175,174,True,in raw_data but dropped from master; in CosIng
+2,Phenoxyethanol,163,163,True,in raw_data but dropped from master; in CosIng
+3,Niacinamide,128,128,True,in raw_data but dropped from master; in CosIng
+4,"1,2-Hexanediol",104,104,True,in CosIng
+5,Ethylhexylglycerin,92,91,True,in raw_data but dropped from master; in CosIng
+6,Chlorphenesin,87,87,True,in raw_data but dropped from master; in CosIng
+7,Fragrance,71,71,True,in raw_data but dropped from master; in CosIng after: + EU/US dual names & CI numbers
+8,Aqua,66,66,True,in raw_data but dropped from master; master matches after: + EU/US dual names & CI numbers; in CosIng
+9,Sodium Benzoate,66,66,True,in raw_data but dropped from master; in CosIng
+10,Caprylyl Glycol,64,64,True,in raw_data but dropped from master; in CosIng
+11,Citric Acid,58,58,True,in raw_data but dropped from master; in CosIng
+12,Caprylic/Capric Triglyceride,56,56,True,in raw_data but dropped from master; in CosIng
+13,Potassium Sorbate,50,50,True,in raw_data but dropped from master; in CosIng
+14,Cyclopentasiloxane,49,49,True,in raw_data but dropped from master; in CosIng
+15,Panthenol,48,48,True,in raw_data but dropped from master; in CosIng
+16,Centella Asiatica Extract,42,42,True,in CosIng
+17,Ceramide NP,41,41,True,in raw_data but dropped from master; in CosIng
+18,Dipropylene Glycol,40,40,True,in raw_data but dropped from master; in CosIng
+19,Hydrogenated Lecithin,40,40,True,in CosIng
+20,PEG-100 Stearate,39,39,True,in raw_data but dropped from master; in CosIng
+21,Hydrolyzed Hyaluronic Acid,36,36,True,in CosIng
+22,Maltodextrin,36,36,True,in raw_data but dropped from master; in CosIng
+23,Potassium Hydroxide,35,34,True,in raw_data but dropped from master; in CosIng
+24,Polysorbate 20,33,33,True,in raw_data but dropped from master; in CosIng
+25,Triethanolamine,33,33,True,in raw_data but dropped from master; in CosIng
+26,Camellia Sinensis Leaf Extract,30,30,True,in raw_data but dropped from master; in CosIng
+27,Aloe Barbadensis Leaf Juice,28,28,True,in CosIng
+28,Arginine,28,28,True,in raw_data but dropped from master; in CosIng
+29,Glutathione,28,28,True,in raw_data but dropped from master; in CosIng
+30,Salicylic Acid,28,28,True,in raw_data but dropped from master; in CosIng
+31,Sodium Hydroxide,28,28,True,in raw_data but dropped from master; in CosIng
+32,Ceramide EOP,26,26,True,in raw_data but dropped from master; in CosIng
+33,Ceramide AP,24,24,True,in raw_data but dropped from master; in CosIng
+34,Isohexadecane,24,24,True,in CosIng
+35,PEG-40 Hydrogenated Castor Oil,24,24,True,in CosIng
+36,Potassium Hyaluronate,23,23,True,in CosIng
+37,Scutellaria Baicalensis Root Extract,23,23,True,in CosIng
+38,Aqua (Water),22,22,True,master matches after: + parentheses; in CosIng after: + parentheses
+39,Betaine,22,22,True,in raw_data but dropped from master; in CosIng
+40,Sodium Polyacrylate,22,22,True,in raw_data but dropped from master; in CosIng
+41,Laureth-7,21,21,True,in CosIng
+42,Polysorbate 60,21,21,True,in raw_data but dropped from master; in CosIng
+43,Polymethylsilsesquioxane,20,20,True,in raw_data but dropped from master; in CosIng
+44,Sodium Citrate,20,20,True,in raw_data but dropped from master; in CosIng
+45,Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine,19,19,True,in raw_data but dropped from master; in CosIng
+46,Phytosphingosine,19,19,True,in raw_data but dropped from master; in CosIng
+47,Squalane,19,19,True,in raw_data but dropped from master; in CosIng
+48,BHT,18,18,True,in raw_data but dropped from master; in CosIng
+49,CI 19140,17,17,True,in raw_data but dropped from master; in CosIng
+50,Triethoxycaprylylsilane,17,17,True,in raw_data but dropped from master; in CosIng
+51,Hydroxyacetophenone,16,16,True,in raw_data but dropped from master; in CosIng
+52,Hydroxyethylcellulose,16,16,True,in CosIng
+53,Methylparaben,16,16,True,in raw_data but dropped from master; in CosIng
+54,Butyrospermum Parkii (Shea) Butter,15,15,True,master matches after: + parentheses; in CosIng after: + parentheses
+55,Deionized Water,15,15,True,not found in any list (non-INCI / label variant / trade name)
+56,Hydrogenated Polydecene,15,15,True,in raw_data but dropped from master; in CosIng
+57,Isododecane,15,15,True,in raw_data but dropped from master; in CosIng
+58,Tromethamine,15,15,True,in raw_data but dropped from master; in CosIng
+59,Aloe Barbadensis Leaf Extract,14,14,True,in raw_data but dropped from master; in CosIng
+60,CI 42090,14,14,True,in raw_data but dropped from master; in CosIng
+61,CI 77491,14,14,True,in raw_data but dropped from master; in CosIng
+62,CI 77492,14,14,True,in raw_data but dropped from master; in CosIng
+63,Dimethicone Crosspolymer,14,14,True,in raw_data but dropped from master; in CosIng
+64,Perfume,14,14,True,not found in any list (non-INCI / label variant / trade name)
+65,Polysorbate 80,14,14,True,in raw_data but dropped from master; in CosIng
+66,Caprylhydroxamic Acid,13,13,True,in raw_data but dropped from master; in CosIng
+67,Centella Asiatica Leaf Extract,13,12,True,in CosIng
+68,Cetyl PEG/PPG-10/1 Dimethicone,13,13,True,in CosIng
+69,Collagen,13,13,True,in raw_data but dropped from master; in CosIng
+70,Zinc PCA,13,13,True,in CosIng
+71,Alpha-Arbutin,12,12,True,in raw_data but dropped from master; in CosIng
+72,Ascorbyl Palmitate,12,12,True,in raw_data but dropped from master; in CosIng
+73,Chondrus Crispus Extract,12,12,True,in CosIng
+74,Glycolic Acid,12,12,True,in raw_data but dropped from master; in CosIng
+75,Serine,12,12,True,in raw_data but dropped from master; in CosIng
+76,Sodium Lauroyl Lactylate,12,12,True,in raw_data but dropped from master; in CosIng
+77,Hydrolyzed Collagen,11,11,True,in raw_data but dropped from master; in CosIng
+78,Rosmarinus Officinalis Leaf Extract,11,11,True,in CosIng
+79,Sodium Metabisulfite,11,11,True,in raw_data but dropped from master; in CosIng
+80,Sorbitan Isostearate,11,11,False,in raw_data but dropped from master; in CosIng
+81,Arbutin,10,10,True,in raw_data but dropped from master; in CosIng
+82,Ascorbyl Glucoside,10,10,True,in raw_data but dropped from master; in CosIng
+83,Asiaticoside,10,10,True,in raw_data but dropped from master; in CosIng
+84,Benzoic Acid,10,10,True,in raw_data but dropped from master; in CosIng
+85,Cetearyl Glucoside,10,10,True,in raw_data but dropped from master; in CosIng
+86,Glycyrrhiza Glabra Root Extract,10,10,True,in CosIng
+87,Potassium Cetyl Phosphate,10,10,True,in raw_data but dropped from master; in CosIng
+88,Sodium Ascorbyl Phosphate,10,10,True,in raw_data but dropped from master; in CosIng
+89,Trideceth-6,10,10,True,in raw_data but dropped from master; in CosIng
+90,CI 77891,9,9,True,in raw_data but dropped from master; master matches after: + EU/US dual names & CI numbers; in CosIng
+91,Citrullus Lanatus Fruit Extract,9,9,True,in CosIng
+92,Cyclomethicone,9,9,True,in raw_data but dropped from master; in CosIng
+93,Glycerine,9,9,True,not found in any list (non-INCI / label variant / trade name)
+94,Glycine,9,9,True,in raw_data but dropped from master; in CosIng
+95,Houttuynia Cordata Extract,9,9,True,in CosIng
+96,Methylpropanediol,9,9,True,in raw_data but dropped from master; in CosIng
+97,Mica,9,9,True,in raw_data but dropped from master; in CosIng
+98,Mineral Oil,9,9,True,master matches after: + EU/US dual names & CI numbers; in CosIng
+99,Polygonum Cuspidatum Root Extract,9,9,True,in CosIng
+100,Zinc Oxide,9,9,True,in raw_data but dropped from master; in CosIng
+101,Ceramide NS,8,8,True,in CosIng
+102,CI 15985,8,8,True,in raw_data but dropped from master; in CosIng
+103,Cyclohexasiloxane,8,8,True,in raw_data but dropped from master; in CosIng
+104,Dimethiconol,8,8,True,in raw_data but dropped from master; in CosIng
+105,Glycyrrhiza Glabra (Licorice) Root Extract,8,8,False,in CosIng after: + parentheses
+106,Hydrogenated Polyisobutene,8,8,True,in CosIng
+107,Isoleucine,8,8,True,in raw_data but dropped from master; in CosIng
+108,Isopropyl Myristate,8,8,True,in raw_data but dropped from master; in CosIng
+109,Polyglyceryl-3 Methylglucose Distearate,8,8,False,in raw_data but dropped from master; in CosIng
+110,Simmondsia Chinensis Seed Oil,8,8,True,in CosIng
+111,Sorbitan Oleate,8,8,False,in CosIng
+112,Acacia Senegal Gum,7,7,True,in CosIng
+113,Alanine,7,7,True,in raw_data but dropped from master; in CosIng
+114,Aspartic Acid,7,7,True,in raw_data but dropped from master; in CosIng
+115,Ceramide AS,7,7,True,in CosIng
+116,CETEARYL OLIVATE,7,7,False,in raw_data but dropped from master; in CosIng
+117,Chamomilla Recutita (Matricaria) Flower Extract,7,7,False,master matches after: + parentheses; in CosIng after: + parentheses
+118,CI 16255,7,7,True,in raw_data but dropped from master; in CosIng
+119,CI 77499,7,7,False,in raw_data but dropped from master; in CosIng
+120,Croton Lechleri Resin Extract,7,7,True,in CosIng
+121,Dipotassium Glycyrrhizinate,7,7,True,not found in any list (non-INCI / label variant / trade name)
+122,Glutamic Acid,7,7,True,in raw_data but dropped from master; in CosIng
+123,Hamamelis Virginiana (Witch Hazel) Extract,7,7,True,in CosIng after: + parentheses
+124,Olea Europaea (Olive) Fruit Oil,7,7,True,in CosIng after: + parentheses
+125,Phenylalanine,7,7,True,in raw_data but dropped from master; in CosIng
+126,Potassium Phosphate,7,7,True,in raw_data but dropped from master; in CosIng
+127,Proline,7,7,True,in raw_data but dropped from master; in CosIng
+128,Propylparaben,7,7,True,in raw_data but dropped from master; in CosIng
+129,SODIUM PCA,7,7,False,in CosIng
+130,Sodium Stearoyl Glutamate,7,7,True,in raw_data but dropped from master; in CosIng
+131,Threonine,7,7,True,in raw_data but dropped from master; in CosIng
+132,Valine,7,7,True,in raw_data but dropped from master; in CosIng
+133,Zinc Gluconate,7,7,True,in raw_data but dropped from master; in CosIng
+134,Anhydroxylitol,6,6,True,in CosIng
+135,Bakuchiol,6,6,True,in raw_data but dropped from master; in CosIng
+136,Benzyl Alcohol,6,6,True,in raw_data but dropped from master; in CosIng
+137,Butyloctyl Salicylate,6,6,True,in raw_data but dropped from master; in CosIng
+138,Ceteareth-20,6,6,False,in raw_data but dropped from master; in CosIng
+139,CETETH-20,6,6,False,in raw_data but dropped from master; in CosIng
+140,CI 14720,6,6,True,in raw_data but dropped from master; in CosIng
+141,CI 17200,6,6,True,in raw_data but dropped from master; in CosIng
+142,Hamamelis Virginiana Water,6,6,True,in raw_data but dropped from master; in CosIng
+143,LIMONENE,6,6,False,in raw_data but dropped from master; in CosIng
+144,LINALOOL,6,6,False,in raw_data but dropped from master; in CosIng
+145,Linolenic Acid,6,6,True,in raw_data but dropped from master; in CosIng
+146,Melaleuca Alternifolia Leaf Oil,6,6,True,in raw_data but dropped from master; in CosIng
+147,Octyldodecanol,6,6,True,in raw_data but dropped from master; in CosIng
+148,Palmitoyl Tripeptide-1,6,6,True,in raw_data but dropped from master; in CosIng
+149,Panax Ginseng Root Extract,6,6,False,in CosIng
+150,Parfum (Fragrance),6,6,True,in CosIng after: + parentheses
+151,PEG-75 STEARATE,6,6,False,in CosIng
+152,Portulaca Oleracea Extract,6,6,True,in CosIng
+153,Sodium Acrylates Copolymer,6,6,True,in CosIng
+154,SORBITAN OLIVATE,6,6,False,in raw_data but dropped from master; in CosIng
+155,STEARETH-20,6,6,False,in raw_data but dropped from master; in CosIng
+156,Triethylene Glycol,6,6,True,in raw_data but dropped from master; in CosIng
+157,Acetyl Hexapeptide-8,5,5,True,in CosIng
+158,Algae Extract,5,5,False,in CosIng
+159,Aspalathus Linearis Extract,5,5,False,in CosIng
+160,Avena Sativa (Oat) Kernel Extract,5,5,True,master matches after: + parentheses; in CosIng after: + parentheses
+161,Behenic Acid,5,5,False,in raw_data but dropped from master; in CosIng
+162,Buddleja Officinalis Flower Extract,5,5,False,in CosIng
+163,Ceramide EOS,5,5,True,in CosIng
+164,Ceteareth-25,5,5,False,in raw_data but dropped from master; in CosIng
+165,Cetyl Dimethicone,5,5,True,in raw_data but dropped from master; in CosIng
+166,CI 16035,5,5,True,in raw_data but dropped from master; in CosIng
+167,Coco-Glucoside,5,5,True,in CosIng
+168,Dextrin Palmitate,5,5,False,in raw_data but dropped from master; in CosIng
+169,Disodium Phosphate,5,5,True,in raw_data but dropped from master; in CosIng
+170,Ethoxydiglycol,5,5,True,in raw_data but dropped from master; in CosIng
+171,Ethyl Hexanediol,5,5,False,in CosIng
+172,Hamamelis Virginiana Leaf Extract,5,5,False,in CosIng
+173,Helianthus Annuus Seed Oil,5,5,True,in CosIng
+174,Hibiscus Sabdariffa Flower Extract,5,5,True,in raw_data but dropped from master; in CosIng
+175,Hydrolyzed Algin,5,5,True,in raw_data but dropped from master; in CosIng
+176,Isoceteth-20,5,5,False,in raw_data but dropped from master; in CosIng
+177,Leucine,5,5,True,in raw_data but dropped from master; in CosIng
+178,Leuconostoc/Radish Root Ferment Filtrate,5,5,True,in raw_data but dropped from master; in CosIng
+179,linoleic acid,5,5,False,in raw_data but dropped from master; in CosIng
+180,Lysine,5,5,True,in raw_data but dropped from master; in CosIng
+181,Menthol,5,5,True,in raw_data but dropped from master; in CosIng
+182,Methicone,5,5,False,in CosIng
+183,METHYLENE BIS-BENZOTRIAZOLYL TETRAMETHYLBUTYLPHENOL,5,5,True,in CosIng
+184,Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (Nano),5,5,True,in CosIng after: + parentheses
+185,O-Cymen-5-Ol,5,5,True,in raw_data but dropped from master; in CosIng
+186,Octyl Salicylate,5,5,True,not found in any list (non-INCI / label variant / trade name)
+187,PEG-10 Dimethicone,5,5,False,in CosIng
+188,Phenethyl Alcohol,5,5,True,in raw_data but dropped from master; in CosIng
+189,Phenyl Trimethicone,5,5,False,in raw_data but dropped from master; in CosIng
+190,Pistacia Lentiscus Gum,5,5,True,in CosIng
+191,Polyacrylate-13,5,5,False,in CosIng
+192,Polyglyceryl-4 Isostearate,5,5,True,in raw_data but dropped from master; in CosIng
+193,PVM/MA Copolymer,5,5,True,in CosIng
+194,Saccharum Officinarum Extract,5,5,True,in CosIng
+195,Sorbic Acid,5,5,True,in raw_data but dropped from master; in CosIng
+196,Sorbitan Sesquioleate,5,5,True,in raw_data but dropped from master; in CosIng
+197,Triethylhexanoin,5,5,False,in raw_data but dropped from master; in CosIng
+198,Tyrosine,5,5,True,in raw_data but dropped from master; in CosIng
+199,Vitis Vinifera Fruit Extract,5,5,False,in CosIng
+200,ARACHIDIC ACID,4,4,False,in raw_data but dropped from master; in CosIng
+201,ARACHIDYL GLUCOSIDE,4,4,False,in raw_data but dropped from master; in CosIng
+202,Beeswax,4,4,True,in raw_data but dropped from master; in CosIng
+203,C15-19 Alkane,4,4,True,in raw_data but dropped from master; in CosIng
+204,Camellia Japonica Flower Extract,4,4,True,in CosIng
+205,Carica Papaya Fruit Extract,4,4,True,in CosIng
+206,CI 77499 (Iron Oxides),4,4,False,in CosIng after: + parentheses
+207,Cocamidopropyl Betaine,4,4,False,in raw_data but dropped from master; in CosIng
+208,Copper Tripeptide-1,4,4,True,in CosIng
+209,Cyclodextrin,4,4,True,in raw_data but dropped from master; in CosIng
+210,Cystoseira Tamariscifolia Extract,4,4,True,in CosIng
+211,Echium Plantagineum Seed Oil,4,4,True,in CosIng
+212,Ethylhexyl Palmitate,4,4,True,in raw_data but dropped from master; in CosIng
+213,Ethylparaben,4,4,True,in raw_data but dropped from master; in CosIng
+214,Geranium Robertianum Extract,4,4,False,in CosIng
+215,GLYCERYL GLUCOSIDE,4,4,False,in CosIng
+216,Glycine Soja (Soybean) Oil,4,4,True,in CosIng after: + parentheses
+217,Haematococcus Pluvialis Extract,4,4,True,in CosIng
+218,HDI/TRIMETHYLOL HEXYLLACTONE CROSSPOLYMER,4,4,False,in raw_data but dropped from master; in CosIng
+219,Hexapeptide-9,4,4,True,in CosIng
+220,Hydroxypropyl Cyclodextrin,4,4,False,in CosIng
+221,Isopentyldiol,4,4,True,in raw_data but dropped from master; in CosIng
+222,Isopropyl Palmitate,4,4,True,in raw_data but dropped from master; in CosIng
+223,ISOSTEARIC ACID,4,4,False,in raw_data but dropped from master; in CosIng
+224,Kaolin,4,4,True,in raw_data but dropped from master; in CosIng
+225,Lactobacillus/Rye Flour Ferment,4,4,False,in raw_data but dropped from master; in CosIng
+226,Laminaria Digitata Extract,4,4,True,in CosIng
+227,Lauric Acid,4,4,False,in raw_data but dropped from master; in CosIng
+228,Lauryl PEG-9 Polydimethylsiloxyethyl Dimethicone,4,4,True,in raw_data but dropped from master; in CosIng
+229,Lavandula Angustifolia Oil,4,4,False,in CosIng
+230,Linseed Oil Fatty Acid,4,4,False,not found in any list (non-INCI / label variant / trade name)
+231,Magnesium Aluminum Silicate,4,4,True,in CosIng
+232,METHYL TRIMETHICONE,4,4,False,in raw_data but dropped from master; in CosIng
+233,Morus Alba Bark Extract,4,4,True,in CosIng
+234,Morus Alba Root Extract,4,4,True,in CosIng
+235,Myristic Acid,4,4,False,in raw_data but dropped from master; in CosIng
+236,Oligopeptide-1,4,4,True,in CosIng
+237,Opuntia Ficus-Indica Stem Extract,4,4,True,in CosIng
+238,Oryza Sativa Bran Extract,4,4,False,in CosIng
+239,Parfum,4,4,True,in raw_data but dropped from master; in CosIng
+240,Pearl Extract,4,4,True,in CosIng
+241,PEG-14M,4,4,True,in CosIng
+242,PEG/PPG-18/18 Dimethicone,4,4,True,in raw_data but dropped from master; in CosIng
+243,Peumus Boldus Leaf Extract,4,4,False,in CosIng
+244,Polyglyceryl-2 Stearate,4,4,True,in raw_data but dropped from master; in CosIng
+245,Polyglyceryl-4 Laurate,4,4,True,in raw_data but dropped from master; in CosIng
+246,Polyglyceryl-6 Laurate,4,4,True,in raw_data but dropped from master; in CosIng
+247,Rosmarinus Officinalis (Rosemary) Leaf Extract,4,4,False,in CosIng after: + parentheses
+248,Royal Jelly Extract,4,4,False,in CosIng
+249,Saccharomyces Ferment,4,4,True,in CosIng
+250,Sebacic Acid,4,4,False,in raw_data but dropped from master; in CosIng
+251,Sh-Oligopeptide-1,4,4,True,in CosIng
+252,Sodium DNA,4,4,True,in CosIng
+253,Sodium Magnesium Silicate,4,4,True,in CosIng
+254,Sodium Methyl Stearoyl Taurate,4,4,False,in raw_data but dropped from master; in CosIng
+255,Soluble Collagen,4,4,True,in CosIng
+256,Sophora Flavescens Root Extract,4,4,False,in CosIng
+257,Sorbitan Stearate,4,4,False,in CosIng
+258,Terminalia Ferdinandiana Fruit Extract,4,4,True,in raw_data but dropped from master; in CosIng
+259,Tetrasodium EDTA,4,4,True,in raw_data but dropped from master; in CosIng
+260,Trisodium EDTA,4,4,False,in raw_data but dropped from master; in CosIng
+261,Vitis Vinifera (Grape) Fruit Extract,4,4,True,in CosIng after: + parentheses
+262,VP/Hexadecene Copolymer,4,4,False,in raw_data but dropped from master; in CosIng
+263,ZINC SULFATE,4,4,False,in raw_data but dropped from master; in CosIng
+264,"1,10-Decanediol",3,3,False,in CosIng
+265,3-O-Ethyl-Ascorbic Acid,3,3,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+266,4-Butylresorcinol,3,3,False,in raw_data but dropped from master; in CosIng
+267,Allium Cepa Bulb Extract,3,3,False,in CosIng
+268,Aluminum Chlorohydrate,3,3,False,in raw_data but dropped from master; in CosIng
+269,Aminomethyl Propanol,3,3,False,in raw_data but dropped from master; in CosIng
+270,ANTHEMIS NOBILIS FLOWER EXTRACT,3,3,False,in raw_data but dropped from master; in CosIng
+271,Ascorbylpropyl Hydrolyzed Hyaluronate,3,3,False,in CosIng
+272,BHA,3,3,True,in raw_data but dropped from master; in CosIng
+273,Biotin,3,3,True,in raw_data but dropped from master; in CosIng
+274,Bis-PEG-18 Methyl Ether Dimethyl Silane,3,3,True,in raw_data but dropped from master; in CosIng
+275,Boswellia Serrata Resin Extract,3,3,False,in CosIng
+276,C12-20 ALKYL GLUCOSIDE,3,3,False,in raw_data but dropped from master; in CosIng
+277,Camellia Sinensis Leaf Water,3,3,False,in raw_data but dropped from master; in CosIng
+278,Camellia Sinensis Seed Oil,3,3,True,in CosIng
+279,Caprooyl Phytosphingosine,3,3,False,in raw_data but dropped from master; in CosIng
+280,Caprooyl Sphingosine,3,3,False,in raw_data but dropped from master; in CosIng
+281,Caramel,3,3,False,in raw_data but dropped from master; in CosIng
+282,CARTHAMUS TINCTORIUS (SAFFLOWER) FLOWER EXTRACT,3,3,False,in CosIng after: + parentheses
+283,Carthamus Tinctorius Seed Oil,3,3,False,in CosIng
+284,Centella Asiatica Leaf Vesicles,3,3,True,in CosIng
+285,Ceramide 3,3,3,False,in CosIng
+286,Ceratonia Siliqua (Carob) Gum,3,3,False,in CosIng after: + parentheses
+287,Ceteareth-12,3,3,False,in raw_data but dropped from master; in CosIng
+288,Cetethyl Morpholinium Ethosulfate,3,2,False,in raw_data but dropped from master; in CosIng
+289,CI 14700,3,3,True,in raw_data but dropped from master; in CosIng
+290,CI 77891 (Titanium Dioxide),3,3,False,master matches after: + parentheses; in CosIng after: + parentheses
+291,Citral,3,3,False,in raw_data but dropped from master; in CosIng
+292,Citrullus Lanatus Seed Oil,3,3,True,in CosIng
+293,Citrus Aurantium Bergamia Fruit Oil,3,3,False,in raw_data but dropped from master; in CosIng
+294,Citrus Aurantium Dulcis (Orange) Peel Extract,3,3,False,in CosIng after: + parentheses
+295,Citrus Reticulata Peel Extract,3,3,True,in CosIng
+296,Citrus Sinensis Fruit Water,3,3,True,in raw_data but dropped from master; in CosIng
+297,Corallina Officinalis Extract,3,3,True,in CosIng
+298,Cucumis Sativus (Cucumber) Fruit Extract,3,3,False,in CosIng after: + parentheses
+299,Cucumis Sativus Fruit Extract,3,3,True,in CosIng
+300,Cynara Scolymus (Artichoke) Leaf Extract,3,3,True,in CosIng after: + parentheses
+301,Diisopropyl Dimer Dilinoleate,3,3,True,in CosIng
+302,Diutan Gum,3,3,True,in CosIng
+303,Dodecane,3,3,False,in raw_data but dropped from master; in CosIng
+304,Epigallocatechin Gallate,3,3,True,in raw_data but dropped from master; in CosIng
+305,Garcinia Mangostana Peel Extract,3,3,True,in CosIng
+306,Glycerol,3,3,True,not found in any list (non-INCI / label variant / trade name)
+307,GLYCERYL OLEATE,3,3,False,in raw_data but dropped from master; in CosIng
+308,Hamamelis Virginiana (Witch Hazel) Leaf Extract,3,3,False,in CosIng after: + parentheses
+309,Isostearamidopropyl Ethyldimonium Ethosulfate,3,3,False,in raw_data but dropped from master; in CosIng
+310,Lactobacillus/Soybean Ferment Extract,3,3,True,in CosIng
+311,Laminaria Japonica Extract,3,3,True,in CosIng
+312,Magnolol,3,3,True,in raw_data but dropped from master; in CosIng
+313,Melaleuca Alternifolia Leaf Extract,3,3,False,in raw_data but dropped from master; in CosIng
+314,Methylsilanol Mannuronate,3,3,True,in CosIng
+315,Ocimum Sanctum Leaf Extract,3,3,True,in CosIng
+316,Oligopeptide-10,3,3,False,in CosIng
+317,Oryza Sativa Bran Oil,3,3,True,in CosIng
+318,Palmaria Palmata Extract,3,3,False,in CosIng
+319,PEG-60 Hydrogenated Castor Oil,3,3,True,in raw_data but dropped from master; in CosIng
+320,Pelargonium Graveolens Flower Oil,3,3,False,in raw_data but dropped from master; in CosIng
+321,Pentaerythrityl Distearate,3,3,False,in raw_data but dropped from master; in CosIng
+322,Polyacrylate,3,3,False,in raw_data but dropped from master
+323,Polyhydroxystearic Acid,3,3,True,in raw_data but dropped from master; in CosIng
+324,POLYISOBUTENE,3,3,False,in CosIng
+325,Pyridoxine HCl,3,3,True,in CosIng
+326,Salix Alba Bark Extract,3,3,True,in CosIng
+327,Simmondsia Chinensis (Jojoba) Seed Oil,3,3,False,in CosIng after: + parentheses
+328,Sodium Acrylate/Acryloyldimethyl Taurate Copolymer,3,3,True,not found in any list (non-INCI / label variant / trade name)
+329,Sodium Chondroitin Sulfate,3,3,True,in CosIng
+330,Sodium Phosphate,3,3,False,in raw_data but dropped from master; in CosIng
+331,Sodium Stearoyl Lactylate,3,3,True,in raw_data but dropped from master; in CosIng
+332,Solanum Lycopersicum Fruit Extract,3,3,True,in CosIng
+333,Sorbitan Palmitate,3,3,True,in CosIng
+334,Stearoyl Glutamic Acid,3,3,False,in raw_data but dropped from master; in CosIng
+335,Synthetic Fluorphlogopite,3,3,False,in CosIng
+336,Synthetic Wax,3,3,True,in CosIng
+337,Tartaric Acid,3,3,True,in raw_data but dropped from master; in CosIng
+338,titanium dioxide (ci 77891),3,3,False,master matches after: + parentheses; in CosIng after: + parentheses
+339,Titanium Dioxide (nano),3,3,False,master matches after: + parentheses; in CosIng after: + parentheses
+340,Trideceth-10,3,3,False,in raw_data but dropped from master; in CosIng
+341,WATER / AQUA / EAU,3,3,False,master matches after: + slash/(and) mixtures; in CosIng after: + slash/(and) mixtures
+342,Zea Mays (Corn) Starch,3,3,False,in CosIng after: + parentheses
+343,Zeolite,3,3,False,in raw_data but dropped from master; in CosIng
+344,Zinc Ricinoleate,3,3,False,in raw_data but dropped from master; in CosIng
+345,"2,3-Butanediol",2,2,False,master matches after: + Unicode/punctuation/spacing; in CosIng
+346,2-Phenoxyethanol,2,2,True,not found in any list (non-INCI / label variant / trade name)
+347,Acer Saccharum Extract,2,2,True,in CosIng
+348,Acetic Acid,2,2,False,in raw_data but dropped from master; in CosIng
+349,Acmella Oleracea Extract,2,2,False,in CosIng
+350,Acrylates Copolymer,2,2,True,in raw_data but dropped from master; in CosIng
+351,Acrylates Crosspolymer,2,2,False,in raw_data but dropped from master; in CosIng
+352,Alcohol Denat,2,2,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+353,Aloe Barbadensis Extract,2,2,False,in CosIng
+354,Aloe Barbadensis Leaf Juice (Aloe Vera Extract),2,2,True,in CosIng after: + parentheses
+355,Aloe Tocopheryl Acetate,2,2,True,not found in any list (non-INCI / label variant / trade name)
+356,Aloe Vera Vesicles,2,2,True,in CosIng
+357,Alpinia Zerumbet Leaf Extract,2,2,True,in CosIng
+358,ALTHAEA OFFICINALIS ROOT EXTRACT,2,2,False,in CosIng
+359,Aluminum Starch Octenylsuccinate,2,2,False,in raw_data but dropped from master; in CosIng
+360,AMINOBUTYRIC ACID,2,2,False,in raw_data but dropped from master; in CosIng
+361,Ammonium Polyacryldimethyltauramide,2,2,False,not found in any list (non-INCI / label variant / trade name)
+362,Aqua/Water,2,2,False,master matches after: + slash/(and) mixtures; in CosIng after: + slash/(and) mixtures
+363,Bacillus/Soybean Ferment Extract,2,2,False,in CosIng
+364,BENZALKONIUM CHLORIDE,2,2,False,in raw_data but dropped from master; in CosIng
+365,Borago Officinalis (Borage) Seed Oil,2,2,False,in CosIng after: + parentheses
+366,Boric Acid,2,2,False,in raw_data but dropped from master; in CosIng
+367,Boswellia Serrata Extract,2,2,False,in CosIng
+368,Butylated Hydroxytoluene,2,2,True,not found in any list (non-INCI / label variant / trade name)
+369,Butylparaben,2,2,True,in raw_data but dropped from master; in CosIng
+370,Butyrospermum Parkii (Shea Butter),2,2,True,not found in any list (non-INCI / label variant / trade name)
+371,C12-13 Alkyl Glyceryl Hydrolyzed Hyaluronate,2,2,True,in raw_data but dropped from master; in CosIng
+372,C13-15 ALKANE,2,2,False,in raw_data but dropped from master; in CosIng
+373,Cananga Odorata Flower Oil,2,2,False,in raw_data but dropped from master; in CosIng
+374,CARNITINE,2,2,False,in raw_data but dropped from master; in CosIng
+375,CASTANEA CRENATA (CHESTNUT) SHELL EXTRACT,2,2,False,in CosIng after: + parentheses
+376,Castanea Sativa (Chestnut) Leaf Extract,2,2,True,in CosIng after: + parentheses
+377,Cellulose Gum,2,2,False,in raw_data but dropped from master; in CosIng
+378,Charcoal Powder,2,2,True,in CosIng
+379,CHONDRUS CRISPUS POWDER,2,2,False,in raw_data but dropped from master; in CosIng
+380,CI 12490,2,2,True,in raw_data but dropped from master; in CosIng
+381,CI 15850:1,2,2,True,not found in any list (non-INCI / label variant / trade name)
+382,CI 77019,2,2,False,in CosIng after: + EU/US dual names & CI numbers
+383,CI 77163 (Bismuth Oxychloride),2,2,False,in CosIng after: + parentheses
+384,CI 77491 (Iron Oxides),2,2,False,in CosIng after: + parentheses
+385,CI 77492 (Iron Oxides),2,2,False,in CosIng after: + parentheses
+386,Citronellol,2,2,False,in raw_data but dropped from master; in CosIng
+387,Citrus Aurantium Bergamia (Bergamot) Fruit Oil,2,2,False,in CosIng after: + parentheses
+388,Citrus Aurantium Dulcis Peel Oil Expressed,2,2,False,in raw_data but dropped from master; in CosIng
+389,Citrus Reticulata (Tangerine) Peel Extract,2,2,False,in CosIng after: + parentheses
+390,CITRUS UNSHIU PEEL EXTRACT,2,2,False,in CosIng
+391,COCAMIDOPROPYL DIMETHYLAMINE,2,2,False,in CosIng
+392,Cucumis Melo Fruit Extract,2,2,True,in CosIng
+393,Cucumis Sativus (Cucumber) Seed Extract,2,2,True,in CosIng after: + parentheses
+394,Cucumis Sativus (Cucumber) Seed Extract (Cucumber Extract),2,2,True,in CosIng after: + parentheses
+395,Curcuma Longa (Turmeric) Root Extract,2,2,False,in CosIng after: + parentheses
+396,Cystine,2,2,True,in raw_data but dropped from master; in CosIng
+397,DI-Water,2,2,False,not found in any list (non-INCI / label variant / trade name)
+398,"Diethylhexyl 2,6-Naphthalate",2,2,False,master matches after: + Unicode/punctuation/spacing; in CosIng
+399,Disodium Cocoamphodiacetate,2,2,False,in raw_data but dropped from master; in CosIng
+400,DISODIUM STEAROYL GLUTAMATE,2,2,False,in raw_data but dropped from master; in CosIng
+401,Divinyldimethicone/Dimethicone Copolymer,2,2,False,in raw_data but dropped from master; in CosIng
+402,DL-Alpha-Tocopheryl Acetate,2,2,False,not found in any list (non-INCI / label variant / trade name)
+403,Echinacea Purpurea Extract,2,2,False,in CosIng
+404,EDTA,2,2,False,in raw_data but dropped from master; in CosIng
+405,Enantia Chlorantha Bark Extract,2,2,True,in CosIng
+406,Ethyl Alcohol,2,2,False,not found in any list (non-INCI / label variant / trade name)
+407,Ethyl Ascorbic Acid,2,2,True,not found in any list (non-INCI / label variant / trade name)
+408,FRAGRANCE / PARFUM,2,2,False,in CosIng after: + slash/(and) mixtures
+409,FUCUS VESICULOSUS EXTRACT,2,2,False,in CosIng
+410,Geraniol,2,2,False,in raw_data but dropped from master; in CosIng
+411,Glucosylrutin,2,2,False,in raw_data but dropped from master; in CosIng
+412,Glyceryl Stearate SE,2,2,False,in raw_data but dropped from master; in CosIng
+413,Helianthus Annuus (Sunflower) Seed Oil,2,2,True,in CosIng after: + parentheses
+414,Helichrysum Italicum Extract,2,2,False,in CosIng
+415,Helichrysum Stoechas Callus Culture Lysate,2,2,True,in CosIng
+416,HEXANEDIOL,2,2,False,in raw_data but dropped from master; in CosIng
+417,Hexapeptide-2,2,2,False,in CosIng
+418,HEXYL CINNAMAL,2,2,False,in raw_data but dropped from master; in CosIng
+419,Hexylene Glycol,2,2,False,in raw_data but dropped from master; in CosIng
+420,Hydrogenated Phosphatidylcholine,2,2,False,in CosIng
+421,Hydrolyzed Glycosaminoglycans,2,2,False,in raw_data but dropped from master; in CosIng
+422,Hydrolyzed Milk Protein,2,2,True,in CosIng
+423,Hydroxypropyl Guar,2,2,True,in CosIng
+424,HYDROXYPROPYL STARCH PHOSPHATE,2,2,False,in CosIng
+425,Imidazolidinyl Urea,2,2,True,in raw_data but dropped from master; in CosIng
+426,IODOPROPYNYL BUTYLCARBAMATE,2,2,False,in raw_data but dropped from master; in CosIng
+427,iron oxides (ci 77491),2,2,False,in CosIng after: + parentheses
+428,Jasminum Officinale Flower Oil,2,2,False,in CosIng
+429,Jasminum Sambac Flower Extract,2,2,False,in CosIng
+430,Lactococcus Ferment,2,2,False,in CosIng
+431,Leptospermum Scoparium Branch/Leaf Oil,2,2,False,in raw_data but dropped from master; in CosIng
+432,Limonia Acidissima Extract (Thanaka Extract),2,2,True,in CosIng after: + parentheses
+433,Magnesium Stearate,2,2,False,in raw_data but dropped from master; in CosIng
+434,Malic Acid,2,2,False,in raw_data but dropped from master; in CosIng
+435,Mandelic Acid,2,2,False,in raw_data but dropped from master; in CosIng
+436,Melaleuca Alternifolia (Tea Tree) Leaf Oil,2,2,True,in CosIng after: + parentheses
+437,MELISSA OFFICINALIS LEAF EXTRACT,2,2,False,in CosIng
+438,MENTHA PIPERITA LEAF EXTRACT,2,2,False,in raw_data but dropped from master; in CosIng
+439,Methionine,2,2,True,in raw_data but dropped from master; in CosIng
+440,METHYL METHACRYLATE CROSSPOLYMER,2,2,False,in CosIng
+441,Michelia Alba Flower Oil,2,2,False,in raw_data but dropped from master; in CosIng
+442,Moringa Oleifera Seed Extract,2,2,False,in CosIng
+443,Morus Alba Bark Extract (Mulberry Extract),2,2,True,in CosIng after: + parentheses
+444,Niacinamide (Vitamin B3),2,2,True,in CosIng after: + parentheses
+445,Nigella Sativa Seed Oil,2,2,False,in CosIng
+446,NONAPEPTIDE-1,2,2,False,in raw_data but dropped from master; in CosIng
+447,Nymphaea Chalong Kwan Flower Extract,2,2,True,in CosIng
+448,OCTYL METHOXYCINNAMATE,2,2,False,not found in any list (non-INCI / label variant / trade name)
+449,Oryza Sativa (Rice) Bran Extract,2,2,True,in CosIng after: + parentheses
+450,Paeonia Suffruticosa Root Extract,2,2,True,in CosIng
+451,Palm Glycerides,2,2,False,in CosIng
+452,Panthenol (Vitamin B5),2,2,True,in CosIng after: + parentheses
+453,Passiflora Edulis Fruit Extract,2,2,False,in CosIng
+454,PEG-10/15 Crosspolymer,2,2,True,not found in any list (non-INCI / label variant / trade name)
+455,PEG-40 Castor Oil,2,2,True,in CosIng
+456,PEG-7 Glyceryl Cocoate,2,2,True,in raw_data but dropped from master; in CosIng
+457,Phellodendron Amurense Bark Extract,2,2,True,in CosIng
+458,Phospholipids,2,2,False,in CosIng
+459,Polyglyceryl-10 Diisostearate,2,2,True,in raw_data but dropped from master; in CosIng
+460,Polyglyceryl-2 Isostearate,2,2,True,in raw_data but dropped from master; in CosIng
+461,POLYGLYCERYL-3 DIISOSTEARATE,2,2,False,in raw_data but dropped from master; in CosIng
+462,Porphyra Yezoensis Extract,2,2,False,in CosIng
+463,Propolis Extract,2,2,False,in CosIng
+464,Prunus Persica (Peach) Leaf Extract,2,2,True,master matches after: + parentheses; in CosIng after: + parentheses
+465,Pueraria Lobata Root Extract,2,2,True,in CosIng
+466,Punica Granatum (Pomegranate) Seed Oil,2,2,True,in CosIng after: + parentheses
+467,PVP,2,2,False,in raw_data but dropped from master; in CosIng
+468,Saccharomyces/Iron Ferment,2,2,True,in CosIng
+469,Saccharomyces/Zinc Ferment,2,2,True,in CosIng
+470,Salix Alba (Willow) Bark Extract,2,2,True,in CosIng after: + parentheses
+471,SH-Polypeptide-1,2,2,False,in CosIng
+472,SH-Polypeptide-11,2,2,False,in raw_data but dropped from master; in CosIng
+473,SH-Polypeptide-9,2,2,False,in CosIng
+474,Sodium Cetearyl Sulfate,2,2,True,in CosIng
+475,Sodium Laureth Sulfate,2,2,False,in raw_data but dropped from master; in CosIng
+476,SODIUM LAURYL SULFATE,2,2,False,in raw_data but dropped from master; in CosIng
+477,Sodium Metaphosphate,2,2,False,in raw_data but dropped from master; in CosIng
+478,Sodium Polyglutamate,2,2,True,in raw_data but dropped from master; in CosIng
+479,Sodium Retinoyl Hyaluronate,2,2,False,in CosIng
+480,Sodium Retinyl Hyaluronate,2,2,False,not found in any list (non-INCI / label variant / trade name)
+481,Sodium Stearoyl PG-Hydroxyethylcellulose Sulfonate,2,2,False,not found in any list (non-INCI / label variant / trade name)
+482,Sodium Sulfite,2,2,True,in raw_data but dropped from master; in CosIng
+483,Solanum Melongena (Eggplant) Fruit Extract,2,2,False,master matches after: + parentheses; in CosIng after: + parentheses
+484,Sparassis Crispa Extract,2,2,True,in CosIng
+485,Sucrose Stearate,2,2,False,in CosIng
+486,TEA,2,2,False,not found in any list (non-INCI / label variant / trade name)
+487,Tetrahydrodiferuloylmethane,2,2,True,in raw_data but dropped from master; in CosIng
+488,Tetrahydroxypropyl Ethylenediamine,2,2,True,in CosIng
+489,Tetrasodium Glutamate Diacetate,2,2,False,in raw_data but dropped from master; in CosIng
+490,THEOBROMA CACAO (COCOA) EXTRACT,2,2,False,in CosIng after: + parentheses
+491,Trideceth-9,2,2,True,in raw_data but dropped from master; in CosIng
+492,Triethyl Citrate,2,2,False,in raw_data but dropped from master; in CosIng
+493,TRIPEPTIDE-1,2,2,False,in CosIng
+494,Trisodium Ethylenediamine Disuccinate,2,2,False,in raw_data but dropped from master; in CosIng
+495,Undaria Pinnatifida Extract,2,2,False,in CosIng
+496,Vaccinium Macrocarpon (Cranberry) Fruit Extract,2,2,False,in CosIng after: + parentheses
+497,Vitis Vinifera (Grape) Seed Oil,2,2,True,in CosIng after: + parentheses
+498,Vitis Vinifera Seed Oil,2,2,False,in CosIng
+499,Water/Aqua/Eau,2,2,False,master matches after: + slash/(and) mixtures; in CosIng after: + slash/(and) mixtures
+500,WATER\AQUA\EAU,2,2,False,not found in any list (non-INCI / label variant / trade name)
+501,Yogurt Powder,2,2,True,in CosIng
+502,Zea Mays Starch,2,2,True,in CosIng
+503,"1,2-Dihydroxypropane",1,1,False,not found in any list (non-INCI / label variant / trade name)
+504,"1,3-Butylene Glycol",1,1,False,not found in any list (non-INCI / label variant / trade name)
+505,10-Decanedioic Acid,1,1,False,not found in any list (non-INCI / label variant / trade name)
+506,3-Lauryl(glyceryl) Ascorbate,1,1,True,in CosIng after: + Unicode/punctuation/spacing
+507,ACETAMIDE MEA,1,1,False,in raw_data but dropped from master; in CosIng
+508,Acetyl AP,1,1,False,not found in any list (non-INCI / label variant / trade name)
+509,Achillea Millefolium Extract,1,1,False,in CosIng
+510,ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER,1,1,False,not found in any list (non-INCI / label variant / trade name)
+511,Acryloyldimethyl Taurate Copolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+512,Adansonia Digitata Leaf Extract,1,1,False,in CosIng
+513,Aesculus Hippocastanum Seed Extract,1,1,True,in CosIng
+514,Aglae Americana Leaf Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+515,Alchemilla Vulgaris Leaf Extract*,1,1,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+516,ALCOHOL DENATURED,1,1,False,not found in any list (non-INCI / label variant / trade name)
+517,Aleolocollagen,1,1,False,not found in any list (non-INCI / label variant / trade name)
+518,ALGAE OLIGOSACCHARIDES,1,1,False,in CosIng
+519,Aloe Barbadensis Flower Extract,1,1,False,in CosIng
+520,ALOE BARBADENSIS LEAF WATER,1,1,False,in CosIng
+521,ALPHA-ISOAMETHYL IONONE,1,1,False,not found in any list (non-INCI / label variant / trade name)
+522,Alpha-Isomethyl Ionone,1,1,False,in raw_data but dropped from master; in CosIng
+523,Aluminum Dihydroxide,1,1,False,not found in any list (non-INCI / label variant / trade name)
+524,ALUMINUM SESQUICHLOROHYDRATE,1,1,False,in raw_data but dropped from master; in CosIng
+525,Amaranthus Caudatus Seed Extract,1,1,False,in CosIng
+526,Amber Powder,1,1,True,in CosIng
+527,AMINOPROPYL DIMETHICONE,1,1,False,in raw_data but dropped from master; in CosIng
+528,Ammonium Acrylate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+529,Ammonium Polyacryldimethyl Taurate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+530,Ammonium Polyacryloyldimethyl Taurate/VP Copolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+531,Ammonium Starch Octenylsuccinate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+532,Angelica Gigas Root Extract,1,1,True,in CosIng
+533,Aphanothece Sacrum Polysaccharide,1,1,True,in CosIng
+534,Aphanothece Sacrum Polysaccharides,1,1,False,in CosIng
+535,Aqua/Water/Eau,1,1,False,master matches after: + slash/(and) mixtures; in CosIng after: + slash/(and) mixtures
+536,Arachis Hypogaea Oil,1,1,False,in CosIng
+537,Aralia Continentalis Root Extract,1,1,True,not found in any list (non-INCI / label variant / trade name)
+538,Arctium Lappa Seed Extract,1,1,False,in CosIng
+539,AROMA,1,1,False,in raw_data but dropped from master; in CosIng
+540,ARTEMIA EXTRACT,1,1,False,in CosIng
+541,Artemisia Vulgaris Extract,1,1,False,in CosIng
+542,ascophyllum nodosum extract,1,1,False,in CosIng
+543,ASCORBATE,1,1,False,not found in any list (non-INCI / label variant / trade name)
+544,Ascorbyl Dipropyl Hyaluronate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+545,Ascorbyl Phosphonate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+546,Ascorbyl Propyl Hydrolyzed Hyaluronate,1,1,True,in CosIng after: + Unicode/punctuation/spacing
+547,Ascorbylpropyl Hyaluronate,1,1,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+548,Aspergillus/Molasses Ferment,1,1,False,not found in any list (non-INCI / label variant / trade name)
+549,Atelocollagen,1,1,True,in CosIng
+550,Avena Sativa (Oat) Kernel Extract**,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+551,Avena Sativa (Oat) Kernel Flour,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+552,Avena Sativa Bran Extract,1,1,True,in raw_data but dropped from master; in CosIng
+553,Averrhoa Carambola (Star Fruit) Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+554,Bacillus Ferment,1,1,False,in CosIng
+555,Bacillus/Soybean Ferment Extract Filtrate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+556,Bacillus/Soybean/Folic Acid Ferment Filtrate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+557,Baptisia Tinctoria Root Extract**,1,1,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+558,Barium Sulfate,1,1,False,in raw_data but dropped from master; in CosIng
+559,Barosma Betulina Leaf Extract,1,1,False,in raw_data but dropped from master; in CosIng
+560,Beet Root Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+561,BEHENTRIMONIUM METHOSULFATE,1,1,False,in raw_data but dropped from master; in CosIng
+562,Bellis Perennis (Daisy) Flower Extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+563,Benzophenone-9,1,1,False,in raw_data but dropped from master; in CosIng
+564,Beta Vulgaris (Beet) Root Extract,1,1,False,in CosIng after: + parentheses
+565,BETULA ALBA (BIRCH) BARK EXTRACT,1,1,False,in CosIng after: + parentheses
+566,Bioflavonoids,1,1,False,in CosIng
+567,Bis-Diglyceryl Polyacyladipate-2,1,1,False,in CosIng
+568,Bis-PEG/PPG-20/5 PEG/PPG-20/3 Dimethicone,1,1,False,not found in any list (non-INCI / label variant / trade name)
+569,bismuth oxychloride (ci 77163),1,1,False,in CosIng after: + parentheses
+570,BORAGO OFFICIALIS SEED OIL,1,1,False,not found in any list (non-INCI / label variant / trade name)
+571,Borago Officinalis Extract,1,1,False,in CosIng
+572,Borago Officinalis Seed Oil,1,1,False,in CosIng
+573,Butyl PEG-20 Glyceryl Triisostearate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+574,Butyrospermum Parkii (Shea Butter) Extract,1,1,True,not found in any list (non-INCI / label variant / trade name)
+575,Butyrospermum Parkii Seed Oil,1,1,False,not found in any list (non-INCI / label variant / trade name)
+576,C10-30 Alkyl Acrylate Crosspolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+577,C12-13 Pareth-13,1,1,False,not found in any list (non-INCI / label variant / trade name)
+578,C12-13 Pareth-23,1,1,False,in raw_data but dropped from master; in CosIng
+579,C12-13 Pareth-3,1,1,False,in raw_data but dropped from master; in CosIng
+580,C12-14 Pareth-12,1,1,False,in raw_data but dropped from master; in CosIng
+581,C12-15 Pareth-12,1,1,False,in raw_data but dropped from master; in CosIng
+582,C12-16 Alcohols,1,1,False,in CosIng
+583,C13-14 Isoalkane,1,1,False,in CosIng
+584,C19-14 Isoparaffin,1,1,False,not found in any list (non-INCI / label variant / trade name)
+585,C30-45 Alkyl Cetearyl Dimethicone Crosspolymer,1,1,False,in raw_data but dropped from master; in CosIng
+586,C9-11 Pareth-6,1,1,True,in raw_data but dropped from master; in CosIng
+587,C9-15 Alkyl Phosphate,1,1,False,in raw_data but dropped from master; in CosIng
+588,Caesalpinia Spinosa Fruit Pod Extract,1,1,False,in raw_data but dropped from master; in CosIng
+589,CAESALPINIA SPINOSA GUM,1,1,False,in CosIng
+590,Caffeic Acid,1,1,True,in raw_data but dropped from master; in CosIng
+591,Calcium Carbonate,1,1,False,in raw_data but dropped from master; in CosIng
+592,Calcium Pantothenate,1,1,True,in raw_data but dropped from master; in CosIng
+593,Calendula Officinalis Flower Extract**,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+594,Calophyllum Inophyllum Seed Oil,1,1,False,in raw_data but dropped from master; in CosIng
+595,Camellia Japonica Leaf Extract,1,1,False,in CosIng
+596,Camellia Oleifera Seed Extract,1,1,True,in raw_data but dropped from master; in CosIng
+597,CAMELLIA SINENSIS (GREEN TEA) LEAF EXTRACT,1,1,False,in CosIng after: + parentheses
+598,CAMELLIA SINENSIS SEED EXTRACT,1,1,False,in CosIng
+599,Camphor,1,1,False,in raw_data but dropped from master; in CosIng
+600,CANOLA OIL / HUILE DE COLZA,1,1,False,not found in any list (non-INCI / label variant / trade name)
+601,Capric Acid,1,1,False,in raw_data but dropped from master; in CosIng
+602,Caproyl Phytosphingosine,1,1,False,not found in any list (non-INCI / label variant / trade name)
+603,Caproyl Salicylic Acid,1,1,True,not found in any list (non-INCI / label variant / trade name)
+604,Caproyl Sphingosine,1,1,False,in raw_data but dropped from master; in CosIng
+605,Caprylol Glycine,1,1,False,not found in any list (non-INCI / label variant / trade name)
+606,CAPRYLOYL GLYCINE,1,1,False,in raw_data but dropped from master; in CosIng
+607,Caprylyl Salicylic Acid,1,1,False,not found in any list (non-INCI / label variant / trade name)
+608,Capsicum Annuum Fruit Extract,1,1,True,in raw_data but dropped from master; in CosIng
+609,Carbon,1,1,False,in raw_data but dropped from master; in CosIng
+610,CARBOPOL,1,1,False,not found in any list (non-INCI / label variant / trade name)
+611,Carrageenan,1,1,True,in raw_data but dropped from master; in CosIng
+612,Carthamus Tinctorius (Safflower) Seed Oil,1,1,False,in CosIng after: + parentheses
+613,Centella Asiatica Extract(72%),1,1,False,in CosIng after: + parentheses
+614,Centella Asiatica Flower Oil,1,1,False,not found in any list (non-INCI / label variant / trade name)
+615,Centella Asiatica Leaf,1,1,False,in CosIng
+616,Cephalins,1,1,False,not found in any list (non-INCI / label variant / trade name)
+617,Ceramide Crosspolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+618,Ceteareth-11,1,1,False,in raw_data but dropped from master; in CosIng
+619,Cetereth-25,1,1,False,not found in any list (non-INCI / label variant / trade name)
+620,Ceteth-10 Phosphate,1,1,False,in raw_data but dropped from master; in CosIng
+621,CETRIMONIUM METHOSULFATE,1,1,False,in raw_data but dropped from master; in CosIng
+622,Cetyl Dimethicone Copolyol,1,1,False,not found in any list (non-INCI / label variant / trade name)
+623,Cetyl Phosphate,1,1,False,in raw_data but dropped from master; in CosIng
+624,CETYL/PG HYDROXYETHYL PALMITAMIDE,1,1,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+625,Chamaecyparis Obtusa Leaf Extract,1,1,True,in CosIng
+626,Chamaecyparis Obtusa Water,1,1,False,in raw_data but dropped from master; in CosIng
+627,Chamomile Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+628,Chamomilla Recutita Extract,1,1,True,in CosIng
+629,Chamomilla Recutita Flower/Leaf Extract,1,1,False,in raw_data but dropped from master; in CosIng
+630,Chondrus Crispus (Carrageenan),1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+631,chrysanthellum indicum extract,1,1,False,in CosIng
+632,Chrysanthemum Parthenium (Feverfew) Extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+633,Chrysanthemum Parthenium (Feverfew) Flower/Leaf/Stem Juice,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+634,CI 15510,1,1,True,in raw_data but dropped from master; in CosIng
+635,CI 15850,1,1,False,in raw_data but dropped from master; in CosIng
+636,CI 17110,1,1,True,not found in any list (non-INCI / label variant / trade name)
+637,CI 42090 (Blue 1),1,1,False,in CosIng after: + parentheses
+638,CI 73360,1,1,True,in raw_data but dropped from master; in CosIng
+639,CI 73360 (Red 30 Lake),1,1,False,in CosIng after: + parentheses
+640,CI 74160,1,1,False,in raw_data but dropped from master; in CosIng
+641,CI 77163,1,1,False,in raw_data but dropped from master; in CosIng
+642,Cinnamomum Zeylanicum Bark Extract,1,1,True,in CosIng
+643,Citrullus Lanatus (Watermelon) Fruit Extract,1,1,False,in CosIng after: + parentheses
+644,Citrullus Vulgaris (Watermelon) Fruit Extract,1,1,False,in CosIng after: + parentheses
+645,Citrus Aurantium Amara (Bitter Orange) Flower Extract,1,1,False,in CosIng after: + parentheses
+646,Citrus Aurantium Amara (Bitter Orange) Peel Extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+647,Citrus Aurantium Bergamia (Bergamot) Fruit Extract,1,1,True,master matches after: + parentheses; in CosIng after: + parentheses
+648,Citrus Aurantium Dulcis Fragrance,1,1,False,not found in any list (non-INCI / label variant / trade name)
+649,Citrus Aurantium Dulcis Fruit Oil,1,1,False,not found in any list (non-INCI / label variant / trade name)
+650,Citrus Aurantium Dulcis Oil,1,1,False,in raw_data but dropped from master; in CosIng
+651,Citrus Dulcis (Orange) Peel Oil,1,1,True,not found in any list (non-INCI / label variant / trade name)
+652,Citrus Hystrix Oil,1,1,False,not found in any list (non-INCI / label variant / trade name)
+653,Citrus Junos Peel Extract,1,1,False,in CosIng
+654,Citrus Limon (Lemon) Peel Oil,1,1,False,in CosIng after: + parentheses
+655,Citrus Limon (Lemon) Seed Oil,1,1,False,in CosIng after: + parentheses
+656,Citrus Limon Peel Oil,1,1,False,in CosIng
+657,Citrus Medica Limonum (Lemon) Fruit Extract,1,1,False,in CosIng after: + parentheses
+658,Citrus Sinensis Leaf Extract,1,1,True,not found in any list (non-INCI / label variant / trade name)
+659,Citrus Sinensis Peel Oil Expressed,1,1,False,in raw_data but dropped from master; in CosIng
+660,Cococaprylate/Caprate,1,1,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+661,Cocos Nucifera Oil,1,1,True,in raw_data but dropped from master; in CosIng
+662,coffea arabica (coffee) seed oil,1,1,False,in CosIng after: + parentheses
+663,COFFEA ARABICA SEED EXTRACT,1,1,False,in CosIng
+664,Coffea Arabica Seed Powder,1,1,True,in raw_data but dropped from master; in CosIng
+665,COLLAGEN AMINO ACIDS,1,1,False,in CosIng
+666,Coptis Chinensis Root Extract,1,1,False,in raw_data but dropped from master; in CosIng
+667,Coptis Japonica Root Extract,1,1,False,in CosIng
+668,Corylus Avellana Seed Oil,1,1,False,in CosIng
+669,Coumarin,1,1,True,in raw_data but dropped from master; in CosIng
+670,CURCUMA AROMATICA ROOT EXTRACT,1,1,True,not found in any list (non-INCI / label variant / trade name)
+671,Curcuma Longa Root Extract,1,1,True,in raw_data but dropped from master; in CosIng
+672,Cuspidatum Root Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+673,CYMBOPOGON CITRATUS EXTRACT,1,1,False,in CosIng
+674,Cysteine,1,1,False,in raw_data but dropped from master; in CosIng
+675,Cystosaria Tamariscifolia Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+676,Daucus Carota Sativa (Carrot) Extract,1,1,False,in CosIng after: + parentheses
+677,DAUCUS CAROTA SATIVA (CARROT) ROOT EXTRACT,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+678,Dendrobium Officinale Stem Extract,1,1,True,in CosIng
+679,Deoxymyristoyl Palmitoyl Amide MEA,1,1,False,not found in any list (non-INCI / label variant / trade name)
+680,DESAMIDO COLLAGEN,1,1,False,in raw_data but dropped from master; in CosIng
+681,DIAMOND POWDER,1,1,False,in CosIng
+682,Diazolidinyl Urea,1,1,False,in raw_data but dropped from master; in CosIng
+683,Dicetyl Phosphate,1,1,False,in raw_data but dropped from master; in CosIng
+684,Dictum Gum,1,1,False,not found in any list (non-INCI / label variant / trade name)
+685,Diethyl Phthalate,1,1,False,in raw_data but dropped from master; in CosIng
+686,Dimethicone Copolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+687,DIMETHICONE VINYL DIMETHICONE CROSSPOLYMER,1,1,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+688,Dimocarpus Longan Fruit Extract,1,1,True,in CosIng
+689,Dioctyldodeceth-5 Lauroyl Glutamate,1,1,False,in raw_data but dropped from master; in CosIng
+690,DIPOTASSIUM PHOSPHATE,1,1,False,in raw_data but dropped from master; in CosIng
+691,Dipropylene Glycol Methoxycinnamate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+692,Disodium Caproyl Glutamate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+693,Disodium Edetate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+694,Disodium Succinate,1,1,False,in raw_data but dropped from master; in CosIng
+695,Disostearyl Malate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+696,DISTARCH PHOSPHATE,1,1,False,in raw_data but dropped from master; in CosIng
+697,Disteareth Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+698,DL-ALPHA-TOCOPHEROL,1,1,False,not found in any list (non-INCI / label variant / trade name)
+699,DL-PANTHENOL,1,1,False,not found in any list (non-INCI / label variant / trade name)
+700,DMDM Hydantoin,1,1,False,in raw_data but dropped from master; in CosIng
+701,Dromiterizole Trisiloxane,1,1,False,not found in any list (non-INCI / label variant / trade name)
+702,Eclipta Prostrata Leaf Extract,1,1,False,in CosIng
+703,Eisenia Bicyclis Extract,1,1,False,in CosIng
+704,Elaeis Guineensis Extract,1,1,False,in CosIng
+705,Equisetum Arvense Leaf Extract*,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+706,Ethyl Linoleate,1,1,True,in raw_data but dropped from master; in CosIng
+707,Ethyl Menthane Carboxamide,1,1,True,in raw_data but dropped from master; in CosIng
+708,Ethylene Brassylate,1,1,False,in raw_data but dropped from master; in CosIng
+709,Ethylene Glycol,1,1,True,not found in any list (non-INCI / label variant / trade name)
+710,Ethylene Glycol Distearate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+711,Ethylene/Acrylic Acid Copolymer,1,1,False,in CosIng
+712,ETHYLHEXANEDIOL,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+713,Ethylhexyl Dicarbonate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+714,Ethylhexyl/C12-15 Dipalmitate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+715,EUCALYPTUS GLOBULUS LEAF EXTRACT,1,1,False,in raw_data but dropped from master; in CosIng
+716,Eucalyptus Globulus Leaf Oil,1,1,False,in CosIng
+717,Eucalyptus Globulus Leaf Water,1,1,False,in CosIng
+718,Euphorbia Cerifera Cera,1,1,False,in raw_data but dropped from master; in CosIng
+719,Euterpe Oleracea Fruit Oil,1,1,False,in CosIng
+720,Farnesol,1,1,False,in raw_data but dropped from master; in CosIng
+721,Ferula Galbaniflua (Galbanum) Resin Oil,1,1,False,in CosIng after: + parentheses
+722,Ficus Carica (Fig) Fruit Extract,1,1,False,in CosIng after: + parentheses
+723,Fragaria Chiloensis (Strawberry) Fruit Extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+724,FRAGRANCE (PARFUM),1,1,False,in CosIng after: + parentheses
+725,Fragrance+,1,1,False,in CosIng after: + EU/US dual names & CI numbers
+726,FRAGRANCE/PARFUM,1,1,False,in CosIng after: + slash/(and) mixtures
+727,Fructooligosaccharides,1,1,False,in CosIng
+728,Fullerenes,1,1,False,in CosIng
+729,gelidiella acerosa extract,1,1,False,in CosIng
+730,Ginseng Gum,1,1,True,not found in any list (non-INCI / label variant / trade name)
+731,Glyceryl Monostearate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+732,Glyceryl PEG-100 Stearate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+733,Glyceryl Phosphate Choline,1,1,False,not found in any list (non-INCI / label variant / trade name)
+734,GLYCINE MAX (SOYBEAN) OIL,1,1,False,in CosIng after: + parentheses
+735,Glycine Soja (Soybean) Seed Extract,1,1,True,master matches after: + parentheses; in CosIng after: + parentheses
+736,Glycopeptides,1,1,False,not found in any list (non-INCI / label variant / trade name)
+737,GLYCYRRHIZA URALENSIS (LICORICE) ROOT EXTRACT,1,1,False,in CosIng after: + parentheses
+738,Glycyrrhizinate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+739,GOSSYPIUM HERBACEUM (COTTON) EXTRACT,1,1,False,in CosIng after: + parentheses
+740,Green Tea Extract,1,1,True,not found in any list (non-INCI / label variant / trade name)
+741,Hamamelis Virginiana (Witch Hazel) Root Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+742,Hamamelis Virginiana (Witch Hazel) Water,1,1,False,in CosIng after: + parentheses
+743,Hamamelis Virginiana Extract,1,1,False,in CosIng
+744,Helianthus Annuus Virginiana Leaf Extract,1,1,True,not found in any list (non-INCI / label variant / trade name)
+745,Hexadecene,1,1,False,in raw_data but dropped from master; in CosIng
+746,Hexamethyldisiloxane,1,1,False,in raw_data but dropped from master
+747,Hibiscus Sabdariffa (Roselle) Flower Extract,1,1,False,in CosIng after: + parentheses
+748,Hibiscus Sabdariffa Ferment Extract (Roselle Extract),1,1,True,not found in any list (non-INCI / label variant / trade name)
+749,Hibiscus Sabdariffa Flower Extract (Roselle Extract),1,1,False,in CosIng after: + parentheses
+750,Hibiscus Sabdariffa Fruit Extract,1,1,False,in CosIng
+751,Himanthalia Elongata Extract,1,1,False,in CosIng
+752,Hippophae Rhamnoides Fruit Oil,1,1,True,in CosIng
+753,Hippophae Rhamnoides Water,1,1,False,in CosIng
+754,HONEY / MIEL,1,1,False,not found in any list (non-INCI / label variant / trade name)
+755,Honokiol,1,1,True,in raw_data but dropped from master; in CosIng
+756,Hordeum Vulgare Extract,1,1,False,in CosIng
+757,Humulus Lupulus Extract,1,1,False,in CosIng
+758,Hyacinthus Orientalis (Hyacinth) Extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+759,Hyaluronic Acid Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+760,Hyaluronic Acid/Polyisopropylacrylamide Copolymer,1,1,False,in CosIng
+761,Hydrogenated Castor Oil,1,1,True,in CosIng
+762,Hydrogenated Fruit Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+763,Hydrogenated Palm Glycerides,1,1,False,in CosIng
+764,Hydrogenated Persea Gratissima Fruit Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+765,HYDROGENATED POLY (C6-14 OLEFIN),1,1,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+766,Hydrogenated Polycyclopentadiene,1,1,False,in raw_data but dropped from master; in CosIng
+767,Hydrolyzed Baicalensis Root Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+768,Hydrolyzed Corn Starch,1,1,False,in CosIng
+769,HYDROLYZED EXTENSIN,1,1,False,in raw_data but dropped from master; in CosIng
+770,HYDROLYZED GINSENG SAPONINS (ENZYME-TREATED RED GINSENG SAPONINS),1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+771,Hydrolyzed Hibiscus Esculentus Extract,1,1,False,in CosIng
+772,HYDROLYZED LUPINE PROTEIN,1,1,False,in raw_data but dropped from master; in CosIng
+773,Hydrolyzed Rhodophyceae Extract,1,1,False,in raw_data but dropped from master; in CosIng
+774,Hydrolyzed Rice Extract,1,1,False,in raw_data but dropped from master; in CosIng
+775,HYDROLYZED SODIUM HYALURONATE CROSSPOLYMER,1,1,False,not found in any list (non-INCI / label variant / trade name)
+776,Hydrolyzed Xanthan Gum,1,1,False,not found in any list (non-INCI / label variant / trade name)
+777,Hydroxyethyl Acrylate/Sodium Acryloyldimethyltaurate Copolymer,1,1,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+778,Hydroxyethyl Alginate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+779,Hydroxyethyl Cellulose,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+780,Hydroxyethyl Phosphatidylcholine,1,1,True,not found in any list (non-INCI / label variant / trade name)
+781,HYDROXYETHYL UREA,1,1,False,in raw_data but dropped from master; in CosIng
+782,HYDROXYISOHEXYL 3-CYCLOHEXENE CARBOXALDEHYDE,1,1,False,in raw_data but dropped from master; in CosIng
+783,Hydroxypropyl Butylene Glycol,1,1,False,not found in any list (non-INCI / label variant / trade name)
+784,Hydroxypropyltrimonium Chondrus Crispus Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+785,Hydroxypropyltrimonium Hyaluronate Crosspolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+786,Hydroxypropyltrimonium Hyaluronic Acid,1,1,False,not found in any list (non-INCI / label variant / trade name)
+787,Hydroxypropyltrisilamine Hyaluronate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+788,hypnea musciformis extract,1,1,False,in CosIng
+789,Inositol,1,1,False,in raw_data but dropped from master; in CosIng
+790,iron oxides (ci 77492),1,1,False,in CosIng after: + parentheses
+791,Isoamyl p-Methoxycinnamate,1,1,True,in CosIng
+792,Isobutylamido Thiazolyl Resorcinol,1,1,False,in raw_data but dropped from master; in CosIng
+793,Isononanoate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+794,Isononyl Methoxycinnamate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+795,Isoquercitrin,1,1,False,in raw_data but dropped from master; in CosIng
+796,Isostearyl Acrylates/C10-30 Alkyl Crosspolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+797,Jasminum Grandiflorum Flower Extract,1,1,False,in CosIng
+798,Jasminum Officinale (Jasmine) Flower Extract,1,1,False,in CosIng after: + parentheses
+799,JASMINUM OFFICINALE FLOWER EXTRACT,1,1,False,in raw_data but dropped from master; in CosIng
+800,jojoba wax peg-120 esters,1,1,False,in raw_data but dropped from master; in CosIng
+801,Juice,1,1,False,not found in any list (non-INCI / label variant / trade name)
+802,Kaempferia Parviflora Rhizome Extract,1,1,True,in CosIng
+803,Lactic Acid/Glycolic Acid Copolymer,1,1,False,in CosIng
+804,Lactobacillus/Punica Granatum Fruit Ferment Extract,1,1,False,in raw_data but dropped from master; in CosIng
+805,Lactobacillus/Rice Ferment,1,1,False,in CosIng
+806,Lactobacillus/Rice Ferment Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+807,Lactococcus/Hyaluronic Acid Ferment Filtrate,1,1,False,in CosIng
+808,Lanolin,1,1,False,in raw_data but dropped from master; in CosIng
+809,Lanolin Fruit Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+810,Larrea Divaricata Extract,1,1,False,in CosIng
+811,Laurate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+812,Laureth-21,1,1,False,in CosIng
+813,LAURETH-23,1,1,False,in CosIng
+814,Laureth-3,1,1,False,in raw_data but dropped from master; in CosIng
+815,Laureth-8,1,1,False,in raw_data but dropped from master; in CosIng
+816,LAURYL ALGIN,1,1,False,not found in any list (non-INCI / label variant / trade name)
+817,Lauryl Glucoside,1,1,True,in raw_data but dropped from master; in CosIng
+818,Lauryl Hydroxysultaine,1,1,False,in raw_data but dropped from master; in CosIng
+819,Lavandula Angustifolia (Lavender) Flower Extract,1,1,False,in CosIng after: + parentheses
+820,LINOLEAMIDOPROPYL PG-DIMONIUM CHLORIDE PHOSPHATE,1,1,False,in raw_data but dropped from master; in CosIng
+821,Linoleate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+822,Linseed Acid,1,1,True,in CosIng
+823,LINUM USITATISSIMUM (LINSEED) SEED EXTRACT,1,1,False,in CosIng after: + parentheses
+824,LINUM USITATISSIMUM SEED EXTRACT,1,1,False,in CosIng
+825,LIPPIA CITRIODORA LEAF EXTRACT,1,1,False,not found in any list (non-INCI / label variant / trade name)
+826,Liquid Paraffin,1,1,False,not found in any list (non-INCI / label variant / trade name)
+827,Lithops Pseudotruncatella Callus Lysate,1,1,False,in CosIng
+828,Lupinus Albus Seed Extract,1,1,False,in CosIng
+829,Maclura Cochinchinensis Leaf Prenylflavonoids,1,1,False,in CosIng
+830,Magnolia Kobus Branch/Flower Extract,1,1,True,not found in any list (non-INCI / label variant / trade name)
+831,Malakite Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+832,Malpighia Glabra (Acerola) Fruit Extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+833,Malus Domestica Fruit Extract,1,1,False,in CosIng
+834,Malva Domestica Fruit Extract,1,1,True,not found in any list (non-INCI / label variant / trade name)
+835,Melaleuca Alternifolia (Tea Tree) Extract,1,1,False,in CosIng after: + parentheses
+836,Melaleuca Alternifolia Extract,1,1,True,in CosIng
+837,Melatonin,1,1,False,in raw_data but dropped from master; in CosIng
+838,Melissa Officinalis Extract,1,1,True,in CosIng
+839,Menadione,1,1,False,in raw_data but dropped from master; in CosIng
+840,MENTHA ARVENSIS EXTRACT,1,1,False,in CosIng
+841,Mentha Arvensis Leaf Oil,1,1,False,in raw_data but dropped from master; in CosIng
+842,Mentha Piperita (Peppermint) Leaf Extract,1,1,False,in CosIng after: + parentheses
+843,METHOXY PEG-114/POLYEPSILON CAPROLACTONE,1,1,False,in raw_data but dropped from master; in CosIng
+844,Methyl Taurate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+845,Methyl Ubiquinone,1,1,True,not found in any list (non-INCI / label variant / trade name)
+846,Milk Exosomes,1,1,False,in CosIng
+847,Momordica Cochinchinensis Fruit Extract,1,1,True,in CosIng
+848,Momordica Grosvenorii Fruit Extract,1,1,False,in raw_data but dropped from master; in CosIng
+849,Morinda Citrifolia Callus Culture Lysate,1,1,False,in CosIng
+850,Morinda Citrifolia Fruit Extract,1,1,False,in CosIng
+851,Moringa Oleifera Seed Oil,1,1,True,in CosIng
+852,Morus Alba Fruit Extract,1,1,False,in CosIng
+853,Morus Alba Lauroyl Wheat Amino Acids,1,1,False,not found in any list (non-INCI / label variant / trade name)
+854,Morus Bombycis Root Extract,1,1,True,in CosIng
+855,Morus Nigra Fruit Extract,1,1,False,in CosIng
+856,MYRISTOYL HEXAPEPTIDE-11,1,1,False,not found in any list (non-INCI / label variant / trade name)
+857,Narcissus Tazetta Bulb Extract,1,1,False,in raw_data but dropped from master; in CosIng
+858,Nepeta Cataria Extract**,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+859,NEPHELIUM LAPPACEUM SEED EXTRACT,1,1,False,in CosIng
+860,Niacin,1,1,False,in raw_data but dropped from master; in CosIng
+861,NIACINAMIDE*,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+862,Nicotiana Benthamiana Hexapeptide-40,1,1,True,not found in any list (non-INCI / label variant / trade name)
+863,Nicotiana Benthamiana Hexapeptide-40 Sh-Polypeptide-47,1,1,False,in CosIng
+864,Nordihydroguaiaretic Acid,1,1,False,in raw_data but dropped from master; in CosIng
+865,Nylon 6/12,1,1,False,master matches after: + slash/(and) mixtures; in CosIng after: + Unicode/punctuation/spacing
+866,Octisalate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+867,Octoxynol,1,1,True,not found in any list (non-INCI / label variant / trade name)
+868,Octyldodecyl Xyloside,1,1,False,in CosIng
+869,Oenothera Biennis (Evening Primrose) Flower Extract,1,1,False,in CosIng after: + parentheses
+870,Oenothera Biennis (Evening Primrose) Seed Extract,1,1,True,master matches after: + parentheses; in CosIng after: + parentheses
+871,OLEA EUROPAEA (OLIVE) LEAF EXTRACT,1,1,False,in CosIng after: + parentheses
+872,Olea Europaea Fruit Oil,1,1,False,in CosIng
+873,Oligopeptide-2,1,1,False,in CosIng
+874,ORGANIC SIMMONDSIA CHINENSIS (JOJOBA) SEED OIL,1,1,False,not found in any list (non-INCI / label variant / trade name)
+875,Origanum Vulgare Leaf Extract,1,1,True,in CosIng
+876,Oryza Sativa (Rice) Bran Oil,1,1,False,in CosIng after: + parentheses
+877,ORYZA SATIVA (RICE) BRAN WAX,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+878,Oryza Sativa (Rice) Seed Extract,1,1,False,in CosIng after: + parentheses
+879,Oryza Sativa Hull Extract,1,1,True,in CosIng
+880,Oxybenzone,1,1,False,not found in any list (non-INCI / label variant / trade name)
+881,p-Anisic Acid,1,1,False,in raw_data but dropped from master; in CosIng
+882,Paeonia Lactiflora Root Extract,1,1,False,in CosIng
+883,Palmitoyl Oligopeptide,1,1,False,not found in any list (non-INCI / label variant / trade name)
+884,PALMITOYL PENTAPEPTIDE-4***,1,1,False,master matches after: + Unicode/punctuation/spacing; in CosIng after: + Unicode/punctuation/spacing
+885,PANAX GINSENG FLOWER EXTRACT,1,1,False,in CosIng
+886,PANAX GINSENG ROOT WATER,1,1,False,in raw_data but dropped from master; in CosIng
+887,Pancratium Maritimum Extract,1,1,False,in CosIng
+888,PANTHENOL**,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+889,Pantothenic Acid,1,1,False,in raw_data but dropped from master; in CosIng
+890,PAPAIN,1,1,False,in raw_data but dropped from master; in CosIng
+891,Passiflora Incarnata Extract,1,1,True,in CosIng
+892,PEG 40-Hydrogenated Castor Oil,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+893,PEG 60-Hydrogenated Castor Oil,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+894,PEG-10 Tris(Trimethylsiloxy)silylethyl Dimethicone,1,1,False,not found in any list (non-INCI / label variant / trade name)
+895,PEG-120 Methyl Glucose Dioleate,1,1,False,in raw_data but dropped from master; in CosIng
+896,PEG-15/PPG-70 Glyceryl Ether/IPDI/DMA Crosspolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+897,PEG-15/PPG-70 Glyceryl Ether/IPDI/DMPA Copolymer,1,1,True,not found in any list (non-INCI / label variant / trade name)
+898,PEG-15/PPG-70 Glyceryl Ether/IPDI/DMPA Crosspolymer,1,1,False,in raw_data but dropped from master; in CosIng
+899,PEG-150,1,1,False,in CosIng
+900,PEG-30 Dipolyhydroxystearate,1,1,False,in CosIng
+901,PEG-30 STEARATE,1,1,False,in raw_data but dropped from master; in CosIng
+902,PEG-40 STEARATE,1,1,False,in CosIng
+903,PEG-6 CAPRYLIC/CAPRIC GLYCERIDE,1,1,False,not found in any list (non-INCI / label variant / trade name)
+904,PEG-60 Almond Glycerides,1,1,False,in raw_data but dropped from master; in CosIng
+905,PEG-60 GLYCERYL ISOSTEARATE,1,1,False,in raw_data but dropped from master; in CosIng
+906,PEG-8 Stearate,1,1,False,in CosIng
+907,PEG-9 STEARATE,1,1,True,in CosIng
+908,PEG/PPG-17/6 Copolymer,1,1,True,in raw_data but dropped from master; in CosIng
+909,PEG/PPG/Polybutylene Glycol-8/5/3,1,1,False,not found in any list (non-INCI / label variant / trade name)
+910,Pelargonium Graveolens Water,1,1,False,in raw_data but dropped from master; in CosIng
+911,PENTAERYTHRITYL TETRA-DI-T-BUTYL HYDROXYHYDROCINNAMATE,1,1,False,in raw_data but dropped from master; in CosIng
+912,Perilla Frutescens Leaf Extract,1,1,False,in CosIng
+913,PERILLA OCYMOIDES SEED EXTRACT,1,1,False,in raw_data but dropped from master; in CosIng
+914,Petroselinum Crispum Extract,1,1,True,in CosIng
+915,Phalaris Sogd Yukidan Flower Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+916,Phaseolus Radiatus Seed Extract,1,1,False,in CosIng
+917,Phenylpropanol,1,1,False,in raw_data but dropped from master; in CosIng
+918,Phoenix Dactylifera Seed Extract,1,1,True,in CosIng
+919,Phosphoric Acid,1,1,False,in raw_data but dropped from master; in CosIng
+920,Phosphoryl Panthenol,1,1,False,not found in any list (non-INCI / label variant / trade name)
+921,Phyllostachys Bambusoides Leaf/Stem Extract,1,1,True,not found in any list (non-INCI / label variant / trade name)
+922,Phytic Acid,1,1,False,in raw_data but dropped from master; in CosIng
+923,PHYTOSTERYL CANOLA GLYCERIDES,1,1,False,in raw_data but dropped from master; in CosIng
+924,PHYTOTRIETHANOLAMINE,1,1,False,not found in any list (non-INCI / label variant / trade name)
+925,Pinus Palustris Leaf Extract,1,1,False,in raw_data but dropped from master; in CosIng
+926,Plankton Extract,1,1,True,in CosIng
+927,Plantago Lanceolata Leaf Extract*,1,1,False,in CosIng after: + Unicode/punctuation/spacing
+928,Pogostemon Cablin Oil,1,1,False,in CosIng
+929,Poloxamer 235,1,1,False,in CosIng
+930,Polyamide-8,1,1,False,in CosIng
+931,Polydimethylsiloxyethyl Dimethicone,1,1,False,not found in any list (non-INCI / label variant / trade name)
+932,Polyethylene Glycol (3) Stearate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+933,Polyglyceryl Stearate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+934,Polyglyceryl-2 Stearyl Alcohol,1,1,False,not found in any list (non-INCI / label variant / trade name)
+935,Polyglyceryl-3,1,1,False,not found in any list (non-INCI / label variant / trade name)
+936,Polyglyceryl-3 Distearate,1,1,False,in raw_data but dropped from master; in CosIng
+937,POLYGLYCERYL-3 POLYDIMETHYLSILOXYETHYL DIMETHICONE,1,1,False,in raw_data but dropped from master; in CosIng
+938,Polyglyceryl-4 Distearate,1,1,True,in raw_data but dropped from master; in CosIng
+939,Polypeptide-17,1,1,True,not found in any list (non-INCI / label variant / trade name)
+940,Polyphenylsilsesquioxane,1,1,False,in CosIng
+941,Polyporus Umbellatus (Mushroom) Extract,1,1,False,in CosIng after: + parentheses
+942,Polyquaternium-39,1,1,False,in raw_data but dropped from master; in CosIng
+943,POTASSIUM CARBONATE,1,1,False,in raw_data but dropped from master; in CosIng
+944,Potassium Laurate,1,1,False,in raw_data but dropped from master; in CosIng
+945,POTASSIUM LAUROYL WHEAT AMINO ACIDS,1,1,False,in raw_data but dropped from master; in CosIng
+946,PPG-10 Methyl Glucose Ether,1,1,False,in raw_data but dropped from master; in CosIng
+947,PPG-20 Methyl Glucose Ether,1,1,False,in raw_data but dropped from master; in CosIng
+948,PPG-5-Deceth-30,1,1,True,not found in any list (non-INCI / label variant / trade name)
+949,PPG-8-Ceteth-20,1,1,False,in raw_data but dropped from master; in CosIng
+950,PROCOLLAGEN,1,1,False,in CosIng
+951,Propoxytriglycol,1,1,False,not found in any list (non-INCI / label variant / trade name)
+952,Prunus Armeniaca (Apricot) Kernel Oil,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+953,Prunus Armeniaca Seed Powder,1,1,True,in raw_data but dropped from master; in CosIng
+954,PRUNUS MUME FRUIT EXTRACT,1,1,False,in CosIng
+955,Punica Granatum Extract,1,1,True,in CosIng
+956,PYRIDOXINE HYDROCHLORIDE,1,1,False,not found in any list (non-INCI / label variant / trade name)
+957,PYROLA INCARNATA EXTRACT,1,1,False,in CosIng
+958,pyrus malus (apple) fruit extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+959,Quaternium-73,1,1,True,in raw_data but dropped from master; in CosIng
+960,Ramnemia Chinensis Root Extract,1,1,True,not found in any list (non-INCI / label variant / trade name)
+961,Raphanus Sativus Root Extract,1,1,True,in CosIng
+962,Retinyl Palmitate (Vitamin A),1,1,True,master matches after: + parentheses; in CosIng after: + parentheses
+963,Rhodiola Rosea Extract,1,1,False,in CosIng
+964,Ribes Nigrum Seed Oil,1,1,False,in CosIng
+965,Riboflavin,1,1,False,in raw_data but dropped from master; in CosIng
+966,Rice Ferment Filtrate (Sake),1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+967,Rosa Canina Fruit Extract,1,1,False,in CosIng
+968,Rosa Centifolia Flower Extract,1,1,False,in CosIng
+969,Rosa Chlorantha Bark Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+970,Rosa Multiflora Fruit Extract,1,1,False,in raw_data but dropped from master; in CosIng
+971,Rosa Roxburghii Fruit Extract,1,1,False,in CosIng
+972,Rose Extract,1,1,False,in CosIng
+973,ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT (ROSMARINUS OFFICINALIS LEAF EXTRACT),1,1,False,in CosIng after: + parentheses
+974,Rubus Idaeus (Raspberry) Fruit Extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+975,Rubus Idaeus (Raspberry) Leaf Extract**,1,1,False,in CosIng after: + parentheses
+976,Saccharomyces Stearate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+977,SACCHAROMYCES/PERSIMMON FRUIT JUICE FERMENT EXTRACT,1,1,False,in raw_data but dropped from master; in CosIng
+978,Saccharomyces/Soymilk Ferment Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+979,Salix Nigra Bark Extract,1,1,False,in CosIng
+980,Salvia Officinalis (Sage) Oil,1,1,False,in CosIng after: + parentheses
+981,Salvia Sclarea (Clary) Extract,1,1,False,in CosIng after: + parentheses
+982,Salvia Sclarea Oil,1,1,False,in CosIng
+983,SANGUISORBA OFFICINALIS ROOT EXTRACT,1,1,False,in CosIng
+984,Sclerocarya Birrea Seed Oil,1,1,False,in CosIng
+985,SEA SILT EXTRACT,1,1,False,in CosIng
+986,Senegal Gum,1,1,False,not found in any list (non-INCI / label variant / trade name)
+987,sh-Oligopeptide-2,1,1,False,in CosIng
+988,Shellac,1,1,False,in raw_data but dropped from master; in CosIng
+989,SILYBUM MARIANUM (LADY'S THISTLE) EXTRACT,1,1,False,in CosIng after: + parentheses
+990,Simethicone,1,1,False,in raw_data but dropped from master; in CosIng
+991,SIPILANTHES ACMELLA EXTRACT,1,1,False,not found in any list (non-INCI / label variant / trade name)
+992,Sodium Acrylate/Acrylate Crosspolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+993,Sodium Acrylate/Acryloyldimethyltaurate/VP Copolymer,1,1,False,not found in any list (non-INCI / label variant / trade name)
+994,Sodium Acrylates Crosspolymer-2,1,1,True,in raw_data but dropped from master; in CosIng
+995,Sodium Ascorbate,1,1,False,in raw_data but dropped from master; in CosIng
+996,Sodium Carboxymethyl Hyaluronate,1,1,True,in CosIng
+997,Sodium Carboxymethyl Hydrolyzed Rhodophyceae Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+998,Sodium Coco-Glucoside,1,1,False,not found in any list (non-INCI / label variant / trade name)
+999,Sodium Collagen,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1000,Sodium Gluceptate,1,1,False,in raw_data but dropped from master; in CosIng
+1001,Sodium Glutamic Acid Diacetate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1002,Sodium Glycyrrhizate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+1003,Sodium Hyaluronate (0.85-16 MDa & 13-18 MDa),1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+1004,Sodium Hyaluronic Acid,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1005,Sodium Lauroyl Glutamate,1,1,True,in CosIng
+1006,Sodium Maltitol,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1007,Sodium Methylparaben,1,1,False,in raw_data but dropped from master; in CosIng
+1008,Sodium Myristate,1,1,False,in raw_data but dropped from master; in CosIng
+1009,Sodium PG-Hydroxyethylcellulose Sulfonate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1010,Sodium Phytate,1,1,False,in CosIng
+1011,SODIUM POLYASPARTATE,1,1,False,in raw_data but dropped from master; in CosIng
+1012,Sodium Retinoyl Hyaluronate Crosspolymer,1,1,True,not found in any list (non-INCI / label variant / trade name)
+1013,Sodium Retinyl Acetate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1014,Sodium Salicylate,1,1,True,in raw_data but dropped from master; in CosIng
+1015,Sodium Shale Oil Sulfonate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1016,Sodium Starch Octenylsuccinate,1,1,True,in CosIng
+1017,Sodium Tocopheryl Acetate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1018,Sodium Tripolyphosphate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+1019,Sorbeth-30 Tetraoleate,1,1,False,in raw_data but dropped from master; in CosIng
+1020,Sorbitan Caprylate,1,1,False,in CosIng
+1021,Sorbitan Laurate,1,1,True,in raw_data but dropped from master; in CosIng
+1022,SORBITAN SESQUIISOSTEARATE,1,1,False,in raw_data but dropped from master; in CosIng
+1023,SORBITAN TRISTEARATE,1,1,False,in raw_data but dropped from master; in CosIng
+1024,SOY ISOFLAVONES,1,1,False,in CosIng
+1025,Steareth-2,1,1,False,in raw_data but dropped from master; in CosIng
+1026,Steareth-21,1,1,False,in raw_data but dropped from master; in CosIng
+1027,Stearoxy Ether,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1028,Stellaria Media (Chickweed) Extract*,1,1,False,in CosIng after: + parentheses
+1029,Stem Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1030,STREPTOCOCCUS THERMOPHILUS FERMENT,1,1,False,in CosIng
+1031,STYRENE/ACRYLATES COPOLYMER,1,1,False,in CosIng
+1032,Succinic Acid,1,1,False,in raw_data but dropped from master; in CosIng
+1033,Sucrose Isostearate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1034,Sulfur,1,1,False,in raw_data but dropped from master; in CosIng
+1035,T-Butyl Alcohol,1,1,False,in raw_data but dropped from master; in CosIng
+1036,Taraxacopsis Kurzii Seed Oil,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1037,Taraxacum Officinale (Dandelion) Rhizome/Root Extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+1038,Terminalia Ferdinandiana Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1039,Tetra-DI-T-Butyl Hydroxide,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1040,Tetrahydrodifurfuryloxymethane,1,1,True,not found in any list (non-INCI / label variant / trade name)
+1041,Tetramethylbutylphenol,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1042,TETRAMETHYLBUTYLPHENOL (NANO),1,1,True,not found in any list (non-INCI / label variant / trade name)
+1043,Thioctic Acid,1,1,False,in raw_data but dropped from master; in CosIng
+1044,Thymus Serpillum Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1045,Titanium Dioxide (Micronized),1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+1046,trametes versicolor extract,1,1,False,in CosIng
+1047,Tri-PG-3 Myristyl Ether Citrate,1,1,True,not found in any list (non-INCI / label variant / trade name)
+1048,Trideceth-30,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1049,Trifolium Pratense Flower Extract,1,1,False,in CosIng
+1050,Triglyceride,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1051,Trihepanoin,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1052,Trihepthanoin,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1053,Tripeptide-29,1,1,False,in CosIng
+1054,Tripleurospermum Maritimum Extract,1,1,False,in raw_data but dropped from master; in CosIng
+1055,Trisodium Citrate,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1056,Triticum Vulgare (Wheat) Seed Extract,1,1,True,master matches after: + parentheses; in CosIng after: + parentheses
+1057,TRITICUM VULGARE GERM OIL UNSAPONIFIABLES,1,1,False,in raw_data but dropped from master; in CosIng
+1058,Ubidecarenone,1,1,True,not found in any list (non-INCI / label variant / trade name)
+1059,Ultramarines,1,1,False,in raw_data but dropped from master; in CosIng
+1060,Urtica Dioica (Nettle) Leaf Extract*,1,1,False,in CosIng after: + parentheses
+1061,Usnea Barbata (Lichen) Extract,1,1,False,in CosIng after: + parentheses
+1062,Vaccinium Angustifolium (Blueberry) Fruit Extract,1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+1063,Vaccinium Vitis-Idaea Fruit Extract,1,1,False,in raw_data but dropped from master; in CosIng
+1064,Vegetable Oil,1,1,False,in raw_data but dropped from master; in CosIng
+1065,Vegetable Oil/Huile végétale,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1066,Vitamin C,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1067,Vitis Vinifera (Grape) Seed Extract,1,1,False,in CosIng after: + parentheses
+1068,VITIS VINIFERA SEED EXTRACT,1,1,False,in CosIng
+1069,Wasabia Japonica Leaf Extract,1,1,False,in CosIng
+1070,WATER(AQUA/EAU),1,1,False,master matches after: + parentheses; in CosIng after: + parentheses
+1071,WATER/EAU,1,1,False,master matches after: + slash/(and) mixtures; in CosIng after: + slash/(and) mixtures
+1072,Wine Extract,1,1,False,in CosIng
+1073,Witch Hazel Extract,1,1,False,not found in any list (non-INCI / label variant / trade name)
+1074,Yeast Ferment Extract,1,1,True,in CosIng
+1075,Yogurt Extract,1,1,False,in CosIng
+1076,Zinc Acetate,1,1,False,in raw_data but dropped from master; in CosIng
+1077,Zinc Oxide (Micronized),1,1,False,in CosIng after: + parentheses
+1078,ZINGIBER MONTANUM (GINGER) RHIZOME EXTRACT,1,1,True,not found in any list (non-INCI / label variant / trade name)
+1079,Zingiber Officinale (Ginger) Root Extract,1,1,False,in CosIng after: + parentheses
+1080,Zingiber Officinale Root Extract,1,1,False,in CosIng
+1081,Ziziphus Spina-Christi Leaf Extract,1,1,True,in CosIng

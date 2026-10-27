@@ -48,8 +48,14 @@ _HEADER_RE = re.compile(r"^[^:：]*ingredient[^:：]*[:：]\s*", re.IGNORECASE)
 # a colon (checked: 2/8198 in this project's reference labels, a "CI xxxxx:1"
 # ratio notation), so this trade is one-sided in practice.
 _SPLIT_RE = re.compile(r",(?!\s*\d)|[:：]")
+# OCR often reads the comma between two names as a period ("ISODODECANE. HDI/..."),
+# so also split on a period followed by whitespace + a letter: decimals ("0.5"),
+# "C.I. 77491" and "No. 1" stay intact. (Pipeline v3 of the thesis, chosen on Dev:
+# OCR_System/SEGMENTATION_RULES.md.)
+_SPLIT_PERIOD_RE = re.compile(r",(?!\s*\d)|[:：]|\.(?=\s+[A-Za-z])")
 MIN_TOKEN_LEN = 3
 MAX_LEN_RATIO = 1.6
+MAX_SEGMENT_WORDS = 12  # longest name the segmenter tries as one segment
 
 
 def _strip_header(line):
@@ -103,12 +109,56 @@ def _split_match_glued_names(token, vocabulary, threshold):
     return [best[1], best[2]] if best else None
 
 
+def _segment_glued_names(token, vocabulary, threshold, allow_single=False):
+    """Split `token` at whitespace into any number of names, all of which must
+    match the vocabulary (>= `threshold`, reliable length ratio). Dynamic
+    programming over word positions maximizes the score weighted by each
+    segment's non-space length -- the character-weighted mean score, since the
+    segments always cover the same characters -- with fewer segments winning
+    ties. Returns the list of corrected names (>= 2 of them, or 1 when
+    `allow_single` and the whole token scores best), or None.
+    """
+    words = token.split()
+    n = len(words)
+    if n < 2 and not allow_single:
+        return None
+    # best[j] = (weighted score, -segments, names) of the best cover of words[:j]
+    best = [None] * (n + 1)
+    best[0] = (0.0, 0, [])
+    for j in range(1, n + 1):
+        starts = list(range(max(0, j - MAX_SEGMENT_WORDS), j))
+        if allow_single and j == n and 0 not in starts:
+            starts.insert(0, 0)  # the whole token as one name, however long
+        for i in starts:
+            if best[i] is None:
+                continue
+            span = " ".join(words[i:j])
+            if len(span) < MIN_TOKEN_LEN:
+                continue
+            match = _extract_one(span, vocabulary, threshold)
+            if not match or not _is_reliable_match(span, match[0]):
+                continue
+            cand = (best[i][0] + match[1] * len(span.replace(" ", "")), best[i][1] - 1,
+                    best[i][2] + [match[0]])
+            if best[j] is None or cand[:2] > best[j][:2]:
+                best[j] = cand
+    names = best[n][2] if best[n] else None
+    if not names or (len(names) < 2 and not allow_single):
+        return None
+    return names
+
+
 def correct_with_vocabulary(lines, vocabulary, threshold):
+    # Pipeline v3 of the thesis (OCR_System/ocr_paddle_fuzzy.py with its defaults):
+    # split at commas, colons and periods misread for commas, then let the
+    # dynamic-programming segmenter pick the best cover of each token by one or more
+    # vocabulary names (_split_match_glued_names is the earlier 2-way rule, kept
+    # for reference).
     # Join the OCR lines before splitting: labels wrap long names across
     # printed lines ("Hydrogenated" / "Lecithin"), and correcting each line on
     # its own split every wrapped name into two unmatchable fragments.
     text = _strip_header(" ".join(lines))
-    tokens = [t.strip(" .;:*-") for t in _SPLIT_RE.split(text)]
+    tokens = [t.strip(" .;:*-") for t in _SPLIT_PERIOD_RE.split(text)]
 
     corrected = []
     for token in tokens:
@@ -117,15 +167,8 @@ def correct_with_vocabulary(lines, vocabulary, threshold):
         if len(token) < MIN_TOKEN_LEN:
             corrected.append(token)
             continue
-        match = _extract_one(token, vocabulary, threshold)
-        if match and _is_reliable_match(token, match[0]):
-            corrected.append(match[0])
-            continue
-        split = _split_match_glued_names(token, vocabulary, threshold)
-        if split:
-            corrected.extend(split)
-        else:
-            corrected.append(token)
+        names = _segment_glued_names(token, vocabulary, threshold, allow_single=True)
+        corrected.extend(names or [token])
     return ", ".join(corrected)
 
 

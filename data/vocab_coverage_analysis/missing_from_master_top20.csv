@@ -1,0 +1,21 @@
+﻿rank,label_name,occurrences,products,in_patch,causes
+1,Glycerin,175,174,True,in raw_data but dropped from master; in CosIng
+2,Phenoxyethanol,163,163,True,in raw_data but dropped from master; in CosIng
+3,Niacinamide,128,128,True,in raw_data but dropped from master; in CosIng
+4,"1,2-Hexanediol",104,104,True,in CosIng
+5,Ethylhexylglycerin,92,91,True,in raw_data but dropped from master; in CosIng
+6,Chlorphenesin,87,87,True,in raw_data but dropped from master; in CosIng
+7,Fragrance,71,71,True,in raw_data but dropped from master; in CosIng after: + EU/US dual names & CI numbers
+8,Aqua,66,66,True,in raw_data but dropped from master; master matches after: + EU/US dual names & CI numbers; in CosIng
+9,Sodium Benzoate,66,66,True,in raw_data but dropped from master; in CosIng
+10,Caprylyl Glycol,64,64,True,in raw_data but dropped from master; in CosIng
+11,Citric Acid,58,58,True,in raw_data but dropped from master; in CosIng
+12,Caprylic/Capric Triglyceride,56,56,True,in raw_data but dropped from master; in CosIng
+13,Potassium Sorbate,50,50,True,in raw_data but dropped from master; in CosIng
+14,Cyclopentasiloxane,49,49,True,in raw_data but dropped from master; in CosIng
+15,Panthenol,48,48,True,in raw_data but dropped from master; in CosIng
+16,Centella Asiatica Extract,42,42,True,in CosIng
+17,Ceramide NP,41,41,True,in raw_data but dropped from master; in CosIng
+18,Dipropylene Glycol,40,40,True,in raw_data but dropped from master; in CosIng
+19,Hydrogenated Lecithin,40,40,True,in CosIng
+20,PEG-100 Stearate,39,39,True,in raw_data but dropped from master; in CosIng

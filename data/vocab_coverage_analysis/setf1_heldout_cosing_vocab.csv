@@ -1,0 +1,21 @@
+﻿scenario,vocabulary,vocab_size,n_images,set_f1,set_f1_ci95,delta_vs_shipped,delta_ci95,significant
+original,master + Dev patch (shipped),11490,176,0.6782,"[0.6281, 0.7274]",,,
+original,CosIng full,33603,176,0.6867,"[0.6362, 0.7360]",0.0084,"[+0.0034, +0.0144]",True
+original,CosIng full + Dev patch,33688,176,0.6909,"[0.6396, 0.7414]",0.0127,"[+0.0079, +0.0186]",True
+original,CosIng full + master + Dev patch,34046,176,0.6909,"[0.6397, 0.7391]",0.0127,"[+0.0079, +0.0183]",True
+indoor,master + Dev patch (shipped),11490,176,0.6432,"[0.5930, 0.6913]",,,
+indoor,CosIng full,33603,176,0.6526,"[0.6017, 0.7017]",0.0094,"[+0.0047, +0.0146]",True
+indoor,CosIng full + Dev patch,33688,176,0.6567,"[0.6065, 0.7051]",0.0135,"[+0.0088, +0.0185]",True
+indoor,CosIng full + master + Dev patch,34046,176,0.6567,"[0.6071, 0.7065]",0.0135,"[+0.0088, +0.0185]",True
+low_light,master + Dev patch (shipped),11490,176,0.5606,"[0.5050, 0.6159]",,,
+low_light,CosIng full,33603,176,0.5641,"[0.5076, 0.6206]",0.0035,"[-0.0011, +0.0081]",False
+low_light,CosIng full + Dev patch,33688,176,0.5709,"[0.5122, 0.6270]",0.0103,"[+0.0070, +0.0142]",True
+low_light,CosIng full + master + Dev patch,34046,176,0.5709,"[0.5142, 0.6276]",0.0103,"[+0.0069, +0.0141]",True
+blur,master + Dev patch (shipped),11490,176,0.1721,"[0.1276, 0.2195]",,,
+blur,CosIng full,33603,176,0.175,"[0.1273, 0.2236]",0.0028,"[-0.0005, +0.0061]",False
+blur,CosIng full + Dev patch,33688,176,0.1779,"[0.1310, 0.2279]",0.0058,"[+0.0032, +0.0088]",True
+blur,CosIng full + master + Dev patch,34046,176,0.1779,"[0.1294, 0.2289]",0.0058,"[+0.0032, +0.0087]",True
+night,master + Dev patch (shipped),11490,176,0.1906,"[0.1459, 0.2392]",,,
+night,CosIng full,33603,176,0.1969,"[0.1504, 0.2471]",0.0063,"[+0.0014, +0.0116]",True
+night,CosIng full + Dev patch,33688,176,0.2008,"[0.1531, 0.2508]",0.0102,"[+0.0055, +0.0158]",True
+night,CosIng full + master + Dev patch,34046,176,0.2008,"[0.1533, 0.2502]",0.0102,"[+0.0056, +0.0158]",True
